@@ -24,9 +24,14 @@ const TAG_LABELS: Record<string, { label: string; className: string }> = {
 	milk: { label: "Milch", className: "tag-milk" },
 };
 
-function isStale(lastUpdated: string): boolean {
-	const diff = Date.now() - new Date(lastUpdated).getTime();
-	return diff > 48 * 60 * 60 * 1000;
+function isFromToday(lastUpdated: string): boolean {
+	const updated = new Date(lastUpdated);
+	const now = new Date();
+	return (
+		updated.getFullYear() === now.getFullYear() &&
+		updated.getMonth() === now.getMonth() &&
+		updated.getDate() === now.getDate()
+	);
 }
 
 function formatDate(iso: string): string {
@@ -64,34 +69,41 @@ function FlavorRow({ flavor }: { flavor: Flavor }) {
 }
 
 function LocationSection({ data }: { data: LocationData }) {
-	const stale = isStale(data.lastUpdated);
+	const today = isFromToday(data.lastUpdated);
+	const flavors = today ? data.flavors : [];
 
 	return (
 		<section>
-			{stale && (
-				<div className="stale-banner">
-					Daten evtl. veraltet — zuletzt aktualisiert {formatDate(data.lastUpdated)}
+			{today && (
+				<div className="mb-3 flex items-center justify-between">
+					<p className="text-sm text-white/70">
+						Aktualisiert: {formatDate(data.lastUpdated)}
+					</p>
+					{data.openUntil && (
+						<span className="open-until-badge">
+							Bis {data.openUntil} Uhr
+						</span>
+					)}
 				</div>
 			)}
-			<div className="mb-3 flex items-center justify-between">
-				<p className="text-sm text-white/70">
-					Aktualisiert: {formatDate(data.lastUpdated)}
-				</p>
-				{data.openUntil && (
-					<span className="open-until-badge">
-						Bis {data.openUntil} Uhr
-					</span>
-				)}
-			</div>
-			<div className="flavor-wall">
-				{data.flavors.map((flavor) => (
-					<FlavorRow key={flavor.name} flavor={flavor} />
-				))}
-			</div>
-			{data.flavors.length === 0 && (
-				<p className="text-center py-8 text-lg font-bold">
-					Keine Sorten verfügbar.
-				</p>
+			{flavors.length > 0 ? (
+				<div className="flavor-wall">
+					{flavors.map((flavor) => (
+						<FlavorRow key={flavor.name} flavor={flavor} />
+					))}
+				</div>
+			) : (
+				<div className="flavor-wall">
+					<div className="flavor-row">
+						<span className="nail" />
+						<div className="flavor-content">
+							<span className="flavor-name">
+								Heute noch keine Sorten gepostet — schau später nochmal vorbei!
+							</span>
+						</div>
+						<span className="nail" />
+					</div>
+				</div>
 			)}
 		</section>
 	);
