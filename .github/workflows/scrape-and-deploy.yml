@@ -37,6 +37,15 @@ jobs:
           INSTAGRAM_USERNAME: ${{ vars.INSTAGRAM_USERNAME }}
         run: bun run scrape
 
+      - name: Upload debug artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-debug
+          path: debug/
+          if-no-files-found: ignore
+          retention-days: 3
+
       - name: Check for data changes
         id: check
         run: |
