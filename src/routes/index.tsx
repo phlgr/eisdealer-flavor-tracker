@@ -37,34 +37,27 @@ function formatDate(iso: string): string {
 	});
 }
 
-function FlavorCard({ flavor }: { flavor: Flavor }) {
+function FlavorRow({ flavor }: { flavor: Flavor }) {
 	return (
-		<div className="flavor-card">
-			<div className="flex items-start justify-between gap-2">
-				<div>
-					<span className="text-base font-bold text-black">
-						{flavor.name}
+		<div className="flavor-row">
+			<span className="nail" />
+			<div className="flavor-content">
+				<span className="flavor-name">{flavor.name}</span>
+				{flavor.tags.length > 0 && (
+					<span className="flavor-tags">
+						{flavor.tags.map((tag) => {
+							const info = TAG_LABELS[tag];
+							if (!info) return null;
+							return (
+								<span key={tag} className={`tag ${info.className}`}>
+									{info.label}
+								</span>
+							);
+						})}
 					</span>
-					{flavor.nameEnglish && (
-						<span className="ml-2 text-sm text-[var(--text-secondary)]">
-							{flavor.nameEnglish}
-						</span>
-					)}
-				</div>
+				)}
 			</div>
-			{flavor.tags.length > 0 && (
-				<div className="mt-2 flex flex-wrap gap-1.5">
-					{flavor.tags.map((tag) => {
-						const info = TAG_LABELS[tag];
-						if (!info) return null;
-						return (
-							<span key={tag} className={`tag ${info.className}`}>
-								{info.label}
-							</span>
-						);
-					})}
-				</div>
-			)}
+			<span className="nail" />
 		</div>
 	);
 }
@@ -80,16 +73,16 @@ function LocationSection({ data }: { data: LocationData }) {
 				</div>
 			)}
 			<div className="mb-3 flex items-center justify-between">
-				<p className="text-sm text-[var(--text-secondary)]">
+				<p className="text-sm text-white/70">
 					Aktualisiert: {formatDate(data.lastUpdated)}
 				</p>
-				<span className="text-sm font-bold">
+				<span className="text-sm font-bold text-white/70">
 					{data.flavors.length} Sorten
 				</span>
 			</div>
-			<div className="flavor-grid">
+			<div className="flavor-wall">
 				{data.flavors.map((flavor) => (
-					<FlavorCard key={flavor.name} flavor={flavor} />
+					<FlavorRow key={flavor.name} flavor={flavor} />
 				))}
 			</div>
 			{data.flavors.length === 0 && (
@@ -107,10 +100,10 @@ function HomePage() {
 	return (
 		<main className="page-wrap px-4 pb-12 pt-6">
 			<div className="mb-6 text-center">
-				<h1 className="text-4xl font-bold text-black uppercase tracking-tight sm:text-5xl">
+				<h1 className="text-4xl font-bold text-white uppercase tracking-tight drop-shadow-[2px_2px_0_rgba(0,0,0,0.5)] sm:text-5xl">
 					Heutige Eissorten
 				</h1>
-				<p className="mt-2 text-[var(--text-secondary)] font-medium">
+				<p className="mt-2 text-white/80 font-medium">
 					Automatisch von Instagram Stories abgelesen
 				</p>
 			</div>

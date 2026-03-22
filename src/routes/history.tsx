@@ -31,10 +31,10 @@ function HistoryPage() {
 	return (
 		<main className="page-wrap px-4 pb-12 pt-6">
 			<div className="mb-6 text-center">
-				<h1 className="text-4xl font-bold text-black uppercase tracking-tight sm:text-5xl">
+				<h1 className="text-4xl font-bold text-white uppercase tracking-tight drop-shadow-[2px_2px_0_rgba(0,0,0,0.5)] sm:text-5xl">
 					Sorten-Verlauf
 				</h1>
-				<p className="mt-2 text-[var(--text-secondary)] font-medium">
+				<p className="mt-2 text-white/80 font-medium">
 					Welche Sorten gab es an welchem Tag?
 				</p>
 			</div>
