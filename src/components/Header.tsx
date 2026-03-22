@@ -2,15 +2,15 @@ import { Link } from "@tanstack/react-router";
 
 export default function Header() {
 	return (
-		<header className="sticky top-0 z-50 border-b border-[var(--border)] bg-[var(--header-bg)] px-4 backdrop-blur-xl">
+		<header className="sticky top-0 z-50 border-b-3 border-black bg-white px-4">
 			<nav className="page-wrap flex items-center justify-between py-3">
 				<Link
 					to="/"
 					className="flex items-center gap-2 no-underline"
 				>
 					<span className="text-3xl">🍦</span>
-					<span className="font-[var(--font-display)] text-xl font-extrabold tracking-tight text-[var(--accent)]" style={{ fontFamily: "var(--font-display)" }}>
-						Eisdealer
+					<span className="text-xl font-bold tracking-tight text-black">
+						EISDEALER
 					</span>
 				</Link>
 

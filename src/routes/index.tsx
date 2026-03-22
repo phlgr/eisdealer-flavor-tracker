@@ -47,11 +47,11 @@ function FlavorCard({ flavor }: { flavor: Flavor }) {
 		<div className="flavor-card">
 			<div className="flex items-start justify-between gap-2">
 				<div>
-					<span className="text-base font-extrabold text-[var(--text-primary)]">
+					<span className="text-base font-bold text-black">
 						{flavor.name}
 					</span>
 					{flavor.nameEnglish && (
-						<span className="ml-2 text-sm font-medium text-[var(--text-secondary)]">
+						<span className="ml-2 text-sm text-[var(--text-secondary)]">
 							{flavor.nameEnglish}
 						</span>
 					)}
@@ -88,7 +88,7 @@ function LocationSection({ data }: { data: LocationData }) {
 				<p className="text-sm text-[var(--text-secondary)]">
 					Aktualisiert: {formatDate(data.lastUpdated)}
 				</p>
-				<span className="text-sm font-bold text-[var(--accent)]">
+				<span className="text-sm font-bold">
 					{data.flavors.length} Sorten
 				</span>
 			</div>
@@ -98,7 +98,7 @@ function LocationSection({ data }: { data: LocationData }) {
 				))}
 			</div>
 			{data.flavors.length === 0 && (
-				<p className="text-center text-white/80 py-8 text-lg font-bold">
+				<p className="text-center py-8 text-lg font-bold">
 					Keine Sorten verfügbar.
 				</p>
 			)}
@@ -112,13 +112,10 @@ function HomePage() {
 	return (
 		<main className="page-wrap px-4 pb-12 pt-6">
 			<div className="mb-6 text-center">
-				<h1
-					className="text-4xl font-extrabold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.15)] sm:text-5xl"
-					style={{ fontFamily: "var(--font-display)" }}
-				>
+				<h1 className="text-4xl font-bold text-black uppercase tracking-tight sm:text-5xl">
 					Heutige Eissorten
 				</h1>
-				<p className="mt-2 font-bold text-white/80">
+				<p className="mt-2 text-[var(--text-secondary)] font-medium">
 					Automatisch von Instagram Stories abgelesen
 				</p>
 			</div>

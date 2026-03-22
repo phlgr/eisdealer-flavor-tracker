@@ -31,29 +31,23 @@ function HistoryPage() {
 	return (
 		<main className="page-wrap px-4 pb-12 pt-6">
 			<div className="mb-6 text-center">
-				<h1
-					className="text-4xl font-extrabold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.15)] sm:text-5xl"
-					style={{ fontFamily: "var(--font-display)" }}
-				>
+				<h1 className="text-4xl font-bold text-black uppercase tracking-tight sm:text-5xl">
 					Sorten-Verlauf
 				</h1>
-				<p className="mt-2 font-bold text-white/80">
+				<p className="mt-2 text-[var(--text-secondary)] font-medium">
 					Welche Sorten gab es an welchem Tag?
 				</p>
 			</div>
 
 			{entries.length === 0 ? (
-				<p className="text-center text-white/80 py-8 text-lg font-bold">
+				<p className="text-center py-8 text-lg font-bold">
 					Noch kein Verlauf vorhanden.
 				</p>
 			) : (
 				<div className="space-y-6">
 					{entries.map((entry) => (
 						<div key={entry.date} className="history-card">
-							<h2
-								className="text-lg font-extrabold text-[var(--accent)] mb-3"
-								style={{ fontFamily: "var(--font-display)" }}
-							>
+							<h2 className="text-lg font-bold text-black mb-3 uppercase">
 								{formatDate(entry.date)}
 							</h2>
 

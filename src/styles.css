@@ -1,30 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Baloo 2", "Nunito", cursive, sans-serif;
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
 }
 
 :root {
-  --bg-base: #ff6b9d;
-  --bg-gradient: linear-gradient(135deg, #ff6b9d 0%, #ffa751 25%, #ffe259 50%, #43e97b 75%, #38f9d7 100%);
-  --surface: rgba(255, 255, 255, 0.92);
-  --surface-hover: rgba(255, 255, 255, 0.97);
-  --border: rgba(255, 255, 255, 0.5);
-  --border-strong: rgba(255, 255, 255, 0.8);
-  --text-primary: #1a1a2e;
-  --text-secondary: #4a4a6a;
-  --text-on-color: #ffffff;
-  --accent: #ff2d78;
-  --accent-soft: rgba(255, 45, 120, 0.15);
-  --header-bg: rgba(255, 255, 255, 0.8);
-  --pink: #ff6b9d;
-  --orange: #ffa751;
-  --yellow: #ffe259;
-  --green: #43e97b;
-  --cyan: #38f9d7;
-  --purple: #c471f5;
+  --bg-base: #fef43b;
+  --surface: #ffffff;
+  --text-primary: #000000;
+  --text-secondary: #333333;
+  --accent: #ff3e8a;
+  --blue: #3d5afe;
+  --green: #00e676;
+  --orange: #ff9100;
+  --purple: #d500f9;
+  --cyan: #00e5ff;
+  --border: #000000;
+  --shadow: 4px 4px 0 #000000;
+  --shadow-sm: 2px 2px 0 #000000;
+  --header-bg: #ffffff;
 }
 
 * {
@@ -41,21 +36,20 @@ body {
   margin: 0;
   color: var(--text-primary);
   font-family: var(--font-sans);
-  font-weight: 600;
-  background: var(--bg-gradient);
-  background-attachment: fixed;
-  min-height: 100vh;
+  font-weight: 500;
+  background-color: var(--bg-base);
   -webkit-font-smoothing: antialiased;
 }
 
 a {
   color: var(--accent);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
   font-weight: 700;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--blue);
 }
 
 .page-wrap {
@@ -63,20 +57,21 @@ a:hover {
   margin-inline: auto;
 }
 
-.display-font {
-  font-family: var(--font-display);
-}
-
 /* Navigation */
 .nav-link {
   position: relative;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   text-decoration: none;
   font-weight: 700;
-  transition: color 150ms ease;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transition: color 100ms ease;
 }
 
-.nav-link:hover,
+.nav-link:hover {
+  color: var(--accent);
+}
+
 .nav-link.is-active {
   color: var(--accent);
 }
@@ -88,43 +83,43 @@ a:hover {
   bottom: -6px;
   width: 100%;
   height: 3px;
-  background: linear-gradient(90deg, var(--pink), var(--orange));
-  border-radius: 2px;
+  background: var(--accent);
 }
 
 /* Tabs */
 .tab-bar {
   display: flex;
-  gap: 0.25rem;
-  background: rgba(255, 255, 255, 0.4);
-  border-radius: 1rem;
-  padding: 0.25rem;
+  gap: 0.5rem;
   margin-bottom: 1.5rem;
-  backdrop-filter: blur(8px);
 }
 
 .tab {
   flex: 1;
-  padding: 0.625rem 1rem;
-  border: none;
-  border-radius: 0.8rem;
-  background: transparent;
-  color: var(--text-secondary);
+  padding: 0.75rem 1rem;
+  border: 3px solid var(--border);
+  border-radius: 0;
+  background: var(--surface);
+  color: var(--text-primary);
   font-size: 0.9375rem;
   font-weight: 700;
-  font-family: var(--font-display);
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
   cursor: pointer;
-  transition: all 180ms ease;
+  box-shadow: var(--shadow-sm);
+  transition: all 100ms ease;
 }
 
 .tab:hover {
-  color: var(--text-primary);
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0 #000;
 }
 
 .tab-active {
-  background: white;
-  color: var(--accent);
-  box-shadow: 0 4px 14px rgba(255, 45, 120, 0.2);
+  background: var(--accent);
+  color: #ffffff;
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 #000;
 }
 
 /* Flavor cards */
@@ -142,101 +137,92 @@ a:hover {
 
 .flavor-card {
   background: var(--surface);
-  border: 2px solid transparent;
-  border-radius: 1rem;
+  border: 3px solid var(--border);
   padding: 0.875rem 1rem;
-  backdrop-filter: blur(8px);
-  transition: all 180ms ease;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--shadow);
+  transition: all 100ms ease;
 }
 
 .flavor-card:hover {
-  border-color: var(--pink);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(255, 107, 157, 0.2);
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 #000;
 }
 
 /* Tags */
 .tag {
   display: inline-block;
   font-size: 0.6875rem;
-  font-weight: 800;
-  padding: 0.1875rem 0.5rem;
-  border-radius: 999px;
-  letter-spacing: 0.02em;
+  font-weight: 700;
+  padding: 0.125rem 0.5rem;
+  border: 2px solid var(--border);
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .tag-vegan {
-  background: linear-gradient(135deg, #43e97b22, #38f9d733);
-  color: #0d8a3f;
+  background: var(--green);
+  color: #000;
 }
 
 .tag-sorbet {
-  background: linear-gradient(135deg, #38f9d722, #43e97b33);
-  color: #0b7a7a;
+  background: var(--cyan);
+  color: #000;
 }
 
 .tag-nuts {
-  background: linear-gradient(135deg, #ffa75133, #ffe25933);
-  color: #c45e00;
+  background: var(--orange);
+  color: #000;
 }
 
 .tag-dairy {
-  background: linear-gradient(135deg, #c471f522, #ff6b9d22);
-  color: #8b2fc6;
+  background: var(--purple);
+  color: #fff;
 }
 
 .tag-sugar-free {
-  background: linear-gradient(135deg, #38f9d722, #43e97b22);
-  color: #00838f;
+  background: #b2ff59;
+  color: #000;
 }
 
 .tag-seasonal {
-  background: linear-gradient(135deg, #ffe25933, #ffa75133);
-  color: #d4690e;
+  background: var(--orange);
+  color: #000;
 }
 
 .tag-new {
-  background: linear-gradient(135deg, #ff2d7822, #ff6b9d33);
-  color: #e01563;
-  animation: pulse-new 2s ease-in-out infinite;
-}
-
-@keyframes pulse-new {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.7; }
+  background: var(--accent);
+  color: #fff;
 }
 
 /* Stale data banner */
 .stale-banner {
-  background: linear-gradient(135deg, #ffa751, #ff6b9d);
-  color: white;
+  background: var(--orange);
+  color: #000;
   padding: 0.75rem 1rem;
-  border-radius: 0.75rem;
-  font-size: 0.8125rem;
+  border: 3px solid var(--border);
+  font-size: 0.875rem;
   font-weight: 700;
   margin-bottom: 1rem;
   text-align: center;
+  box-shadow: var(--shadow-sm);
+  text-transform: uppercase;
 }
 
 /* History */
 .history-card {
   background: var(--surface);
-  border: 2px solid transparent;
-  border-radius: 1rem;
+  border: 3px solid var(--border);
   padding: 1rem 1.25rem;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--shadow);
 }
 
 .history-flavor-chip {
   display: inline-block;
   font-size: 0.8125rem;
   font-weight: 700;
-  background: linear-gradient(135deg, rgba(255, 107, 157, 0.1), rgba(255, 167, 81, 0.1));
-  border: 1px solid rgba(255, 107, 157, 0.25);
-  border-radius: 999px;
-  padding: 0.25rem 0.75rem;
+  background: var(--bg-base);
+  border: 2px solid var(--border);
+  padding: 0.1875rem 0.625rem;
   color: var(--text-primary);
+  box-shadow: var(--shadow-sm);
 }
