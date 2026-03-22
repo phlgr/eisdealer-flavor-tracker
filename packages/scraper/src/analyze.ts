@@ -114,6 +114,7 @@ export async function analyzeStoryImage(
 			return null;
 		}
 
+		console.log("[analyze] Raw response:", text);
 		const parsed = JSON.parse(text);
 
 		// Validate with ArkType
