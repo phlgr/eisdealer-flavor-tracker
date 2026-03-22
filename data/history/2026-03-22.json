@@ -7,7 +7,7 @@
         "vegan"
       ],
       "available": true,
-      "nameEnglish": "Chocolate Mousse"
+      "nameEnglish": "Chocolate mousse"
     },
     {
       "name": "Cassis",
@@ -31,7 +31,7 @@
         "vegan"
       ],
       "available": true,
-      "nameEnglish": "Lime Mint"
+      "nameEnglish": "Lime mint"
     },
     {
       "name": "Mango",
@@ -53,25 +53,25 @@
       "name": "Mango Lassi",
       "tags": [],
       "available": true,
-      "nameEnglish": "Mango Lassi"
+      "nameEnglish": "Mango lassi"
     },
     {
       "name": "Strawberry Cheesecake",
       "tags": [],
       "available": true,
-      "nameEnglish": "Strawberry Cheesecake"
+      "nameEnglish": "Strawberry cheesecake"
     },
     {
       "name": "Omas Appelkuchen",
       "tags": [],
       "available": true,
-      "nameEnglish": "Grandma's Apple Cake"
+      "nameEnglish": "Grandma's apple cake"
     },
     {
       "name": "Erdbeer Tiramisu",
       "tags": [],
       "available": true,
-      "nameEnglish": "Strawberry Tiramisu"
+      "nameEnglish": "Strawberry tiramisu"
     },
     {
       "name": "Vanille",
@@ -83,7 +83,7 @@
       "name": "Joghurt Lemon",
       "tags": [],
       "available": true,
-      "nameEnglish": "Yogurt Lemon"
+      "nameEnglish": "Yogurt lemon"
     }
   ],
   "buga": [
