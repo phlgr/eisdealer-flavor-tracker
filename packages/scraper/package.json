@@ -1,0 +1,13 @@
+{
+  "name": "@eisdealer/scraper",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "arktype": "^2.1.0",
+    "playwright": "^1.52.0"
+  }
+}
