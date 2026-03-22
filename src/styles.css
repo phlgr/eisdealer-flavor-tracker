@@ -122,8 +122,10 @@ header {
   transition: all 100ms ease;
 }
 
-.tab:hover {
-  background: #f0f0f0;
+@media (hover: hover) {
+  .tab:hover {
+    background: #f0f0f0;
+  }
 }
 
 .tab-active {
