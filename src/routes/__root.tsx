@@ -35,9 +35,11 @@ function RootLayout() {
 			<head>
 				<HeadContent />
 			</head>
-			<body className="font-sans antialiased bg-[var(--bg-base)] text-[var(--text-primary)] min-h-screen">
+			<body className="font-sans antialiased text-[var(--text-primary)] min-h-screen flex flex-col">
 				<Header />
-				<Outlet />
+				<div className="flex-1">
+					<Outlet />
+				</div>
 				<Footer />
 				<Scripts />
 			</body>
