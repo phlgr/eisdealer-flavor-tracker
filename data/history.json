@@ -1,0 +1,19 @@
+[
+  {
+    "date": "2026-03-22",
+    "main": [
+      { "name": "Vanille", "nameEnglish": "Vanilla", "tags": ["contains_dairy"], "available": true },
+      { "name": "Schokolade", "nameEnglish": "Chocolate", "tags": ["contains_dairy"], "available": true },
+      { "name": "Erdbeere", "nameEnglish": "Strawberry", "tags": ["contains_dairy"], "available": true },
+      { "name": "Pistazie", "nameEnglish": "Pistachio", "tags": ["contains_dairy", "contains_nuts"], "available": true },
+      { "name": "Mango", "tags": ["vegan", "sorbet"], "available": true },
+      { "name": "Zitrone", "nameEnglish": "Lemon", "tags": ["vegan", "sorbet"], "available": true }
+    ],
+    "buga": [
+      { "name": "Vanille", "nameEnglish": "Vanilla", "tags": ["contains_dairy"], "available": true },
+      { "name": "Schokolade", "nameEnglish": "Chocolate", "tags": ["contains_dairy"], "available": true },
+      { "name": "Mango-Maracuja", "nameEnglish": "Mango Passion Fruit", "tags": ["vegan", "sorbet"], "available": true },
+      { "name": "Kokos", "nameEnglish": "Coconut", "tags": ["vegan"], "available": true }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "location": "buga",
+  "lastUpdated": "2026-03-22T10:00:00Z",
+  "flavors": [
+    { "name": "Vanille", "nameEnglish": "Vanilla", "tags": ["contains_dairy"], "available": true },
+    { "name": "Schokolade", "nameEnglish": "Chocolate", "tags": ["contains_dairy"], "available": true },
+    { "name": "Mango-Maracuja", "nameEnglish": "Mango Passion Fruit", "tags": ["vegan", "sorbet"], "available": true },
+    { "name": "Kokos", "nameEnglish": "Coconut", "tags": ["vegan"], "available": true },
+    { "name": "Waldmeister", "nameEnglish": "Woodruff", "tags": ["contains_dairy", "seasonal"], "available": true },
+    { "name": "Erdbeere", "nameEnglish": "Strawberry", "tags": ["contains_dairy"], "available": true }
+  ]
+}

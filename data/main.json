@@ -1,0 +1,18 @@
+{
+  "location": "main",
+  "lastUpdated": "2026-03-22T10:00:00Z",
+  "flavors": [
+    { "name": "Vanille", "nameEnglish": "Vanilla", "tags": ["contains_dairy"], "available": true },
+    { "name": "Schokolade", "nameEnglish": "Chocolate", "tags": ["contains_dairy"], "available": true },
+    { "name": "Erdbeere", "nameEnglish": "Strawberry", "tags": ["contains_dairy"], "available": true },
+    { "name": "Pistazie", "nameEnglish": "Pistachio", "tags": ["contains_dairy", "contains_nuts"], "available": true },
+    { "name": "Haselnuss", "nameEnglish": "Hazelnut", "tags": ["contains_dairy", "contains_nuts"], "available": true },
+    { "name": "Stracciatella", "tags": ["contains_dairy"], "available": true },
+    { "name": "Joghurt", "nameEnglish": "Yogurt", "tags": ["contains_dairy"], "available": true },
+    { "name": "Mango", "tags": ["vegan", "sorbet"], "available": true },
+    { "name": "Zitrone", "nameEnglish": "Lemon", "tags": ["vegan", "sorbet"], "available": true },
+    { "name": "Himbeere", "nameEnglish": "Raspberry", "tags": ["vegan", "sorbet"], "available": true },
+    { "name": "Cookies & Cream", "tags": ["contains_dairy", "new"], "available": true },
+    { "name": "Salted Caramel", "tags": ["contains_dairy", "seasonal"], "available": true }
+  ]
+}
