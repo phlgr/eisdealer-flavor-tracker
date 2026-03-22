@@ -41,8 +41,3 @@ export interface ScrapedImage {
 	buffer: Buffer;
 	hash: string;
 }
-
-export interface LocationConfig {
-	username: string;
-	location: "main" | "buga";
-}

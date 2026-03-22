@@ -34,7 +34,7 @@ jobs:
       - name: Run scraper
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          INSTAGRAM_USERNAMES: ${{ vars.INSTAGRAM_USERNAMES }}
+          INSTAGRAM_USERNAME: ${{ vars.INSTAGRAM_USERNAME }}
         run: bun run scrape
 
       - name: Check for data changes

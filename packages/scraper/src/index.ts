@@ -7,39 +7,25 @@ import {
 	updateLocationFromAnalysis,
 	archiveDailySnapshot,
 } from "./store.js";
-import type { LocationConfig, StoryAnalysis } from "./types.js";
+import type { StoryAnalysis } from "./types.js";
 
-function getLocationConfigs(): LocationConfig[] {
-	const usernames = process.env.INSTAGRAM_USERNAMES || "";
+function getUsername(): string {
+	const env = process.env.INSTAGRAM_USERNAME || "";
+	if (env) return env.trim();
 
-	if (!usernames) {
-		console.log("[main] No INSTAGRAM_USERNAMES configured, using defaults");
-		return [
-			{ username: "eisdiele_main", location: "main" },
-			{ username: "eisdiele_buga", location: "buga" },
-		];
-	}
-
-	// Format: "username1:main,username2:buga" or just "username" (defaults to main)
-	return usernames.split(",").map((entry) => {
-		const [username, loc] = entry.trim().split(":");
-		return {
-			username,
-			location: (loc === "buga" ? "buga" : "main") as "main" | "buga",
-		};
-	});
+	console.log("[main] No INSTAGRAM_USERNAME configured, using default");
+	return "die_eisdealer";
 }
 
-async function processLocation(config: LocationConfig): Promise<boolean> {
-	console.log(
-		`\n[main] Processing @${config.username} for ${config.location}`,
-	);
+async function main() {
+	const username = getUsername();
+	console.log(`[main] Eisdealer scraper starting for @${username}...`);
 
-	// Step 1: Scrape story images
-	const images = await scrapeStoryImages(config.username);
+	// Step 1: Scrape story images (single account)
+	const images = await scrapeStoryImages(username);
 	if (images.length === 0) {
-		console.log("[main] No images scraped, skipping");
-		return false;
+		console.log("[main] No images scraped, done.");
+		return;
 	}
 	console.log(`[main] Scraped ${images.length} images`);
 
@@ -47,8 +33,8 @@ async function processLocation(config: LocationConfig): Promise<boolean> {
 	const seenHashes = loadSeenHashes();
 	const newImages = filterNewImages(images, seenHashes);
 	if (newImages.length === 0) {
-		console.log("[main] All images already processed, skipping AI analysis");
-		return false;
+		console.log("[main] All images already processed, done.");
+		return;
 	}
 	console.log(
 		`[main] ${newImages.length} new images to analyze (${images.length - newImages.length} already seen)`,
@@ -62,7 +48,7 @@ async function processLocation(config: LocationConfig): Promise<boolean> {
 		if (result) {
 			analyses.push(result);
 			console.log(
-				`[main] Result: isFlavorList=${result.isFlavorList}, flavors=${result.flavors.length}, confidence=${result.confidence}`,
+				`[main] Result: isFlavorList=${result.isFlavorList}, flavors=${result.flavors.length}, confidence=${result.confidence}, location=${result.location ?? "unknown"}`,
 			);
 		}
 	}
@@ -71,44 +57,19 @@ async function processLocation(config: LocationConfig): Promise<boolean> {
 	const allHashes = [...seenHashes, ...newImages.map((img) => img.hash)];
 	saveSeenHashes(allHashes);
 
-	// Step 5: Update location data
-	// Check if any analysis hints at a different location
-	for (const analysis of analyses) {
-		if (analysis.location && analysis.location !== config.location) {
-			console.log(
-				`[main] AI detected location "${analysis.location}" (configured: "${config.location}")`,
-			);
-		}
-	}
+	// Step 5: Sort analyses by AI-detected location and update both
+	const mainAnalyses = analyses.filter((a) => !a.location || a.location === "main");
+	const bugaAnalyses = analyses.filter((a) => a.location === "buga");
 
-	return updateLocationFromAnalysis(config.location, analyses);
-}
+	const mainUpdated = updateLocationFromAnalysis("main", mainAnalyses);
+	const bugaUpdated = updateLocationFromAnalysis("buga", bugaAnalyses);
 
-async function main() {
-	console.log("[main] Eisdealer scraper starting...");
-
-	const configs = getLocationConfigs();
-	let anyUpdated = false;
-
-	for (const config of configs) {
-		try {
-			const updated = await processLocation(config);
-			if (updated) anyUpdated = true;
-		} catch (err) {
-			console.error(
-				`[main] Error processing @${config.username}:`,
-				err instanceof Error ? err.message : err,
-			);
-		}
-	}
-
-	// Archive daily snapshot if any data was updated
-	if (anyUpdated) {
+	if (mainUpdated || bugaUpdated) {
 		archiveDailySnapshot();
 	}
 
 	console.log(
-		`\n[main] Done. ${anyUpdated ? "Data was updated." : "No changes."}`,
+		`\n[main] Done. main=${mainUpdated ? "updated" : "unchanged"}, buga=${bugaUpdated ? "updated" : "unchanged"}`,
 	);
 }
 
