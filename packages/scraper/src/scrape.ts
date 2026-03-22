@@ -33,10 +33,10 @@ export async function scrapeStoryImages(
 			let page: Page | undefined;
 			try {
 				console.log(
-					`[scrape] Trying storiesig.info for @${username} (attempt ${attempt + 1})`,
+					`[scrape] Trying igram.world for @${username} (attempt ${attempt + 1})`,
 				);
 				page = await context.newPage();
-				const images = await scrapeStoriesig(page, username);
+				const images = await scrapeIgram(page, username);
 
 				if (images.length > 0) {
 					console.log(`[scrape] Found ${images.length} images`);
@@ -45,7 +45,7 @@ export async function scrapeStoryImages(
 				}
 
 				console.log("[scrape] No images found");
-				await debugPage(page, `storiesig-no-results-${attempt + 1}`);
+				await debugPage(page, `igram-no-results-${attempt + 1}`);
 				await page.close();
 				break;
 			} catch (err) {
@@ -53,7 +53,8 @@ export async function scrapeStoryImages(
 					`[scrape] Attempt ${attempt + 1} failed:`,
 					err instanceof Error ? err.message : err,
 				);
-				if (page) await debugPage(page, `storiesig-error-${attempt + 1}`);
+				if (page) await debugPage(page, `igram-error-${attempt + 1}`);
+				try { await page?.close(); } catch {}
 				if (attempt === MAX_RETRIES) {
 					console.log("[scrape] All retries exhausted");
 				}
@@ -66,24 +67,57 @@ export async function scrapeStoryImages(
 	}
 }
 
-async function scrapeStoriesig(
+/**
+ * Adapted from https://github.com/patermars/StoryScraper
+ * Uses igram.world/story-saver with its specific flow:
+ * 1. Fill username in #search-form-input
+ * 2. Click submit
+ * 3. Dismiss modal popup
+ * 4. Click "stories" tab
+ * 5. Extract image URLs from download links
+ */
+async function scrapeIgram(
 	page: Page,
 	username: string,
 ): Promise<ScrapedImage[]> {
-	await page.goto("https://storiesig.info", { waitUntil: "networkidle" });
+	await page.goto("https://igram.world/story-saver", {
+		waitUntil: "domcontentloaded",
+	});
 
 	// Wait for Vue app to mount
-	await page.waitForTimeout(2000);
+	await page.waitForTimeout(3000);
 
-	const input = page.locator(".search-form__input");
-	await input.waitFor({ timeout: 10000 });
+	// Fill in the username
+	const input = page.locator("#search-form-input");
+	await input.waitFor({ timeout: 15000 });
 	await input.fill(username);
+	await page.waitForTimeout(500);
 
-	await page.locator(".search-form__button").click();
+	// Submit
+	await page.locator('button.search-form__button[type="submit"]').click();
+	await page.waitForTimeout(1000);
+
+	// Dismiss modal if it appears (cookie/ad popup)
+	try {
+		const modal = page.locator('button.modal__btn[data-micromodal-close]');
+		await modal.waitFor({ timeout: 5000 });
+		await modal.click();
+	} catch {
+		console.log("[scrape] No modal to dismiss");
+	}
 
 	// Wait for results to load
-	await page.waitForLoadState("networkidle", { timeout: 15000 }).catch(() => {});
-	await page.waitForTimeout(3000);
+	await page.waitForTimeout(5000);
+
+	// Click the "stories" tab
+	try {
+		await page.locator(
+			'ul.tabs-component li.tabs-component__item:has(button:has-text("stories")) button.tabs-component__button',
+		).click();
+		await page.waitForTimeout(2000);
+	} catch {
+		console.log("[scrape] No stories tab found, checking page as-is");
+	}
 
 	return await extractImages(page);
 }
@@ -91,34 +125,53 @@ async function scrapeStoriesig(
 async function extractImages(page: Page): Promise<ScrapedImage[]> {
 	const images: ScrapedImage[] = [];
 
-	// storiesig.info proxies images through media.storiesig.info
-	// and also references scontent/cdninstagram URLs
+	// Collect URLs from multiple sources:
+	// 1. Download links (igram pattern)
+	// 2. img tags with Instagram CDN URLs
+	// 3. Any link with Instagram CDN URL
 	const imageUrls = await page.evaluate(() => {
 		const urls: string[] = [];
 		const seen = new Set<string>();
 
-		for (const img of document.querySelectorAll("img")) {
-			const src = img.src || img.dataset.src || "";
-			if (isStoryMedia(src) && !seen.has(src)) {
-				seen.add(src);
-				urls.push(src);
+		function addUrl(url: string) {
+			if (url && url.startsWith("http") && !seen.has(url) && !isVideo(url)) {
+				seen.add(url);
+				urls.push(url);
 			}
 		}
 
-		for (const a of document.querySelectorAll("a[href]")) {
-			const href = a.getAttribute("href") || "";
-			if (isStoryMedia(href) && !href.match(/\.mp4|video/) && !seen.has(href)) {
-				seen.add(href);
-				urls.push(href);
-			}
+		function isVideo(url: string): boolean {
+			const l = url.toLowerCase();
+			return l.includes(".mp4") || l.includes("video") || l.includes("/v/");
 		}
 
 		function isStoryMedia(url: string): boolean {
 			return (
 				url.includes("cdninstagram") ||
 				url.includes("scontent") ||
-				url.includes("media.storiesig")
+				url.includes("media.storiesig") ||
+				url.includes("igram")
 			);
+		}
+
+		// Download buttons (igram specific)
+		for (const a of document.querySelectorAll(
+			"a.button.button--filled.button__download, a[download]",
+		)) {
+			const href = a.getAttribute("href") || "";
+			if (href && !isVideo(href)) addUrl(href);
+		}
+
+		// Images with CDN URLs
+		for (const img of document.querySelectorAll("img")) {
+			const src = img.src || img.dataset.src || "";
+			if (isStoryMedia(src)) addUrl(src);
+		}
+
+		// Links with CDN URLs
+		for (const a of document.querySelectorAll("a[href]")) {
+			const href = a.getAttribute("href") || "";
+			if (isStoryMedia(href) && !isVideo(href)) addUrl(href);
 		}
 
 		return urls;
@@ -127,8 +180,6 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 	console.log(`[scrape] Found ${imageUrls.length} candidate URLs`);
 
 	for (const url of imageUrls) {
-		if (isVideoUrl(url)) continue;
-
 		try {
 			const response = await page.request.get(url);
 			const contentType = response.headers()["content-type"] || "";
@@ -137,7 +188,7 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 
 			if (contentType.startsWith("image/") || !contentType) {
 				const buffer = Buffer.from(await response.body());
-				// Skip tiny images (likely thumbnails/icons)
+				// Skip tiny images (thumbnails/icons)
 				if (buffer.length < 10000) continue;
 
 				const hash = createHash("sha256").update(buffer).digest("hex");
@@ -145,22 +196,12 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 			}
 		} catch (err) {
 			console.error(
-				`[scrape] Failed to download image: ${err instanceof Error ? err.message : err}`,
+				`[scrape] Failed to download: ${err instanceof Error ? err.message : err}`,
 			);
 		}
 	}
 
 	return images;
-}
-
-function isVideoUrl(url: string): boolean {
-	const lower = url.toLowerCase();
-	return (
-		lower.includes(".mp4") ||
-		lower.includes("video") ||
-		lower.includes("/v/") ||
-		lower.includes("mime=video")
-	);
 }
 
 async function debugPage(page: Page, name: string): Promise<void> {
