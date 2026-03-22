@@ -16,7 +16,8 @@ export default function Footer() {
 			<p className="mt-2 text-[var(--text-secondary)]">
 				Alle Angaben ohne Gewähr. Die Sorten werden automatisch aus
 				Instagram Stories ausgelesen und können fehlerhaft oder veraltet
-				sein.
+				sein. Das Sortiment kann sich im Laufe des Tages ändern, da
+				einzelne Sorten je nach Verfügbarkeit ausverkauft sein können.
 			</p>
 			<p className="mt-3 flex items-center justify-center gap-3 font-bold">
 				<a
