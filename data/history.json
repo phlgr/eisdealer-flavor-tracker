@@ -2,18 +2,244 @@
   {
     "date": "2026-03-22",
     "main": [
-      { "name": "Vanille", "nameEnglish": "Vanilla", "tags": ["contains_dairy"], "available": true },
-      { "name": "Schokolade", "nameEnglish": "Chocolate", "tags": ["contains_dairy"], "available": true },
-      { "name": "Erdbeere", "nameEnglish": "Strawberry", "tags": ["contains_dairy"], "available": true },
-      { "name": "Pistazie", "nameEnglish": "Pistachio", "tags": ["contains_dairy", "contains_nuts"], "available": true },
-      { "name": "Mango", "tags": ["vegan", "sorbet"], "available": true },
-      { "name": "Zitrone", "nameEnglish": "Lemon", "tags": ["vegan", "sorbet"], "available": true }
+      {
+        "name": "SCHOKOMOUSSE (V)",
+        "tags": [
+          "vegan"
+        ],
+        "available": true,
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "WALDFRUCHT (V)",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Forest Fruit"
+      },
+      {
+        "name": "ERDBEERE (V)",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "LIMETTE MINZE (V)",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "MANGO (V)",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "ZITRONE (V)",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "MANGO LASSI",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Mango Lassi"
+      },
+      {
+        "name": "STRAWBERRY CHEESECAKE",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
+        "name": "OMAS APFELKUCHEN",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Grandma's Apple Pie"
+      },
+      {
+        "name": "LOTUS CHEESECAKE",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Lotus Cheesecake"
+      },
+      {
+        "name": "VANILLE",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "JOGHURT LEMON",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Yogurt Lemon"
+      },
+      {
+        "name": "SCHOKOMOUSSE",
+        "tags": [
+          "vegan"
+        ],
+        "available": true,
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "CASSIS",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Blackcurrant"
+      },
+      {
+        "name": "ERDBEERE",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "LIMETTE MINZE",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "MANGO",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "OREO",
+        "tags": [
+          "vegan"
+        ],
+        "available": true,
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "STRAWBERRY CHEESECAK",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
+        "name": "ERDBEER TIRAMISU",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Strawberry Tiramisu"
+      }
     ],
     "buga": [
-      { "name": "Vanille", "nameEnglish": "Vanilla", "tags": ["contains_dairy"], "available": true },
-      { "name": "Schokolade", "nameEnglish": "Chocolate", "tags": ["contains_dairy"], "available": true },
-      { "name": "Mango-Maracuja", "nameEnglish": "Mango Passion Fruit", "tags": ["vegan", "sorbet"], "available": true },
-      { "name": "Kokos", "nameEnglish": "Coconut", "tags": ["vegan"], "available": true }
+      {
+        "name": "Vanille",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Schokomousse (v)",
+        "tags": [
+          "vegan"
+        ],
+        "available": true,
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Erdbeer-Tiramisu",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Strawberry Tiramisu"
+      },
+      {
+        "name": "Buttermilch-Mango",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Buttermilk Mango"
+      },
+      {
+        "name": "Pfirsich-Maracuja (v)",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Peach Passion Fruit"
+      },
+      {
+        "name": "Erdbeere (v)",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Limette Minze (v)",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Strawberry Cheesecake"
+      }
     ]
   }
 ]
