@@ -7,19 +7,35 @@ import type { ScrapedImage } from "./types.js";
 const DEBUG_DIR = join(import.meta.dir, "../../../debug");
 const MAX_RETRIES = 2;
 
+const USER_AGENT =
+	"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+
 export async function scrapeStoryImages(
 	username: string,
 ): Promise<ScrapedImage[]> {
 	let browser: Browser | undefined;
 	try {
-		browser = await chromium.launch({ headless: true });
+		browser = await chromium.launch({
+			headless: true,
+			args: [
+				"--disable-blink-features=AutomationControlled",
+				"--no-sandbox",
+			],
+		});
+
+		const context = await browser.newContext({
+			userAgent: USER_AGENT,
+			viewport: { width: 1280, height: 720 },
+			locale: "de-DE",
+		});
 
 		for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+			let page: Page | undefined;
 			try {
 				console.log(
 					`[scrape] Trying storiesig.info for @${username} (attempt ${attempt + 1})`,
 				);
-				const page = await browser.newPage();
+				page = await context.newPage();
 				const images = await scrapeStoriesig(page, username);
 
 				if (images.length > 0) {
@@ -29,7 +45,7 @@ export async function scrapeStoryImages(
 				}
 
 				console.log("[scrape] No images found");
-				await debugPage(page, `storiesig-attempt${attempt + 1}`);
+				await debugPage(page, `storiesig-no-results-${attempt + 1}`);
 				await page.close();
 				break;
 			} catch (err) {
@@ -37,6 +53,7 @@ export async function scrapeStoryImages(
 					`[scrape] Attempt ${attempt + 1} failed:`,
 					err instanceof Error ? err.message : err,
 				);
+				if (page) await debugPage(page, `storiesig-error-${attempt + 1}`);
 				if (attempt === MAX_RETRIES) {
 					console.log("[scrape] All retries exhausted");
 				}
