@@ -15,12 +15,14 @@ export const StoryAnalysis = type({
 	confidence: "'high' | 'medium' | 'low'",
 	isFlavorList: "boolean",
 	"location?": "'main' | 'buga'",
+	"openUntil?": "string",
 });
 
 export const LocationData = type({
 	location: "'main' | 'buga'",
 	lastUpdated: "string",
 	flavors: IceCreamFlavor.array(),
+	"openUntil?": "string",
 });
 
 export const HistoryEntry = type({

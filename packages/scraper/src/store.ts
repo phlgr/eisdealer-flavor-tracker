@@ -93,16 +93,22 @@ export function updateLocationFromAnalysis(
 		}
 	}
 
-	const existingData = loadLocationData(location);
+	// Pick the latest openUntil from any analysis
+	const openUntil = analyses
+		.map((a) => a.openUntil)
+		.filter(Boolean)
+		.pop();
+
 	const newData: LocationData = {
 		location,
 		lastUpdated: new Date().toISOString(),
 		flavors: Array.from(flavorMap.values()),
+		...(openUntil ? { openUntil } : {}),
 	};
 
 	saveLocationData(newData);
 	console.log(
-		`[store] Updated ${location} with ${newData.flavors.length} flavors`,
+		`[store] Updated ${location} with ${newData.flavors.length} flavors${openUntil ? `, open until ${openUntil}` : ""}`,
 	);
 	return true;
 }

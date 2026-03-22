@@ -20,6 +20,8 @@ Your task:
    - If the image mentions "Bunter Garten", "BuGa", or similar → set location to "buga"
    - Otherwise assume it's the main location → set location to "main"
    - Generic text like "Wir sind für euch da" or opening hours WITHOUT mentioning BuGa = main location
+6. If the image mentions opening hours or closing time (e.g., "bis 20 Uhr", "bis 21:00", "wir sind bis X Uhr da"), extract it as openUntil in HH:MM format (e.g., "20:00"). Only set this if a time is clearly visible.
+
 IMPORTANT:
 - Do NOT include vegan/dietary markers like "(V)" or "(v)" in the flavor name. Use the tags array instead.
 - Do NOT infer or guess tags. Only add "vegan" or "milk" if there is a visible symbol/marker in the image.`;
@@ -54,6 +56,10 @@ const JSON_SCHEMA = {
 		location: {
 			type: "string" as const,
 			enum: ["main", "buga"],
+		},
+		openUntil: {
+			type: "string" as const,
+			description: "Closing time in HH:MM format, e.g. 20:00",
 		},
 	},
 	required: ["flavors", "confidence", "isFlavorList"],

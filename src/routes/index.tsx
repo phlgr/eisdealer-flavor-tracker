@@ -16,6 +16,7 @@ type LocationData = {
 	location: string;
 	lastUpdated: string;
 	flavors: Flavor[];
+	openUntil?: string;
 };
 
 const TAG_LABELS: Record<string, { label: string; className: string }> = {
@@ -76,9 +77,11 @@ function LocationSection({ data }: { data: LocationData }) {
 				<p className="text-sm text-white/70">
 					Aktualisiert: {formatDate(data.lastUpdated)}
 				</p>
-				<span className="text-sm font-bold text-white/70">
-					{data.flavors.length} Sorten
-				</span>
+				{data.openUntil && (
+					<span className="open-until-badge">
+						Bis {data.openUntil} Uhr
+					</span>
+				)}
 			</div>
 			<div className="flavor-wall">
 				{data.flavors.map((flavor) => (
