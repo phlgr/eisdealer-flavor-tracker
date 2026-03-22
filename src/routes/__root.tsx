@@ -35,7 +35,7 @@ function RootLayout() {
 			<head>
 				<HeadContent />
 			</head>
-			<body className="font-sans antialiased text-[var(--text-primary)] min-h-screen flex flex-col">
+			<body className="font-sans antialiased text-[var(--text-primary)]">
 				<Header />
 				<div className="flex-1">
 					<Outlet />
