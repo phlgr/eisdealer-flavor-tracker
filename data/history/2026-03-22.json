@@ -10,13 +10,13 @@
       "nameEnglish": "Chocolate Mousse"
     },
     {
-      "name": "Waldfrucht",
+      "name": "Cassis",
       "tags": [
         "vegan",
         "sorbet"
       ],
       "available": true,
-      "nameEnglish": "Forest Fruit"
+      "nameEnglish": "Blackcurrant"
     },
     {
       "name": "Erdbeere",
@@ -46,13 +46,12 @@
       "nameEnglish": "Mango"
     },
     {
-      "name": "Zitrone",
+      "name": "Oreo",
       "tags": [
-        "vegan",
-        "sorbet"
+        "vegan"
       ],
       "available": true,
-      "nameEnglish": "Lemon"
+      "nameEnglish": "Oreo"
     },
     {
       "name": "Mango Lassi",
@@ -71,20 +70,20 @@
       "nameEnglish": "Strawberry Cheesecake"
     },
     {
-      "name": "Omas Apfelkuchen",
+      "name": "Omas Appelkuchen",
       "tags": [
         "contains_dairy"
       ],
       "available": true,
-      "nameEnglish": "Grandma's Apple Pie"
+      "nameEnglish": "Grandma's Apple Cake"
     },
     {
-      "name": "Lotus Cheesecake",
+      "name": "Erdbeer Tiramisu",
       "tags": [
         "contains_dairy"
       ],
       "available": true,
-      "nameEnglish": "Lotus Cheesecake"
+      "nameEnglish": "Strawberry Tiramisu"
     },
     {
       "name": "Vanille",
