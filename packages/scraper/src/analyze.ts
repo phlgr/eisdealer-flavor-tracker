@@ -11,12 +11,14 @@ Your task:
 1. Determine if this image shows a list/menu of ice cream flavors. If it does NOT (e.g., it's a promo, event, selfie, or unrelated), set isFlavorList to false and return empty flavors.
 2. If it IS a flavor list, extract every flavor name visible.
 3. For each flavor, provide:
-   - name: The German name exactly as shown
+   - name: The clean flavor name WITHOUT any markers like "(V)", "(v)", "(vegan)" etc. Strip those and use the tag instead. Use title case (e.g., "Schokomousse" not "SCHOKOMOUSSE").
    - nameEnglish: English translation (if you can determine it)
-   - tags: Array of applicable tags from: "vegan", "contains_nuts", "contains_dairy", "sugar_free", "sorbet", "seasonal", "new"
+   - tags: Array of applicable tags from: "vegan", "contains_nuts", "contains_dairy", "sugar_free", "sorbet", "seasonal", "new". If the flavor has a "(V)" or "(v)" marker, add the "vegan" tag.
    - available: true (assume available unless clearly marked otherwise)
 4. Set confidence to "high" if the text is clear, "medium" if partially obscured, "low" if very hard to read.
-5. If you can determine whether this is for the main location or the "Bunter Garten" / "BuGa" popup location, set the location field accordingly.
+5. If you can determine whether this is for the main location or the "Bunter Garten" / "BuGa" popup location, set the location field accordingly. The main location typically shows flavors in ALL CAPS on a dark background. The BuGa location may have a different style.
+
+IMPORTANT: Do NOT include vegan/dietary markers like "(V)" or "(v)" in the flavor name. Use the tags array instead.
 
 Use your knowledge of common German ice cream flavors to infer tags:
 - Fruit sorbets (Zitrone, Mango, Himbeere, etc.) are typically vegan and sorbet

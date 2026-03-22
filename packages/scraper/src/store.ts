@@ -72,11 +72,24 @@ export function updateLocationFromAnalysis(
 		return false;
 	}
 
-	// Merge flavors from all analyzed stories, deduplicating by name
+	// Merge flavors from all analyzed stories, deduplicating by normalized name
 	const flavorMap = new Map<string, IceCreamFlavor>();
 	for (const analysis of flavorAnalyses) {
 		for (const flavor of analysis.flavors) {
-			flavorMap.set(flavor.name.toLowerCase(), flavor);
+			// Normalize: strip (V)/(v)/(vegan) markers, trim, title case
+			const cleanName = flavor.name
+				.replace(/\s*\(v(egan)?\)\s*/gi, "")
+				.trim();
+			const key = cleanName.toLowerCase();
+
+			// If we already have this flavor, merge tags
+			const existing = flavorMap.get(key);
+			if (existing) {
+				const mergedTags = [...new Set([...existing.tags, ...flavor.tags])];
+				flavorMap.set(key, { ...existing, tags: mergedTags as IceCreamFlavor["tags"] });
+			} else {
+				flavorMap.set(key, { ...flavor, name: cleanName });
+			}
 		}
 	}
 
