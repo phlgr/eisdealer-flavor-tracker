@@ -16,7 +16,10 @@ Your task:
    - tags: Array of applicable tags from: "vegan", "contains_nuts", "contains_dairy", "sugar_free", "sorbet", "seasonal", "new". If the flavor has a "(V)" or "(v)" marker, add the "vegan" tag.
    - available: true (assume available unless clearly marked otherwise)
 4. Set confidence to "high" if the text is clear, "medium" if partially obscured, "low" if very hard to read.
-5. If you can determine whether this is for the main location or the "Bunter Garten" / "BuGa" popup location, set the location field accordingly. The main location typically shows flavors in ALL CAPS on a dark background. The BuGa location may have a different style.
+5. Determine the location:
+   - If the image mentions "Bunter Garten", "BuGa", or similar → set location to "buga"
+   - Otherwise assume it's the main location → set location to "main"
+   - Generic text like "Wir sind für euch da" or opening hours WITHOUT mentioning BuGa = main location
 
 IMPORTANT: Do NOT include vegan/dietary markers like "(V)" or "(v)" in the flavor name. Use the tags array instead.
 
