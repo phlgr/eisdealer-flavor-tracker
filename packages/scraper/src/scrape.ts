@@ -84,8 +84,19 @@ async function scrapeIgram(
 		waitUntil: "domcontentloaded",
 	});
 
-	// Wait for Vue app to mount
+	// Wait for page to settle
 	await page.waitForTimeout(3000);
+
+	// Dismiss cookie consent dialog if present
+	try {
+		const consent = page.locator('.fc-cta-consent, .fc-button-consent, button[aria-label="Consent"]');
+		await consent.first().waitFor({ timeout: 5000 });
+		await consent.first().click();
+		await page.waitForTimeout(1000);
+		console.log("[scrape] Dismissed cookie consent");
+	} catch {
+		console.log("[scrape] No cookie consent dialog");
+	}
 
 	// Fill in the username
 	const input = page.locator("#search-form-input");
