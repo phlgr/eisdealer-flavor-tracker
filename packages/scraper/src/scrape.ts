@@ -196,14 +196,22 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 			});
 			const contentType = response.headers()["content-type"] || "";
 
-			if (contentType.startsWith("video/")) continue;
+			if (contentType.startsWith("video/")) {
+				console.log(`[scrape] Skipped video: ${url.substring(0, 80)}...`);
+				continue;
+			}
 
 			if (contentType.startsWith("image/") || !contentType) {
 				const buffer = Buffer.from(await response.body());
-				if (buffer.length < 10000) continue;
+				if (buffer.length < 5000) {
+					console.log(`[scrape] Skipped tiny image (${buffer.length} bytes): ${url.substring(0, 80)}...`);
+					continue;
+				}
 
 				const hash = createHash("sha256").update(buffer).digest("hex");
 				images.push({ buffer, hash });
+			} else {
+				console.log(`[scrape] Skipped non-image (${contentType}): ${url.substring(0, 80)}...`);
 			}
 		} catch {
 			// Skip URLs that fail (redirects, broken links, etc.)
