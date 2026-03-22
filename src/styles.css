@@ -13,7 +13,7 @@
   --surface: #ffffff;
   --text-primary: #000000;
   --text-secondary: #5a4030;
-  --accent: #ff3e8a;
+  --accent: #4a7c59;
   --green: #00e676;
   --purple: #d500f9;
   --border: #000000;
@@ -150,18 +150,38 @@ header {
   justify-content: center;
   align-self: stretch;
   align-items: center;
+  position: relative;
 }
 
 .nail::before {
   content: "";
   display: block;
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
-  background: radial-gradient(circle at 35% 35%, #ddd, #888 60%, #555);
-  border: 1.5px solid #333;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.4);
+  background: #aaa;
+  border: 2px solid #666;
+  position: relative;
 }
+
+.nail::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background: #666;
+  border-radius: 1px;
+  transform: rotate(30deg);
+}
+
+.flavor-row:nth-child(2n) .nail:first-child::after { transform: rotate(-20deg); }
+.flavor-row:nth-child(2n) .nail:last-child::after { transform: rotate(65deg); }
+.flavor-row:nth-child(3n) .nail:first-child::after { transform: rotate(80deg); }
+.flavor-row:nth-child(3n) .nail:last-child::after { transform: rotate(-40deg); }
+.flavor-row:nth-child(5n) .nail:first-child::after { transform: rotate(10deg); }
+.flavor-row:nth-child(5n) .nail:last-child::after { transform: rotate(-70deg); }
+.flavor-row:nth-child(7n) .nail:first-child::after { transform: rotate(55deg); }
+.flavor-row:nth-child(7n) .nail:last-child::after { transform: rotate(-15deg); }
 
 .flavor-content {
   flex: 1;
