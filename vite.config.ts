@@ -5,6 +5,7 @@ import viteReact from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 const config = defineConfig({
+	base: "/eisdealer-flavor-tracker/",
 	plugins: [
 		tsconfigPaths({ projects: ["./tsconfig.json"] }),
 		tailwindcss(),
