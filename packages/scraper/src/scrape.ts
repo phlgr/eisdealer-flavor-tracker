@@ -136,16 +136,18 @@ async function scrapeIgram(
 async function extractImages(page: Page): Promise<ScrapedImage[]> {
 	const images: ScrapedImage[] = [];
 
-	// Collect URLs from multiple sources:
-	// 1. Download links (igram pattern)
-	// 2. img tags with Instagram CDN URLs
-	// 3. Any link with Instagram CDN URL
+	// Prioritize download buttons (igram-specific), fall back to CDN image URLs
 	const imageUrls = await page.evaluate(() => {
 		const urls: string[] = [];
 		const seen = new Set<string>();
 
 		function addUrl(url: string) {
-			if (url && url.startsWith("http") && !seen.has(url) && !isVideo(url)) {
+			if (
+				url &&
+				url.startsWith("http") &&
+				!seen.has(url) &&
+				!isVideo(url)
+			) {
 				seen.add(url);
 				urls.push(url);
 			}
@@ -156,33 +158,30 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 			return l.includes(".mp4") || l.includes("video") || l.includes("/v/");
 		}
 
-		function isStoryMedia(url: string): boolean {
-			return (
-				url.includes("cdninstagram") ||
-				url.includes("scontent") ||
-				url.includes("media.storiesig") ||
-				url.includes("igram")
-			);
-		}
-
-		// Download buttons (igram specific)
+		// 1. Download buttons — most reliable on igram
 		for (const a of document.querySelectorAll(
 			"a.button.button--filled.button__download, a[download]",
 		)) {
 			const href = a.getAttribute("href") || "";
-			if (href && !isVideo(href)) addUrl(href);
+			addUrl(href);
 		}
 
-		// Images with CDN URLs
+		// 2. Images/links pointing to Instagram CDN
 		for (const img of document.querySelectorAll("img")) {
 			const src = img.src || img.dataset.src || "";
-			if (isStoryMedia(src)) addUrl(src);
+			if (src.includes("cdninstagram") || src.includes("scontent")) {
+				addUrl(src);
+			}
 		}
 
-		// Links with CDN URLs
 		for (const a of document.querySelectorAll("a[href]")) {
 			const href = a.getAttribute("href") || "";
-			if (isStoryMedia(href) && !isVideo(href)) addUrl(href);
+			if (
+				(href.includes("cdninstagram") || href.includes("scontent")) &&
+				!isVideo(href)
+			) {
+				addUrl(href);
+			}
 		}
 
 		return urls;
@@ -192,23 +191,22 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 
 	for (const url of imageUrls) {
 		try {
-			const response = await page.request.get(url);
+			const response = await page.request.get(url, {
+				maxRedirects: 0,
+			});
 			const contentType = response.headers()["content-type"] || "";
 
 			if (contentType.startsWith("video/")) continue;
 
 			if (contentType.startsWith("image/") || !contentType) {
 				const buffer = Buffer.from(await response.body());
-				// Skip tiny images (thumbnails/icons)
 				if (buffer.length < 10000) continue;
 
 				const hash = createHash("sha256").update(buffer).digest("hex");
 				images.push({ buffer, hash });
 			}
-		} catch (err) {
-			console.error(
-				`[scrape] Failed to download: ${err instanceof Error ? err.message : err}`,
-			);
+		} catch {
+			// Skip URLs that fail (redirects, broken links, etc.)
 		}
 	}
 
