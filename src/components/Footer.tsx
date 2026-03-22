@@ -28,7 +28,7 @@ export default function Footer() {
 				</a>
 				<span className="text-[var(--border)]">|</span>
 				<a
-					href="https://www.instagram.com/dieeisdealer/"
+					href="https://www.instagram.com/die_eisdealer/"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
