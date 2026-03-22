@@ -166,33 +166,8 @@ a:hover {
   color: #000;
 }
 
-.tag-sorbet {
-  background: var(--cyan);
-  color: #000;
-}
-
-.tag-nuts {
-  background: var(--orange);
-  color: #000;
-}
-
-.tag-dairy {
+.tag-milk {
   background: var(--purple);
-  color: #fff;
-}
-
-.tag-sugar-free {
-  background: #b2ff59;
-  color: #000;
-}
-
-.tag-seasonal {
-  background: var(--orange);
-  color: #000;
-}
-
-.tag-new {
-  background: var(--accent);
   color: #fff;
 }
 

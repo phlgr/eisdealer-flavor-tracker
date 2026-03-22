@@ -1,8 +1,6 @@
 import { type } from "arktype";
 
-export const FlavorTag = type(
-	"'vegan' | 'contains_nuts' | 'contains_dairy' | 'sugar_free' | 'sorbet' | 'seasonal' | 'new'",
-);
+export const FlavorTag = type("'vegan' | 'milk'");
 
 export const IceCreamFlavor = type({
 	name: "string",

@@ -20,12 +20,7 @@ type LocationData = {
 
 const TAG_LABELS: Record<string, { label: string; className: string }> = {
 	vegan: { label: "Vegan", className: "tag-vegan" },
-	sorbet: { label: "Sorbet", className: "tag-sorbet" },
-	contains_nuts: { label: "Nüsse", className: "tag-nuts" },
-	contains_dairy: { label: "Milch", className: "tag-dairy" },
-	sugar_free: { label: "Zuckerfrei", className: "tag-sugar-free" },
-	seasonal: { label: "Saison", className: "tag-seasonal" },
-	new: { label: "Neu!", className: "tag-new" },
+	milk: { label: "Milch", className: "tag-milk" },
 };
 
 function isStale(lastUpdated: string): boolean {
