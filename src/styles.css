@@ -1,21 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap");
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Baloo 2", "Nunito", cursive, sans-serif;
 }
 
 :root {
-  --bg-base: #fdf6f0;
-  --surface: #ffffff;
-  --surface-hover: #fef9f5;
-  --border: #e8ddd4;
-  --border-strong: #d4c4b6;
-  --text-primary: #3d2c1e;
-  --text-secondary: #8a7462;
-  --accent: #d4756b;
-  --accent-soft: rgba(212, 117, 107, 0.12);
-  --header-bg: rgba(253, 246, 240, 0.88);
+  --bg-base: #ff6b9d;
+  --bg-gradient: linear-gradient(135deg, #ff6b9d 0%, #ffa751 25%, #ffe259 50%, #43e97b 75%, #38f9d7 100%);
+  --surface: rgba(255, 255, 255, 0.92);
+  --surface-hover: rgba(255, 255, 255, 0.97);
+  --border: rgba(255, 255, 255, 0.5);
+  --border-strong: rgba(255, 255, 255, 0.8);
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4a6a;
+  --text-on-color: #ffffff;
+  --accent: #ff2d78;
+  --accent-soft: rgba(255, 45, 120, 0.15);
+  --header-bg: rgba(255, 255, 255, 0.8);
+  --pink: #ff6b9d;
+  --orange: #ffa751;
+  --yellow: #ffe259;
+  --green: #43e97b;
+  --cyan: #38f9d7;
+  --purple: #c471f5;
 }
 
 * {
@@ -32,13 +41,21 @@ body {
   margin: 0;
   color: var(--text-primary);
   font-family: var(--font-sans);
-  background-color: var(--bg-base);
+  font-weight: 600;
+  background: var(--bg-gradient);
+  background-attachment: fixed;
+  min-height: 100vh;
   -webkit-font-smoothing: antialiased;
 }
 
 a {
   color: var(--accent);
   text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .page-wrap {
@@ -46,17 +63,22 @@ a {
   margin-inline: auto;
 }
 
+.display-font {
+  font-family: var(--font-display);
+}
+
 /* Navigation */
 .nav-link {
   position: relative;
   color: var(--text-secondary);
   text-decoration: none;
+  font-weight: 700;
   transition: color 150ms ease;
 }
 
 .nav-link:hover,
 .nav-link.is-active {
-  color: var(--text-primary);
+  color: var(--accent);
 }
 
 .nav-link.is-active::after {
@@ -65,38 +87,44 @@ a {
   left: 0;
   bottom: -6px;
   width: 100%;
-  height: 2px;
-  background: var(--accent);
-  border-radius: 1px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--pink), var(--orange));
+  border-radius: 2px;
 }
 
 /* Tabs */
 .tab-bar {
   display: flex;
   gap: 0.25rem;
-  background: var(--border);
-  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 1rem;
   padding: 0.25rem;
   margin-bottom: 1.5rem;
+  backdrop-filter: blur(8px);
 }
 
 .tab {
   flex: 1;
-  padding: 0.5rem 1rem;
+  padding: 0.625rem 1rem;
   border: none;
-  border-radius: 0.625rem;
+  border-radius: 0.8rem;
   background: transparent;
   color: var(--text-secondary);
-  font-size: 0.875rem;
-  font-weight: 600;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  font-family: var(--font-display);
   cursor: pointer;
-  transition: all 150ms ease;
+  transition: all 180ms ease;
+}
+
+.tab:hover {
+  color: var(--text-primary);
 }
 
 .tab-active {
-  background: var(--surface);
-  color: var(--text-primary);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: white;
+  color: var(--accent);
+  box-shadow: 0 4px 14px rgba(255, 45, 120, 0.2);
 }
 
 /* Flavor cards */
@@ -114,69 +142,80 @@ a {
 
 .flavor-card {
   background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 0.75rem;
+  border: 2px solid transparent;
+  border-radius: 1rem;
   padding: 0.875rem 1rem;
-  transition: border-color 150ms ease;
+  backdrop-filter: blur(8px);
+  transition: all 180ms ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
 .flavor-card:hover {
-  border-color: var(--border-strong);
+  border-color: var(--pink);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 107, 157, 0.2);
 }
 
 /* Tags */
 .tag {
   display: inline-block;
   font-size: 0.6875rem;
-  font-weight: 600;
-  padding: 0.125rem 0.5rem;
+  font-weight: 800;
+  padding: 0.1875rem 0.5rem;
   border-radius: 999px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .tag-vegan {
-  background: #e8f5e9;
-  color: #2e7d32;
+  background: linear-gradient(135deg, #43e97b22, #38f9d733);
+  color: #0d8a3f;
 }
 
 .tag-sorbet {
-  background: #e3f2fd;
-  color: #1565c0;
+  background: linear-gradient(135deg, #38f9d722, #43e97b33);
+  color: #0b7a7a;
 }
 
 .tag-nuts {
-  background: #fff3e0;
-  color: #e65100;
+  background: linear-gradient(135deg, #ffa75133, #ffe25933);
+  color: #c45e00;
 }
 
 .tag-dairy {
-  background: #f3e5f5;
-  color: #7b1fa2;
+  background: linear-gradient(135deg, #c471f522, #ff6b9d22);
+  color: #8b2fc6;
 }
 
 .tag-sugar-free {
-  background: #e0f7fa;
+  background: linear-gradient(135deg, #38f9d722, #43e97b22);
   color: #00838f;
 }
 
 .tag-seasonal {
-  background: #fff8e1;
-  color: #f57f17;
+  background: linear-gradient(135deg, #ffe25933, #ffa75133);
+  color: #d4690e;
 }
 
 .tag-new {
-  background: var(--accent-soft);
-  color: var(--accent);
+  background: linear-gradient(135deg, #ff2d7822, #ff6b9d33);
+  color: #e01563;
+  animation: pulse-new 2s ease-in-out infinite;
+}
+
+@keyframes pulse-new {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
 }
 
 /* Stale data banner */
 .stale-banner {
-  background: #fff3e0;
-  color: #e65100;
-  padding: 0.625rem 1rem;
-  border-radius: 0.5rem;
+  background: linear-gradient(135deg, #ffa751, #ff6b9d);
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
   font-size: 0.8125rem;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -184,17 +223,20 @@ a {
 /* History */
 .history-card {
   background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 0.75rem;
+  border: 2px solid transparent;
+  border-radius: 1rem;
   padding: 1rem 1.25rem;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 
 .history-flavor-chip {
   display: inline-block;
   font-size: 0.8125rem;
-  background: var(--bg-base);
-  border: 1px solid var(--border);
+  font-weight: 700;
+  background: linear-gradient(135deg, rgba(255, 107, 157, 0.1), rgba(255, 167, 81, 0.1));
+  border: 1px solid rgba(255, 107, 157, 0.25);
   border-radius: 999px;
-  padding: 0.1875rem 0.625rem;
+  padding: 0.25rem 0.75rem;
   color: var(--text-primary);
 }

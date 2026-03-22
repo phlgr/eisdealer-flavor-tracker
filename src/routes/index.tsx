@@ -30,7 +30,7 @@ const TAG_LABELS: Record<string, { label: string; className: string }> = {
 
 function isStale(lastUpdated: string): boolean {
 	const diff = Date.now() - new Date(lastUpdated).getTime();
-	return diff > 48 * 60 * 60 * 1000; // 48 hours
+	return diff > 48 * 60 * 60 * 1000;
 }
 
 function formatDate(iso: string): string {
@@ -47,11 +47,11 @@ function FlavorCard({ flavor }: { flavor: Flavor }) {
 		<div className="flavor-card">
 			<div className="flex items-start justify-between gap-2">
 				<div>
-					<span className="font-semibold text-[var(--text-primary)]">
+					<span className="text-base font-extrabold text-[var(--text-primary)]">
 						{flavor.name}
 					</span>
 					{flavor.nameEnglish && (
-						<span className="ml-2 text-sm text-[var(--text-secondary)]">
+						<span className="ml-2 text-sm font-medium text-[var(--text-secondary)]">
 							{flavor.nameEnglish}
 						</span>
 					)}
@@ -76,7 +76,6 @@ function FlavorCard({ flavor }: { flavor: Flavor }) {
 
 function LocationSection({ data }: { data: LocationData }) {
 	const stale = isStale(data.lastUpdated);
-	const locationName = data.location === "main" ? "Hauptfiliale" : "Bunter Garten";
 
 	return (
 		<section>
@@ -89,7 +88,7 @@ function LocationSection({ data }: { data: LocationData }) {
 				<p className="text-sm text-[var(--text-secondary)]">
 					Aktualisiert: {formatDate(data.lastUpdated)}
 				</p>
-				<span className="text-sm font-medium text-[var(--text-secondary)]">
+				<span className="text-sm font-bold text-[var(--accent)]">
 					{data.flavors.length} Sorten
 				</span>
 			</div>
@@ -99,7 +98,7 @@ function LocationSection({ data }: { data: LocationData }) {
 				))}
 			</div>
 			{data.flavors.length === 0 && (
-				<p className="text-center text-[var(--text-secondary)] py-8">
+				<p className="text-center text-white/80 py-8 text-lg font-bold">
 					Keine Sorten verfügbar.
 				</p>
 			)}
@@ -113,10 +112,13 @@ function HomePage() {
 	return (
 		<main className="page-wrap px-4 pb-12 pt-6">
 			<div className="mb-6 text-center">
-				<h1 className="text-3xl font-bold text-[var(--text-primary)] sm:text-4xl">
+				<h1
+					className="text-4xl font-extrabold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.15)] sm:text-5xl"
+					style={{ fontFamily: "var(--font-display)" }}
+				>
 					Heutige Eissorten
 				</h1>
-				<p className="mt-2 text-[var(--text-secondary)]">
+				<p className="mt-2 font-bold text-white/80">
 					Automatisch von Instagram Stories abgelesen
 				</p>
 			</div>
