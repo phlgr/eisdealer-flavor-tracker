@@ -137,9 +137,7 @@ export function archiveDailySnapshot(): void {
 		history.push(entry);
 	}
 
-	// Keep last 90 days
-	const trimmed = history.slice(-90);
-	writeJson(HISTORY_PATH, trimmed);
+	writeJson(HISTORY_PATH, history);
 
 	// Also write a daily snapshot file
 	if (!existsSync(HISTORY_DIR)) {
