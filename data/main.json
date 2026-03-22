@@ -1,9 +1,9 @@
 {
   "location": "main",
-  "lastUpdated": "2026-03-22T12:49:22.679Z",
+  "lastUpdated": "2026-03-22T12:56:17.027Z",
   "flavors": [
     {
-      "name": "SCHOKOMOUSSE (V)",
+      "name": "Schokomousse",
       "tags": [
         "vegan"
       ],
@@ -11,7 +11,7 @@
       "nameEnglish": "Chocolate Mousse"
     },
     {
-      "name": "WALDFRUCHT (V)",
+      "name": "Waldfrucht",
       "tags": [
         "vegan",
         "sorbet"
@@ -20,7 +20,7 @@
       "nameEnglish": "Forest Fruit"
     },
     {
-      "name": "ERDBEERE (V)",
+      "name": "Erdbeere",
       "tags": [
         "vegan",
         "sorbet"
@@ -29,7 +29,7 @@
       "nameEnglish": "Strawberry"
     },
     {
-      "name": "LIMETTE MINZE (V)",
+      "name": "Limette Minze",
       "tags": [
         "vegan",
         "sorbet"
@@ -38,7 +38,7 @@
       "nameEnglish": "Lime Mint"
     },
     {
-      "name": "MANGO (V)",
+      "name": "Mango",
       "tags": [
         "vegan",
         "sorbet"
@@ -47,7 +47,7 @@
       "nameEnglish": "Mango"
     },
     {
-      "name": "ZITRONE (V)",
+      "name": "Zitrone",
       "tags": [
         "vegan",
         "sorbet"
@@ -56,7 +56,7 @@
       "nameEnglish": "Lemon"
     },
     {
-      "name": "MANGO LASSI",
+      "name": "Mango Lassi",
       "tags": [
         "contains_dairy"
       ],
@@ -64,7 +64,7 @@
       "nameEnglish": "Mango Lassi"
     },
     {
-      "name": "STRAWBERRY CHEESECAKE",
+      "name": "Strawberry Cheesecake",
       "tags": [
         "contains_dairy"
       ],
@@ -72,7 +72,7 @@
       "nameEnglish": "Strawberry Cheesecake"
     },
     {
-      "name": "OMAS APFELKUCHEN",
+      "name": "Omas Apfelkuchen",
       "tags": [
         "contains_dairy"
       ],
@@ -80,7 +80,7 @@
       "nameEnglish": "Grandma's Apple Pie"
     },
     {
-      "name": "LOTUS CHEESECAKE",
+      "name": "Lotus Cheesecake",
       "tags": [
         "contains_dairy"
       ],
@@ -88,7 +88,7 @@
       "nameEnglish": "Lotus Cheesecake"
     },
     {
-      "name": "VANILLE",
+      "name": "Vanille",
       "tags": [
         "contains_dairy"
       ],
@@ -96,7 +96,7 @@
       "nameEnglish": "Vanilla"
     },
     {
-      "name": "JOGHURT LEMON",
+      "name": "Joghurt Lemon",
       "tags": [
         "contains_dairy"
       ],
@@ -104,15 +104,7 @@
       "nameEnglish": "Yogurt Lemon"
     },
     {
-      "name": "SCHOKOMOUSSE",
-      "tags": [
-        "vegan"
-      ],
-      "available": true,
-      "nameEnglish": "Chocolate Mousse"
-    },
-    {
-      "name": "CASSIS",
+      "name": "Cassis",
       "tags": [
         "vegan",
         "sorbet"
@@ -121,34 +113,7 @@
       "nameEnglish": "Blackcurrant"
     },
     {
-      "name": "ERDBEERE",
-      "tags": [
-        "vegan",
-        "sorbet"
-      ],
-      "available": true,
-      "nameEnglish": "Strawberry"
-    },
-    {
-      "name": "LIMETTE MINZE",
-      "tags": [
-        "vegan",
-        "sorbet"
-      ],
-      "available": true,
-      "nameEnglish": "Lime Mint"
-    },
-    {
-      "name": "MANGO",
-      "tags": [
-        "vegan",
-        "sorbet"
-      ],
-      "available": true,
-      "nameEnglish": "Mango"
-    },
-    {
-      "name": "OREO",
+      "name": "Oreo",
       "tags": [
         "vegan"
       ],
@@ -156,15 +121,7 @@
       "nameEnglish": "Oreo"
     },
     {
-      "name": "STRAWBERRY CHEESECAK",
-      "tags": [
-        "contains_dairy"
-      ],
-      "available": true,
-      "nameEnglish": "Strawberry Cheesecake"
-    },
-    {
-      "name": "ERDBEER TIRAMISU",
+      "name": "Erdbeer Tiramisu",
       "tags": [
         "contains_dairy"
       ],

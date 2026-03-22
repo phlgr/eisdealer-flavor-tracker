@@ -1,6 +1,6 @@
 {
   "location": "buga",
-  "lastUpdated": "2026-03-22T12:49:22.681Z",
+  "lastUpdated": "2026-03-22T12:56:17.030Z",
   "flavors": [
     {
       "name": "Vanille",
@@ -11,7 +11,7 @@
       "nameEnglish": "Vanilla"
     },
     {
-      "name": "Schokomousse (v)",
+      "name": "Schokomousse",
       "tags": [
         "vegan"
       ],
@@ -35,7 +35,7 @@
       "nameEnglish": "Buttermilk Mango"
     },
     {
-      "name": "Pfirsich-Maracuja (v)",
+      "name": "Pfirsich-Maracuja",
       "tags": [
         "vegan",
         "sorbet"
@@ -44,7 +44,7 @@
       "nameEnglish": "Peach Passion Fruit"
     },
     {
-      "name": "Erdbeere (v)",
+      "name": "Erdbeere",
       "tags": [
         "vegan",
         "sorbet"
@@ -53,7 +53,7 @@
       "nameEnglish": "Strawberry"
     },
     {
-      "name": "Limette Minze (v)",
+      "name": "Limette Minze",
       "tags": [
         "vegan",
         "sorbet"
