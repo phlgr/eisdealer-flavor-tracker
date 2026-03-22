@@ -5,13 +5,11 @@ import type { ScrapedImage } from "./types.js";
 const VIEWER_SITES = [
 	{
 		name: "storysaver.net",
-		url: "https://storysaver.net",
 		scrape: scrapeStorySaver,
 	},
 	{
-		name: "igram.world",
-		url: "https://igram.world",
-		scrape: scrapeIgramWorld,
+		name: "storiesig.info",
+		scrape: scrapeStoriesig,
 	},
 ];
 
@@ -42,7 +40,7 @@ export async function scrapeStoryImages(
 					}
 
 					console.log(`[scrape] No images found on ${site.name}`);
-					break; // No images but no error — try next site
+					break;
 				} catch (err) {
 					console.error(
 						`[scrape] ${site.name} attempt ${attempt + 1} failed:`,
@@ -68,42 +66,46 @@ async function scrapeStorySaver(
 ): Promise<ScrapedImage[]> {
 	await page.goto("https://storysaver.net", { waitUntil: "domcontentloaded" });
 
-	// Enter username in the search field
-	const input = page.locator('input[type="text"], input[name="username"]').first();
+	// storysaver.net: input[name="text_username"], submit is #StoryButton
+	const input = page.locator('input[name="text_username"]');
 	await input.waitFor({ timeout: 10000 });
 	await input.fill(username);
 
-	// Submit the form
-	await page.locator('button[type="submit"], .search-btn, button:has-text("Download")').first().click();
+	await page.locator("#StoryButton").click();
 
-	// Wait for results to load
+	// Wait for story results to load (AJAX-driven)
 	await page.waitForTimeout(3000);
-	await page.waitForSelector(".story-item, .media-item, .result-item, img[src*='cdninstagram'], img[src*='scontent']", {
-		timeout: 15000,
-	}).catch(() => {
-		console.log("[scrape] No story items found on storysaver.net");
+	await page.waitForSelector(
+		"img[src*='cdninstagram'], img[src*='scontent'], .story-image, .story-item img",
+		{ timeout: 15000 },
+	).catch(() => {
+		console.log("[scrape] No story items appeared on storysaver.net");
 	});
 
 	return await extractImages(page);
 }
 
-async function scrapeIgramWorld(
+async function scrapeStoriesig(
 	page: Page,
 	username: string,
 ): Promise<ScrapedImage[]> {
-	await page.goto("https://igram.world/story", { waitUntil: "domcontentloaded" });
+	await page.goto("https://storiesig.info", { waitUntil: "domcontentloaded" });
 
-	const input = page.locator('input[type="text"], input[name="url"]').first();
+	// storiesig.info: Vue.js app, input is .search-form__input, button is .search-form__button
+	// Wait for Vue app to mount
+	const input = page.locator(".search-form__input");
 	await input.waitFor({ timeout: 10000 });
-	await input.fill(`https://www.instagram.com/stories/${username}/`);
+	await input.fill(username);
 
-	await page.locator('button[type="submit"], .btn-download, button:has-text("Download")').first().click();
+	await page.locator(".search-form__button").click();
 
+	// Wait for results
 	await page.waitForTimeout(3000);
-	await page.waitForSelector(".download-item, .media-item, img[src*='cdninstagram'], img[src*='scontent']", {
-		timeout: 15000,
-	}).catch(() => {
-		console.log("[scrape] No story items found on igram.world");
+	await page.waitForSelector(
+		"img[src*='cdninstagram'], img[src*='scontent'], .search-result img",
+		{ timeout: 15000 },
+	).catch(() => {
+		console.log("[scrape] No story items appeared on storiesig.info");
 	});
 
 	return await extractImages(page);
@@ -112,7 +114,6 @@ async function scrapeIgramWorld(
 async function extractImages(page: Page): Promise<ScrapedImage[]> {
 	const images: ScrapedImage[] = [];
 
-	// Find all potential story image URLs
 	const imageUrls = await page.evaluate(() => {
 		const urls: string[] = [];
 		const seen = new Set<string>();
@@ -145,7 +146,6 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 		return urls;
 	});
 
-	// Filter out video URLs and download images
 	for (const url of imageUrls) {
 		if (isVideoUrl(url)) continue;
 
@@ -153,10 +153,8 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 			const response = await page.request.get(url);
 			const contentType = response.headers()["content-type"] || "";
 
-			// Skip if it's a video
 			if (contentType.startsWith("video/")) continue;
 
-			// Only process images
 			if (contentType.startsWith("image/") || !contentType) {
 				const buffer = Buffer.from(await response.body());
 				// Skip tiny images (likely thumbnails/icons)
