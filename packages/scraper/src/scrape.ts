@@ -7,8 +7,12 @@ import type { ScrapedImage } from "./types.js";
 const DEBUG_DIR = join(import.meta.dir, "../../../debug");
 const MAX_RETRIES = 2;
 
-const USER_AGENT =
-	"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+const USER_AGENTS = [
+	"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+	"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+	"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0",
+	"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15",
+];
 
 export async function scrapeStoryImages(
 	username: string,
@@ -20,13 +24,46 @@ export async function scrapeStoryImages(
 			args: [
 				"--disable-blink-features=AutomationControlled",
 				"--no-sandbox",
+				"--disable-dev-shm-usage",
+				"--disable-gpu",
 			],
 		});
 
+		const userAgent =
+			USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
 		const context = await browser.newContext({
-			userAgent: USER_AGENT,
+			userAgent,
 			viewport: { width: 1280, height: 720 },
 			locale: "de-DE",
+		});
+
+		// Hide webdriver/automation signals
+		await context.addInitScript(() => {
+			Object.defineProperty(navigator, "webdriver", { get: () => false });
+			// @ts-ignore
+			delete navigator.__proto__.webdriver;
+
+			// Fake plugins array
+			Object.defineProperty(navigator, "plugins", {
+				get: () => [1, 2, 3, 4, 5],
+			});
+
+			// Fake languages
+			Object.defineProperty(navigator, "languages", {
+				get: () => ["de-DE", "de", "en-US", "en"],
+			});
+
+			// Override permissions query for notifications
+			const originalQuery = window.Permissions.prototype.query;
+			// @ts-ignore
+			window.Permissions.prototype.query = (parameters: any) =>
+				parameters.name === "notifications"
+					? Promise.resolve({ state: Notification.permission } as PermissionStatus)
+					: originalQuery(parameters);
+
+			// Fake chrome runtime
+			// @ts-ignore
+			window.chrome = { runtime: {} };
 		});
 
 		for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
@@ -98,15 +135,17 @@ async function scrapeIgram(
 		console.log("[scrape] No cookie consent dialog");
 	}
 
-	// Fill in the username
+	// Fill in the username (type slowly to look human)
 	const input = page.locator("#search-form-input");
 	await input.waitFor({ timeout: 15000 });
-	await input.fill(username);
-	await page.waitForTimeout(500);
+	await input.click();
+	await page.waitForTimeout(300 + Math.random() * 500);
+	await input.pressSequentially(username, { delay: 50 + Math.random() * 80 });
+	await page.waitForTimeout(500 + Math.random() * 500);
 
 	// Submit
 	await page.locator('button.search-form__button[type="submit"]').click();
-	await page.waitForTimeout(1000);
+	await page.waitForTimeout(1000 + Math.random() * 1000);
 
 	// Dismiss modal if it appears (cookie/ad popup)
 	try {
@@ -226,6 +265,8 @@ async function debugPage(page: Page, name: string): Promise<void> {
 		mkdirSync(DEBUG_DIR, { recursive: true });
 		const screenshot = await page.screenshot({ fullPage: true });
 		writeFileSync(join(DEBUG_DIR, `${name}.png`), screenshot);
+		const html = await page.content();
+		writeFileSync(join(DEBUG_DIR, `${name}.html`), html);
 		console.log(`[scrape] Debug screenshot saved as ${name}.png`);
 	} catch (err) {
 		console.error(`[scrape] Failed to save debug info: ${err}`);
