@@ -2,34 +2,32 @@
   "date": "2026-03-24",
   "main": [
     {
-      "name": "Salted Caramel",
-      "tags": [],
+      "name": "Schokomousse",
+      "tags": [
+        "vegan"
+      ],
       "available": true,
-      "nameEnglish": "Salted Caramel"
+      "nameEnglish": "Chocolate Mousse"
     },
     {
-      "name": "Cheesecake",
+      "name": "Vanille",
       "tags": [],
       "available": true,
-      "nameEnglish": "Cheesecake"
+      "nameEnglish": "Vanilla"
     },
     {
-      "name": "Granatapfel",
-      "tags": [],
+      "name": "Pfirsich-Maracuja",
+      "tags": [
+        "vegan"
+      ],
       "available": true,
-      "nameEnglish": "Pomegranate"
+      "nameEnglish": "Peach Passion Fruit"
     },
     {
-      "name": "Schokostrudel",
+      "name": "White-Choc-Himbeere",
       "tags": [],
       "available": true,
-      "nameEnglish": "Chocolate Swirl"
-    },
-    {
-      "name": "Erdbeer-Brownie",
-      "tags": [],
-      "available": true,
-      "nameEnglish": "Strawberry Brownie"
+      "nameEnglish": "White Choc Raspberry"
     },
     {
       "name": "Pistazie",
@@ -38,52 +36,52 @@
       "nameEnglish": "Pistachio"
     },
     {
-      "name": "Gebrannte Mandel",
+      "name": "Buttermilch Mango",
       "tags": [],
       "available": true,
-      "nameEnglish": "Roasted Almonds"
+      "nameEnglish": "Buttermilk Mango"
+    },
+    {
+      "name": "Haselnuss Crunch",
+      "tags": [],
+      "available": true,
+      "nameEnglish": "Hazelnut Crunch"
+    },
+    {
+      "name": "Pekannuss Karamell",
+      "tags": [],
+      "available": true,
+      "nameEnglish": "Pecan Caramel"
     },
     {
       "name": "Mango",
-      "tags": [],
+      "tags": [
+        "vegan"
+      ],
       "available": true,
       "nameEnglish": "Mango"
     },
     {
-      "name": "Karottenkuchen",
-      "tags": [],
+      "name": "Vanille-Dattel",
+      "tags": [
+        "vegan"
+      ],
       "available": true,
-      "nameEnglish": "Carrot Cake"
+      "nameEnglish": "Vanilla Date"
     },
     {
-      "name": "Lotus Zimtschnecke",
+      "name": "Stracciatella",
       "tags": [],
       "available": true,
-      "nameEnglish": "Lotus Cinnamon Roll"
+      "nameEnglish": "Stracciatella"
     },
     {
-      "name": "Pistazien Cheesecake",
-      "tags": [],
+      "name": "Cassis",
+      "tags": [
+        "vegan"
+      ],
       "available": true,
-      "nameEnglish": "Pistachio Cheesecake"
-    },
-    {
-      "name": "Brownie-Bretzel-Erdnussbutter",
-      "tags": [],
-      "available": true,
-      "nameEnglish": "Brownie-Pretzel-Peanut Butter"
-    },
-    {
-      "name": "Lemon Biscuit",
-      "tags": [],
-      "available": true,
-      "nameEnglish": "Lemon Biscuit"
-    },
-    {
-      "name": "Limoncello",
-      "tags": [],
-      "available": true,
-      "nameEnglish": "Limoncello"
+      "nameEnglish": "Blackcurrant"
     }
   ],
   "buga": [
