@@ -1,7 +1,6 @@
 {
-  "location": "main",
-  "lastUpdated": "2026-03-24T05:01:09.716Z",
-  "flavors": [
+  "date": "2026-03-24",
+  "main": [
     {
       "name": "Salted Caramel",
       "tags": [],
@@ -85,6 +84,75 @@
       "tags": [],
       "available": true,
       "nameEnglish": "Limoncello"
+    }
+  ],
+  "buga": [
+    {
+      "name": "Vanille",
+      "tags": [
+        "contains_dairy"
+      ],
+      "available": true,
+      "nameEnglish": "Vanilla"
+    },
+    {
+      "name": "Schokomousse",
+      "tags": [
+        "vegan"
+      ],
+      "available": true,
+      "nameEnglish": "Chocolate mousse"
+    },
+    {
+      "name": "Erdbeer-Tiramisu",
+      "tags": [
+        "contains_dairy"
+      ],
+      "available": true,
+      "nameEnglish": "Strawberry Tiramisu"
+    },
+    {
+      "name": "Buttermilch-Mango",
+      "tags": [
+        "contains_dairy"
+      ],
+      "available": true,
+      "nameEnglish": "Buttermilk Mango"
+    },
+    {
+      "name": "Pfirsich-Maracuja",
+      "tags": [
+        "vegan",
+        "sorbet"
+      ],
+      "available": true,
+      "nameEnglish": "Peach Passion Fruit"
+    },
+    {
+      "name": "Erdbeere",
+      "tags": [
+        "vegan",
+        "sorbet"
+      ],
+      "available": true,
+      "nameEnglish": "Strawberry"
+    },
+    {
+      "name": "Limette Minze",
+      "tags": [
+        "vegan",
+        "sorbet"
+      ],
+      "available": true,
+      "nameEnglish": "Lime Mint"
+    },
+    {
+      "name": "Strawberry Cheesecake",
+      "tags": [
+        "contains_dairy"
+      ],
+      "available": true,
+      "nameEnglish": "Strawberry Cheesecake"
     }
   ]
 }

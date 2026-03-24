@@ -310,5 +310,163 @@
         "nameEnglish": "Strawberry Cheesecake"
       }
     ]
+  },
+  {
+    "date": "2026-03-24",
+    "main": [
+      {
+        "name": "Salted Caramel",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Salted Caramel"
+      },
+      {
+        "name": "Cheesecake",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Cheesecake"
+      },
+      {
+        "name": "Granatapfel",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Pomegranate"
+      },
+      {
+        "name": "Schokostrudel",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Chocolate Swirl"
+      },
+      {
+        "name": "Erdbeer-Brownie",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Strawberry Brownie"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Gebrannte Mandel",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Roasted Almonds"
+      },
+      {
+        "name": "Mango",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Karottenkuchen",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Carrot Cake"
+      },
+      {
+        "name": "Lotus Zimtschnecke",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Lotus Cinnamon Roll"
+      },
+      {
+        "name": "Pistazien Cheesecake",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Pistachio Cheesecake"
+      },
+      {
+        "name": "Brownie-Bretzel-Erdnussbutter",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Brownie-Pretzel-Peanut Butter"
+      },
+      {
+        "name": "Lemon Biscuit",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Lemon Biscuit"
+      },
+      {
+        "name": "Limoncello",
+        "tags": [],
+        "available": true,
+        "nameEnglish": "Limoncello"
+      }
+    ],
+    "buga": [
+      {
+        "name": "Vanille",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "available": true,
+        "nameEnglish": "Chocolate mousse"
+      },
+      {
+        "name": "Erdbeer-Tiramisu",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Strawberry Tiramisu"
+      },
+      {
+        "name": "Buttermilch-Mango",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Buttermilk Mango"
+      },
+      {
+        "name": "Pfirsich-Maracuja",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Peach Passion Fruit"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "available": true,
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "contains_dairy"
+        ],
+        "available": true,
+        "nameEnglish": "Strawberry Cheesecake"
+      }
+    ]
   }
 ]
