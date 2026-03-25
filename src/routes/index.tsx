@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
-import _currentData from "../../data/current.json";
 import { useState } from "react";
 import type { CurrentData, IceCreamFlavor, LocationState } from "#/types";
+import _currentData from "../../data/current.json";
 
 const currentData: CurrentData = _currentData as CurrentData;
 
@@ -68,9 +68,7 @@ function LocationSection({ data }: { data: LocationState | undefined }) {
 						Aktualisiert: {formatDate(data.lastUpdated)}
 					</p>
 					{data.openUntil && (
-						<span className="open-until-badge">
-							Bis {data.openUntil} Uhr
-						</span>
+						<span className="open-until-badge">Bis {data.openUntil} Uhr</span>
 					)}
 				</div>
 			)}

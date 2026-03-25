@@ -4,10 +4,7 @@ export default function Header() {
 	return (
 		<header className="sticky top-0 z-50 border-b-3 border-black bg-white px-4">
 			<nav className="page-wrap flex items-center justify-between py-3">
-				<Link
-					to="/"
-					className="flex items-center gap-2 no-underline"
-				>
+				<Link to="/" className="flex items-center gap-2 no-underline">
 					<span className="text-3xl">🍦</span>
 					<span className="text-xl font-bold tracking-tight text-black">
 						EISDEALER

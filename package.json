@@ -10,7 +10,10 @@
     "dev": "vite dev --port 3000",
     "build": "vite build",
     "preview": "vite preview",
-    "scrape": "bun run packages/scraper/src/index.ts"
+    "scrape": "bun run packages/scraper/src/index.ts",
+    "lint": "biome check",
+    "lint:fix": "biome check --write",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p packages/scraper/tsconfig.json"
   },
   "dependencies": {
     "@fontsource/space-grotesk": "^5.2.10",

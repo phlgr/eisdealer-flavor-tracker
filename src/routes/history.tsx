@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import type { HistoryEntry } from "#/types";
 
 export const Route = createFileRoute("/history")({ component: HistoryPage });
@@ -10,7 +10,7 @@ type DayGroup = {
 };
 
 function formatDate(dateStr: string): string {
-	return new Date(dateStr + "T12:00:00").toLocaleDateString("de-DE", {
+	return new Date(`${dateStr}T12:00:00`).toLocaleDateString("de-DE", {
 		weekday: "long",
 		day: "numeric",
 		month: "long",
@@ -46,7 +46,7 @@ function HistoryPage() {
 	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
-		fetch(import.meta.env.BASE_URL + "data/history.json")
+		fetch(`${import.meta.env.BASE_URL}data/history.json`)
 			.then((r) => r.json())
 			.then((data: HistoryEntry[]) => {
 				setDays(groupByDate(data));

@@ -1,7 +1,7 @@
-import { chromium, type Browser, type Page } from "playwright";
 import { createHash } from "node:crypto";
-import { writeFileSync, mkdirSync } from "node:fs";
+import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { type Browser, chromium, type Page } from "playwright";
 import type { ScrapedImage } from "./types.js";
 
 const DEBUG_DIR = join(import.meta.dir, "../../../debug");
@@ -40,7 +40,7 @@ export async function scrapeStoryImages(
 		// Hide webdriver/automation signals
 		await context.addInitScript(() => {
 			Object.defineProperty(navigator, "webdriver", { get: () => false });
-			// @ts-ignore
+			// @ts-expect-error
 			delete navigator.__proto__.webdriver;
 
 			// Fake plugins array
@@ -55,14 +55,17 @@ export async function scrapeStoryImages(
 
 			// Override permissions query for notifications
 			const originalQuery = window.Permissions.prototype.query;
-			// @ts-ignore
-			window.Permissions.prototype.query = (parameters: any) =>
+			window.Permissions.prototype.query = (
+				parameters: PermissionDescriptor,
+			) =>
 				parameters.name === "notifications"
-					? Promise.resolve({ state: Notification.permission } as PermissionStatus)
+					? Promise.resolve({
+							state: Notification.permission,
+						} as PermissionStatus)
 					: originalQuery(parameters);
 
 			// Fake chrome runtime
-			// @ts-ignore
+			// @ts-expect-error
 			window.chrome = { runtime: {} };
 		});
 
@@ -91,7 +94,9 @@ export async function scrapeStoryImages(
 					err instanceof Error ? err.message : err,
 				);
 				if (page) await debugPage(page, `igram-error-${attempt + 1}`);
-				try { await page?.close(); } catch {}
+				try {
+					await page?.close();
+				} catch {}
 				if (attempt === MAX_RETRIES) {
 					console.log("[scrape] All retries exhausted");
 				}
@@ -126,7 +131,9 @@ async function scrapeIgram(
 
 	// Dismiss cookie consent dialog if present
 	try {
-		const consent = page.locator('.fc-cta-consent, .fc-button-consent, button[aria-label="Consent"]');
+		const consent = page.locator(
+			'.fc-cta-consent, .fc-button-consent, button[aria-label="Consent"]',
+		);
 		await consent.first().waitFor({ timeout: 5000 });
 		await consent.first().click();
 		await page.waitForTimeout(1000);
@@ -149,7 +156,7 @@ async function scrapeIgram(
 
 	// Dismiss modal if it appears (cookie/ad popup)
 	try {
-		const modal = page.locator('button.modal__btn[data-micromodal-close]');
+		const modal = page.locator("button.modal__btn[data-micromodal-close]");
 		await modal.waitFor({ timeout: 5000 });
 		await modal.click();
 	} catch {
@@ -179,12 +186,7 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 		const seen = new Set<string>();
 
 		function addUrl(url: string) {
-			if (
-				url &&
-				url.startsWith("http") &&
-				!seen.has(url) &&
-				!isVideo(url)
-			) {
+			if (url?.startsWith("http") && !seen.has(url) && !isVideo(url)) {
 				seen.add(url);
 				urls.push(url);
 			}
@@ -241,14 +243,18 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 			if (contentType.startsWith("image/") || !contentType) {
 				const buffer = Buffer.from(await response.body());
 				if (buffer.length < 5000) {
-					console.log(`[scrape] Skipped tiny image (${buffer.length} bytes): ${url.substring(0, 80)}...`);
+					console.log(
+						`[scrape] Skipped tiny image (${buffer.length} bytes): ${url.substring(0, 80)}...`,
+					);
 					continue;
 				}
 
 				const hash = createHash("sha256").update(buffer).digest("hex");
 				images.push({ buffer, hash });
 			} else {
-				console.log(`[scrape] Skipped non-image (${contentType}): ${url.substring(0, 80)}...`);
+				console.log(
+					`[scrape] Skipped non-image (${contentType}): ${url.substring(0, 80)}...`,
+				);
 			}
 		} catch {
 			// Skip URLs that fail (redirects, broken links, etc.)

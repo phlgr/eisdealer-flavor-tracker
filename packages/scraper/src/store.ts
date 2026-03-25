@@ -1,12 +1,11 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type {
-	IceCreamFlavor,
 	CurrentData,
-	StoryAnalysis,
 	HistoryEntry,
+	IceCreamFlavor,
 	LocationState,
-	HistoryLocationEntry,
+	StoryAnalysis,
 } from "./types.js";
 
 const DATA_DIR = join(import.meta.dir, "../../../data");
@@ -24,7 +23,7 @@ function readJson<T>(path: string, fallback: T): T {
 }
 
 function writeJson(path: string, data: unknown): void {
-	writeFileSync(path, JSON.stringify(data, null, 2) + "\n");
+	writeFileSync(path, `${JSON.stringify(data, null, 2)}\n`);
 }
 
 // --- Hash dedup ---
@@ -77,16 +76,12 @@ export function buildLocationUpdate(
 	const flavorMap = new Map<string, IceCreamFlavor>();
 	for (const analysis of flavorAnalyses) {
 		for (const flavor of analysis.flavors) {
-			const cleanName = flavor.name
-				.replace(/\s*\(v(egan)?\)\s*/gi, "")
-				.trim();
+			const cleanName = flavor.name.replace(/\s*\(v(egan)?\)\s*/gi, "").trim();
 			const key = cleanName.toLowerCase();
 
 			const existing = flavorMap.get(key);
 			if (existing) {
-				const mergedTags = [
-					...new Set([...existing.tags, ...flavor.tags]),
-				];
+				const mergedTags = [...new Set([...existing.tags, ...flavor.tags])];
 				flavorMap.set(key, {
 					...existing,
 					tags: mergedTags as IceCreamFlavor["tags"],

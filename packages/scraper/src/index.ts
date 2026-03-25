@@ -1,15 +1,15 @@
-import { scrapeStoryImages } from "./scrape.js";
 import { analyzeStoryImage } from "./analyze.js";
+import { scrapeStoryImages } from "./scrape.js";
 import {
-	loadSeenHashes,
-	saveSeenHashes,
-	filterNewImages,
-	buildLocationUpdate,
-	loadCurrentData,
-	saveCurrentData,
 	appendHistoryEntry,
+	buildLocationUpdate,
+	filterNewImages,
+	loadCurrentData,
+	loadSeenHashes,
+	saveCurrentData,
+	saveSeenHashes,
 } from "./store.js";
-import type { StoryAnalysis, HistoryEntry } from "./types.js";
+import type { HistoryEntry, StoryAnalysis } from "./types.js";
 
 function getUsername(): string {
 	const env = process.env.INSTAGRAM_USERNAME || "";
@@ -60,7 +60,9 @@ async function main() {
 	saveSeenHashes(allHashes);
 
 	// Step 5: Build updates for each location
-	const mainAnalyses = analyses.filter((a) => !a.location || a.location === "main");
+	const mainAnalyses = analyses.filter(
+		(a) => !a.location || a.location === "main",
+	);
 	const bugaAnalyses = analyses.filter((a) => a.location === "buga");
 
 	const mainUpdate = buildLocationUpdate("main", mainAnalyses);

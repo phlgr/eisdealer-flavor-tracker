@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { type } from "arktype";
-import { StoryAnalysis, geminiResponseSchema } from "./types.js";
 import type { StoryAnalysis as StoryAnalysisType } from "./types.js";
+import { geminiResponseSchema, StoryAnalysis } from "./types.js";
 
 const GEMINI_MODEL = "gemini-3-flash-preview";
 const PROMPT = `You are analyzing an Instagram Story image from a German ice cream shop (Eisdiele).
