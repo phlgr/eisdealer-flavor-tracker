@@ -167,11 +167,25 @@ async function scrapeIgram(
 	await page.waitForTimeout(5000);
 
 	// Click the "stories" tab — abort if not found to avoid scraping posts
+	// Note: igram.world's "tz-landing-exp" layout hides tabs via CSS, but
+	// the underlying Vue components still work, so we force-click the hidden tab.
 	const storiesTab = page.locator(
 		'ul.tabs-component li.tabs-component__item:has(button:has-text("stories")) button.tabs-component__button',
 	);
-	await storiesTab.waitFor({ timeout: 10000 });
-	await storiesTab.click();
+
+	try {
+		await storiesTab.waitFor({ state: "attached", timeout: 10000 });
+	} catch {
+		const availableTabs = await page
+			.locator("ul.tabs-component .tabs-component__button")
+			.allTextContents();
+		console.log(
+			`[scrape] No stories tab found. Available tabs: ${availableTabs.join(", ") || "none"}`,
+		);
+		return [];
+	}
+
+	await storiesTab.click({ force: true });
 	await page.waitForTimeout(2000);
 
 	return await extractImages(page);
