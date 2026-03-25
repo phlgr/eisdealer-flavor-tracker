@@ -1,11 +1,16 @@
 import { GoogleGenAI } from "@google/genai";
 import { type } from "arktype";
-import { StoryAnalysis } from "./types.js";
+import { StoryAnalysis, geminiResponseSchema } from "./types.js";
 import type { StoryAnalysis as StoryAnalysisType } from "./types.js";
+
 const GEMINI_MODEL = "gemini-3-flash-preview";
 const PROMPT = `You are analyzing an Instagram Story image from a German ice cream shop (Eisdiele).
 Your task:
-1. Determine if this image shows a list/menu of ice cream flavors. If it does NOT (e.g., it's a promo, event, selfie, or unrelated), set isFlavorList to false and return empty flavors.
+1. Determine if this image shows a list/menu of today's ice cream flavors. It must match one of these two formats:
+   - MAIN location: A sign/board with the heading "Frisch aus unserer Manufaktur:" followed by a list of flavors.
+   - BUGA location: A black chalkboard standing on the ground (freestanding/easel-style) listing flavors.
+   If the image does NOT match either format, set isFlavorList to false and return empty flavors.
+   Specifically, set isFlavorList to false for: Instagram polls, promotional posts, events, selfies, vote/question stickers, or any other content that is not a flavor menu in one of the two formats above.
 2. If it IS a flavor list, extract every flavor name visible.
 3. For each flavor, provide:
    - name: The clean flavor name WITHOUT any markers like "(V)", "(v)", "(vegan)" etc. Strip those and use the tag instead. Use title case (e.g., "Schokomousse" not "SCHOKOMOUSSE").
@@ -14,56 +19,17 @@ Your task:
      - "vegan": ONLY if the flavor has a visible "(V)", "(v)", leaf symbol, or "vegan" marker next to it
      - "milk": ONLY if the flavor has a visible cow symbol, milk icon, or similar dairy marker next to it
      - If no marker is visible next to the flavor, leave tags empty.
-   - available: true (assume available unless clearly marked otherwise)
 4. Set confidence to "high" if the text is clear, "medium" if partially obscured, "low" if very hard to read.
-5. Determine the location:
-   - If the image mentions "Bunter Garten", "BuGa", or similar → set location to "buga"
-   - Otherwise assume it's the main location → set location to "main"
-   - Generic text like "Wir sind für euch da" or opening hours WITHOUT mentioning BuGa = main location
+5. Determine the location based on which format matched:
+   - If the image shows a freestanding black chalkboard, or mentions "Bunter Garten", "BuGa", or similar → set location to "buga"
+   - If the image shows the "Frisch aus unserer Manufaktur:" sign → set location to "main"
+   - If unsure, default to "main"
 6. If the image mentions opening hours or closing time (e.g., "bis 20 Uhr", "bis 21:00", "wir sind bis X Uhr da"), extract it as openUntil in HH:MM format (e.g., "20:00"). Only set this if a time is clearly visible.
 
 IMPORTANT:
 - Do NOT include vegan/dietary markers like "(V)" or "(v)" in the flavor name. Use the tags array instead.
-- Do NOT infer or guess tags. Only add "vegan" or "milk" if there is a visible symbol/marker in the image.`;
-const JSON_SCHEMA = {
-	type: "object" as const,
-	properties: {
-		flavors: {
-			type: "array" as const,
-			items: {
-				type: "object" as const,
-				properties: {
-					name: { type: "string" as const },
-					nameEnglish: { type: "string" as const },
-					tags: {
-						type: "array" as const,
-						items: {
-							type: "string" as const,
-							enum: ["vegan", "milk"],
-						},
-					},
-					available: { type: "boolean" as const },
-				},
-				required: ["name", "tags", "available"],
-			},
-		},
-		rawText: { type: "string" as const },
-		confidence: {
-			type: "string" as const,
-			enum: ["high", "medium", "low"],
-		},
-		isFlavorList: { type: "boolean" as const },
-		location: {
-			type: "string" as const,
-			enum: ["main", "buga"],
-		},
-		openUntil: {
-			type: "string" as const,
-			description: "Closing time in HH:MM format, e.g. 20:00",
-		},
-	},
-	required: ["flavors", "confidence", "isFlavorList"],
-};
+- Do NOT infer or guess tags. Only add "vegan" or "milk" if there is a visible symbol/marker in the image.
+- Instagram polls (e.g., "Which flavor should we bring back?") are NOT flavor lists. Always set isFlavorList to false for polls.`;
 
 export async function analyzeStoryImage(
 	imageBuffer: Buffer,
@@ -93,7 +59,7 @@ export async function analyzeStoryImage(
 			],
 			config: {
 				responseMimeType: "application/json",
-				responseSchema: JSON_SCHEMA,
+				responseSchema: geminiResponseSchema,
 			},
 		});
 		const text = response.text;
@@ -103,7 +69,6 @@ export async function analyzeStoryImage(
 		}
 		console.log("[analyze] Raw response:", text);
 		const parsed = JSON.parse(text);
-		// Validate with ArkType
 		const result = StoryAnalysis(parsed);
 		if (result instanceof type.errors) {
 			console.error("[analyze] Validation failed:", result.summary);
