@@ -1,470 +1,71 @@
 [
   {
-    "date": "2026-03-22",
-    "main": [
-      {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Chocolate mousse"
-      },
-      {
-        "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Blackcurrant"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Lime mint"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Mango Lassi",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Mango lassi"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Strawberry cheesecake"
-      },
-      {
-        "name": "Omas Appelkuchen",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Grandma's apple cake"
-      },
-      {
-        "name": "Erdbeer Tiramisu",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Strawberry tiramisu"
-      },
-      {
-        "name": "Vanille",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Joghurt Lemon",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Yogurt lemon"
-      }
-    ],
-    "buga": [
-      {
-        "name": "Vanille",
-        "tags": [
-          "contains_dairy"
-        ],
-        "available": true,
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Chocolate mousse"
-      },
-      {
-        "name": "Erdbeer-Tiramisu",
-        "tags": [
-          "contains_dairy"
-        ],
-        "available": true,
-        "nameEnglish": "Strawberry Tiramisu"
-      },
-      {
-        "name": "Buttermilch-Mango",
-        "tags": [
-          "contains_dairy"
-        ],
-        "available": true,
-        "nameEnglish": "Buttermilk Mango"
-      },
-      {
-        "name": "Pfirsich-Maracuja",
-        "tags": [
-          "vegan",
-          "sorbet"
-        ],
-        "available": true,
-        "nameEnglish": "Peach Passion Fruit"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan",
-          "sorbet"
-        ],
-        "available": true,
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan",
-          "sorbet"
-        ],
-        "available": true,
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "contains_dairy"
-        ],
-        "available": true,
-        "nameEnglish": "Strawberry Cheesecake"
-      }
-    ]
+    "timestamp": "2026-03-22T18:07:08.991Z",
+    "main": {
+      "flavors": [
+        { "name": "Schokomousse", "tags": ["vegan"], "nameEnglish": "Chocolate mousse" },
+        { "name": "Cassis", "tags": ["vegan"], "nameEnglish": "Blackcurrant" },
+        { "name": "Erdbeere", "tags": ["vegan"], "nameEnglish": "Strawberry" },
+        { "name": "Limette Minze", "tags": ["vegan"], "nameEnglish": "Lime mint" },
+        { "name": "Mango", "tags": ["vegan"], "nameEnglish": "Mango" },
+        { "name": "Oreo", "tags": ["vegan"], "nameEnglish": "Oreo" },
+        { "name": "Mango Lassi", "tags": [], "nameEnglish": "Mango lassi" },
+        { "name": "Strawberry Cheesecake", "tags": [], "nameEnglish": "Strawberry cheesecake" },
+        { "name": "Omas Appelkuchen", "tags": [], "nameEnglish": "Grandma's apple cake" },
+        { "name": "Erdbeer Tiramisu", "tags": [], "nameEnglish": "Strawberry tiramisu" },
+        { "name": "Vanille", "tags": [], "nameEnglish": "Vanilla" },
+        { "name": "Joghurt Lemon", "tags": [], "nameEnglish": "Yogurt lemon" }
+      ],
+      "openUntil": "18:00"
+    },
+    "buga": {
+      "flavors": [
+        { "name": "Vanille", "tags": ["contains_dairy"], "nameEnglish": "Vanilla" },
+        { "name": "Schokomousse", "tags": ["vegan"], "nameEnglish": "Chocolate mousse" },
+        { "name": "Erdbeer-Tiramisu", "tags": ["contains_dairy"], "nameEnglish": "Strawberry Tiramisu" },
+        { "name": "Buttermilch-Mango", "tags": ["contains_dairy"], "nameEnglish": "Buttermilk Mango" },
+        { "name": "Pfirsich-Maracuja", "tags": ["vegan", "sorbet"], "nameEnglish": "Peach Passion Fruit" },
+        { "name": "Erdbeere", "tags": ["vegan", "sorbet"], "nameEnglish": "Strawberry" },
+        { "name": "Limette Minze", "tags": ["vegan", "sorbet"], "nameEnglish": "Lime Mint" },
+        { "name": "Strawberry Cheesecake", "tags": ["contains_dairy"], "nameEnglish": "Strawberry Cheesecake" }
+      ]
+    }
   },
   {
-    "date": "2026-03-23",
-    "main": [
-      {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Chocolate mousse"
-      },
-      {
-        "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Blackcurrant"
-      },
-      {
-        "name": "Joghurt Brombeer",
-        "tags": [
-          "milk"
-        ],
-        "available": true,
-        "nameEnglish": "Yogurt blackberry"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Lime mint"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Mango Lassi",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Mango lassi"
-      },
-      {
-        "name": "Vanille - Dattel",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Vanilla - Date"
-      },
-      {
-        "name": "Tonka",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Tonka bean"
-      },
-      {
-        "name": "Haselnusscrunch",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Hazelnut crunch"
-      },
-      {
-        "name": "Vanille",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Vanilla"
-      }
-    ],
-    "buga": [
-      {
-        "name": "Vanille",
-        "tags": [
-          "contains_dairy"
-        ],
-        "available": true,
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Chocolate mousse"
-      },
-      {
-        "name": "Erdbeer-Tiramisu",
-        "tags": [
-          "contains_dairy"
-        ],
-        "available": true,
-        "nameEnglish": "Strawberry Tiramisu"
-      },
-      {
-        "name": "Buttermilch-Mango",
-        "tags": [
-          "contains_dairy"
-        ],
-        "available": true,
-        "nameEnglish": "Buttermilk Mango"
-      },
-      {
-        "name": "Pfirsich-Maracuja",
-        "tags": [
-          "vegan",
-          "sorbet"
-        ],
-        "available": true,
-        "nameEnglish": "Peach Passion Fruit"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan",
-          "sorbet"
-        ],
-        "available": true,
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan",
-          "sorbet"
-        ],
-        "available": true,
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "contains_dairy"
-        ],
-        "available": true,
-        "nameEnglish": "Strawberry Cheesecake"
-      }
-    ]
+    "timestamp": "2026-03-23T12:00:00.000Z",
+    "main": {
+      "flavors": [
+        { "name": "Schokomousse", "tags": ["vegan"], "nameEnglish": "Chocolate mousse" },
+        { "name": "Cassis", "tags": ["vegan"], "nameEnglish": "Blackcurrant" },
+        { "name": "Joghurt Brombeer", "tags": ["milk"], "nameEnglish": "Yogurt blackberry" },
+        { "name": "Limette Minze", "tags": ["vegan"], "nameEnglish": "Lime mint" },
+        { "name": "Mango", "tags": ["vegan"], "nameEnglish": "Mango" },
+        { "name": "Oreo", "tags": ["vegan"], "nameEnglish": "Oreo" },
+        { "name": "Mango Lassi", "tags": [], "nameEnglish": "Mango lassi" },
+        { "name": "Vanille - Dattel", "tags": ["vegan"], "nameEnglish": "Vanilla - Date" },
+        { "name": "Tonka", "tags": [], "nameEnglish": "Tonka bean" },
+        { "name": "Haselnusscrunch", "tags": [], "nameEnglish": "Hazelnut crunch" },
+        { "name": "Vanille", "tags": [], "nameEnglish": "Vanilla" }
+      ]
+    }
   },
   {
-    "date": "2026-03-24",
-    "main": [
-      {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Vanille",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Pfirsich-Maracuja",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Peach Passion Fruit"
-      },
-      {
-        "name": "White-Choc-Himbeere",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "White Choc Raspberry"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Buttermilch Mango",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Buttermilk Mango"
-      },
-      {
-        "name": "Haselnuss Crunch",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Hazelnut Crunch"
-      },
-      {
-        "name": "Pekannuss Karamell",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Pecan Caramel"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Vanille-Dattel",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Vanilla Date"
-      },
-      {
-        "name": "Stracciatella",
-        "tags": [],
-        "available": true,
-        "nameEnglish": "Stracciatella"
-      },
-      {
-        "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Blackcurrant"
-      }
-    ],
-    "buga": [
-      {
-        "name": "Vanille",
-        "tags": [
-          "contains_dairy"
-        ],
-        "available": true,
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "available": true,
-        "nameEnglish": "Chocolate mousse"
-      },
-      {
-        "name": "Erdbeer-Tiramisu",
-        "tags": [
-          "contains_dairy"
-        ],
-        "available": true,
-        "nameEnglish": "Strawberry Tiramisu"
-      },
-      {
-        "name": "Buttermilch-Mango",
-        "tags": [
-          "contains_dairy"
-        ],
-        "available": true,
-        "nameEnglish": "Buttermilk Mango"
-      },
-      {
-        "name": "Pfirsich-Maracuja",
-        "tags": [
-          "vegan",
-          "sorbet"
-        ],
-        "available": true,
-        "nameEnglish": "Peach Passion Fruit"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan",
-          "sorbet"
-        ],
-        "available": true,
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan",
-          "sorbet"
-        ],
-        "available": true,
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "contains_dairy"
-        ],
-        "available": true,
-        "nameEnglish": "Strawberry Cheesecake"
-      }
-    ]
+    "timestamp": "2026-03-24T14:30:46.174Z",
+    "main": {
+      "flavors": [
+        { "name": "Schokomousse", "tags": ["vegan"], "nameEnglish": "Chocolate Mousse" },
+        { "name": "Vanille", "tags": [], "nameEnglish": "Vanilla" },
+        { "name": "Pfirsich-Maracuja", "tags": ["vegan"], "nameEnglish": "Peach Passion Fruit" },
+        { "name": "White-Choc-Himbeere", "tags": [], "nameEnglish": "White Choc Raspberry" },
+        { "name": "Pistazie", "tags": [], "nameEnglish": "Pistachio" },
+        { "name": "Buttermilch Mango", "tags": [], "nameEnglish": "Buttermilk Mango" },
+        { "name": "Haselnuss Crunch", "tags": [], "nameEnglish": "Hazelnut Crunch" },
+        { "name": "Pekannuss Karamell", "tags": [], "nameEnglish": "Pecan Caramel" },
+        { "name": "Mango", "tags": ["vegan"], "nameEnglish": "Mango" },
+        { "name": "Vanille-Dattel", "tags": ["vegan"], "nameEnglish": "Vanilla Date" },
+        { "name": "Stracciatella", "tags": [], "nameEnglish": "Stracciatella" },
+        { "name": "Cassis", "tags": ["vegan"], "nameEnglish": "Blackcurrant" }
+      ]
+    }
   }
 ]
