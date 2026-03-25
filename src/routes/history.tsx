@@ -1,19 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
-import historyData from "../../data/history.json";
+import { useState, useEffect } from "react";
+import type { HistoryEntry } from "#/types";
 
 export const Route = createFileRoute("/history")({ component: HistoryPage });
 
-type Flavor = {
-	name: string;
-	nameEnglish?: string;
-	tags: string[];
-	available: boolean;
-};
-
-type HistoryEntry = {
+type DayGroup = {
 	date: string;
-	main?: Flavor[];
-	buga?: Flavor[];
+	entries: HistoryEntry[];
 };
 
 function formatDate(dateStr: string): string {
@@ -25,8 +18,42 @@ function formatDate(dateStr: string): string {
 	});
 }
 
+function formatTime(timestamp: string): string {
+	return new Date(timestamp).toLocaleTimeString("de-DE", {
+		hour: "2-digit",
+		minute: "2-digit",
+	});
+}
+
+function groupByDate(entries: HistoryEntry[]): DayGroup[] {
+	const groups = new Map<string, HistoryEntry[]>();
+	for (const entry of entries) {
+		const date = entry.timestamp.split("T")[0];
+		const group = groups.get(date);
+		if (group) {
+			group.push(entry);
+		} else {
+			groups.set(date, [entry]);
+		}
+	}
+	return Array.from(groups.entries())
+		.map(([date, entries]) => ({ date, entries }))
+		.sort((a, b) => b.date.localeCompare(a.date));
+}
+
 function HistoryPage() {
-	const entries = (historyData as HistoryEntry[]).slice().reverse();
+	const [days, setDays] = useState<DayGroup[]>([]);
+	const [loading, setLoading] = useState(true);
+
+	useEffect(() => {
+		fetch(import.meta.env.BASE_URL + "data/history.json")
+			.then((r) => r.json())
+			.then((data: HistoryEntry[]) => {
+				setDays(groupByDate(data));
+				setLoading(false);
+			})
+			.catch(() => setLoading(false));
+	}, []);
 
 	return (
 		<main className="page-wrap px-4 pb-12 pt-6">
@@ -39,47 +66,59 @@ function HistoryPage() {
 				</p>
 			</div>
 
-			{entries.length === 0 ? (
+			{loading ? (
+				<p className="text-center py-8 text-lg font-bold">Laden...</p>
+			) : days.length === 0 ? (
 				<p className="text-center py-8 text-lg font-bold">
 					Noch kein Verlauf vorhanden.
 				</p>
 			) : (
 				<div className="space-y-6">
-					{entries.map((entry) => (
-						<div key={entry.date} className="history-card">
+					{days.map((day) => (
+						<div key={day.date} className="history-card">
 							<h2 className="text-lg font-bold text-black mb-3 uppercase">
-								{formatDate(entry.date)}
+								{formatDate(day.date)}
 							</h2>
 
-							{entry.main && entry.main.length > 0 && (
-								<div className="mb-3">
-									<h3 className="text-sm font-bold text-[var(--text-secondary)] mb-1.5 uppercase tracking-wide">
-										Hauptfiliale
-									</h3>
-									<div className="flex flex-wrap gap-1.5">
-										{entry.main.map((f) => (
-											<span key={f.name} className="history-flavor-chip">
-												{f.name}
-											</span>
-										))}
-									</div>
-								</div>
-							)}
+							{day.entries.map((entry) => (
+								<div key={entry.timestamp} className="mb-3 last:mb-0">
+									{day.entries.length > 1 && (
+										<p className="text-xs text-[var(--text-secondary)] mb-1.5">
+											{formatTime(entry.timestamp)} Uhr
+										</p>
+									)}
 
-							{entry.buga && entry.buga.length > 0 && (
-								<div>
-									<h3 className="text-sm font-bold text-[var(--text-secondary)] mb-1.5 uppercase tracking-wide">
-										Bunter Garten
-									</h3>
-									<div className="flex flex-wrap gap-1.5">
-										{entry.buga.map((f) => (
-											<span key={f.name} className="history-flavor-chip">
-												{f.name}
-											</span>
-										))}
-									</div>
+									{entry.main && entry.main.flavors.length > 0 && (
+										<div className="mb-2">
+											<h3 className="text-sm font-bold text-[var(--text-secondary)] mb-1.5 uppercase tracking-wide">
+												Hauptfiliale
+											</h3>
+											<div className="flex flex-wrap gap-1.5">
+												{entry.main.flavors.map((f) => (
+													<span key={f.name} className="history-flavor-chip">
+														{f.name}
+													</span>
+												))}
+											</div>
+										</div>
+									)}
+
+									{entry.buga && entry.buga.flavors.length > 0 && (
+										<div>
+											<h3 className="text-sm font-bold text-[var(--text-secondary)] mb-1.5 uppercase tracking-wide">
+												Bunter Garten
+											</h3>
+											<div className="flex flex-wrap gap-1.5">
+												{entry.buga.flavors.map((f) => (
+													<span key={f.name} className="history-flavor-chip">
+														{f.name}
+													</span>
+												))}
+											</div>
+										</div>
+									)}
 								</div>
-							)}
+							))}
 						</div>
 					))}
 				</div>

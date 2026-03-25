@@ -4,10 +4,12 @@ import {
 	loadSeenHashes,
 	saveSeenHashes,
 	filterNewImages,
-	updateLocationFromAnalysis,
-	archiveDailySnapshot,
+	buildLocationUpdate,
+	loadCurrentData,
+	saveCurrentData,
+	appendHistoryEntry,
 } from "./store.js";
-import type { StoryAnalysis } from "./types.js";
+import type { StoryAnalysis, HistoryEntry } from "./types.js";
 
 function getUsername(): string {
 	const env = process.env.INSTAGRAM_USERNAME || "";
@@ -57,19 +59,49 @@ async function main() {
 	const allHashes = [...seenHashes, ...newImages.map((img) => img.hash)];
 	saveSeenHashes(allHashes);
 
-	// Step 5: Sort analyses by AI-detected location and update both
+	// Step 5: Build updates for each location
 	const mainAnalyses = analyses.filter((a) => !a.location || a.location === "main");
 	const bugaAnalyses = analyses.filter((a) => a.location === "buga");
 
-	const mainUpdated = updateLocationFromAnalysis("main", mainAnalyses);
-	const bugaUpdated = updateLocationFromAnalysis("buga", bugaAnalyses);
+	const mainUpdate = buildLocationUpdate("main", mainAnalyses);
+	const bugaUpdate = buildLocationUpdate("buga", bugaAnalyses);
 
-	if (mainUpdated || bugaUpdated) {
-		archiveDailySnapshot();
+	if (mainUpdate || bugaUpdate) {
+		// Update current.json
+		const current = loadCurrentData();
+		if (mainUpdate) current.main = mainUpdate;
+		if (bugaUpdate) current.buga = bugaUpdate;
+		saveCurrentData(current);
+
+		// Append history entry with only updated locations
+		const historyEntry: HistoryEntry = {
+			timestamp: new Date().toISOString(),
+			...(mainUpdate
+				? {
+						main: {
+							flavors: mainUpdate.flavors,
+							...(mainUpdate.openUntil
+								? { openUntil: mainUpdate.openUntil }
+								: {}),
+						},
+					}
+				: {}),
+			...(bugaUpdate
+				? {
+						buga: {
+							flavors: bugaUpdate.flavors,
+							...(bugaUpdate.openUntil
+								? { openUntil: bugaUpdate.openUntil }
+								: {}),
+						},
+					}
+				: {}),
+		};
+		appendHistoryEntry(historyEntry);
 	}
 
 	console.log(
-		`\n[main] Done. main=${mainUpdated ? "updated" : "unchanged"}, buga=${bugaUpdated ? "updated" : "unchanged"}`,
+		`\n[main] Done. main=${mainUpdate ? "updated" : "unchanged"}, buga=${bugaUpdate ? "updated" : "unchanged"}`,
 	);
 }
 

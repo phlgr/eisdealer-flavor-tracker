@@ -6,7 +6,6 @@ export const IceCreamFlavor = type({
 	name: "string",
 	"nameEnglish?": "string",
 	tags: FlavorTag.array(),
-	available: "boolean",
 });
 
 export const StoryAnalysis = type({
@@ -18,23 +17,36 @@ export const StoryAnalysis = type({
 	"openUntil?": "string",
 });
 
-export const LocationData = type({
-	location: "'main' | 'buga'",
+export const LocationState = type({
+	flavors: IceCreamFlavor.array(),
 	lastUpdated: "string",
+	"openUntil?": "string",
+});
+
+export const CurrentData = type({
+	"main?": LocationState,
+	"buga?": LocationState,
+});
+
+export const HistoryLocationEntry = type({
 	flavors: IceCreamFlavor.array(),
 	"openUntil?": "string",
 });
 
 export const HistoryEntry = type({
-	date: "string",
-	"main?": IceCreamFlavor.array(),
-	"buga?": IceCreamFlavor.array(),
+	timestamp: "string",
+	"main?": HistoryLocationEntry,
+	"buga?": HistoryLocationEntry,
 });
+
+export const geminiResponseSchema = StoryAnalysis.toJsonSchema();
 
 export type FlavorTag = typeof FlavorTag.infer;
 export type IceCreamFlavor = typeof IceCreamFlavor.infer;
 export type StoryAnalysis = typeof StoryAnalysis.infer;
-export type LocationData = typeof LocationData.infer;
+export type LocationState = typeof LocationState.infer;
+export type CurrentData = typeof CurrentData.infer;
+export type HistoryLocationEntry = typeof HistoryLocationEntry.infer;
 export type HistoryEntry = typeof HistoryEntry.infer;
 
 export interface ScrapedImage {

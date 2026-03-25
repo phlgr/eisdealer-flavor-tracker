@@ -1,23 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
-import mainData from "../../data/main.json";
-import bugaData from "../../data/buga.json";
+import _currentData from "../../data/current.json";
 import { useState } from "react";
+import type { CurrentData, IceCreamFlavor, LocationState } from "#/types";
+
+const currentData: CurrentData = _currentData as CurrentData;
 
 export const Route = createFileRoute("/")({ component: HomePage });
-
-type Flavor = {
-	name: string;
-	nameEnglish?: string;
-	tags: string[];
-	available: boolean;
-};
-
-type LocationData = {
-	location: string;
-	lastUpdated: string;
-	flavors: Flavor[];
-	openUntil?: string;
-};
 
 const TAG_LABELS: Record<string, { label: string; className: string }> = {
 	vegan: { label: "Vegan", className: "tag-vegan" },
@@ -43,7 +31,7 @@ function formatDate(iso: string): string {
 	});
 }
 
-function FlavorRow({ flavor }: { flavor: Flavor }) {
+function FlavorRow({ flavor }: { flavor: IceCreamFlavor }) {
 	return (
 		<div className="flavor-row">
 			<span className="nail" />
@@ -68,13 +56,13 @@ function FlavorRow({ flavor }: { flavor: Flavor }) {
 	);
 }
 
-function LocationSection({ data }: { data: LocationData }) {
-	const today = isFromToday(data.lastUpdated);
-	const flavors = today ? data.flavors : [];
+function LocationSection({ data }: { data: LocationState | undefined }) {
+	const today = data ? isFromToday(data.lastUpdated) : false;
+	const flavors = today && data ? data.flavors : [];
 
 	return (
 		<section>
-			{today && (
+			{today && data && (
 				<div className="mb-3 flex items-center justify-between">
 					<p className="text-sm text-white/70">
 						Aktualisiert: {formatDate(data.lastUpdated)}
@@ -141,9 +129,9 @@ function HomePage() {
 			</div>
 
 			{activeTab === "main" ? (
-				<LocationSection data={mainData as LocationData} />
+				<LocationSection data={currentData.main} />
 			) : (
-				<LocationSection data={bugaData as LocationData} />
+				<LocationSection data={currentData.buga} />
 			)}
 		</main>
 	);
