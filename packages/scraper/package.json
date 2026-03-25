@@ -6,8 +6,8 @@
     "start": "bun run src/index.ts"
   },
   "dependencies": {
-    "@google/genai": "^1.0.0",
-    "arktype": "^2.1.0",
+    "@google/genai": "^1.46.0",
+    "arktype": "^2.2.0",
     "playwright": "1.58.2"
   },
   "devDependencies": {
