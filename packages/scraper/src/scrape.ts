@@ -159,15 +159,13 @@ async function scrapeIgram(
 	// Wait for results to load
 	await page.waitForTimeout(5000);
 
-	// Click the "stories" tab
-	try {
-		await page.locator(
-			'ul.tabs-component li.tabs-component__item:has(button:has-text("stories")) button.tabs-component__button',
-		).click();
-		await page.waitForTimeout(2000);
-	} catch {
-		console.log("[scrape] No stories tab found, checking page as-is");
-	}
+	// Click the "stories" tab — abort if not found to avoid scraping posts
+	const storiesTab = page.locator(
+		'ul.tabs-component li.tabs-component__item:has(button:has-text("stories")) button.tabs-component__button',
+	);
+	await storiesTab.waitFor({ timeout: 10000 });
+	await storiesTab.click();
+	await page.waitForTimeout(2000);
 
 	return await extractImages(page);
 }
