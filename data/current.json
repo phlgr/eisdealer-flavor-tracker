@@ -1,31 +1,143 @@
 {
   "main": {
     "flavors": [
-      { "name": "Schokomousse", "tags": ["vegan"], "nameEnglish": "Chocolate Mousse" },
-      { "name": "Vanille", "tags": [], "nameEnglish": "Vanilla" },
-      { "name": "Pfirsich-Maracuja", "tags": ["vegan"], "nameEnglish": "Peach Passion Fruit" },
-      { "name": "White-Choc-Himbeere", "tags": [], "nameEnglish": "White Choc Raspberry" },
-      { "name": "Pistazie", "tags": [], "nameEnglish": "Pistachio" },
-      { "name": "Buttermilch Mango", "tags": [], "nameEnglish": "Buttermilk Mango" },
-      { "name": "Haselnuss Crunch", "tags": [], "nameEnglish": "Hazelnut Crunch" },
-      { "name": "Pekannuss Karamell", "tags": [], "nameEnglish": "Pecan Caramel" },
-      { "name": "Mango", "tags": ["vegan"], "nameEnglish": "Mango" },
-      { "name": "Vanille-Dattel", "tags": ["vegan"], "nameEnglish": "Vanilla Date" },
-      { "name": "Stracciatella", "tags": [], "nameEnglish": "Stracciatella" },
-      { "name": "Cassis", "tags": ["vegan"], "nameEnglish": "Blackcurrant" }
+      {
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate mousse"
+      },
+      {
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Pfirsich-Maracuja",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Peach passion fruit"
+      },
+      {
+        "name": "Honig Ingwer",
+        "tags": [],
+        "nameEnglish": "Honey ginger"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Buttermilch-Mango",
+        "tags": [],
+        "nameEnglish": "Buttermilk mango"
+      },
+      {
+        "name": "Joghurt",
+        "tags": [],
+        "nameEnglish": "Yogurt"
+      },
+      {
+        "name": "Himbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Raspberry"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Waldfrucht",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Forest fruit"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime mint"
+      },
+      {
+        "name": "Tonka",
+        "tags": [],
+        "nameEnglish": "Tonka"
+      }
     ],
-    "lastUpdated": "2026-03-24T14:30:46.174Z"
+    "lastUpdated": "2026-03-27T12:00:40.908Z",
+    "openUntil": "18:00"
   },
   "buga": {
     "flavors": [
-      { "name": "Vanille", "tags": ["contains_dairy"], "nameEnglish": "Vanilla" },
-      { "name": "Schokomousse", "tags": ["vegan"], "nameEnglish": "Chocolate mousse" },
-      { "name": "Erdbeer-Tiramisu", "tags": ["contains_dairy"], "nameEnglish": "Strawberry Tiramisu" },
-      { "name": "Buttermilch-Mango", "tags": ["contains_dairy"], "nameEnglish": "Buttermilk Mango" },
-      { "name": "Pfirsich-Maracuja", "tags": ["vegan", "sorbet"], "nameEnglish": "Peach Passion Fruit" },
-      { "name": "Erdbeere", "tags": ["vegan", "sorbet"], "nameEnglish": "Strawberry" },
-      { "name": "Limette Minze", "tags": ["vegan", "sorbet"], "nameEnglish": "Lime Mint" },
-      { "name": "Strawberry Cheesecake", "tags": ["contains_dairy"], "nameEnglish": "Strawberry Cheesecake" }
+      {
+        "name": "Vanille",
+        "tags": [
+          "contains_dairy"
+        ],
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate mousse"
+      },
+      {
+        "name": "Erdbeer-Tiramisu",
+        "tags": [
+          "contains_dairy"
+        ],
+        "nameEnglish": "Strawberry Tiramisu"
+      },
+      {
+        "name": "Buttermilch-Mango",
+        "tags": [
+          "contains_dairy"
+        ],
+        "nameEnglish": "Buttermilk Mango"
+      },
+      {
+        "name": "Pfirsich-Maracuja",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "nameEnglish": "Peach Passion Fruit"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "vegan",
+          "sorbet"
+        ],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "contains_dairy"
+        ],
+        "nameEnglish": "Strawberry Cheesecake"
+      }
     ],
     "lastUpdated": "2026-03-22T13:08:34.292Z"
   }
