@@ -6,7 +6,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate mousse"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
@@ -18,22 +18,17 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Peach passion fruit"
+        "nameEnglish": "Peach Passion Fruit"
       },
       {
-        "name": "Honig Ingwer",
+        "name": "Crunchy Peanut",
         "tags": [],
-        "nameEnglish": "Honey ginger"
+        "nameEnglish": "Crunchy Peanut"
       },
       {
         "name": "Pistazie",
         "tags": [],
         "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Buttermilch-Mango",
-        "tags": [],
-        "nameEnglish": "Buttermilk mango"
       },
       {
         "name": "Joghurt",
@@ -59,22 +54,27 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Forest fruit"
+        "nameEnglish": "Forest Fruit"
+      },
+      {
+        "name": "Tonka",
+        "tags": [],
+        "nameEnglish": "Tonka"
       },
       {
         "name": "Limette Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lime mint"
+        "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Tonka",
+        "name": "Buttermilch Mango",
         "tags": [],
-        "nameEnglish": "Tonka"
+        "nameEnglish": "Buttermilk Mango"
       }
     ],
-    "lastUpdated": "2026-03-27T12:00:40.908Z",
+    "lastUpdated": "2026-03-28T11:30:50.400Z",
     "openUntil": "18:00"
   },
   "buga": {

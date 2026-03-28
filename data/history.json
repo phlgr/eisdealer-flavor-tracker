@@ -374,5 +374,85 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-03-28T11:30:50.402Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Pfirsich-Maracuja",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Peach Passion Fruit"
+        },
+        {
+          "name": "Crunchy Peanut",
+          "tags": [],
+          "nameEnglish": "Crunchy Peanut"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Himbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Raspberry"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Waldfrucht",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Forest Fruit"
+        },
+        {
+          "name": "Tonka",
+          "tags": [],
+          "nameEnglish": "Tonka"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Buttermilch Mango",
+          "tags": [],
+          "nameEnglish": "Buttermilk Mango"
+        }
+      ],
+      "openUntil": "18:00"
+    }
   }
 ]
