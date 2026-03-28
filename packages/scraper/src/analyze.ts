@@ -80,6 +80,6 @@ export async function analyzeStoryImage(
 			"[analyze] Gemini API error:",
 			err instanceof Error ? err.message : err,
 		);
-		return null;
+		throw err;
 	}
 }
