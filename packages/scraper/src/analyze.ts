@@ -41,27 +41,32 @@ export async function analyzeStoryImage(
 	const ai = new GoogleGenAI({ apiKey });
 	const base64Image = imageBuffer.toString("base64");
 	try {
-		const response = await ai.models.generateContent({
-			model: GEMINI_MODEL,
-			contents: [
-				{
-					role: "user",
-					parts: [
-						{
-							inlineData: {
-								mimeType: "image/jpeg",
-								data: base64Image,
+		const response = await Promise.race([
+			ai.models.generateContent({
+				model: GEMINI_MODEL,
+				contents: [
+					{
+						role: "user",
+						parts: [
+							{
+								inlineData: {
+									mimeType: "image/jpeg",
+									data: base64Image,
+								},
 							},
-						},
-						{ text: PROMPT },
-					],
+							{ text: PROMPT },
+						],
+					},
+				],
+				config: {
+					responseMimeType: "application/json",
+					responseSchema: geminiResponseSchema,
 				},
-			],
-			config: {
-				responseMimeType: "application/json",
-				responseSchema: geminiResponseSchema,
-			},
-		});
+			}),
+			new Promise<never>((_, reject) =>
+				setTimeout(() => reject(new Error("Gemini request timed out after 30s")), 30000),
+			),
+		]);
 		const text = response.text;
 		if (!text) {
 			console.error("[analyze] Empty response from Gemini");

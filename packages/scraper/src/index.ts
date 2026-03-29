@@ -46,11 +46,18 @@ async function main() {
 	const analyses: StoryAnalysis[] = [];
 	for (const image of newImages) {
 		console.log(`[main] Analyzing image (hash: ${image.hash.slice(0, 12)}...)`);
-		const result = await analyzeStoryImage(image.buffer);
-		if (result) {
-			analyses.push(result);
-			console.log(
-				`[main] Result: isFlavorList=${result.isFlavorList}, flavors=${result.flavors.length}, confidence=${result.confidence}, location=${result.location ?? "unknown"}`,
+		try {
+			const result = await analyzeStoryImage(image.buffer);
+			if (result) {
+				analyses.push(result);
+				console.log(
+					`[main] Result: isFlavorList=${result.isFlavorList}, flavors=${result.flavors.length}, confidence=${result.confidence}, location=${result.location ?? "unknown"}`,
+				);
+			}
+		} catch (err) {
+			console.error(
+				`[main] Failed to analyze image (hash: ${image.hash.slice(0, 12)}...):`,
+				err instanceof Error ? err.message : err,
 			);
 		}
 	}

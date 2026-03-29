@@ -142,10 +142,10 @@ async function scrapeStorySaver(
 		console.log("[scrape] No cookie consent dialog");
 	}
 
-	// Fill in the username
+	// Fill in the username (force-click to bypass ad overlays)
 	const input = page.locator('input[name="text_username"]');
 	await input.waitFor({ timeout: 15000 });
-	await input.click();
+	await input.click({ force: true });
 	await page.waitForTimeout(300 + Math.random() * 500);
 	await input.pressSequentially(username, { delay: 50 + Math.random() * 80 });
 	await page.waitForTimeout(500 + Math.random() * 500);
