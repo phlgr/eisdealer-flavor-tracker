@@ -3,7 +3,7 @@ import { type } from "arktype";
 import type { StoryAnalysis as StoryAnalysisType } from "./types.js";
 import { geminiResponseSchema, StoryAnalysis } from "./types.js";
 
-const GEMINI_MODEL = "gemini-3-flash-preview";
+const GEMINI_MODEL = "gemini-3.1-flash-lite-preview";
 const PROMPT = `You are analyzing an Instagram Story image from a German ice cream shop (Eisdiele).
 Your task:
 1. Determine if this image shows a list/menu of today's ice cream flavors. It must match one of these two formats:
