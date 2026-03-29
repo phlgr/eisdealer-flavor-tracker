@@ -44,10 +44,12 @@ async function main() {
 
 	// Step 3: Analyze new images with Gemini
 	const analyses: StoryAnalysis[] = [];
+	const analyzedHashes: string[] = [];
 	for (const image of newImages) {
 		console.log(`[main] Analyzing image (hash: ${image.hash.slice(0, 12)}...)`);
 		try {
 			const result = await analyzeStoryImage(image.buffer);
+			analyzedHashes.push(image.hash);
 			if (result) {
 				analyses.push(result);
 				console.log(
@@ -62,8 +64,8 @@ async function main() {
 		}
 	}
 
-	// Step 4: Update seen hashes (even for non-flavor images, so we don't re-process them)
-	const allHashes = [...seenHashes, ...newImages.map((img) => img.hash)];
+	// Step 4: Update seen hashes only for successfully analyzed images
+	const allHashes = [...seenHashes, ...analyzedHashes];
 	saveSeenHashes(allHashes);
 
 	// Step 5: Build updates for each location
