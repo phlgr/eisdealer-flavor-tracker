@@ -73,10 +73,10 @@ export async function scrapeStoryImages(
 			let page: Page | undefined;
 			try {
 				console.log(
-					`[scrape] Trying igram.world for @${username} (attempt ${attempt + 1})`,
+					`[scrape] Trying storysaver.net for @${username} (attempt ${attempt + 1})`,
 				);
 				page = await context.newPage();
-				const images = await scrapeIgram(page, username);
+				const images = await scrapeStorySaver(page, username);
 
 				if (images.length > 0) {
 					console.log(`[scrape] Found ${images.length} images`);
@@ -85,7 +85,7 @@ export async function scrapeStoryImages(
 				}
 
 				console.log("[scrape] No images found");
-				await debugPage(page, `igram-no-results-${attempt + 1}`);
+				await debugPage(page, `storysaver-no-results-${attempt + 1}`);
 				await page.close();
 				break;
 			} catch (err) {
@@ -93,7 +93,7 @@ export async function scrapeStoryImages(
 					`[scrape] Attempt ${attempt + 1} failed:`,
 					err instanceof Error ? err.message : err,
 				);
-				if (page) await debugPage(page, `igram-error-${attempt + 1}`);
+				if (page) await debugPage(page, `storysaver-error-${attempt + 1}`);
 				try {
 					await page?.close();
 				} catch {}
@@ -110,91 +110,103 @@ export async function scrapeStoryImages(
 }
 
 /**
- * Adapted from https://github.com/patermars/StoryScraper
- * Uses igram.world/story-saver with its specific flow:
- * 1. Fill username in #search-form-input
- * 2. Click submit
- * 3. Dismiss modal popup
- * 4. Click "stories" tab
- * 5. Extract image URLs from download links
+ * Uses storysaver.net to fetch Instagram stories:
+ * 1. Fill username in the form
+ * 2. Submit — triggers AJAX to /storyProcesstcf.php
+ * 3. Response injects Cloudflare Turnstile challenge
+ * 4. Turnstile auto-solves and auto-submits with token
+ * 5. Story results appear in #sonucc
+ * 6. Extract image URLs from results
  */
-async function scrapeIgram(
+async function scrapeStorySaver(
 	page: Page,
 	username: string,
 ): Promise<ScrapedImage[]> {
-	await page.goto("https://igram.world/story-saver", {
+	await page.goto("https://www.storysaver.net/en", {
 		waitUntil: "domcontentloaded",
 	});
 
 	// Wait for page to settle
-	await page.waitForTimeout(3000);
+	await page.waitForTimeout(2000 + Math.random() * 1000);
 
-	// Dismiss cookie consent dialog if present
-	try {
-		const consent = page.locator(
-			'.fc-cta-consent, .fc-button-consent, button[aria-label="Consent"]',
-		);
-		await consent.first().waitFor({ timeout: 5000 });
-		await consent.first().click();
-		await page.waitForTimeout(1000);
-		console.log("[scrape] Dismissed cookie consent");
-	} catch {
-		console.log("[scrape] No cookie consent dialog");
-	}
-
-	// Fill in the username (type slowly to look human)
-	const input = page.locator("#search-form-input");
+	// Fill in the username
+	const input = page.locator('input[name="text_username"]');
 	await input.waitFor({ timeout: 15000 });
 	await input.click();
 	await page.waitForTimeout(300 + Math.random() * 500);
 	await input.pressSequentially(username, { delay: 50 + Math.random() * 80 });
 	await page.waitForTimeout(500 + Math.random() * 500);
 
-	// Submit
-	await page.locator('button.search-form__button[type="submit"]').click();
-	await page.waitForTimeout(1000 + Math.random() * 1000);
+	// Submit the form
+	console.log("[scrape] Submitting username...");
+	await page.locator("#StoryButton").click();
 
-	// Dismiss modal if it appears (cookie/ad popup)
+	// Wait for the Turnstile challenge HTML to be injected (first AJAX response)
+	console.log("[scrape] Waiting for Turnstile challenge to appear...");
 	try {
-		const modal = page.locator("button.modal__btn[data-micromodal-close]");
-		await modal.waitFor({ timeout: 5000 });
-		await modal.click();
+		await page.waitForSelector("#StoryDataMax", { timeout: 15000 });
 	} catch {
-		console.log("[scrape] No modal to dismiss");
+		console.log("[scrape] Turnstile form never appeared — first AJAX may have failed");
+		throw new Error("StoryDataMax form not found after submit");
 	}
 
-	// Wait for results to load
-	await page.waitForTimeout(5000);
+	// Give Turnstile a chance to auto-solve (works in real browsers)
+	console.log("[scrape] Giving Turnstile a chance to auto-solve...");
+	const solved = await page
+		.waitForFunction(
+			() => {
+				const el = document.querySelector("#user_data_id") as HTMLInputElement;
+				return el && el.value.length > 0;
+			},
+			{ timeout: 8000 },
+		)
+		.then(() => true)
+		.catch(() => false);
 
-	// Click the "stories" tab — abort if not found to avoid scraping posts
-	// Note: igram.world's "tz-landing-exp" layout hides tabs via CSS, but
-	// the underlying Vue components still work, so we force-click the hidden tab.
-	const storiesTab = page.locator(
-		'ul.tabs-component li.tabs-component__item:has(button:has-text("stories")) button.tabs-component__button',
-	);
+	if (solved) {
+		console.log("[scrape] Turnstile solved automatically");
+	} else {
+		// Turnstile didn't solve — trigger the cf_migrate fallback which
+		// computes a UA hash and submits without a Turnstile token.
+		console.log("[scrape] Turnstile didn't solve, triggering cf_migrate fallback...");
+		await page.evaluate(() => {
+			// @ts-expect-error — global function injected by storysaver.net
+			if (typeof setCfErrorLog === "function") {
+				// @ts-expect-error
+				setCfErrorLog();
+			}
+		});
+	}
 
+	// Wait for story results to load after submission
+	console.log("[scrape] Waiting for story results...");
 	try {
-		await storiesTab.waitFor({ state: "attached", timeout: 10000 });
-	} catch {
-		const availableTabs = await page
-			.locator("ul.tabs-component .tabs-component__button")
-			.allTextContents();
-		console.log(
-			`[scrape] No stories tab found. Available tabs: ${availableTabs.join(", ") || "none"}`,
+		await page.waitForFunction(
+			() => {
+				const containers = document.querySelectorAll("#sonucc");
+				// The second #sonucc (inside the injected HTML) gets the results
+				for (const container of containers) {
+					const links = container.querySelectorAll(
+						'a[href*="cdninstagram"], a[href*="scontent"], a[download], img[src*="cdninstagram"], img[src*="scontent"]',
+					);
+					if (links.length > 0) return true;
+				}
+				return false;
+			},
+			{ timeout: 20000 },
 		);
-		return [];
+	} catch {
+		console.log("[scrape] Timed out waiting for results");
+		await debugPage(page, "storysaver-no-results-after-submit");
 	}
 
-	await storiesTab.click({ force: true });
-	await page.waitForTimeout(2000);
-
+	console.log("[scrape] Extracting images from results...");
 	return await extractImages(page);
 }
 
 async function extractImages(page: Page): Promise<ScrapedImage[]> {
 	const images: ScrapedImage[] = [];
 
-	// Prioritize download buttons (igram-specific), fall back to CDN image URLs
 	const imageUrls = await page.evaluate(() => {
 		const urls: string[] = [];
 		const seen = new Set<string>();
@@ -211,23 +223,24 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 			return l.includes(".mp4") || l.includes("video") || l.includes("/v/");
 		}
 
-		// 1. Download buttons — most reliable on igram
-		for (const a of document.querySelectorAll(
-			"a.button.button--filled.button__download, a[download]",
-		)) {
+		const container = document.querySelector("#sonucc") || document;
+
+		// Download buttons/links
+		for (const a of container.querySelectorAll("a[download], a[href*='cdninstagram'], a[href*='scontent']")) {
 			const href = a.getAttribute("href") || "";
 			addUrl(href);
 		}
 
-		// 2. Images/links pointing to Instagram CDN
-		for (const img of document.querySelectorAll("img")) {
+		// Images pointing to Instagram CDN
+		for (const img of container.querySelectorAll("img")) {
 			const src = img.src || img.dataset.src || "";
 			if (src.includes("cdninstagram") || src.includes("scontent")) {
 				addUrl(src);
 			}
 		}
 
-		for (const a of document.querySelectorAll("a[href]")) {
+		// Any other links to Instagram CDN
+		for (const a of container.querySelectorAll("a[href]")) {
 			const href = a.getAttribute("href") || "";
 			if (
 				(href.includes("cdninstagram") || href.includes("scontent")) &&
