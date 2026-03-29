@@ -3,32 +3,38 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Vanille",
-        "tags": [],
-        "nameEnglish": "Vanilla"
-      },
-      {
         "name": "Pfirsich-Maracuja",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Peach Passion Fruit"
+        "tags": [],
+        "nameEnglish": "Peach-Passionfruit"
       },
       {
-        "name": "Crunchy Peanut",
+        "name": "Himbeere",
         "tags": [],
-        "nameEnglish": "Crunchy Peanut"
+        "nameEnglish": "Raspberry"
       },
       {
-        "name": "Pistazie",
+        "name": "Mango",
         "tags": [],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Waldfrucht",
+        "tags": [],
+        "nameEnglish": "Wild Berry"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Lemon Cheesecake",
+        "tags": [],
+        "nameEnglish": "Lemon Cheesecake"
       },
       {
         "name": "Joghurt",
@@ -36,45 +42,27 @@
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Himbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Raspberry"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Waldfrucht",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Forest Fruit"
-      },
-      {
-        "name": "Tonka",
+        "name": "Erdbeer Joghurt Schoko",
         "tags": [],
-        "nameEnglish": "Tonka"
+        "nameEnglish": "Strawberry Yogurt Chocolate"
       },
       {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Buttermilch Mango",
+        "name": "Pistazie",
         "tags": [],
-        "nameEnglish": "Buttermilk Mango"
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Crunchy Peanut",
+        "tags": [],
+        "nameEnglish": "Crunchy Peanut"
+      },
+      {
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
       }
     ],
-    "lastUpdated": "2026-03-28T11:30:50.400Z",
+    "lastUpdated": "2026-03-29T12:42:23.876Z",
     "openUntil": "18:00"
   },
   "buga": {

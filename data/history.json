@@ -454,5 +454,73 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-03-29T12:42:23.879Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Pfirsich-Maracuja",
+          "tags": [],
+          "nameEnglish": "Peach-Passionfruit"
+        },
+        {
+          "name": "Himbeere",
+          "tags": [],
+          "nameEnglish": "Raspberry"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Waldfrucht",
+          "tags": [],
+          "nameEnglish": "Wild Berry"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Lemon Cheesecake",
+          "tags": [],
+          "nameEnglish": "Lemon Cheesecake"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Erdbeer Joghurt Schoko",
+          "tags": [],
+          "nameEnglish": "Strawberry Yogurt Chocolate"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Crunchy Peanut",
+          "tags": [],
+          "nameEnglish": "Crunchy Peanut"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        }
+      ],
+      "openUntil": "18:00"
+    }
   }
 ]
