@@ -129,6 +129,19 @@ async function scrapeStorySaver(
 	// Wait for page to settle
 	await page.waitForTimeout(2000 + Math.random() * 1000);
 
+	// Dismiss cookie consent dialog if present (FundingChoices / fc-consent-root)
+	try {
+		const consent = page.locator(
+			'.fc-cta-consent, .fc-button-consent, button[aria-label="Consent"], .fc-dialog .fc-cta-consent',
+		);
+		await consent.first().waitFor({ timeout: 5000 });
+		await consent.first().click();
+		await page.waitForTimeout(1000);
+		console.log("[scrape] Dismissed cookie consent");
+	} catch {
+		console.log("[scrape] No cookie consent dialog");
+	}
+
 	// Fill in the username
 	const input = page.locator('input[name="text_username"]');
 	await input.waitFor({ timeout: 15000 });
