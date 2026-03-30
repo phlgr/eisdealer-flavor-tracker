@@ -7,9 +7,34 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Pfirsich-Maracuja",
+        "name": "Vanille",
         "tags": [],
-        "nameEnglish": "Peach-Passionfruit"
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Orange Minze",
+        "tags": [],
+        "nameEnglish": "Orange Mint"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [],
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
+        "name": "Sesam Karamell",
+        "tags": [],
+        "nameEnglish": "Sesame Caramel"
+      },
+      {
+        "name": "Erdbeer Joghurt Schoko",
+        "tags": [],
+        "nameEnglish": "Strawberry Yogurt Chocolate"
+      },
+      {
+        "name": "Joghurt",
+        "tags": [],
+        "nameEnglish": "Yogurt"
       },
       {
         "name": "Himbeere",
@@ -24,45 +49,20 @@
       {
         "name": "Waldfrucht",
         "tags": [],
-        "nameEnglish": "Wild Berry"
+        "nameEnglish": "Forest Fruit"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [],
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Limette Minze",
         "tags": [],
         "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Lemon Cheesecake",
-        "tags": [],
-        "nameEnglish": "Lemon Cheesecake"
-      },
-      {
-        "name": "Joghurt",
-        "tags": [],
-        "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Erdbeer Joghurt Schoko",
-        "tags": [],
-        "nameEnglish": "Strawberry Yogurt Chocolate"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Crunchy Peanut",
-        "tags": [],
-        "nameEnglish": "Crunchy Peanut"
-      },
-      {
-        "name": "Vanille",
-        "tags": [],
-        "nameEnglish": "Vanilla"
       }
     ],
-    "lastUpdated": "2026-03-29T12:42:23.876Z",
+    "lastUpdated": "2026-03-30T11:00:48.187Z",
     "openUntil": "18:00"
   },
   "buga": {

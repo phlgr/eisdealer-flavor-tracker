@@ -522,5 +522,73 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-03-30T11:00:48.188Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Orange Minze",
+          "tags": [],
+          "nameEnglish": "Orange Mint"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Sesam Karamell",
+          "tags": [],
+          "nameEnglish": "Sesame Caramel"
+        },
+        {
+          "name": "Erdbeer Joghurt Schoko",
+          "tags": [],
+          "nameEnglish": "Strawberry Yogurt Chocolate"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Himbeere",
+          "tags": [],
+          "nameEnglish": "Raspberry"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Waldfrucht",
+          "tags": [],
+          "nameEnglish": "Forest Fruit"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        }
+      ],
+      "openUntil": "18:00"
+    }
   }
 ]
