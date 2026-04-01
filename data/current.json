@@ -3,7 +3,9 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -13,7 +15,9 @@
       },
       {
         "name": "Orange Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Orange Mint"
       },
       {
@@ -22,14 +26,14 @@
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Sesam Karamell",
+        "name": "Erdbeer Tiramisu",
         "tags": [],
-        "nameEnglish": "Sesame Caramel"
+        "nameEnglish": "Strawberry Tiramisu"
       },
       {
-        "name": "Erdbeer Joghurt Schoko",
+        "name": "Lotus Cheesecake",
         "tags": [],
-        "nameEnglish": "Strawberry Yogurt Chocolate"
+        "nameEnglish": "Lotus Cheesecake"
       },
       {
         "name": "Joghurt",
@@ -37,18 +41,24 @@
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Himbeere",
-        "tags": [],
-        "nameEnglish": "Raspberry"
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Waldfrucht",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Forest Fruit"
       },
       {
@@ -58,11 +68,13 @@
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       }
     ],
-    "lastUpdated": "2026-03-30T11:00:48.187Z",
+    "lastUpdated": "2026-04-01T11:30:46.899Z",
     "openUntil": "18:00"
   },
   "buga": {
