@@ -150,9 +150,18 @@ async function scrapeStorySaver(
 	await input.pressSequentially(username, { delay: 50 + Math.random() * 80 });
 	await page.waitForTimeout(500 + Math.random() * 500);
 
+	// Remove ad overlays and sticky nav that block the button
+	await page.evaluate(() => {
+		for (const el of document.querySelectorAll(
+			'iframe[id^="aswift"], ins.adsbygoogle, div.google-auto-placed, nav#nav, .ad-overlay, [data-anchor-status]',
+		)) {
+			el.remove();
+		}
+	});
+
 	// Submit the form
 	console.log("[scrape] Submitting username...");
-	await page.locator("#StoryButton").click();
+	await page.locator("#StoryButton").click({ force: true });
 
 	// Wait for the Turnstile challenge HTML to be injected (first AJAX response)
 	console.log("[scrape] Waiting for Turnstile challenge to appear...");
