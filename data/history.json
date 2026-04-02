@@ -670,5 +670,72 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-04-02T12:00:47.111Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Erdbeer Tiramisu",
+          "tags": [],
+          "nameEnglish": "Strawberry Tiramisu"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Orange Minze",
+          "tags": [],
+          "nameEnglish": "Orange Mint"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Popcorn Karamell",
+          "tags": [],
+          "nameEnglish": "Popcorn Caramel"
+        },
+        {
+          "name": "Waldfrucht",
+          "tags": [],
+          "nameEnglish": "Wild Berry"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Lotus Cheesecake",
+          "tags": [],
+          "nameEnglish": "Lotus Cheesecake"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [],
+          "nameEnglish": "Yogurt"
+        }
+      ]
+    }
   }
 ]

@@ -2,23 +2,19 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
         "name": "Vanille",
         "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Orange Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Orange Mint"
+        "name": "Schokomousse",
+        "tags": [],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Erdbeer Tiramisu",
+        "tags": [],
+        "nameEnglish": "Strawberry Tiramisu"
       },
       {
         "name": "Strawberry Cheesecake",
@@ -26,9 +22,34 @@
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Erdbeer Tiramisu",
+        "name": "Orange Minze",
         "tags": [],
-        "nameEnglish": "Strawberry Tiramisu"
+        "nameEnglish": "Orange Mint"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Popcorn Karamell",
+        "tags": [],
+        "nameEnglish": "Popcorn Caramel"
+      },
+      {
+        "name": "Waldfrucht",
+        "tags": [],
+        "nameEnglish": "Wild Berry"
+      },
+      {
+        "name": "Mango",
+        "tags": [],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Lotus Cheesecake",
@@ -39,43 +60,9 @@
         "name": "Joghurt",
         "tags": [],
         "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Waldfrucht",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Forest Fruit"
-      },
-      {
-        "name": "Haselnuss Crunch",
-        "tags": [],
-        "nameEnglish": "Hazelnut Crunch"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
       }
     ],
-    "lastUpdated": "2026-04-01T11:30:46.899Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-04-02T12:00:47.109Z"
   },
   "buga": {
     "flavors": [
