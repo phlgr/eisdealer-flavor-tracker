@@ -23,12 +23,12 @@
       {
         "name": "Bienenstich",
         "tags": [],
-        "nameEnglish": "Bee Sting Cake"
+        "nameEnglish": "Bee Sting (Honey Cream Cake)"
       },
       {
-        "name": "Lotus Cheesecake",
+        "name": "Lemon Cheesecake",
         "tags": [],
-        "nameEnglish": "Lotus Cheesecake"
+        "nameEnglish": "Lemon Cheesecake"
       },
       {
         "name": "Joghurt",
@@ -54,7 +54,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Mixed Berry"
+        "nameEnglish": "Wild Berry"
       },
       {
         "name": "Popcorn Karamell",
@@ -71,10 +71,11 @@
       {
         "name": "Eierlikör",
         "tags": [],
-        "nameEnglish": "Egg Liqueur"
+        "nameEnglish": "Eggnog"
       }
     ],
-    "lastUpdated": "2026-04-03T10:00:46.545Z"
+    "lastUpdated": "2026-04-04T10:00:48.619Z",
+    "openUntil": "18:00"
   },
   "buga": {
     "flavors": [
