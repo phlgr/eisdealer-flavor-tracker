@@ -9,26 +9,28 @@
       {
         "name": "Schokomousse",
         "tags": [
-          "vegan"
+          "vegan",
+          "milk"
         ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Orange Minze",
         "tags": [
-          "vegan"
+          "vegan",
+          "milk"
         ],
         "nameEnglish": "Orange Mint"
-      },
-      {
-        "name": "Bienenstich",
-        "tags": [],
-        "nameEnglish": "Bee Sting (Honey Cream Cake)"
       },
       {
         "name": "Lemon Cheesecake",
         "tags": [],
         "nameEnglish": "Lemon Cheesecake"
+      },
+      {
+        "name": "Bienenstich",
+        "tags": [],
+        "nameEnglish": "Bee Sting Cake"
       },
       {
         "name": "Joghurt",
@@ -38,23 +40,31 @@
       {
         "name": "Erdbeere",
         "tags": [
-          "vegan"
+          "vegan",
+          "milk"
         ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Mango",
         "tags": [
-          "vegan"
+          "vegan",
+          "milk"
         ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Waldfrucht",
         "tags": [
-          "vegan"
+          "vegan",
+          "milk"
         ],
         "nameEnglish": "Wild Berry"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Popcorn Karamell",
@@ -70,12 +80,14 @@
       },
       {
         "name": "Eierlikör",
-        "tags": [],
-        "nameEnglish": "Eggnog"
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Egg Liqueur"
       }
     ],
-    "lastUpdated": "2026-04-04T10:00:48.619Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-04-05T10:00:45.123Z",
+    "openUntil": "19:00"
   },
   "buga": {
     "flavors": [
