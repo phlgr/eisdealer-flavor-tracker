@@ -8,18 +8,12 @@
       },
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan",
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Orange Minze",
-        "tags": [
-          "vegan",
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Orange Mint"
       },
       {
@@ -39,26 +33,17 @@
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan",
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan",
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
         "name": "Waldfrucht",
-        "tags": [
-          "vegan",
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Wild Berry"
       },
       {

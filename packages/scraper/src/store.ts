@@ -92,6 +92,13 @@ export function buildLocationUpdate(
 		}
 	}
 
+	// Sanitize conflicting tags: if a flavor has both "vegan" and "milk", drop both
+	for (const [key, flavor] of flavorMap) {
+		if (flavor.tags.includes("vegan") && flavor.tags.includes("milk")) {
+			flavorMap.set(key, { ...flavor, tags: [] });
+		}
+	}
+
 	const openUntil = analyses
 		.map((a) => a.openUntil)
 		.filter(Boolean)
