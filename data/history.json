@@ -988,5 +988,86 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-04-06T10:00:54.032Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Erdbeer Tiramisu",
+          "tags": [],
+          "nameEnglish": "Strawberry Tiramisu"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Lemon Cheesecake",
+          "tags": [],
+          "nameEnglish": "Lemon Cheesecake"
+        },
+        {
+          "name": "Bienenstich",
+          "tags": [],
+          "nameEnglish": "Bee Sting Cake"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Waldfrucht",
+          "tags": [],
+          "nameEnglish": "Wild Berry"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Orange Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Orange Mint"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]

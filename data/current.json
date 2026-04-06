@@ -12,9 +12,16 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Orange Minze",
+        "name": "Erdbeer Tiramisu",
         "tags": [],
-        "nameEnglish": "Orange Mint"
+        "nameEnglish": "Strawberry Tiramisu"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
       },
       {
         "name": "Lemon Cheesecake",
@@ -28,7 +35,9 @@
       },
       {
         "name": "Joghurt",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Yogurt"
       },
       {
@@ -48,30 +57,25 @@
       },
       {
         "name": "Pistazie",
-        "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Popcorn Karamell",
-        "tags": [],
-        "nameEnglish": "Popcorn Caramel"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Eierlikör",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Egg Liqueur"
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Orange Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Orange Mint"
       }
     ],
-    "lastUpdated": "2026-04-05T10:00:45.123Z",
+    "lastUpdated": "2026-04-06T10:00:54.030Z",
     "openUntil": "19:00"
   },
   "buga": {
