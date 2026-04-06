@@ -72,23 +72,15 @@ export function buildLocationUpdate(
 		return null;
 	}
 
-	// Merge flavors from all analyzed stories in this run, deduplicating by normalized name
+	// Use only the latest flavor list — it represents the current menu
+	const latestAnalysis = flavorAnalyses[flavorAnalyses.length - 1];
 	const flavorMap = new Map<string, IceCreamFlavor>();
-	for (const analysis of flavorAnalyses) {
-		for (const flavor of analysis.flavors) {
-			const cleanName = flavor.name.replace(/\s*\(v(egan)?\)\s*/gi, "").trim();
-			const key = cleanName.toLowerCase();
+	for (const flavor of latestAnalysis.flavors) {
+		const cleanName = flavor.name.replace(/\s*\(v(egan)?\)\s*/gi, "").trim();
+		const key = cleanName.toLowerCase();
 
-			const existing = flavorMap.get(key);
-			if (existing) {
-				const mergedTags = [...new Set([...existing.tags, ...flavor.tags])];
-				flavorMap.set(key, {
-					...existing,
-					tags: mergedTags as IceCreamFlavor["tags"],
-				});
-			} else {
-				flavorMap.set(key, { ...flavor, name: cleanName });
-			}
+		if (!flavorMap.has(key)) {
+			flavorMap.set(key, { ...flavor, name: cleanName });
 		}
 	}
 
