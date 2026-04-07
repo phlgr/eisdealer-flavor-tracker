@@ -1069,5 +1069,73 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-04-07T11:30:44.581Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Espresso",
+          "tags": [],
+          "nameEnglish": "Espresso"
+        },
+        {
+          "name": "Eierlikör",
+          "tags": [],
+          "nameEnglish": "Egg Liqueur"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Himbeere",
+          "tags": [],
+          "nameEnglish": "Raspberry"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Waldfrucht",
+          "tags": [],
+          "nameEnglish": "Wild Berry"
+        },
+        {
+          "name": "Pfirsich-Maracuja",
+          "tags": [],
+          "nameEnglish": "Peach-Passionfruit"
+        },
+        {
+          "name": "Honig Ingwer",
+          "tags": [],
+          "nameEnglish": "Honey Ginger"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]
