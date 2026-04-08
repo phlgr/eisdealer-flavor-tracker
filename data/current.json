@@ -3,7 +3,9 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -13,18 +15,24 @@
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Espresso",
-        "tags": [],
-        "nameEnglish": "Espresso"
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Eierlikör",
@@ -32,38 +40,44 @@
         "nameEnglish": "Egg Liqueur"
       },
       {
-        "name": "Erdbeere",
+        "name": "Heidelbeer Quark",
         "tags": [],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Himbeere",
-        "tags": [],
-        "nameEnglish": "Raspberry"
-      },
-      {
-        "name": "Mango",
-        "tags": [],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Waldfrucht",
-        "tags": [],
-        "nameEnglish": "Wild Berry"
-      },
-      {
-        "name": "Pfirsich-Maracuja",
-        "tags": [],
-        "nameEnglish": "Peach-Passionfruit"
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Honig Ingwer",
         "tags": [],
         "nameEnglish": "Honey Ginger"
+      },
+      {
+        "name": "Bienenstich",
+        "tags": [],
+        "nameEnglish": "Bee Sting Cake"
+      },
+      {
+        "name": "Stracciatella",
+        "tags": [],
+        "nameEnglish": "Stracciatella"
+      },
+      {
+        "name": "Waldfrucht",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Forest Fruit"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Schokolade",
+        "tags": [],
+        "nameEnglish": "Chocolate"
       }
     ],
-    "lastUpdated": "2026-04-07T11:30:44.579Z",
-    "openUntil": "19:00"
+    "lastUpdated": "2026-04-08T12:31:18.171Z"
   },
   "buga": {
     "flavors": [

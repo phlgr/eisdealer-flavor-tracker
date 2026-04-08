@@ -1137,5 +1137,87 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-04-08T12:31:18.174Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Eierlikör",
+          "tags": [],
+          "nameEnglish": "Egg Liqueur"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [],
+          "nameEnglish": "Blueberry Quark"
+        },
+        {
+          "name": "Honig Ingwer",
+          "tags": [],
+          "nameEnglish": "Honey Ginger"
+        },
+        {
+          "name": "Bienenstich",
+          "tags": [],
+          "nameEnglish": "Bee Sting Cake"
+        },
+        {
+          "name": "Stracciatella",
+          "tags": [],
+          "nameEnglish": "Stracciatella"
+        },
+        {
+          "name": "Waldfrucht",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Forest Fruit"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [],
+          "nameEnglish": "Chocolate"
+        }
+      ]
+    }
   }
 ]
