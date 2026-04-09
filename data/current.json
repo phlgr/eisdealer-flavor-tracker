@@ -3,81 +3,78 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Zitrone",
+        "name": "Lemon Cheesecake",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Lemon Cheesecake"
+      },
+      {
+        "name": "Salted Caramel",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Salted Caramel"
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Eierlikör",
+        "name": "Strawberry Cheesecake",
         "tags": [],
-        "nameEnglish": "Egg Liqueur"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Heidelbeer Quark",
+        "name": "Schokolade",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Chocolate"
+      },
+      {
+        "name": "Stracciatella",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Stracciatella"
+      },
+      {
+        "name": "Oreo",
         "tags": [],
-        "nameEnglish": "Blueberry Quark"
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Honig Ingwer",
         "tags": [],
         "nameEnglish": "Honey Ginger"
-      },
-      {
-        "name": "Bienenstich",
-        "tags": [],
-        "nameEnglish": "Bee Sting Cake"
-      },
-      {
-        "name": "Stracciatella",
-        "tags": [],
-        "nameEnglish": "Stracciatella"
-      },
-      {
-        "name": "Waldfrucht",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Forest Fruit"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Schokolade",
-        "tags": [],
-        "nameEnglish": "Chocolate"
       }
     ],
-    "lastUpdated": "2026-04-08T12:31:18.171Z"
+    "lastUpdated": "2026-04-09T10:00:50.081Z"
   },
   "buga": {
     "flavors": [
