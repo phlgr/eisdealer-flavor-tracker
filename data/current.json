@@ -2,40 +2,35 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokomousse",
-        "tags": [],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Vanille",
+        "name": "Waldfrucht",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Vanilla"
+        "nameEnglish": "Wild fruit"
       },
       {
-        "name": "Limette Minze",
+        "name": "Pistazie",
         "tags": [],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Pistachio"
       },
       {
-        "name": "Lemon Cheesecake",
+        "name": "Oreo",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Lemon Cheesecake"
+        "nameEnglish": "Oreo"
       },
       {
-        "name": "Salted Caramel",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Salted Caramel"
-      },
-      {
-        "name": "Erdbeere",
+        "name": "Stracciatella",
         "tags": [],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Stracciatella"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
       },
       {
         "name": "Strawberry Cheesecake",
@@ -43,38 +38,46 @@
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Schokolade",
+        "name": "Erdbeere",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Chocolate"
+        "nameEnglish": "Strawberry"
       },
       {
-        "name": "Stracciatella",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Stracciatella"
-      },
-      {
-        "name": "Oreo",
+        "name": "Salted Caramel",
         "tags": [],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Salted Caramel"
       },
       {
-        "name": "Pistazie",
+        "name": "Pfirsich-Maracuja",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Peach-Passionfruit"
       },
       {
-        "name": "Honig Ingwer",
+        "name": "Limette Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Vanille",
         "tags": [],
-        "nameEnglish": "Honey Ginger"
+        "nameEnglish": "Vanilla"
       }
     ],
-    "lastUpdated": "2026-04-09T10:00:50.081Z"
+    "lastUpdated": "2026-04-10T10:30:48.690Z",
+    "openUntil": "19:00"
   },
   "buga": {
     "flavors": [
