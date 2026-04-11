@@ -2,47 +2,24 @@
   "main": {
     "flavors": [
       {
-        "name": "Waldfrucht",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Wild fruit"
-      },
-      {
-        "name": "Pistazie",
+        "name": "Schokomousse",
         "tags": [],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Stracciatella",
+        "name": "Vanille",
         "tags": [],
-        "nameEnglish": "Stracciatella"
+        "nameEnglish": "Vanilla"
       },
       {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Strawberry Cheesecake",
+        "name": "Limette Minze",
         "tags": [],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
+        "name": "Pfirsich-Maracuja",
+        "tags": [],
+        "nameEnglish": "Peach Passion Fruit"
       },
       {
         "name": "Salted Caramel",
@@ -50,34 +27,43 @@
         "nameEnglish": "Salted Caramel"
       },
       {
-        "name": "Pfirsich-Maracuja",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Peach-Passionfruit"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Vanille",
+        "name": "Erdbeere",
         "tags": [],
-        "nameEnglish": "Vanilla"
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [],
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
+        "name": "Heidelbeer Quark",
+        "tags": [],
+        "nameEnglish": "Blueberry Curd"
+      },
+      {
+        "name": "Lotus Zimtschnecke",
+        "tags": [],
+        "nameEnglish": "Lotus Cinnamon Roll"
+      },
+      {
+        "name": "Oreo",
+        "tags": [],
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-04-10T10:30:48.690Z",
-    "openUntil": "19:00"
+    "lastUpdated": "2026-04-11T10:00:47.157Z",
+    "openUntil": "18:00"
   },
   "buga": {
     "flavors": [
