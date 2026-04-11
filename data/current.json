@@ -68,65 +68,52 @@
   "buga": {
     "flavors": [
       {
-        "name": "Vanille",
-        "tags": [
-          "contains_dairy"
-        ],
-        "nameEnglish": "Vanilla"
-      },
-      {
         "name": "Schokomousse",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate mousse"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Erdbeer-Tiramisu",
-        "tags": [
-          "contains_dairy"
-        ],
-        "nameEnglish": "Strawberry Tiramisu"
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
       },
       {
-        "name": "Buttermilch-Mango",
-        "tags": [
-          "contains_dairy"
-        ],
-        "nameEnglish": "Buttermilk Mango"
+        "name": "Salted Caramel",
+        "tags": [],
+        "nameEnglish": "Salted Caramel"
       },
       {
-        "name": "Pfirsich-Maracuja",
+        "name": "Oreo",
         "tags": [
-          "vegan",
-          "sorbet"
+          "vegan"
         ],
-        "nameEnglish": "Peach Passion Fruit"
+        "nameEnglish": "Oreo"
       },
       {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan",
-          "sorbet"
-        ],
-        "nameEnglish": "Strawberry"
+        "name": "Strawberry-Cheesecake",
+        "tags": [],
+        "nameEnglish": "Strawberry-Cheesecake"
       },
       {
-        "name": "Limette Minze",
+        "name": "Zitrone",
         "tags": [
-          "vegan",
-          "sorbet"
+          "vegan"
         ],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Lemon"
       },
       {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "contains_dairy"
-        ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "name": "Haselnuss-Crunch",
+        "tags": [],
+        "nameEnglish": "Hazelnut-Crunch"
+      },
+      {
+        "name": "Himbeer-Schmand",
+        "tags": [],
+        "nameEnglish": "Raspberry-Sour Cream"
       }
     ],
-    "lastUpdated": "2026-03-22T13:08:34.292Z"
+    "lastUpdated": "2026-04-11T13:00:48.934Z"
   }
 }

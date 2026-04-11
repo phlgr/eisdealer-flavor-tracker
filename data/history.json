@@ -1448,5 +1448,58 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-04-11T13:00:48.936Z",
+    "buga": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Salted Caramel",
+          "tags": [],
+          "nameEnglish": "Salted Caramel"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Strawberry-Cheesecake",
+          "tags": [],
+          "nameEnglish": "Strawberry-Cheesecake"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Haselnuss-Crunch",
+          "tags": [],
+          "nameEnglish": "Hazelnut-Crunch"
+        },
+        {
+          "name": "Himbeer-Schmand",
+          "tags": [],
+          "nameEnglish": "Raspberry-Sour Cream"
+        }
+      ]
+    }
   }
 ]
