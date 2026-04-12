@@ -1501,5 +1501,83 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-04-12T20:56:33.741Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Pfirsich-Maracuja",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Peach Passion Fruit"
+        },
+        {
+          "name": "Salted Caramel",
+          "tags": [],
+          "nameEnglish": "Salted Caramel"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Himbeer Schmand",
+          "tags": [],
+          "nameEnglish": "Raspberry Sour Cream"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [],
+          "nameEnglish": "Blueberry Quark"
+        },
+        {
+          "name": "Lotus Zimtschnecke",
+          "tags": [],
+          "nameEnglish": "Lotus Cinnamon Roll"
+        },
+        {
+          "name": "Joghurt Lemon",
+          "tags": [],
+          "nameEnglish": "Yogurt Lemon"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]

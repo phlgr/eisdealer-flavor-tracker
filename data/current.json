@@ -3,7 +3,9 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -13,12 +15,16 @@
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Pfirsich-Maracuja",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Peach Passion Fruit"
       },
       {
@@ -28,18 +34,20 @@
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Himbeer Schmand",
         "tags": [],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Raspberry Sour Cream"
       },
       {
         "name": "Heidelbeer Quark",
         "tags": [],
-        "nameEnglish": "Blueberry Curd"
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Lotus Zimtschnecke",
@@ -47,9 +55,9 @@
         "nameEnglish": "Lotus Cinnamon Roll"
       },
       {
-        "name": "Oreo",
+        "name": "Joghurt Lemon",
         "tags": [],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Yogurt Lemon"
       },
       {
         "name": "Pistazie",
@@ -58,12 +66,14 @@
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-04-11T10:00:47.157Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-04-12T20:56:33.738Z",
+    "openUntil": "19:00"
   },
   "buga": {
     "flavors": [
