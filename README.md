@@ -8,7 +8,7 @@ A fan-made web app that tracks daily ice cream flavors from [Die Eisdealer](http
 Instagram Stories
        |
        v
-  Playwright scraper (igram.world)
+  Playwright scraper (storysaver.net)
        |
        v
   Gemini Flash (image -> structured JSON)
@@ -131,7 +131,8 @@ bun run preview
 [Biome](https://biomejs.dev/) handles both linting and formatting. Config is in `biome.json`.
 
 ```bash
-bunx biome check --write .
+bun run lint       # check
+bun run lint:fix   # auto-fix
 ```
 
 ## Data format
