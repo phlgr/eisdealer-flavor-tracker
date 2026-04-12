@@ -7,7 +7,7 @@ const GEMINI_MODEL = "gemini-3.1-flash-lite-preview";
 const PROMPT = `You are analyzing an Instagram Story image from a German ice cream shop (Eisdiele).
 Your task:
 1. Determine if this image shows a list/menu of today's ice cream flavors. It must match one of these two formats:
-   - MAIN location: A sign/board with the heading "Frisch aus unserer Manufaktur:" followed by a list of flavors.
+   - MAIN location: A sign/board listing multiple ice cream flavors (commonly with headings like "Frisch aus unserer Manufaktur:", "Lecker!", or similar). The key indicator is a structured list of flavor names on a sign or board.
    - BUGA location: A black chalkboard standing on the ground (freestanding/easel-style) listing flavors.
    If the image does NOT match either format, set isFlavorList to false and return empty flavors.
    Specifically, set isFlavorList to false for: Instagram polls, promotional posts, events, selfies, vote/question stickers, or any other content that is not a flavor menu in one of the two formats above.
