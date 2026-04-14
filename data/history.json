@@ -95,21 +95,21 @@
           "nameEnglish": "Chocolate mousse"
         },
         {
-          "name": "Erdbeer-Tiramisu",
+          "name": "Erdbeer Tiramisu",
           "tags": [
             "contains_dairy"
           ],
           "nameEnglish": "Strawberry Tiramisu"
         },
         {
-          "name": "Buttermilch-Mango",
+          "name": "Buttermilch Mango",
           "tags": [
             "contains_dairy"
           ],
           "nameEnglish": "Buttermilk Mango"
         },
         {
-          "name": "Pfirsich-Maracuja",
+          "name": "Pfirsich Maracuja",
           "tags": [
             "vegan",
             "sorbet"
@@ -194,7 +194,7 @@
           "nameEnglish": "Mango lassi"
         },
         {
-          "name": "Vanille - Dattel",
+          "name": "Vanille Dattel",
           "tags": [
             "vegan"
           ],
@@ -206,7 +206,7 @@
           "nameEnglish": "Tonka bean"
         },
         {
-          "name": "Haselnusscrunch",
+          "name": "Haselnuss Crunch",
           "tags": [],
           "nameEnglish": "Hazelnut crunch"
         },
@@ -235,14 +235,14 @@
           "nameEnglish": "Vanilla"
         },
         {
-          "name": "Pfirsich-Maracuja",
+          "name": "Pfirsich Maracuja",
           "tags": [
             "vegan"
           ],
           "nameEnglish": "Peach Passion Fruit"
         },
         {
-          "name": "White-Choc-Himbeere",
+          "name": "White Choc Himbeere",
           "tags": [],
           "nameEnglish": "White Choc Raspberry"
         },
@@ -274,7 +274,7 @@
           "nameEnglish": "Mango"
         },
         {
-          "name": "Vanille-Dattel",
+          "name": "Vanille Dattel",
           "tags": [
             "vegan"
           ],
@@ -312,7 +312,7 @@
           "nameEnglish": "Vanilla"
         },
         {
-          "name": "Pfirsich-Maracuja",
+          "name": "Pfirsich Maracuja",
           "tags": [
             "vegan"
           ],
@@ -329,7 +329,7 @@
           "nameEnglish": "Pistachio"
         },
         {
-          "name": "Buttermilch-Mango",
+          "name": "Buttermilch Mango",
           "tags": [],
           "nameEnglish": "Buttermilk mango"
         },
@@ -392,7 +392,7 @@
           "nameEnglish": "Vanilla"
         },
         {
-          "name": "Pfirsich-Maracuja",
+          "name": "Pfirsich Maracuja",
           "tags": [
             "vegan"
           ],
@@ -465,7 +465,7 @@
           "nameEnglish": "Chocolate Mousse"
         },
         {
-          "name": "Pfirsich-Maracuja",
+          "name": "Pfirsich Maracuja",
           "tags": [],
           "nameEnglish": "Peach-Passionfruit"
         },
@@ -1125,7 +1125,7 @@
           "nameEnglish": "Wild Berry"
         },
         {
-          "name": "Pfirsich-Maracuja",
+          "name": "Pfirsich Maracuja",
           "tags": [],
           "nameEnglish": "Peach-Passionfruit"
         },
@@ -1352,7 +1352,7 @@
           "nameEnglish": "Salted Caramel"
         },
         {
-          "name": "Pfirsich-Maracuja",
+          "name": "Pfirsich Maracuja",
           "tags": [
             "vegan"
           ],
@@ -1401,7 +1401,7 @@
           "nameEnglish": "Lime Mint"
         },
         {
-          "name": "Pfirsich-Maracuja",
+          "name": "Pfirsich Maracuja",
           "tags": [],
           "nameEnglish": "Peach Passion Fruit"
         },
@@ -1478,7 +1478,7 @@
           "nameEnglish": "Oreo"
         },
         {
-          "name": "Strawberry-Cheesecake",
+          "name": "Strawberry Cheesecake",
           "tags": [],
           "nameEnglish": "Strawberry-Cheesecake"
         },
@@ -1490,12 +1490,12 @@
           "nameEnglish": "Lemon"
         },
         {
-          "name": "Haselnuss-Crunch",
+          "name": "Haselnuss Crunch",
           "tags": [],
           "nameEnglish": "Hazelnut-Crunch"
         },
         {
-          "name": "Himbeer-Schmand",
+          "name": "Himbeer Schmand",
           "tags": [],
           "nameEnglish": "Raspberry-Sour Cream"
         }
@@ -1526,7 +1526,7 @@
           "nameEnglish": "Lime Mint"
         },
         {
-          "name": "Pfirsich-Maracuja",
+          "name": "Pfirsich Maracuja",
           "tags": [
             "vegan"
           ],
@@ -1600,7 +1600,7 @@
           "nameEnglish": "Lime Mint"
         },
         {
-          "name": "Pfirsich-Maracuja",
+          "name": "Pfirsich Maracuja",
           "tags": [],
           "nameEnglish": "Peach Passion Fruit"
         },

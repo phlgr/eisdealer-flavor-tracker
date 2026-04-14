@@ -1,5 +1,18 @@
 import type { HistoryEntry } from "#/types";
 
+const ALIASES: Record<string, string> = {
+	haselnusscrunch: "Haselnuss Crunch",
+};
+
+/** Normalize separators so "Buttermilch-Mango" and "Buttermilch Mango" merge */
+function normalizeName(name: string): string {
+	const normalized = name
+		.replace(/\s*-\s*/g, " ")
+		.replace(/\s{2,}/g, " ")
+		.trim();
+	return ALIASES[normalized.toLowerCase()] ?? normalized;
+}
+
 export interface FlavorStats {
 	name: string;
 	daysAppeared: number;
@@ -70,7 +83,7 @@ export function computeStats(history: HistoryEntry[]): Stats {
 			if (!locationData) continue;
 
 			for (const flavor of locationData.flavors) {
-				const name = flavor.name;
+				const name = normalizeName(flavor.name);
 
 				if (!flavorDays.has(name)) {
 					flavorDays.set(name, new Set());
@@ -203,7 +216,7 @@ export function getFlavorRarity(
 	stats: Stats | null,
 ): Rarity | null {
 	if (!stats) return null;
-	const info = stats.byName.get(flavorName);
+	const info = stats.byName.get(normalizeName(flavorName));
 	if (!info) return null;
 	if (info.daysAppeared === 1) return "neu";
 	return getRarity(info.frequency);

@@ -45,6 +45,22 @@ export function filterNewImages<T extends { hash: string }>(
 	return images.filter((img) => !seen.has(img.hash));
 }
 
+// --- Flavor name normalization ---
+
+/** Known compound-word aliases (lowercase → canonical form) */
+const ALIASES: Record<string, string> = {
+	haselnusscrunch: "Haselnuss Crunch",
+};
+
+/** Normalize separators: "Buttermilch-Mango" / "Buttermilch Mango" → "Buttermilch Mango" */
+export function normalizeName(name: string): string {
+	const normalized = name
+		.replace(/\s*-\s*/g, " ")
+		.replace(/\s{2,}/g, " ")
+		.trim();
+	return ALIASES[normalized.toLowerCase()] ?? normalized;
+}
+
 // --- Current data ---
 
 export function loadCurrentData(): CurrentData {
@@ -76,7 +92,9 @@ export function buildLocationUpdate(
 	const latestAnalysis = flavorAnalyses[flavorAnalyses.length - 1];
 	const flavorMap = new Map<string, IceCreamFlavor>();
 	for (const flavor of latestAnalysis.flavors) {
-		const cleanName = flavor.name.replace(/\s*\(v(egan)?\)\s*/gi, "").trim();
+		const cleanName = normalizeName(
+			flavor.name.replace(/\s*\(v(egan)?\)\s*/gi, "").trim(),
+		);
 		const key = cleanName.toLowerCase();
 
 		if (!flavorMap.has(key)) {
