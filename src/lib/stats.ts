@@ -32,10 +32,21 @@ export function getRarity(frequency: number): Rarity {
 	return "legendaer";
 }
 
+export interface StreakInfo {
+	name: string;
+	streak: number;
+	/** Is this streak still active (includes the latest tracked day)? */
+	active: boolean;
+}
+
 export interface Stats {
 	totalDays: number;
 	totalUniqueFlavors: number;
 	avgFlavorsPerDay: number;
+	/** Average % of flavors that change between consecutive days */
+	rotationRate: number;
+	/** Top flavors by longest consecutive-day streak */
+	topStreaks: StreakInfo[];
 	byRarity: Record<Rarity, FlavorStats[]>;
 	/** All flavors by frequency, descending */
 	all: FlavorStats[];
@@ -114,15 +125,77 @@ export function computeStats(history: HistoryEntry[]): Stats {
 		0,
 	);
 
+	// --- Streaks ---
+	const sortedDays = Array.from(allDays).sort();
+	const topStreaks = computeStreaks(flavorDays, sortedDays);
+
+	// --- Rotation rate ---
+	let totalChanges = 0;
+	let comparisons = 0;
+	for (let i = 1; i < sortedDays.length; i++) {
+		const prev = flavorsPerDay.get(sortedDays[i - 1]);
+		const curr = flavorsPerDay.get(sortedDays[i]);
+		if (!prev || !curr) continue;
+		const union = new Set([...prev, ...curr]);
+		const intersection = new Set([...prev].filter((f) => curr.has(f)));
+		if (union.size > 0) {
+			totalChanges += (union.size - intersection.size) / union.size;
+			comparisons++;
+		}
+	}
+	const rotationRate =
+		comparisons > 0 ? Math.round((totalChanges / comparisons) * 100) : 0;
+
 	return {
 		totalDays,
 		totalUniqueFlavors: all.length,
 		avgFlavorsPerDay:
 			totalDays > 0 ? Math.round(totalFlavorsAcrossDays / totalDays) : 0,
+		rotationRate,
+		topStreaks,
 		byRarity,
 		all,
 		byName,
 	};
+}
+
+function computeStreaks(
+	flavorDays: Map<string, Set<string>>,
+	sortedDays: string[],
+): StreakInfo[] {
+	const lastDay = sortedDays[sortedDays.length - 1];
+	const dayIndex = new Map(sortedDays.map((d, i) => [d, i]));
+
+	const results: StreakInfo[] = [];
+
+	for (const [name, days] of flavorDays) {
+		const indices = Array.from(days)
+			.map((d) => dayIndex.get(d) ?? -1)
+			.filter((i) => i >= 0)
+			.sort((a, b) => a - b);
+
+		let bestStreak = 1;
+		let currentStreak = 1;
+
+		for (let i = 1; i < indices.length; i++) {
+			if (indices[i] === indices[i - 1] + 1) {
+				currentStreak++;
+			} else {
+				currentStreak = 1;
+			}
+			if (currentStreak > bestStreak) {
+				bestStreak = currentStreak;
+			}
+		}
+
+		const active = days.has(lastDay);
+		results.push({ name, streak: bestStreak, active });
+	}
+
+	return results
+		.filter((s) => s.streak >= 2)
+		.sort((a, b) => b.streak - a.streak)
+		.slice(0, 10);
 }
 
 export function getFlavorRarity(

@@ -5,6 +5,17 @@ import type { HistoryEntry } from "#/types";
 
 export const Route = createFileRoute("/stats")({ component: StatsPage });
 
+function daysAgoLabel(lastSeen: string): string {
+	const last = new Date(lastSeen);
+	const now = new Date();
+	const diff = Math.floor(
+		(now.getTime() - last.getTime()) / (1000 * 60 * 60 * 24),
+	);
+	if (diff <= 0) return "heute";
+	if (diff === 1) return "vor 1 Tag";
+	return `vor ${diff} Tagen`;
+}
+
 const RARITY_CONFIG: {
 	key: Rarity;
 	label: string;
@@ -113,6 +124,34 @@ function StatsPage() {
 						</div>
 					</div>
 
+					{stats.topStreaks.length > 0 && (
+						<div className="stats-block">
+							<h3 className="stats-block-title">Längste Serien</h3>
+							<p className="stats-block-desc">
+								Wie viele Tage in Folge eine Sorte verfügbar war.
+							</p>
+							<div className="streak-list">
+								{stats.topStreaks.map((s) => (
+									<div key={s.name} className="streak-row">
+										<span className="streak-name">{s.name}</span>
+										<span className="streak-bar-wrap">
+											<span
+												className={`streak-bar ${s.active ? "streak-bar-active" : ""}`}
+												style={{
+													width: `${(s.streak / stats.topStreaks[0].streak) * 100}%`,
+												}}
+											/>
+										</span>
+										<span className="streak-value">
+											{s.streak} Tage
+											{s.active && " ▸"}
+										</span>
+									</div>
+								))}
+							</div>
+						</div>
+					)}
+
 					{RARITY_CONFIG.map((cfg) => {
 						const flavors = stats.byRarity[cfg.key];
 						if (flavors.length === 0) return null;
@@ -128,7 +167,16 @@ function StatsPage() {
 								<p className="stats-block-desc">{cfg.desc}</p>
 								<div className="flex flex-wrap gap-1.5">
 									{flavors.map((f) => (
-										<span key={f.name} className={cfg.chipClass}>
+										<span
+											key={f.name}
+											className={`${cfg.chipClass}${(cfg.key === "episch" || cfg.key === "legendaer") && f.lastSeen ? " has-tooltip" : ""}`}
+											{...((cfg.key === "episch" || cfg.key === "legendaer") &&
+											f.lastSeen
+												? {
+														"data-tooltip": `Zuletzt: ${daysAgoLabel(f.lastSeen)}`,
+													}
+												: {})}
+										>
 											{f.name}
 											<span className="stats-chip-freq">
 												{Math.round(f.frequency * 100)}%
