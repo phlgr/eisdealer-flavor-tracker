@@ -1,6 +1,17 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState } from "react";
-import type { CurrentData, IceCreamFlavor, LocationState } from "#/types";
+import { useEffect, useState } from "react";
+import {
+	computeStats,
+	getFlavorRarity,
+	type Rarity,
+	type Stats,
+} from "#/lib/stats";
+import type {
+	CurrentData,
+	HistoryEntry,
+	IceCreamFlavor,
+	LocationState,
+} from "#/types";
 import _currentData from "../../data/current.json";
 
 const currentData: CurrentData = _currentData as CurrentData;
@@ -10,6 +21,18 @@ export const Route = createFileRoute("/")({ component: HomePage });
 const TAG_LABELS: Record<string, { label: string; className: string }> = {
 	vegan: { label: "Vegan", className: "tag-vegan" },
 	milk: { label: "Milch", className: "tag-milk" },
+};
+
+const RARITY_LABELS: Record<Rarity, { label: string; className: string }> = {
+	neu: { label: "Neu!", className: "rarity-neu" },
+	gewoehnlich: { label: "Klassiker", className: "rarity-gewoehnlich" },
+	ungewoehnlich: {
+		label: "Regelmäßig",
+		className: "rarity-ungewoehnlich",
+	},
+	selten: { label: "Gelegentlich", className: "rarity-selten" },
+	episch: { label: "Episch selten", className: "rarity-episch" },
+	legendaer: { label: "Legendär", className: "rarity-legendaer shiny" },
 };
 
 function isFromToday(lastUpdated: string): boolean {
@@ -31,24 +54,38 @@ function formatDate(iso: string): string {
 	});
 }
 
-function FlavorRow({ flavor }: { flavor: IceCreamFlavor }) {
+function FlavorRow({
+	flavor,
+	stats,
+}: {
+	flavor: IceCreamFlavor;
+	stats: Stats | null;
+}) {
+	const rarity = getFlavorRarity(flavor.name, stats);
+
 	return (
 		<div className="flavor-row">
 			<span className="nail" />
 			<div className="flavor-content">
 				<span className="flavor-name">{flavor.name}</span>
-				{flavor.tags.length > 0 && (
-					<span className="flavor-tags">
-						{flavor.tags.map((tag) => {
-							const info = TAG_LABELS[tag];
-							if (!info) return null;
-							return (
-								<span key={tag} className={`tag ${info.className}`}>
-									{info.label}
-								</span>
-							);
-						})}
+				{rarity ? (
+					<span className={`tag ${RARITY_LABELS[rarity].className}`}>
+						{RARITY_LABELS[rarity].label}
 					</span>
+				) : (
+					flavor.tags.length > 0 && (
+						<span className="flavor-tags">
+							{flavor.tags.map((tag) => {
+								const info = TAG_LABELS[tag];
+								if (!info) return null;
+								return (
+									<span key={tag} className={`tag ${info.className}`}>
+										{info.label}
+									</span>
+								);
+							})}
+						</span>
+					)
 				)}
 			</div>
 			<span className="nail" />
@@ -56,7 +93,13 @@ function FlavorRow({ flavor }: { flavor: IceCreamFlavor }) {
 	);
 }
 
-function LocationSection({ data }: { data: LocationState | undefined }) {
+function LocationSection({
+	data,
+	stats,
+}: {
+	data: LocationState | undefined;
+	stats: Stats | null;
+}) {
 	const today = data ? isFromToday(data.lastUpdated) : false;
 	const flavors = today && data ? data.flavors : [];
 
@@ -75,7 +118,7 @@ function LocationSection({ data }: { data: LocationState | undefined }) {
 			{flavors.length > 0 ? (
 				<div className="flavor-wall">
 					{flavors.map((flavor) => (
-						<FlavorRow key={flavor.name} flavor={flavor} />
+						<FlavorRow key={flavor.name} flavor={flavor} stats={stats} />
 					))}
 				</div>
 			) : (
@@ -97,6 +140,14 @@ function LocationSection({ data }: { data: LocationState | undefined }) {
 
 function HomePage() {
 	const [activeTab, setActiveTab] = useState<"main" | "buga">("main");
+	const [stats, setStats] = useState<Stats | null>(null);
+
+	useEffect(() => {
+		fetch(`${import.meta.env.BASE_URL}data/history.json`)
+			.then((r) => r.json())
+			.then((data: HistoryEntry[]) => setStats(computeStats(data)))
+			.catch(() => {});
+	}, []);
 
 	return (
 		<main className="page-wrap px-4 pb-12 pt-6">
@@ -127,9 +178,9 @@ function HomePage() {
 			</div>
 
 			{activeTab === "main" ? (
-				<LocationSection data={currentData.main} />
+				<LocationSection data={currentData.main} stats={stats} />
 			) : (
-				<LocationSection data={currentData.buga} />
+				<LocationSection data={currentData.buga} stats={stats} />
 			)}
 		</main>
 	);
