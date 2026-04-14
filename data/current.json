@@ -3,9 +3,7 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -15,28 +13,22 @@
       },
       {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Pfirsich-Maracuja",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Peach Passion Fruit"
       },
       {
-        "name": "Salted Caramel",
+        "name": "Haselnuss Crunch",
         "tags": [],
-        "nameEnglish": "Salted Caramel"
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
@@ -51,7 +43,9 @@
       },
       {
         "name": "Lotus Zimtschnecke",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lotus Cinnamon Roll"
       },
       {
@@ -60,19 +54,17 @@
         "nameEnglish": "Yogurt Lemon"
       },
       {
-        "name": "Pistazie",
+        "name": "Zitrone",
         "tags": [],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Lemon"
       },
       {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
+        "name": "Erdbeer Tiramisu",
+        "tags": [],
+        "nameEnglish": "Strawberry Tiramisu"
       }
     ],
-    "lastUpdated": "2026-04-12T20:56:33.738Z",
+    "lastUpdated": "2026-04-14T17:38:19.887Z",
     "openUntil": "19:00"
   },
   "buga": {
