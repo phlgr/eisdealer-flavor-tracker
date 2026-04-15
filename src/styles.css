@@ -376,7 +376,7 @@ header {
   border: 2px solid #000;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   vertical-align: middle;
   position: relative;
   top: -1px;
@@ -462,7 +462,16 @@ header {
   position: relative;
   overflow: hidden;
   background-size: 200% 100%;
-  animation: shimmer 2.5s ease-in-out infinite;
+  animation: shimmer 2.5s linear infinite;
+}
+
+@keyframes epic-glow {
+  0%, 100% { box-shadow: 0 0 4px rgba(179, 136, 255, 0.6); }
+  50% { box-shadow: 0 0 10px rgba(179, 136, 255, 0.9); }
+}
+
+.rarity-episch.shiny {
+  animation: epic-glow 3s ease-in-out infinite;
 }
 
 .rarity-legendaer.shiny {

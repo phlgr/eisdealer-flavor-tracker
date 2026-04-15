@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { computeStats, type Rarity, type Stats } from "#/lib/stats";
 import type { HistoryEntry } from "#/types";
+import { RARITY_CONFIG, RarityBadge } from "#/components/RarityBadge";
 
 export const Route = createFileRoute("/stats")({ component: StatsPage });
 
@@ -16,55 +17,35 @@ function daysAgoLabel(lastSeen: string): string {
 	return `vor ${diff} Tagen`;
 }
 
-const RARITY_CONFIG: {
+const STATS_SECTIONS: {
 	key: Rarity;
-	label: string;
 	title: string;
 	desc: string;
-	badgeClass: string;
-	chipClass: string;
-	blockClass?: string;
 }[] = [
 	{
 		key: "gewoehnlich",
-		label: "Klassiker",
 		title: "Immer dabei",
 		desc: "Diese Sorten gibt es fast jeden Tag.",
-		badgeClass: "badge rarity-gewoehnlich",
-		chipClass: "stats-chip rarity-chip-gewoehnlich",
 	},
 	{
 		key: "ungewoehnlich",
-		label: "Regelmäßig",
 		title: "Nicht alltäglich",
 		desc: "An 40–80% aller Tage verfügbar.",
-		badgeClass: "badge rarity-ungewoehnlich",
-		chipClass: "stats-chip rarity-chip-ungewoehnlich",
 	},
 	{
 		key: "selten",
-		label: "Gelegentlich",
 		title: "Nicht selbstverständlich",
 		desc: "An 10–40% aller Tage verfügbar — wenn sie da ist, zugreifen.",
-		badgeClass: "badge rarity-selten",
-		chipClass: "stats-chip rarity-chip-selten",
 	},
 	{
 		key: "episch",
-		label: "Episch selten",
 		title: "Besondere Funde",
 		desc: "An weniger als 10% aller Tage verfügbar — ein seltener Genuss.",
-		badgeClass: "badge rarity-episch",
-		chipClass: "stats-chip rarity-chip-episch",
 	},
 	{
 		key: "legendaer",
-		label: "Legendär",
 		title: "Einhorn-Sorten",
 		desc: "An höchstens 5% aller Tage gesichtet — existieren sie wirklich?",
-		badgeClass: "badge rarity-legendaer shiny",
-		chipClass: "stats-chip rarity-chip-legendaer",
-		blockClass: "stats-block-legendaer",
 	},
 ];
 
@@ -152,25 +133,26 @@ function StatsPage() {
 						</div>
 					)}
 
-					{RARITY_CONFIG.map((cfg) => {
-						const flavors = stats.byRarity[cfg.key];
+					{STATS_SECTIONS.map((section) => {
+						const cfg = RARITY_CONFIG[section.key];
+						const flavors = stats.byRarity[section.key];
 						if (flavors.length === 0) return null;
 						return (
 							<div
-								key={cfg.key}
+								key={section.key}
 								className={`stats-block ${cfg.blockClass ?? ""}`}
 							>
 								<h3 className="stats-block-title">
-									<span className={cfg.badgeClass}>{cfg.label}</span>
-									{cfg.title}
+									<RarityBadge rarity={section.key} />
+									{section.title}
 								</h3>
-								<p className="stats-block-desc">{cfg.desc}</p>
+								<p className="stats-block-desc">{section.desc}</p>
 								<div className="flex flex-wrap gap-1.5">
 									{flavors.map((f) => (
 										<span
 											key={f.name}
-											className={`${cfg.chipClass}${(cfg.key === "episch" || cfg.key === "legendaer") && f.lastSeen ? " has-tooltip" : ""}`}
-											{...((cfg.key === "episch" || cfg.key === "legendaer") &&
+											className={`${cfg.chipClass}${(section.key === "episch" || section.key === "legendaer") && f.lastSeen ? " has-tooltip" : ""}`}
+											{...((section.key === "episch" || section.key === "legendaer") &&
 											f.lastSeen
 												? {
 														"data-tooltip": `Zuletzt: ${daysAgoLabel(f.lastSeen)}`,

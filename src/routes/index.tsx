@@ -12,6 +12,7 @@ import type {
 	IceCreamFlavor,
 	LocationState,
 } from "#/types";
+import { RarityBadge } from "#/components/RarityBadge";
 import _currentData from "../../data/current.json";
 
 const currentData: CurrentData = _currentData as CurrentData;
@@ -23,17 +24,13 @@ const TAG_LABELS: Record<string, { label: string; className: string }> = {
 	milk: { label: "Milch", className: "tag-milk" },
 };
 
-const RARITY_LABELS: Record<Rarity, { label: string; className: string }> = {
-	neu: { label: "Neu!", className: "rarity-neu" },
-	gewoehnlich: { label: "Klassiker", className: "rarity-gewoehnlich" },
-	ungewoehnlich: {
-		label: "Regelmäßig",
-		className: "rarity-ungewoehnlich",
-	},
-	selten: { label: "Gelegentlich", className: "rarity-selten" },
-	episch: { label: "Episch selten", className: "rarity-episch" },
-	legendaer: { label: "Legendär", className: "rarity-legendaer shiny" },
-};
+/** Rarities worth highlighting on the main page */
+const MAIN_PAGE_RARITIES: Set<Rarity> = new Set([
+	"neu",
+	"gewoehnlich",
+	"episch",
+	"legendaer",
+]);
 
 function isFromToday(lastUpdated: string): boolean {
 	const updated = new Date(lastUpdated);
@@ -62,16 +59,15 @@ function FlavorRow({
 	stats: Stats | null;
 }) {
 	const rarity = getFlavorRarity(flavor.name, stats);
+	const showRarity = rarity && MAIN_PAGE_RARITIES.has(rarity);
 
 	return (
 		<div className="flavor-row">
 			<span className="nail" />
 			<div className="flavor-content">
 				<span className="flavor-name">{flavor.name}</span>
-				{rarity ? (
-					<span className={`tag ${RARITY_LABELS[rarity].className}`}>
-						{RARITY_LABELS[rarity].label}
-					</span>
+				{showRarity ? (
+					<RarityBadge rarity={rarity} />
 				) : (
 					flavor.tags.length > 0 && (
 						<span className="flavor-tags">
