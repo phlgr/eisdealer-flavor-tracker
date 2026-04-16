@@ -1717,5 +1717,73 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-04-16T12:00:53.466Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Zitronenkuchen",
+          "tags": [],
+          "nameEnglish": "Lemon Cake"
+        },
+        {
+          "name": "Rhabarber",
+          "tags": [],
+          "nameEnglish": "Rhubarb"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Dattel Tahini",
+          "tags": [],
+          "nameEnglish": "Date - Tahini"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Lotus Zimtschnecke",
+          "tags": [],
+          "nameEnglish": "Lotus Cinnamon Roll"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [],
+          "nameEnglish": "Hazelnut Crunch"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]

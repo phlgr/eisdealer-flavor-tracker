@@ -12,14 +12,9 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Himbeer Schmand",
+        "name": "Strawberry Cheesecake",
         "tags": [],
-        "nameEnglish": "Raspberry Sour Cream"
-      },
-      {
-        "name": "Heidelbeer Quark",
-        "tags": [],
-        "nameEnglish": "Blueberry Quark"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Zitronenkuchen",
@@ -27,9 +22,9 @@
         "nameEnglish": "Lemon Cake"
       },
       {
-        "name": "Gebrannte Mandel",
+        "name": "Rhabarber",
         "tags": [],
-        "nameEnglish": "Roasted Almond"
+        "nameEnglish": "Rhubarb"
       },
       {
         "name": "Mango",
@@ -44,7 +39,7 @@
       {
         "name": "Dattel Tahini",
         "tags": [],
-        "nameEnglish": "Date Tahini"
+        "nameEnglish": "Date - Tahini"
       },
       {
         "name": "Erdbeere",
@@ -60,9 +55,14 @@
         "name": "Lotus Zimtschnecke",
         "tags": [],
         "nameEnglish": "Lotus Cinnamon Roll"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [],
+        "nameEnglish": "Hazelnut Crunch"
       }
     ],
-    "lastUpdated": "2026-04-15T10:30:48.696Z",
+    "lastUpdated": "2026-04-16T12:00:53.464Z",
     "openUntil": "19:00"
   },
   "buga": {
