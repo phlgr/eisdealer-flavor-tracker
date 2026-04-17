@@ -3,7 +3,9 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -17,52 +19,66 @@
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Zitronenkuchen",
-        "tags": [],
+        "name": "Zitonenkuchen",
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon Cake"
       },
       {
         "name": "Rhabarber",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Rhubarb"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
-        "nameEnglish": "Lime Mint"
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime-Mint"
       },
       {
         "name": "Dattel Tahini",
-        "tags": [],
-        "nameEnglish": "Date - Tahini"
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Date-Tahini"
       },
       {
-        "name": "Erdbeere",
+        "name": "Maracuja Cheesecake",
         "tags": [],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Passion Fruit Cheesecake"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Lotus Zimtschnecke",
-        "tags": [],
-        "nameEnglish": "Lotus Cinnamon Roll"
+        "name": "Kiwi",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Kiwi"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Stracciatella",
         "tags": [],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-04-16T12:00:53.464Z",
+    "lastUpdated": "2026-04-17T13:30:58.405Z",
     "openUntil": "19:00"
   },
   "buga": {
