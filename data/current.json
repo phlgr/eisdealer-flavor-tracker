@@ -3,9 +3,7 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -19,39 +17,29 @@
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Zitonenkuchen",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon Cake"
+        "name": "Joghurt Zitrone",
+        "tags": [],
+        "nameEnglish": "Yogurt Lemon"
       },
       {
         "name": "Rhabarber",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Rhubarb"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime-Mint"
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
       },
       {
-        "name": "Dattel Tahini",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Date-Tahini"
+        "name": "Orange Ingwer",
+        "tags": [],
+        "nameEnglish": "Orange Ginger"
       },
       {
         "name": "Maracuja Cheesecake",
@@ -60,16 +48,12 @@
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Kiwi",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Kiwi"
       },
       {
@@ -78,7 +62,7 @@
         "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-04-17T13:30:58.405Z",
+    "lastUpdated": "2026-04-18T10:30:48.688Z",
     "openUntil": "19:00"
   },
   "buga": {
