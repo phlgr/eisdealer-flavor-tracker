@@ -2005,5 +2005,75 @@
       ],
       "openUntil": "12:00"
     }
+  },
+  {
+    "timestamp": "2026-04-19T11:31:21.829Z",
+    "buga": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Himbeer",
+          "tags": [],
+          "nameEnglish": "Raspberry"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Mandel",
+          "tags": [],
+          "nameEnglish": "Almond"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Aprikose",
+          "tags": [],
+          "nameEnglish": "Apricot"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mint"
+        }
+      ]
+    }
   }
 ]

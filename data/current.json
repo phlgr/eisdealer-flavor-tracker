@@ -69,9 +69,7 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -80,40 +78,59 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Salted Caramel",
+        "name": "Himbeer",
         "tags": [],
-        "nameEnglish": "Salted Caramel"
-      },
-      {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [],
-        "nameEnglish": "Strawberry-Cheesecake"
+        "nameEnglish": "Raspberry"
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Mandel",
         "tags": [],
-        "nameEnglish": "Hazelnut-Crunch"
+        "nameEnglish": "Almond"
       },
       {
-        "name": "Himbeer Schmand",
+        "name": "Joghurt",
         "tags": [],
-        "nameEnglish": "Raspberry-Sour Cream"
+        "nameEnglish": "Yogurt"
+      },
+      {
+        "name": "Aprikose",
+        "tags": [],
+        "nameEnglish": "Apricot"
+      },
+      {
+        "name": "Schokolade",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mint"
       }
     ],
-    "lastUpdated": "2026-04-11T13:00:48.934Z"
+    "lastUpdated": "2026-04-19T11:31:21.825Z"
   }
 }
