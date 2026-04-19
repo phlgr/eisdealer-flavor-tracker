@@ -1,8 +1,6 @@
-import { createHash } from "node:crypto";
-import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { type Browser, chromium, type Page } from "playwright";
-import type { ScrapedImage } from "./types.js";
+import type { ScrapedImage } from "./types";
 
 const DEBUG_DIR = join(import.meta.dir, "../../../debug");
 const MAX_RETRIES = 2;
@@ -168,7 +166,9 @@ async function scrapeStorySaver(
 	try {
 		await page.waitForSelector("#StoryDataMax", { timeout: 15000 });
 	} catch {
-		console.log("[scrape] Turnstile form never appeared — first AJAX may have failed");
+		console.log(
+			"[scrape] Turnstile form never appeared — first AJAX may have failed",
+		);
 		throw new Error("StoryDataMax form not found after submit");
 	}
 
@@ -190,7 +190,9 @@ async function scrapeStorySaver(
 	} else {
 		// Turnstile didn't solve — trigger the cf_migrate fallback which
 		// computes a UA hash and submits without a Turnstile token.
-		console.log("[scrape] Turnstile didn't solve, triggering cf_migrate fallback...");
+		console.log(
+			"[scrape] Turnstile didn't solve, triggering cf_migrate fallback...",
+		);
 		await page.evaluate(() => {
 			// @ts-expect-error — global function injected by storysaver.net
 			if (typeof setCfErrorLog === "function") {
@@ -248,7 +250,9 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 		const container = document.querySelector("#sonucc") || document;
 
 		// Download buttons/links
-		for (const a of container.querySelectorAll("a[download], a[href*='cdninstagram'], a[href*='scontent']")) {
+		for (const a of container.querySelectorAll(
+			"a[download], a[href*='cdninstagram'], a[href*='scontent']",
+		)) {
 			const href = a.getAttribute("href") || "";
 			addUrl(href);
 		}
@@ -298,7 +302,9 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 					continue;
 				}
 
-				const hash = createHash("sha256").update(buffer).digest("hex");
+				const hash = new Bun.CryptoHasher("sha256")
+					.update(buffer)
+					.digest("hex");
 				images.push({ buffer, hash });
 			} else {
 				console.log(
@@ -315,11 +321,12 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 
 async function debugPage(page: Page, name: string): Promise<void> {
 	try {
-		mkdirSync(DEBUG_DIR, { recursive: true });
 		const screenshot = await page.screenshot({ fullPage: true });
-		writeFileSync(join(DEBUG_DIR, `${name}.png`), screenshot);
 		const html = await page.content();
-		writeFileSync(join(DEBUG_DIR, `${name}.html`), html);
+		await Promise.all([
+			Bun.write(join(DEBUG_DIR, `${name}.png`), screenshot),
+			Bun.write(join(DEBUG_DIR, `${name}.html`), html),
+		]);
 		console.log(`[scrape] Debug screenshot saved as ${name}.png`);
 	} catch (err) {
 		console.error(`[scrape] Failed to save debug info: ${err}`);

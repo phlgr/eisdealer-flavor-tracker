@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
+import { RARITY_CONFIG, RarityBadge } from "#/components/RarityBadge";
 import { computeStats, type Rarity, type Stats } from "#/lib/stats";
 import type { HistoryEntry } from "#/types";
-import { RARITY_CONFIG, RarityBadge } from "#/components/RarityBadge";
 
 export const Route = createFileRoute("/stats")({ component: StatsPage });
 
@@ -152,7 +152,8 @@ function StatsPage() {
 										<span
 											key={f.name}
 											className={`${cfg.chipClass}${(section.key === "episch" || section.key === "legendaer") && f.lastSeen ? " has-tooltip" : ""}`}
-											{...((section.key === "episch" || section.key === "legendaer") &&
+											{...((section.key === "episch" ||
+												section.key === "legendaer") &&
 											f.lastSeen
 												? {
 														"data-tooltip": `Zuletzt: ${daysAgoLabel(f.lastSeen)}`,

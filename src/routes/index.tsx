@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
+import { RarityBadge } from "#/components/RarityBadge";
 import {
 	computeStats,
 	getFlavorRarity,
@@ -8,18 +9,18 @@ import {
 } from "#/lib/stats";
 import type {
 	CurrentData,
+	FlavorTag,
 	HistoryEntry,
 	IceCreamFlavor,
 	LocationState,
 } from "#/types";
-import { RarityBadge } from "#/components/RarityBadge";
 import _currentData from "../../data/current.json";
 
 const currentData: CurrentData = _currentData as CurrentData;
 
 export const Route = createFileRoute("/")({ component: HomePage });
 
-const TAG_LABELS: Record<string, { label: string; className: string }> = {
+const TAG_LABELS: Record<FlavorTag, { label: string; className: string }> = {
 	vegan: { label: "Vegan", className: "tag-vegan" },
 	milk: { label: "Milch", className: "tag-milk" },
 };
@@ -73,7 +74,6 @@ function FlavorRow({
 						<span className="flavor-tags">
 							{flavor.tags.map((tag) => {
 								const info = TAG_LABELS[tag];
-								if (!info) return null;
 								return (
 									<span key={tag} className={`tag ${info.className}`}>
 										{info.label}

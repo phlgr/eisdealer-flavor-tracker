@@ -1,5 +1,5 @@
-import { analyzeStoryImage } from "./analyze.js";
-import { scrapeStoryImages } from "./scrape.js";
+import { analyzeStoryImage } from "./analyze";
+import { scrapeStoryImages } from "./scrape";
 import {
 	appendHistoryEntry,
 	buildLocationUpdate,
@@ -8,8 +8,8 @@ import {
 	loadSeenHashes,
 	saveCurrentData,
 	saveSeenHashes,
-} from "./store.js";
-import type { HistoryEntry, StoryAnalysis } from "./types.js";
+} from "./store";
+import type { HistoryEntry, StoryAnalysis } from "./types";
 
 function getUsername(): string {
 	const env = process.env.INSTAGRAM_USERNAME || "";
@@ -32,7 +32,7 @@ async function main() {
 	console.log(`[main] Scraped ${images.length} images`);
 
 	// Step 2: Dedup against seen hashes
-	const seenHashes = loadSeenHashes();
+	const seenHashes = await loadSeenHashes();
 	const newImages = filterNewImages(images, seenHashes);
 	if (newImages.length === 0) {
 		console.log("[main] All images already processed, done.");
@@ -66,7 +66,7 @@ async function main() {
 
 	// Step 4: Update seen hashes only for successfully analyzed images
 	const allHashes = [...seenHashes, ...analyzedHashes];
-	saveSeenHashes(allHashes);
+	await saveSeenHashes(allHashes);
 
 	// Step 5: Build updates for each location
 	const mainAnalyses = analyses.filter(
@@ -79,10 +79,10 @@ async function main() {
 
 	if (mainUpdate || bugaUpdate) {
 		// Update current.json
-		const current = loadCurrentData();
+		const current = await loadCurrentData();
 		if (mainUpdate) current.main = mainUpdate;
 		if (bugaUpdate) current.buga = bugaUpdate;
-		saveCurrentData(current);
+		await saveCurrentData(current);
 
 		// Append history entry with only updated locations
 		const historyEntry: HistoryEntry = {
@@ -108,7 +108,7 @@ async function main() {
 					}
 				: {}),
 		};
-		appendHistoryEntry(historyEntry);
+		await appendHistoryEntry(historyEntry);
 	}
 
 	console.log(

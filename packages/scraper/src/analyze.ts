@@ -1,7 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
 import { type } from "arktype";
-import type { StoryAnalysis as StoryAnalysisType } from "./types.js";
-import { geminiResponseSchema, StoryAnalysis } from "./types.js";
+import { geminiResponseSchema, StoryAnalysis } from "./types";
 
 const GEMINI_MODELS = [
 	"gemini-3.1-flash-lite-preview",
@@ -39,7 +38,7 @@ async function tryModel(
 	ai: GoogleGenAI,
 	model: string,
 	base64Image: string,
-): Promise<StoryAnalysisType | null> {
+): Promise<StoryAnalysis | null> {
 	const response = await Promise.race([
 		ai.models.generateContent({
 			model,
@@ -87,7 +86,7 @@ async function tryModel(
 
 export async function analyzeStoryImage(
 	imageBuffer: Buffer,
-): Promise<StoryAnalysisType | null> {
+): Promise<StoryAnalysis | null> {
 	const apiKey = process.env.GEMINI_API_KEY;
 	if (!apiKey) {
 		throw new Error("GEMINI_API_KEY environment variable is required");

@@ -1,12 +1,12 @@
-import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { normalizeName } from "./normalize";
 import type {
 	CurrentData,
 	HistoryEntry,
 	IceCreamFlavor,
 	LocationState,
 	StoryAnalysis,
-} from "./types.js";
+} from "./types";
 
 const DATA_DIR = join(import.meta.dir, "../../../data");
 const SEEN_HASHES_PATH = join(DATA_DIR, "seen-hashes.json");
@@ -14,27 +14,28 @@ const CURRENT_PATH = join(DATA_DIR, "current.json");
 const HISTORY_PATH = join(DATA_DIR, "history.json");
 const MAX_HASHES = 200;
 
-function readJson<T>(path: string, fallback: T): T {
+async function readJson<T>(path: string, fallback: T): Promise<T> {
+	const file = Bun.file(path);
+	if (!(await file.exists())) return fallback;
 	try {
-		return JSON.parse(readFileSync(path, "utf-8"));
+		return (await file.json()) as T;
 	} catch {
 		return fallback;
 	}
 }
 
-function writeJson(path: string, data: unknown): void {
-	writeFileSync(path, `${JSON.stringify(data, null, 2)}\n`);
+function writeJson(path: string, data: unknown): Promise<number> {
+	return Bun.write(path, `${JSON.stringify(data, null, 2)}\n`);
 }
 
 // --- Hash dedup ---
 
-export function loadSeenHashes(): string[] {
+export function loadSeenHashes(): Promise<string[]> {
 	return readJson<string[]>(SEEN_HASHES_PATH, []);
 }
 
-export function saveSeenHashes(hashes: string[]): void {
-	const pruned = hashes.slice(-MAX_HASHES);
-	writeJson(SEEN_HASHES_PATH, pruned);
+export function saveSeenHashes(hashes: string[]): Promise<number> {
+	return writeJson(SEEN_HASHES_PATH, hashes.slice(-MAX_HASHES));
 }
 
 export function filterNewImages<T extends { hash: string }>(
@@ -45,30 +46,14 @@ export function filterNewImages<T extends { hash: string }>(
 	return images.filter((img) => !seen.has(img.hash));
 }
 
-// --- Flavor name normalization ---
-
-/** Known compound-word aliases (lowercase → canonical form) */
-const ALIASES: Record<string, string> = {
-	haselnusscrunch: "Haselnuss Crunch",
-};
-
-/** Normalize separators: "Buttermilch-Mango" / "Buttermilch Mango" → "Buttermilch Mango" */
-export function normalizeName(name: string): string {
-	const normalized = name
-		.replace(/\s*-\s*/g, " ")
-		.replace(/\s{2,}/g, " ")
-		.trim();
-	return ALIASES[normalized.toLowerCase()] ?? normalized;
-}
-
 // --- Current data ---
 
-export function loadCurrentData(): CurrentData {
+export function loadCurrentData(): Promise<CurrentData> {
 	return readJson<CurrentData>(CURRENT_PATH, {});
 }
 
-export function saveCurrentData(data: CurrentData): void {
-	writeJson(CURRENT_PATH, data);
+export function saveCurrentData(data: CurrentData): Promise<number> {
+	return writeJson(CURRENT_PATH, data);
 }
 
 // --- Build location update from analyses ---
@@ -89,7 +74,8 @@ export function buildLocationUpdate(
 	}
 
 	// Use only the latest flavor list — it represents the current menu
-	const latestAnalysis = flavorAnalyses[flavorAnalyses.length - 1];
+	const latestAnalysis = flavorAnalyses.at(-1);
+	if (!latestAnalysis) return null;
 	const flavorMap = new Map<string, IceCreamFlavor>();
 	for (const flavor of latestAnalysis.flavors) {
 		const cleanName = normalizeName(
@@ -109,10 +95,7 @@ export function buildLocationUpdate(
 		}
 	}
 
-	const openUntil = analyses
-		.map((a) => a.openUntil)
-		.filter(Boolean)
-		.pop();
+	const openUntil = analyses.findLast((a) => a.openUntil)?.openUntil;
 
 	const update: LocationState = {
 		flavors: Array.from(flavorMap.values()),
@@ -128,9 +111,9 @@ export function buildLocationUpdate(
 
 // --- History ---
 
-export function appendHistoryEntry(entry: HistoryEntry): void {
-	const history = readJson<HistoryEntry[]>(HISTORY_PATH, []);
+export async function appendHistoryEntry(entry: HistoryEntry): Promise<void> {
+	const history = await readJson<HistoryEntry[]>(HISTORY_PATH, []);
 	history.push(entry);
-	writeJson(HISTORY_PATH, history);
+	await writeJson(HISTORY_PATH, history);
 	console.log(`[store] Appended history entry at ${entry.timestamp}`);
 }

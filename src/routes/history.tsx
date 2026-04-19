@@ -9,6 +9,11 @@ type DayGroup = {
 	entries: HistoryEntry[];
 };
 
+const LOCATIONS = [
+	{ key: "main", label: "Hauptfiliale" },
+	{ key: "buga", label: "Bunter Garten" },
+] as const;
+
 function formatDate(dateStr: string): string {
 	return new Date(`${dateStr}T12:00:00`).toLocaleDateString("de-DE", {
 		weekday: "long",
@@ -43,8 +48,8 @@ function groupByDate(entries: HistoryEntry[]): DayGroup[] {
 
 function matchesFlavor(entry: HistoryEntry, query: string): boolean {
 	const q = query.toLowerCase();
-	for (const loc of ["main", "buga"] as const) {
-		const locationData = entry[loc];
+	for (const { key } of LOCATIONS) {
+		const locationData = entry[key];
 		if (!locationData) continue;
 		for (const f of locationData.flavors) {
 			if (f.name.toLowerCase().includes(q)) return true;
@@ -84,8 +89,8 @@ function HistoryPage() {
 		const names = new Set<string>();
 		for (const day of days) {
 			for (const entry of day.entries) {
-				for (const loc of ["main", "buga"] as const) {
-					const locationData = entry[loc];
+				for (const { key } of LOCATIONS) {
+					const locationData = entry[key];
 					if (!locationData) continue;
 					for (const f of locationData.flavors) {
 						names.add(f.name);
@@ -177,41 +182,27 @@ function HistoryPage() {
 											</p>
 										)}
 
-										{entry.main && entry.main.flavors.length > 0 && (
-											<div className="mb-2">
-												<h3 className="text-sm font-bold text-[var(--text-secondary)] mb-1.5 uppercase tracking-wide">
-													Hauptfiliale
-												</h3>
-												<div className="flex flex-wrap gap-1.5">
-													{entry.main.flavors.map((f) => (
-														<span
-															key={f.name}
-															className={`history-flavor-chip${search && f.name.toLowerCase().includes(search.toLowerCase()) ? " history-flavor-highlight" : ""}`}
-														>
-															{f.name}
-														</span>
-													))}
+										{LOCATIONS.map(({ key, label }) => {
+											const loc = entry[key];
+											if (!loc || loc.flavors.length === 0) return null;
+											return (
+												<div key={key} className="mb-2 last:mb-0">
+													<h3 className="text-sm font-bold text-[var(--text-secondary)] mb-1.5 uppercase tracking-wide">
+														{label}
+													</h3>
+													<div className="flex flex-wrap gap-1.5">
+														{loc.flavors.map((f) => (
+															<span
+																key={f.name}
+																className={`history-flavor-chip${search && f.name.toLowerCase().includes(search.toLowerCase()) ? " history-flavor-highlight" : ""}`}
+															>
+																{f.name}
+															</span>
+														))}
+													</div>
 												</div>
-											</div>
-										)}
-
-										{entry.buga && entry.buga.flavors.length > 0 && (
-											<div>
-												<h3 className="text-sm font-bold text-[var(--text-secondary)] mb-1.5 uppercase tracking-wide">
-													Bunter Garten
-												</h3>
-												<div className="flex flex-wrap gap-1.5">
-													{entry.buga.flavors.map((f) => (
-														<span
-															key={f.name}
-															className={`history-flavor-chip${search && f.name.toLowerCase().includes(search.toLowerCase()) ? " history-flavor-highlight" : ""}`}
-														>
-															{f.name}
-														</span>
-													))}
-												</div>
-											</div>
-										)}
+											);
+										})}
 									</div>
 								))}
 							</div>
