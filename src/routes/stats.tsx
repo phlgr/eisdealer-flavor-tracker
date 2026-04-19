@@ -151,10 +151,8 @@ function StatsPage() {
 									{flavors.map((f) => (
 										<span
 											key={f.name}
-											className={`${cfg.chipClass}${(section.key === "episch" || section.key === "legendaer") && f.lastSeen ? " has-tooltip" : ""}`}
-											{...((section.key === "episch" ||
-												section.key === "legendaer") &&
-											f.lastSeen
+											className={`${cfg.chipClass}${f.lastSeen ? " has-tooltip" : ""}`}
+											{...(f.lastSeen
 												? {
 														"data-tooltip": `Zuletzt: ${daysAgoLabel(f.lastSeen)}`,
 													}
