@@ -68,69 +68,54 @@
   "buga": {
     "flavors": [
       {
-        "name": "Schokomousse",
-        "tags": [],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
         "name": "Vanille",
         "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Himbeer",
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Haselnuss Crunch",
         "tags": [],
-        "nameEnglish": "Raspberry"
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Mandel",
+        "name": "Pistazie",
         "tags": [],
-        "nameEnglish": "Almond"
+        "nameEnglish": "Pistachio"
       },
       {
-        "name": "Joghurt",
+        "name": "Oreo",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "Himbeer Schmand",
         "tags": [],
-        "nameEnglish": "Yogurt"
+        "nameEnglish": "Raspberry Sour Cream"
       },
       {
-        "name": "Aprikose",
-        "tags": [],
-        "nameEnglish": "Apricot"
-      },
-      {
-        "name": "Schokolade",
+        "name": "Pfirsich Maracuja",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mint"
+        "nameEnglish": "Peach Passion Fruit"
       }
     ],
-    "lastUpdated": "2026-04-19T11:31:21.825Z"
+    "lastUpdated": "2026-04-19T12:00:54.028Z"
   }
 }
