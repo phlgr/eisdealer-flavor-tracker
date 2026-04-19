@@ -2130,5 +2130,68 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-04-19T13:30:55.242Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Himbeere",
+          "tags": [],
+          "nameEnglish": "Raspberry"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Oreo",
+          "tags": [],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Pfirsich",
+          "tags": [],
+          "nameEnglish": "Peach"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Lotus Cheesecake",
+          "tags": [],
+          "nameEnglish": "Lotus Cheesecake"
+        },
+        {
+          "name": "Gebrannte Mandel",
+          "tags": [],
+          "nameEnglish": "Roasted Almond"
+        },
+        {
+          "name": "Sesam Karamell",
+          "tags": [],
+          "nameEnglish": "Sesame Caramel"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]
