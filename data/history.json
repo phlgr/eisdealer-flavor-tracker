@@ -1937,5 +1937,73 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-04-19T10:00:58.883Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Rhabarber",
+          "tags": [],
+          "nameEnglish": "Rhubarb"
+        },
+        {
+          "name": "Crunchy Peanutbutter",
+          "tags": [],
+          "nameEnglish": "Crunchy Peanut Butter"
+        },
+        {
+          "name": "Orange Mandelkuchen",
+          "tags": [],
+          "nameEnglish": "Orange Almond Cake"
+        },
+        {
+          "name": "Sesam Karamell",
+          "tags": [],
+          "nameEnglish": "Sesame Caramel"
+        },
+        {
+          "name": "Kiwi",
+          "tags": [],
+          "nameEnglish": "Kiwi"
+        },
+        {
+          "name": "Orange Ingwer",
+          "tags": [],
+          "nameEnglish": "Orange Ginger"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        }
+      ],
+      "openUntil": "12:00"
+    }
   }
 ]

@@ -4,7 +4,7 @@
       {
         "name": "Schokomousse",
         "tags": [],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Chocolate mousse"
       },
       {
         "name": "Vanille",
@@ -12,19 +12,9 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Pistazie",
         "tags": [],
-        "nameEnglish": "Strawberry Cheesecake"
-      },
-      {
-        "name": "Joghurt Zitrone",
-        "tags": [],
-        "nameEnglish": "Yogurt Lemon"
-      },
-      {
-        "name": "Rhabarber",
-        "tags": [],
-        "nameEnglish": "Rhubarb"
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Mango",
@@ -32,24 +22,24 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "Pistazie",
+        "name": "Rhabarber",
         "tags": [],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Rhubarb"
       },
       {
-        "name": "Orange Ingwer",
+        "name": "Crunchy Peanutbutter",
         "tags": [],
-        "nameEnglish": "Orange Ginger"
+        "nameEnglish": "Crunchy Peanut Butter"
       },
       {
-        "name": "Maracuja Cheesecake",
+        "name": "Orange Mandelkuchen",
         "tags": [],
-        "nameEnglish": "Passion Fruit Cheesecake"
+        "nameEnglish": "Orange Almond Cake"
       },
       {
-        "name": "Zitrone",
+        "name": "Sesam Karamell",
         "tags": [],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Sesame Caramel"
       },
       {
         "name": "Kiwi",
@@ -57,13 +47,23 @@
         "nameEnglish": "Kiwi"
       },
       {
-        "name": "Stracciatella",
+        "name": "Orange Ingwer",
         "tags": [],
-        "nameEnglish": "Stracciatella"
+        "nameEnglish": "Orange Ginger"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [],
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-04-18T10:30:48.688Z",
-    "openUntil": "19:00"
+    "lastUpdated": "2026-04-19T10:00:58.881Z",
+    "openUntil": "12:00"
   },
   "buga": {
     "flavors": [
