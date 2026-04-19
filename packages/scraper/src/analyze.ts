@@ -17,7 +17,7 @@ Your task:
    Specifically, set isFlavorList to false for: Instagram polls, promotional posts, events, selfies, vote/question stickers, or any other content that is not a flavor menu in one of the two formats above.
 2. If it IS a flavor list, extract every flavor name visible.
 3. For each flavor, provide:
-   - name: The clean flavor name WITHOUT any markers like "(V)", "(v)", "(vegan)" etc. Strip those and use the tag instead. Use title case (e.g., "Schokomousse" not "SCHOKOMOUSSE").
+   - name: The clean flavor name WITHOUT any markers like "(V)", "(v)", "(vegan)" etc. Strip those and use the tag instead. Use title case (e.g., "Schokomousse" not "SCHOKOMOUSSE"). Correct obvious OCR/spelling errors where the intended German word is unambiguous (e.g., "Zitonenkuchen" → "Zitronenkuchen", "Schokolode" → "Schokolade"). Do NOT "correct" unusual or creative flavor names — when in doubt, leave the name as written.
    - nameEnglish: English translation (if you can determine it)
    - tags: ONLY add tags that are visually indicated in the image. Do NOT guess or infer tags.
      - "vegan": ONLY if the flavor has a visible "(V)", "(v)", leaf symbol, or "vegan" marker next to it
@@ -28,7 +28,7 @@ Your task:
    - If the image shows a freestanding black chalkboard, or mentions "Bunter Garten", "BuGa", or similar → set location to "buga"
    - If the image shows the "Frisch aus unserer Manufaktur:" sign → set location to "main"
    - If unsure, default to "main"
-6. If the image mentions opening hours or closing time (e.g., "bis 20 Uhr", "bis 21:00", "wir sind bis X Uhr da"), extract it as openUntil in HH:MM format (e.g., "20:00"). Only set this if a time is clearly visible.
+6. If the image mentions a CLOSING time for today, extract it as openUntil in HH:MM format (e.g., "20:00"). Only extract the closing time — NOT the opening time. Look for phrases like "heute bis 20 Uhr", "bis 21:00", "wir sind bis X Uhr da", "geöffnet bis …", "offen bis …". Do NOT use opening-time phrases like "ab 12 Uhr", "geöffnet ab …", "wir öffnen um …" or ranges where only the start is clearly the opening (e.g., when a single time is shown next to "ab"/"von" it is the opening time, not the closing time). If only an opening time is shown, leave openUntil unset. Only set this if a closing time is clearly visible.
 
 IMPORTANT:
 - Do NOT include vegan/dietary markers like "(V)" or "(v)" in the flavor name. Use the tags array instead.
