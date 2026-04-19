@@ -13,26 +13,27 @@
     "scrape": "bun run packages/scraper/src/index.ts",
     "lint": "biome check",
     "lint:fix": "biome check --write",
-    "typecheck": "tsc --noEmit && tsc --noEmit -p packages/scraper/tsconfig.json"
+    "typecheck": "tsc --noEmit && tsc --noEmit -p packages/scraper/tsconfig.json",
+    "knip": "knip",
+    "prepare": "lefthook install"
   },
   "dependencies": {
     "@fontsource/space-grotesk": "^5.2.10",
     "@tailwindcss/vite": "^4.2.2",
     "@tanstack/react-router": "latest",
     "@tanstack/react-start": "latest",
-    "@tanstack/router-plugin": "^1.167.4",
-    "lucide-react": "^1.6.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.8",
-    "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^25.5.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
+    "knip": "^6.4.1",
+    "lefthook": "^2.1.6",
     "typescript": "^6.0.2",
     "vite": "^8.0.2"
   }

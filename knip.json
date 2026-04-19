@@ -1,0 +1,13 @@
+{
+	"$schema": "https://unpkg.com/knip@6/schema.json",
+	"ignoreDependencies": ["@fontsource/space-grotesk", "tailwindcss"],
+	"workspaces": {
+		".": {
+			"entry": ["src/router.tsx", "src/routes/**/*.tsx"],
+			"project": "src/**/*.{ts,tsx}"
+		},
+		"packages/scraper": {
+			"project": "src/**/*.ts"
+		}
+	}
+}

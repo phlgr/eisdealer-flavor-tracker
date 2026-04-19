@@ -28,7 +28,7 @@ export const CurrentData = type({
 	"buga?": LocationState,
 });
 
-export const HistoryLocationEntry = type({
+const HistoryLocationEntry = type({
 	flavors: IceCreamFlavor.array(),
 	"openUntil?": "string",
 });
@@ -46,7 +46,6 @@ export type IceCreamFlavor = typeof IceCreamFlavor.infer;
 export type StoryAnalysis = typeof StoryAnalysis.infer;
 export type LocationState = typeof LocationState.infer;
 export type CurrentData = typeof CurrentData.infer;
-export type HistoryLocationEntry = typeof HistoryLocationEntry.infer;
 export type HistoryEntry = typeof HistoryEntry.infer;
 
 export interface ScrapedImage {

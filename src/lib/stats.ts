@@ -28,7 +28,7 @@ const THRESHOLDS: { min: number; rarity: Rarity }[] = [
 	{ min: 0, rarity: "legendaer" },
 ];
 
-export function getRarity(frequency: number): Rarity {
+function getRarity(frequency: number): Rarity {
 	for (const t of THRESHOLDS) {
 		if (frequency >= t.min) return t.rarity;
 	}
