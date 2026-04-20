@@ -2,14 +2,37 @@
   "main": {
     "flavors": [
       {
-        "name": "Himbeere",
+        "name": "Schokomousse",
         "tags": [],
-        "nameEnglish": "Raspberry"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Mango",
-        "tags": [],
-        "nameEnglish": "Mango"
+        "name": "Vanille",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Sesam Karamell",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Sesame Caramel"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Hazelnut Crunch"
+      },
+      {
+        "name": "Orange Mandelkuchen",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Orange Almond Cake"
       },
       {
         "name": "Oreo",
@@ -17,48 +40,49 @@
         "nameEnglish": "Oreo"
       },
       {
-        "name": "Limette Minze",
-        "tags": [],
-        "nameEnglish": "Lime Mint"
+        "name": "Heidelbeer Quark",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Blueberry Quark"
       },
       {
-        "name": "Pfirsich",
-        "tags": [],
-        "nameEnglish": "Peach"
+        "name": "Himbeer Schmand",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Raspberry Sour Cream"
       },
       {
-        "name": "Erdbeere",
-        "tags": [],
-        "nameEnglish": "Strawberry"
+        "name": "Orange Ingwer",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Orange Ginger"
       },
       {
-        "name": "Schokomousse",
-        "tags": [],
-        "nameEnglish": "Chocolate Mousse"
+        "name": "Rhabarber",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Rhubarb"
       },
       {
-        "name": "Lotus Cheesecake",
-        "tags": [],
-        "nameEnglish": "Lotus Cheesecake"
+        "name": "Kiwi",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Kiwi"
       },
       {
-        "name": "Gebrannte Mandel",
-        "tags": [],
-        "nameEnglish": "Roasted Almond"
-      },
-      {
-        "name": "Sesam Karamell",
-        "tags": [],
-        "nameEnglish": "Sesame Caramel"
-      },
-      {
-        "name": "Vanille",
-        "tags": [],
-        "nameEnglish": "Vanilla"
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-04-19T13:30:55.239Z",
-    "openUntil": "19:00"
+    "lastUpdated": "2026-04-20T11:00:44.192Z"
   },
   "buga": {
     "flavors": [

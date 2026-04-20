@@ -2193,5 +2193,92 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-04-20T11:00:44.196Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Sesam Karamell",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Sesame Caramel"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Orange Mandelkuchen",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Orange Almond Cake"
+        },
+        {
+          "name": "Oreo",
+          "tags": [],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Blueberry Quark"
+        },
+        {
+          "name": "Himbeer Schmand",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Raspberry Sour Cream"
+        },
+        {
+          "name": "Orange Ingwer",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Orange Ginger"
+        },
+        {
+          "name": "Rhabarber",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Rhubarb"
+        },
+        {
+          "name": "Kiwi",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Kiwi"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        }
+      ]
+    }
   }
 ]
