@@ -1,0 +1,18 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"timezone": "Europe/Berlin",
+	"extends": [
+		"config:best-practices",
+		"group:monorepos",
+		"group:recommended",
+		":automergeMinor"
+	],
+	"assignees": ["phlgr"],
+	"minimumReleaseAge": "7 days",
+	"packageRules": [
+		{
+			"matchDepTypes": ["devDependencies"],
+			"automerge": true
+		}
+	]
+}
