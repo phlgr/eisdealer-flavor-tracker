@@ -8,64 +8,48 @@
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Sesam Karamell",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Sesame Caramel"
+        "name": "Joghurt",
+        "tags": [],
+        "nameEnglish": "Yogurt"
       },
       {
         "name": "Haselnuss Crunch",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Hazelnut Crunch"
       },
       {
-        "name": "Orange Mandelkuchen",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Orange Almond Cake"
-      },
-      {
-        "name": "Oreo",
-        "tags": [],
-        "nameEnglish": "Oreo"
-      },
-      {
         "name": "Heidelbeer Quark",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Himbeer Schmand",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Raspberry Sour Cream"
       },
       {
+        "name": "Pfirsich Maracuja",
+        "tags": [],
+        "nameEnglish": "Peach - Passion Fruit"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
+      },
+      {
         "name": "Orange Ingwer",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Orange Ginger"
       },
       {
-        "name": "Rhabarber",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Rhubarb"
+        "name": "Gebrannte Mandel",
+        "tags": [],
+        "nameEnglish": "Roasted Almond"
       },
       {
         "name": "Kiwi",
@@ -76,13 +60,12 @@
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-04-20T11:00:44.192Z"
+    "lastUpdated": "2026-04-21T10:01:00.103Z",
+    "openUntil": "19:00"
   },
   "buga": {
     "flavors": [
