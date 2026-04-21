@@ -10,7 +10,7 @@ WORKDIR /app
 # Install dependencies first (better layer caching)
 COPY package.json bun.lock* ./
 COPY packages/scraper/package.json packages/scraper/
-RUN bun install --frozen-lockfile
+RUN bun install --frozen-lockfile --ignore-scripts
 
 # Copy full repo (needed for git push)
 COPY . .
