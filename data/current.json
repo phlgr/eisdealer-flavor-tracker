@@ -27,14 +27,14 @@
         "nameEnglish": "Blueberry Quark"
       },
       {
-        "name": "Himbeer Schmand",
+        "name": "Mango Lassi",
         "tags": [],
-        "nameEnglish": "Raspberry Sour Cream"
+        "nameEnglish": "Mango Lassi"
       },
       {
-        "name": "Pfirsich Maracuja",
+        "name": "Salted Caramel",
         "tags": [],
-        "nameEnglish": "Peach - Passion Fruit"
+        "nameEnglish": "Salted Caramel"
       },
       {
         "name": "Erdbeere",
@@ -47,9 +47,9 @@
         "nameEnglish": "Orange Ginger"
       },
       {
-        "name": "Gebrannte Mandel",
+        "name": "Pfirsich Maracuja",
         "tags": [],
-        "nameEnglish": "Roasted Almond"
+        "nameEnglish": "Peach - Passionfruit"
       },
       {
         "name": "Kiwi",
@@ -64,8 +64,7 @@
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-04-21T10:01:00.103Z",
-    "openUntil": "19:00"
+    "lastUpdated": "2026-04-22T10:30:44.727Z"
   },
   "buga": {
     "flavors": [
