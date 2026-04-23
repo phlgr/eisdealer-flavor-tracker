@@ -2419,5 +2419,97 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-04-23T10:01:02.933Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Maracuja Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Passion fruit cheesecake"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Blueberry quark"
+        },
+        {
+          "name": "Mango Lassi",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Mango lassi"
+        },
+        {
+          "name": "Salted Caramel",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Salted caramel"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Orange Ingwer",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Orange ginger"
+        },
+        {
+          "name": "Pfirsich Maracuja",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Peach-passion fruit"
+        },
+        {
+          "name": "Kiwi",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Kiwi"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]

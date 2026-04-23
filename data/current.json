@@ -3,53 +3,73 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
-        "nameEnglish": "Chocolate Mousse"
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Joghurt",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Haselnuss Crunch",
-        "tags": [],
-        "nameEnglish": "Hazelnut Crunch"
+        "name": "Maracuja Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Passion fruit cheesecake"
       },
       {
         "name": "Heidelbeer Quark",
-        "tags": [],
-        "nameEnglish": "Blueberry Quark"
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Blueberry quark"
       },
       {
         "name": "Mango Lassi",
-        "tags": [],
-        "nameEnglish": "Mango Lassi"
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Mango lassi"
       },
       {
         "name": "Salted Caramel",
-        "tags": [],
-        "nameEnglish": "Salted Caramel"
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Salted caramel"
       },
       {
-        "name": "Erdbeere",
-        "tags": [],
-        "nameEnglish": "Strawberry"
+        "name": "Pistazie",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Orange Ingwer",
-        "tags": [],
-        "nameEnglish": "Orange Ginger"
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Orange ginger"
       },
       {
         "name": "Pfirsich Maracuja",
-        "tags": [],
-        "nameEnglish": "Peach - Passionfruit"
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Peach-passion fruit"
       },
       {
         "name": "Kiwi",
@@ -60,11 +80,14 @@
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-04-22T10:30:44.727Z"
+    "lastUpdated": "2026-04-23T10:01:02.930Z",
+    "openUntil": "19:00"
   },
   "buga": {
     "flavors": [
