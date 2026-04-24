@@ -6,7 +6,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate mousse"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
@@ -27,28 +27,28 @@
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Passion fruit cheesecake"
+        "nameEnglish": "Passion Fruit Cheesecake"
       },
       {
         "name": "Heidelbeer Quark",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Blueberry quark"
+        "nameEnglish": "Blueberry Quark"
       },
       {
-        "name": "Mango Lassi",
+        "name": "Himbeer Schmand",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Mango lassi"
+        "nameEnglish": "Raspberry Sour Cream"
       },
       {
-        "name": "Salted Caramel",
+        "name": "Strawberry Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Salted caramel"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Pistazie",
@@ -58,18 +58,18 @@
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Orange Ingwer",
+        "name": "Waldfrucht",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Orange ginger"
+        "nameEnglish": "Wild Berry"
       },
       {
         "name": "Pfirsich Maracuja",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Peach-passion fruit"
+        "nameEnglish": "Peach-Passion Fruit"
       },
       {
         "name": "Kiwi",
@@ -86,7 +86,7 @@
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-04-23T10:01:02.930Z",
+    "lastUpdated": "2026-04-24T10:01:19.140Z",
     "openUntil": "19:00"
   },
   "buga": {
