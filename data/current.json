@@ -2,91 +2,67 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Haselnuss Crunch",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Hazelnut Crunch"
-      },
-      {
-        "name": "Erdbeer Tiramisu",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Tiramisu"
-      },
-      {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "White Choc Himbeere",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "White Chocolate Raspberry"
-      },
-      {
-        "name": "Stracciatella",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Stracciatella"
-      },
-      {
-        "name": "Pfirsich Maracuja",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Peach - Passion Fruit"
-      },
-      {
-        "name": "Lotus Zimtschnecke",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Lotus - Cinnamon Roll"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Waldfrucht",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Forest Fruit"
-      },
-      {
         "name": "Joghurt",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
+        "name": "Himbeere",
+        "tags": [],
+        "nameEnglish": "Raspberry"
+      },
+      {
+        "name": "Mango",
+        "tags": [],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Oreo",
+        "tags": [],
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Lotus Cheesecake",
+        "tags": [],
+        "nameEnglish": "Lotus Cheesecake"
+      },
+      {
+        "name": "Gebrannte Mandel",
+        "tags": [],
+        "nameEnglish": "Roasted Almond"
+      },
+      {
+        "name": "Sesam Karamell",
+        "tags": [],
+        "nameEnglish": "Sesame Caramel"
+      },
+      {
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
       }
     ],
-    "lastUpdated": "2026-04-26T08:30:43.248Z",
+    "lastUpdated": "2026-04-26T15:00:43.265Z",
     "openUntil": "20:00"
   },
   "buga": {
