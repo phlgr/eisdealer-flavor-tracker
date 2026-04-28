@@ -3,15 +3,17 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Zitrone",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Mango",
@@ -21,44 +23,18 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "Pfirsich Maracuja",
+        "name": "Rhabarber",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Peach-Passion Fruit"
+        "nameEnglish": "Rhubarb"
       },
       {
-        "name": "Himbeere",
-        "tags": [],
-        "nameEnglish": "Raspberry"
-      },
-      {
-        "name": "Waldfrucht",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Forest Fruit"
-      },
-      {
-        "name": "Joghurt",
+        "name": "Salted Caramel",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Crunchy Peanutbutter",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Crunchy Peanut Butter"
-      },
-      {
-        "name": "Maracuja Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Passion Fruit Cheesecake"
+        "nameEnglish": "Salted Caramel"
       },
       {
         "name": "Stracciatella",
@@ -68,6 +44,13 @@
         "nameEnglish": "Stracciatella"
       },
       {
+        "name": "Joghurt",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yogurt"
+      },
+      {
         "name": "Limette Minze",
         "tags": [
           "vegan"
@@ -75,14 +58,35 @@
         "nameEnglish": "Lime Mint"
       },
       {
+        "name": "Oreo",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
+      },
+      {
         "name": "Vanille",
         "tags": [
           "milk"
         ],
         "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry Cheesecake"
       }
     ],
-    "lastUpdated": "2026-04-27T12:31:27.055Z",
+    "lastUpdated": "2026-04-28T09:30:49.606Z",
     "openUntil": "20:00"
   },
   "buga": {
