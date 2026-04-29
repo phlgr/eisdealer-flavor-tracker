@@ -2,67 +2,84 @@
   "main": {
     "flavors": [
       {
-        "name": "Joghurt",
-        "tags": [],
-        "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Himbeere",
-        "tags": [],
-        "nameEnglish": "Raspberry"
-      },
-      {
-        "name": "Mango",
-        "tags": [],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Oreo",
-        "tags": [],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [],
-        "nameEnglish": "Strawberry"
-      },
-      {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Lotus Cheesecake",
-        "tags": [],
-        "nameEnglish": "Lotus Cheesecake"
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
       },
       {
-        "name": "Gebrannte Mandel",
-        "tags": [],
-        "nameEnglish": "Roasted Almond"
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
       },
       {
-        "name": "Sesam Karamell",
-        "tags": [],
-        "nameEnglish": "Sesame Caramel"
+        "name": "Rhabarber",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Rhubarb"
+      },
+      {
+        "name": "Himbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Raspberry"
+      },
+      {
+        "name": "Waldfrucht",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Forest Fruit"
+      },
+      {
+        "name": "Joghurt",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yogurt"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Stracciatella",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Stracciatella"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       }
     ],
-    "lastUpdated": "2026-04-28T12:30:50.459Z",
+    "lastUpdated": "2026-04-29T10:00:55.412Z",
     "openUntil": "20:00"
   },
   "buga": {
