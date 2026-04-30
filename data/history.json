@@ -3431,5 +3431,97 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-04-30T11:00:56.972Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Espresso",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Espresso"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Orange Ingwer",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Orange - Ginger"
+        },
+        {
+          "name": "Lotus Zimtschnecke",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Lotus - Cinnamon Roll"
+        },
+        {
+          "name": "White Choc Himbeere",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "White Chocolate Raspberry"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Salted Caramel",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Salted Caramel"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Erdbeer Joghurt Schoko",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry - Yogurt - Chocolate"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]

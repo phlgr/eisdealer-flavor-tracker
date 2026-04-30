@@ -9,6 +9,13 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
+        "name": "Espresso",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Espresso"
+      },
+      {
         "name": "Zitrone",
         "tags": [
           "vegan"
@@ -16,53 +23,39 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Mango",
+        "name": "Orange Ingwer",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Orange - Ginger"
       },
       {
-        "name": "Rhabarber",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Rhubarb"
-      },
-      {
-        "name": "Himbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Raspberry"
-      },
-      {
-        "name": "Waldfrucht",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mixed Berry"
-      },
-      {
-        "name": "Joghurt",
+        "name": "Lotus Zimtschnecke",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Yogurt"
+        "nameEnglish": "Lotus - Cinnamon Roll"
+      },
+      {
+        "name": "White Choc Himbeere",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "White Chocolate Raspberry"
       },
       {
         "name": "Limette Minze",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Stracciatella",
+        "name": "Salted Caramel",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Stracciatella"
+        "nameEnglish": "Salted Caramel"
       },
       {
         "name": "Erdbeere",
@@ -77,9 +70,23 @@
           "milk"
         ],
         "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Erdbeer Joghurt Schoko",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry - Yogurt - Chocolate"
+      },
+      {
+        "name": "Joghurt",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yogurt"
       }
     ],
-    "lastUpdated": "2026-04-30T09:01:03.102Z",
+    "lastUpdated": "2026-04-30T11:00:56.969Z",
     "openUntil": "20:00"
   },
   "buga": {
