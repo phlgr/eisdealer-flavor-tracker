@@ -67,9 +67,9 @@ function FlavorRow({
 			<span className="nail" />
 			<div className="flavor-content">
 				<span className="flavor-name">{flavor.name}</span>
-				{showRarity && <RarityBadge rarity={rarity} />}
-				{flavor.tags.length > 0 && (
+				{(showRarity || flavor.tags.length > 0) && (
 					<span className="flavor-tags">
+						{showRarity && <RarityBadge rarity={rarity} />}
 						{flavor.tags.map((tag) => {
 							const info = TAG_LABELS[tag];
 							return (
