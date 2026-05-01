@@ -92,11 +92,6 @@
   "buga": {
     "flavors": [
       {
-        "name": "Vanille",
-        "tags": [],
-        "nameEnglish": "Vanilla"
-      },
-      {
         "name": "Schokomousse",
         "tags": [
           "vegan"
@@ -104,9 +99,39 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Haselnuss Crunch",
-        "tags": [],
-        "nameEnglish": "Hazelnut Crunch"
+        "name": "Orangenkuchen",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Orange Cake"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Maple Walnut",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Maple Walnut"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
       },
       {
         "name": "Zitrone",
@@ -116,30 +141,11 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Pistazie",
+        "name": "Haselnuss Crunch",
         "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Himbeer Schmand",
-        "tags": [],
-        "nameEnglish": "Raspberry Sour Cream"
-      },
-      {
-        "name": "Pfirsich Maracuja",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Peach Passion Fruit"
+        "nameEnglish": "Hazelnut Crunch"
       }
     ],
-    "lastUpdated": "2026-04-19T12:00:54.028Z"
+    "lastUpdated": "2026-05-01T10:31:35.952Z"
   }
 }
