@@ -2,67 +2,91 @@
   "main": {
     "flavors": [
       {
-        "name": "Joghurt / Honig",
-        "tags": [],
-        "nameEnglish": "Yogurt / Honey"
+        "name": "Maracuja Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Passion Fruit Cheesecake"
       },
       {
-        "name": "Himbeere",
-        "tags": [],
-        "nameEnglish": "Raspberry"
+        "name": "Joghurt",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yogurt"
       },
       {
-        "name": "Mango",
-        "tags": [],
-        "nameEnglish": "Mango"
+        "name": "Stracciatella",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Stracciatella"
       },
       {
-        "name": "Oreo",
-        "tags": [],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Schokomousse",
-        "tags": [],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Lotus Cheesecake",
-        "tags": [],
-        "nameEnglish": "Lotus Biscoff Cheesecake"
-      },
-      {
-        "name": "Gebrannte Mandel",
-        "tags": [],
-        "nameEnglish": "Roasted Almond"
-      },
-      {
-        "name": "Sesam Karamell",
-        "tags": [],
-        "nameEnglish": "Sesame Caramel"
+        "name": "Salted Caramel",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Salted Caramel"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Crunchy Peanutbutter",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Crunchy Peanut Butter"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Orange Ingwer",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Orange - Ginger"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Waldfrucht",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Forest Fruit"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
       }
     ],
-    "lastUpdated": "2026-05-01T08:01:02.956Z",
+    "lastUpdated": "2026-05-01T09:31:03.894Z",
     "openUntil": "20:00"
   },
   "buga": {
