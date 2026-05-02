@@ -3744,5 +3744,97 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-05-02T10:00:43.086Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Orange Ingwer",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Orange Ginger"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Himbeer Joghurt Schoko",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Raspberry Yogurt Chocolate"
+        },
+        {
+          "name": "Waldfrucht",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Forest fruit"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Pfirsich Maracuja",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Peach Passion Fruit"
+        },
+        {
+          "name": "Sesam Karamell",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Sesame Caramel"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Kokos",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Coconut"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]
