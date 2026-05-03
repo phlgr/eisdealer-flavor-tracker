@@ -3836,5 +3836,150 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-05-03T08:00:48.281Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Orange Ingwer",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Orange - Ginger"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Erdbeer Joghurt Schoko",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry - Yogurt - Chocolate"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Pfirsich Maracuja",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Peach - Passion Fruit"
+        },
+        {
+          "name": "Stracciatella",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Stracciatella"
+        },
+        {
+          "name": "Bienenstich",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Bee Sting (Honey Cream Cake)"
+        },
+        {
+          "name": "Kokos",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Coconut"
+        }
+      ],
+      "openUntil": "20:00"
+    },
+    "buga": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Lotus Zimtschnecke",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lotus Cinnamon Roll"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Cassis",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Black Currant"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Bienenstich",
+          "tags": [],
+          "nameEnglish": "Bee Sting Cake"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Straciatella",
+          "tags": [],
+          "nameEnglish": "Stracciatella"
+        }
+      ],
+      "openUntil": "18:00"
+    }
   }
 ]

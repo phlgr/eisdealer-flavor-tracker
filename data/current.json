@@ -6,7 +6,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate mousse"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
@@ -20,7 +20,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Orange Ginger"
+        "nameEnglish": "Orange - Ginger"
       },
       {
         "name": "Erdbeere",
@@ -30,94 +30,18 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Himbeer Joghurt Schoko",
+        "name": "Erdbeer Joghurt Schoko",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Raspberry Yogurt Chocolate"
+        "nameEnglish": "Strawberry - Yogurt - Chocolate"
       },
       {
-        "name": "Waldfrucht",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Forest fruit"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Pfirsich Maracuja",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Peach Passion Fruit"
-      },
-      {
-        "name": "Sesam Karamell",
+        "name": "Pistazie",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Sesame Caramel"
-      },
-      {
-        "name": "Joghurt",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coconut"
-      }
-    ],
-    "lastUpdated": "2026-05-02T10:00:43.083Z",
-    "openUntil": "20:00"
-  },
-  "buga": {
-    "flavors": [
-      {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Orangenkuchen",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Orange Cake"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Maple Walnut",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Maple Walnut"
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Limette Minze",
@@ -134,18 +58,89 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "Zitrone",
+        "name": "Pfirsich Maracuja",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Peach - Passion Fruit"
+      },
+      {
+        "name": "Stracciatella",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Stracciatella"
+      },
+      {
+        "name": "Bienenstich",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Bee Sting (Honey Cream Cake)"
+      },
+      {
+        "name": "Kokos",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Coconut"
+      }
+    ],
+    "lastUpdated": "2026-05-03T08:00:48.279Z",
+    "openUntil": "20:00"
+  },
+  "buga": {
+    "flavors": [
+      {
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Lotus Zimtschnecke",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lotus Cinnamon Roll"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Cassis",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Black Currant"
       },
       {
         "name": "Haselnuss Crunch",
         "tags": [],
         "nameEnglish": "Hazelnut Crunch"
+      },
+      {
+        "name": "Bienenstich",
+        "tags": [],
+        "nameEnglish": "Bee Sting Cake"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Straciatella",
+        "tags": [],
+        "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-05-01T10:31:35.952Z"
+    "lastUpdated": "2026-05-03T08:00:48.279Z",
+    "openUntil": "18:00"
   }
 }
