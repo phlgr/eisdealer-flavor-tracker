@@ -9,39 +9,18 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
-      },
-      {
         "name": "Orange Ingwer",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Orange - Ginger"
+        "nameEnglish": "Orange-Ginger"
       },
       {
-        "name": "Erdbeere",
+        "name": "Cassis",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Erdbeer Joghurt Schoko",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry - Yogurt - Chocolate"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Blackcurrant"
       },
       {
         "name": "Limette Minze",
@@ -51,18 +30,39 @@
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Mango",
+        "name": "Rhabarber",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Rhubarb"
       },
       {
-        "name": "Pfirsich Maracuja",
+        "name": "Strawberry Cheesecake",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Peach - Passion Fruit"
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
+        "name": "Vanille",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Kokos",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Coconut"
+      },
+      {
+        "name": "Bienenstich",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Bee Sting Cake"
       },
       {
         "name": "Stracciatella",
@@ -72,21 +72,21 @@
         "nameEnglish": "Stracciatella"
       },
       {
-        "name": "Bienenstich",
+        "name": "Himbeer Schmand",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Bee Sting (Honey Cream Cake)"
+        "nameEnglish": "Raspberry Sour Cream"
       },
       {
-        "name": "Kokos",
+        "name": "Pistazie",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Coconut"
+        "nameEnglish": "Pistachio"
       }
     ],
-    "lastUpdated": "2026-05-03T08:00:48.279Z",
+    "lastUpdated": "2026-05-04T12:30:52.857Z",
     "openUntil": "20:00"
   },
   "buga": {
