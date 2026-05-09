@@ -92,6 +92,11 @@
   "buga": {
     "flavors": [
       {
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
+      },
+      {
         "name": "Schokomousse",
         "tags": [
           "vegan"
@@ -99,25 +104,28 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Lotus Zimtschnecke",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lotus Cinnamon Roll"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Cassis",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Black Currant"
+        "nameEnglish": "Blackcurrant"
+      },
+      {
+        "name": "Buttermilch Mango",
+        "tags": [],
+        "nameEnglish": "Buttermilk Mango"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
       },
       {
         "name": "Haselnuss Crunch",
@@ -125,22 +133,13 @@
         "nameEnglish": "Hazelnut Crunch"
       },
       {
-        "name": "Bienenstich",
-        "tags": [],
-        "nameEnglish": "Bee Sting Cake"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Straciatella",
-        "tags": [],
-        "nameEnglish": "Stracciatella"
+        "name": "Schlumpfeis Royal",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Smurf Ice Cream Royal"
       }
     ],
-    "lastUpdated": "2026-05-03T08:00:48.279Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-05-09T12:30:47.667Z"
   }
 }
