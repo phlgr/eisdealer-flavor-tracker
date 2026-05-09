@@ -16,30 +16,25 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Orange Ingwer",
+        "name": "Orange Mandelkuchen",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Orange Ginger"
+        "nameEnglish": "Orange - Almond Cake"
       },
       {
         "name": "Cassis",
-        "tags": [],
-        "nameEnglish": "Blackcurrant"
-      },
-      {
-        "name": "Haselnuss Crunch",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Hazelnut Crunch"
-      },
-      {
-        "name": "Waldfrucht",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Wild Berry"
+        "nameEnglish": "Blackcurrant"
+      },
+      {
+        "name": "Oreo",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Oreo"
       },
       {
         "name": "Limette Minze",
@@ -49,25 +44,11 @@
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Sesam Karamell",
+        "name": "Strawberry Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Sesame Caramel"
-      },
-      {
-        "name": "Buttermilch Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Buttermilk Mango"
-      },
-      {
-        "name": "Bienenstich",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Bee Sting (Almond/Custard Cake)"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Stracciatella",
@@ -77,14 +58,35 @@
         "nameEnglish": "Stracciatella"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Bienenstich",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Bee Sting Cake"
+      },
+      {
+        "name": "Buttermilch Mango",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Buttermilk Mango"
+      },
+      {
+        "name": "Sesam Karamell",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Sesame Caramel"
+      },
+      {
+        "name": "Maple Walnut",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Maple Walnut"
       }
     ],
-    "lastUpdated": "2026-05-08T10:30:56.085Z",
+    "lastUpdated": "2026-05-09T08:01:04.415Z",
     "openUntil": "20:00"
   },
   "buga": {
