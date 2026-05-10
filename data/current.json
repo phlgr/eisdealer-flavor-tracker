@@ -9,18 +9,11 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Orange Mandelkuchen",
+        "name": "Oreo",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Orange - Almond Cake"
+        "nameEnglish": "Oreo"
       },
       {
         "name": "Cassis",
@@ -30,18 +23,39 @@
         "nameEnglish": "Blackcurrant"
       },
       {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Oreo"
-      },
-      {
         "name": "Limette Minze",
         "tags": [
           "vegan"
         ],
         "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Joghurt",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yogurt"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Hazelnut Crunch"
+      },
+      {
+        "name": "Vanille",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Strawberry Cheesecake",
@@ -65,28 +79,14 @@
         "nameEnglish": "Bee Sting Cake"
       },
       {
-        "name": "Buttermilch Mango",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Buttermilk Mango"
-      },
-      {
-        "name": "Sesam Karamell",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Sesame Caramel"
-      },
-      {
-        "name": "Maple Walnut",
+        "name": "Mango",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Maple Walnut"
+        "nameEnglish": "Mango"
       }
     ],
-    "lastUpdated": "2026-05-09T08:01:04.415Z",
+    "lastUpdated": "2026-05-10T10:31:01.027Z",
     "openUntil": "20:00"
   },
   "buga": {
@@ -97,28 +97,26 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Schokomousse",
+        "name": "Schokolade",
+        "tags": [],
+        "nameEnglish": "Chocolate"
+      },
+      {
+        "name": "Maracuja Cheesecake",
+        "tags": [],
+        "nameEnglish": "Passion fruit cheesecake"
+      },
+      {
+        "name": "Rhabarber",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Rhubarb"
       },
       {
-        "name": "Pistazie",
+        "name": "Bienenstich",
         "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Blackcurrant"
-      },
-      {
-        "name": "Buttermilch Mango",
-        "tags": [],
-        "nameEnglish": "Buttermilk Mango"
+        "nameEnglish": "Bienenstich (bee sting cake)"
       },
       {
         "name": "Zitrone",
@@ -128,18 +126,18 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Heidelbeer Quark",
         "tags": [],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Blueberry Quark"
       },
       {
-        "name": "Schlumpfeis Royal",
+        "name": "Cassis",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Smurf Ice Cream Royal"
+        "nameEnglish": "Blackcurrant"
       }
     ],
-    "lastUpdated": "2026-05-09T12:30:47.667Z"
+    "lastUpdated": "2026-05-10T10:31:01.027Z"
   }
 }
