@@ -2,32 +2,11 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokomousse",
+        "name": "Bienenstich",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Blackcurrant"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Bee Sting Cake"
       },
       {
         "name": "Joghurt",
@@ -37,18 +16,46 @@
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Buttermilch Mango",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Buttermilk Mango"
       },
       {
-        "name": "Vanille",
+        "name": "Schokomousse",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Vanilla"
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Waldfrucht",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Forest Fruit"
+      },
+      {
+        "name": "Rhabarber",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Rhubarb"
+      },
+      {
+        "name": "Cassis",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Blackcurrant"
       },
       {
         "name": "Erdbeere",
@@ -58,6 +65,13 @@
         "nameEnglish": "Strawberry"
       },
       {
+        "name": "Vanille",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Vanilla"
+      },
+      {
         "name": "Strawberry Cheesecake",
         "tags": [
           "milk"
@@ -65,29 +79,15 @@
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Stracciatella",
+        "name": "Pistazie",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Stracciatella"
-      },
-      {
-        "name": "Bienenstich",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Bee Sting Cake"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Pistachio"
       }
     ],
-    "lastUpdated": "2026-05-10T10:31:01.027Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-05-11T12:00:47.358Z",
+    "openUntil": "18:00"
   },
   "buga": {
     "flavors": [
