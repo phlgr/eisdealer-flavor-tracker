@@ -3,7 +3,7 @@ import { normalizeName } from "../../packages/scraper/src/normalize";
 
 const LOCATION_KEYS = ["main", "buga"] as const;
 
-export interface FlavorStats {
+interface FlavorStats {
 	name: string;
 	daysAppeared: number;
 	/** 0–1 ratio of days this flavor appeared vs total tracked days */
@@ -35,7 +35,7 @@ function getRarity(frequency: number): Rarity {
 	return "legendaer";
 }
 
-export interface StreakInfo {
+interface StreakInfo {
 	name: string;
 	streak: number;
 	/** Is this streak still active (includes the latest tracked day)? */
