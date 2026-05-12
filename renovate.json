@@ -8,7 +8,6 @@
 		":automergeMinor"
 	],
 	"assignees": ["phlgr"],
-	"minimumReleaseAge": "7 days",
 	"packageRules": [
 		{
 			"matchDepTypes": ["devDependencies"],
