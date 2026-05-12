@@ -4728,5 +4728,97 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-05-12T16:48:28.273Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Erdbeer Joghurt Schoko",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry - Yogurt - Chocolate"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Buttermilch Mango",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Buttermilk Mango"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Waldfrucht",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Wild Berry"
+        },
+        {
+          "name": "Rhabarber",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Rhubarb"
+        },
+        {
+          "name": "Cassis",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Blackcurrant"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Salted Caramel",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Salted Caramel"
+        }
+      ],
+      "openUntil": "18:00"
+    }
   }
 ]
