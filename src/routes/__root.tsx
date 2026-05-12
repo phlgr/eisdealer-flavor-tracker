@@ -1,13 +1,13 @@
-import { init } from "@plausible-analytics/tracker";
 import {
+	ClientOnly,
 	createRootRoute,
 	HeadContent,
 	Outlet,
 	Scripts,
 } from "@tanstack/react-router";
-import { useEffect } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import PlausibleAnalytics from "../components/PlausibleAnalytics";
 import appCss from "../styles.css?url";
 
 export const Route = createRootRoute({
@@ -37,13 +37,6 @@ export const Route = createRootRoute({
 });
 
 function RootLayout() {
-	useEffect(() => {
-		init({
-			domain: "eisdealer.gartz.dev",
-			endpoint: "https://apps.gartz.dev/api/event",
-		});
-	}, []);
-
 	return (
 		<html lang="de">
 			<head>
@@ -55,6 +48,9 @@ function RootLayout() {
 					<Outlet />
 				</div>
 				<Footer />
+				<ClientOnly fallback={null}>
+					<PlausibleAnalytics />
+				</ClientOnly>
 				<Scripts />
 			</body>
 		</html>
