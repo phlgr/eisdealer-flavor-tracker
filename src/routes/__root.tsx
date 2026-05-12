@@ -1,10 +1,10 @@
+import { init } from "@plausible-analytics/tracker";
 import {
 	createRootRoute,
 	HeadContent,
 	Outlet,
 	Scripts,
 } from "@tanstack/react-router";
-import Plausible from "plausible-tracker";
 import { useEffect } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -38,11 +38,10 @@ export const Route = createRootRoute({
 
 function RootLayout() {
 	useEffect(() => {
-		const plausible = Plausible({
+		init({
 			domain: "eisdealer.gartz.dev",
-			apiHost: "https://apps.gartz.dev",
+			endpoint: "https://apps.gartz.dev/api/event",
 		});
-		return plausible.enableAutoPageviews();
 	}, []);
 
 	return (
