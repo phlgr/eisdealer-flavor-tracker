@@ -2,11 +2,18 @@
   "main": {
     "flavors": [
       {
-        "name": "Erdbeer Joghurt Schoko",
+        "name": "Schokolade",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry - Yogurt - Chocolate"
+        "nameEnglish": "Chocolate"
+      },
+      {
+        "name": "Salted Caramel",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Salted Caramel"
       },
       {
         "name": "Joghurt",
@@ -16,11 +23,11 @@
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Buttermilch Mango",
+        "name": "Pistazie",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Buttermilk Mango"
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Schokomousse",
@@ -41,7 +48,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Wild Berry"
+        "nameEnglish": "Forest Fruit"
       },
       {
         "name": "Rhabarber",
@@ -70,23 +77,9 @@
           "milk"
         ],
         "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Schokolade",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Chocolate"
-      },
-      {
-        "name": "Salted Caramel",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Salted Caramel"
       }
     ],
-    "lastUpdated": "2026-05-12T16:48:28.271Z",
+    "lastUpdated": "2026-05-13T09:01:04.273Z",
     "openUntil": "18:00"
   },
   "buga": {
