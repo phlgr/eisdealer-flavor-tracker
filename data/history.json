@@ -4905,5 +4905,90 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-05-14T09:31:04.925Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Salted Caramel",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Salted Caramel"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Cassis",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Blackcurrant"
+        },
+        {
+          "name": "Rhabarber",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Rhubarb"
+        },
+        {
+          "name": "Waldfrucht",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Wild Berry"
+        }
+      ],
+      "openUntil": "18:00"
+    }
   }
 ]

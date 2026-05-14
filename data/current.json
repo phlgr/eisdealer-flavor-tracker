@@ -2,11 +2,18 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokolade",
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Vanille",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Chocolate"
+        "nameEnglish": "Vanilla"
       },
       {
         "name": "Salted Caramel",
@@ -16,13 +23,6 @@
         "nameEnglish": "Salted Caramel"
       },
       {
-        "name": "Joghurt",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt"
-      },
-      {
         "name": "Pistazie",
         "tags": [
           "milk"
@@ -30,11 +30,18 @@
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Schokomousse",
+        "name": "Joghurt",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Yogurt"
+      },
+      {
+        "name": "Schokolade",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Chocolate"
       },
       {
         "name": "Mango",
@@ -44,18 +51,11 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "Waldfrucht",
+        "name": "Erdbeere",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Forest Fruit"
-      },
-      {
-        "name": "Rhabarber",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Rhubarb"
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Cassis",
@@ -65,21 +65,21 @@
         "nameEnglish": "Blackcurrant"
       },
       {
-        "name": "Erdbeere",
+        "name": "Rhabarber",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Rhubarb"
       },
       {
-        "name": "Vanille",
+        "name": "Waldfrucht",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Vanilla"
+        "nameEnglish": "Wild Berry"
       }
     ],
-    "lastUpdated": "2026-05-13T09:01:04.273Z",
+    "lastUpdated": "2026-05-14T09:31:04.922Z",
     "openUntil": "18:00"
   },
   "buga": {
