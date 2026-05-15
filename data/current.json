@@ -16,18 +16,18 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Salted Caramel",
+        "name": "Bienenstich",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Salted Caramel"
+        "nameEnglish": "Bee Sting Cake"
       },
       {
-        "name": "Pistazie",
+        "name": "Strawberry Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Joghurt",
@@ -44,6 +44,13 @@
         "nameEnglish": "Chocolate"
       },
       {
+        "name": "Erdbeer Joghurt Schoko",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry - Yogurt - Chocolate"
+      },
+      {
         "name": "Mango",
         "tags": [
           "vegan"
@@ -51,11 +58,18 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "Erdbeere",
+        "name": "Joghurt Brombeer",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Yogurt Blackberry"
+      },
+      {
+        "name": "Erdbeere Tiramisu",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry - Tiramisu"
       },
       {
         "name": "Cassis",
@@ -65,21 +79,14 @@
         "nameEnglish": "Blackcurrant"
       },
       {
-        "name": "Rhabarber",
+        "name": "Erdbeere",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Rhubarb"
-      },
-      {
-        "name": "Waldfrucht",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Wild Berry"
+        "nameEnglish": "Strawberry"
       }
     ],
-    "lastUpdated": "2026-05-14T09:31:04.922Z",
+    "lastUpdated": "2026-05-15T14:30:44.913Z",
     "openUntil": "18:00"
   },
   "buga": {
