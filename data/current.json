@@ -20,7 +20,7 @@
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Bee Sting Cake"
+        "nameEnglish": "Bee Sting"
       },
       {
         "name": "Strawberry Cheesecake",
@@ -72,11 +72,11 @@
         "nameEnglish": "Strawberry - Tiramisu"
       },
       {
-        "name": "Cassis",
+        "name": "Zitrone",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Blackcurrant"
+        "nameEnglish": "Lemon"
       },
       {
         "name": "Erdbeere",
@@ -86,7 +86,7 @@
         "nameEnglish": "Strawberry"
       }
     ],
-    "lastUpdated": "2026-05-15T14:30:44.913Z",
+    "lastUpdated": "2026-05-16T08:30:46.397Z",
     "openUntil": "18:00"
   },
   "buga": {
