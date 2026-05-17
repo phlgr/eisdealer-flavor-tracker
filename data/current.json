@@ -20,7 +20,7 @@
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Bee Sting (Honey and Almond cake)"
+        "nameEnglish": "Bee Sting"
       },
       {
         "name": "Strawberry Cheesecake",
@@ -44,11 +44,11 @@
         "nameEnglish": "Coconut"
       },
       {
-        "name": "Crunchy Peanutbutter",
+        "name": "Peanutbutter",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Crunchy Peanut Butter"
+        "nameEnglish": "Peanut Butter"
       },
       {
         "name": "Mango",
@@ -58,11 +58,11 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "Joghurt Brombeer",
+        "name": "Brombeer",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Yogurt Blackberry"
+        "nameEnglish": "Blackberry"
       },
       {
         "name": "Erdbeere",
@@ -86,7 +86,7 @@
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-05-17T09:30:57.975Z",
+    "lastUpdated": "2026-05-17T15:30:49.312Z",
     "openUntil": "19:00"
   },
   "buga": {
