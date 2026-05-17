@@ -20,7 +20,7 @@
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Bee Sting"
+        "nameEnglish": "Bee Sting (Honey and Almond cake)"
       },
       {
         "name": "Strawberry Cheesecake",
@@ -37,18 +37,18 @@
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Schokolade",
+        "name": "Kokos",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Chocolate"
+        "nameEnglish": "Coconut"
       },
       {
-        "name": "Erdbeer Joghurt Schoko",
+        "name": "Crunchy Peanutbutter",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry - Yogurt - Chocolate"
+        "nameEnglish": "Crunchy Peanut Butter"
       },
       {
         "name": "Mango",
@@ -65,11 +65,18 @@
         "nameEnglish": "Yogurt Blackberry"
       },
       {
-        "name": "Erdbeere Tiramisu",
+        "name": "Erdbeere",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry - Tiramisu"
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Tiramisu",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Tiramisu"
       },
       {
         "name": "Zitrone",
@@ -77,17 +84,10 @@
           "vegan"
         ],
         "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
       }
     ],
-    "lastUpdated": "2026-05-16T08:30:46.397Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-05-17T09:30:57.975Z",
+    "openUntil": "19:00"
   },
   "buga": {
     "flavors": [
