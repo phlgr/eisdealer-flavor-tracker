@@ -16,18 +16,18 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Bienenstich",
+        "name": "Erdbeere",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Bee Sting"
+        "nameEnglish": "Strawberry"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Zitrone",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Lemon"
       },
       {
         "name": "Joghurt",
@@ -37,18 +37,25 @@
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Kokos",
+        "name": "Erdbeer Tiramisu",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Coconut"
+        "nameEnglish": "Strawberry Tiramisu"
       },
       {
-        "name": "Peanutbutter",
+        "name": "Crunchy Peanutbutter",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Peanut Butter"
+        "nameEnglish": "Crunchy Peanut Butter"
+      },
+      {
+        "name": "Bienenstich",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Bee Sting Cake"
       },
       {
         "name": "Mango",
@@ -58,36 +65,29 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "Brombeer",
+        "name": "Kokos",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Blackberry"
+        "nameEnglish": "Coconut"
       },
       {
-        "name": "Erdbeere",
+        "name": "Strawberry Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Tiramisu",
+        "name": "Joghurt Brombeer",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Tiramisu"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Yogurt Blackberry"
       }
     ],
-    "lastUpdated": "2026-05-17T15:30:49.312Z",
-    "openUntil": "19:00"
+    "lastUpdated": "2026-05-18T11:00:43.296Z",
+    "openUntil": "18:00"
   },
   "buga": {
     "flavors": [
