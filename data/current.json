@@ -3,9 +3,7 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -14,6 +12,62 @@
           "milk"
         ],
         "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Zitronenkuchen",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon Cake"
+      },
+      {
+        "name": "Cassis",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Blackcurrant"
+      },
+      {
+        "name": "Joghurt",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Yogurt"
+      },
+      {
+        "name": "Bienenstich",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Bee Sting Cake"
+      },
+      {
+        "name": "Espresso",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Espresso"
+      },
+      {
+        "name": "Kokos",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Coconut"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Erdbeere",
@@ -28,65 +82,9 @@
           "vegan"
         ],
         "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Joghurt",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Erdbeer Tiramisu",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Tiramisu"
-      },
-      {
-        "name": "Crunchy Peanutbutter",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Crunchy Peanut Butter"
-      },
-      {
-        "name": "Bienenstich",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Bee Sting Cake"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coconut"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Cheesecake"
-      },
-      {
-        "name": "Joghurt Brombeer",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt Blackberry"
       }
     ],
-    "lastUpdated": "2026-05-18T11:00:43.296Z",
+    "lastUpdated": "2026-05-19T10:31:07.209Z",
     "openUntil": "18:00"
   },
   "buga": {
