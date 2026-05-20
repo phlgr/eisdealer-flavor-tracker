@@ -30,16 +30,16 @@
       {
         "name": "Joghurt",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Bienenstich",
+        "name": "Limette Minze",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Bee Sting Cake"
+        "nameEnglish": "Lime Mint"
       },
       {
         "name": "Espresso",
@@ -51,7 +51,7 @@
       {
         "name": "Kokos",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Coconut"
       },
@@ -63,11 +63,11 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Erdbeere Tiramisu",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Strawberry - Tiramisu"
       },
       {
         "name": "Erdbeere",
@@ -84,8 +84,8 @@
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-05-19T10:31:07.209Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-05-20T09:00:45.160Z",
+    "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
