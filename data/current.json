@@ -2,68 +2,91 @@
   "main": {
     "flavors": [
       {
-        "name": "Joghurt",
-        "tags": [],
-        "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Himbeere",
-        "tags": [],
-        "nameEnglish": "Raspberry"
-      },
-      {
-        "name": "Mango",
-        "tags": [],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Oreo",
-        "tags": [],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [],
-        "nameEnglish": "Strawberry"
-      },
-      {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Lotus Cheesecake",
-        "tags": [],
-        "nameEnglish": "Lotus Cheesecake"
-      },
-      {
-        "name": "Gebrannte Mandel",
-        "tags": [],
-        "nameEnglish": "Roasted Almond"
-      },
-      {
-        "name": "Sesam Karamell",
-        "tags": [],
-        "nameEnglish": "Sesame Caramel"
-      },
-      {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Joghurt",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Yogurt"
+      },
+      {
+        "name": "Cassis",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Blackcurrant"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Hazelnut Crunch"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Kokos",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Coconut"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "White Choc Himbeere",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "White Chocolate Raspberry"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Lemon Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Lemon Cheesecake"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-05-21T08:00:48.544Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-05-21T08:30:50.652Z"
   },
   "buga": {
     "flavors": [
