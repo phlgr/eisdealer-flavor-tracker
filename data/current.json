@@ -2,89 +2,67 @@
   "main": {
     "flavors": [
       {
+        "name": "Joghurt",
+        "tags": [],
+        "nameEnglish": "Yogurt"
+      },
+      {
+        "name": "Himbeere",
+        "tags": [],
+        "nameEnglish": "Raspberry"
+      },
+      {
+        "name": "Mango",
+        "tags": [],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Oreo",
+        "tags": [],
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
+      },
+      {
         "name": "Schokomousse",
         "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
+        "name": "Lotus Cheesecake",
+        "tags": [],
+        "nameEnglish": "Lotus Cheesecake"
+      },
+      {
+        "name": "Gebrannte Mandel",
+        "tags": [],
+        "nameEnglish": "Roasted Almond"
+      },
+      {
+        "name": "Sesam Karamell",
+        "tags": [],
+        "nameEnglish": "Sesame Caramel"
+      },
+      {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Zitronenkuchen",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon Cake"
-      },
-      {
-        "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Blackcurrant"
-      },
-      {
-        "name": "Joghurt",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Espresso",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Espresso"
-      },
-      {
-        "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coconut"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Erdbeere Tiramisu",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry - Tiramisu"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-05-20T09:00:45.160Z",
+    "lastUpdated": "2026-05-21T08:00:48.544Z",
     "openUntil": "20:00"
   },
   "buga": {
