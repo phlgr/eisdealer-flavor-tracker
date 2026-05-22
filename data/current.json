@@ -16,25 +16,39 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Joghurt",
+        "name": "Erdbeere",
         "tags": [
           "vegan"
+        ],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Joghurt",
+        "tags": [
+          "milk"
         ],
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Blackcurrant"
-      },
-      {
-        "name": "Haselnuss Crunch",
+        "name": "Heidelbeer Quark",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Blueberry Quark"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Limette Minze",
@@ -44,13 +58,6 @@
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coconut"
-      },
-      {
         "name": "Mango",
         "tags": [
           "vegan"
@@ -58,18 +65,11 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "White Choc Himbeere",
+        "name": "Crunchy Peanutbutter",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "White Chocolate Raspberry"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Crunchy Peanut Butter"
       },
       {
         "name": "Lemon Cheesecake",
@@ -79,14 +79,14 @@
         "nameEnglish": "Lemon Cheesecake"
       },
       {
-        "name": "Zitrone",
+        "name": "Cassis",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Blackcurrant"
       }
     ],
-    "lastUpdated": "2026-05-21T08:30:50.652Z"
+    "lastUpdated": "2026-05-22T08:30:46.488Z"
   },
   "buga": {
     "flavors": [
