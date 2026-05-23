@@ -3,90 +3,67 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
+        "name": "Oreo",
+        "tags": [],
+        "nameEnglish": "Oreo"
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Joghurt",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Yogurt"
       },
       {
         "name": "Heidelbeer Quark",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Blueberry Quark"
       },
       {
-        "name": "Pistazie",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Pistachio"
+        "name": "Bienenstich",
+        "tags": [],
+        "nameEnglish": "Bee Sting Cake"
       },
       {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
-        "name": "Crunchy Peanutbutter",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Crunchy Peanut Butter"
+        "name": "Mango Lassi",
+        "tags": [],
+        "nameEnglish": "Mango Lassi"
       },
       {
-        "name": "Lemon Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Lemon Cheesecake"
+        "name": "Orange Minze",
+        "tags": [],
+        "nameEnglish": "Orange Mint"
       },
       {
-        "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Blackcurrant"
+        "name": "Erdbeer Tiramisu",
+        "tags": [],
+        "nameEnglish": "Strawberry Tiramisu"
       }
     ],
-    "lastUpdated": "2026-05-22T08:30:46.488Z"
+    "lastUpdated": "2026-05-23T08:00:58.337Z",
+    "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
