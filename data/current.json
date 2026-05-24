@@ -2,44 +2,14 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokomousse",
-        "tags": [],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Vanille",
-        "tags": [],
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Oreo",
-        "tags": [],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [],
-        "nameEnglish": "Lemon"
-      },
-      {
         "name": "Joghurt",
         "tags": [],
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Heidelbeer Quark",
+        "name": "Himbeere",
         "tags": [],
-        "nameEnglish": "Blueberry Quark"
-      },
-      {
-        "name": "Bienenstich",
-        "tags": [],
-        "nameEnglish": "Bee Sting Cake"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Raspberry"
       },
       {
         "name": "Mango",
@@ -47,22 +17,52 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "Mango Lassi",
+        "name": "Oreo",
         "tags": [],
-        "nameEnglish": "Mango Lassi"
+        "nameEnglish": "Oreo"
       },
       {
-        "name": "Orange Minze",
+        "name": "Limette Minze",
         "tags": [],
-        "nameEnglish": "Orange Mint"
+        "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Erdbeer Tiramisu",
+        "name": "Pistazie",
         "tags": [],
-        "nameEnglish": "Strawberry Tiramisu"
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Lotus Cheesecake",
+        "tags": [],
+        "nameEnglish": "Lotus Cheesecake"
+      },
+      {
+        "name": "Gebrannte Mandel",
+        "tags": [],
+        "nameEnglish": "Roasted Almond"
+      },
+      {
+        "name": "Sesam Karamell",
+        "tags": [],
+        "nameEnglish": "Sesame Caramel"
+      },
+      {
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
       }
     ],
-    "lastUpdated": "2026-05-23T08:00:58.337Z",
+    "lastUpdated": "2026-05-24T13:57:53.766Z",
     "openUntil": "20:00"
   },
   "buga": {
@@ -114,6 +114,7 @@
         "nameEnglish": "Oreo"
       }
     ],
-    "lastUpdated": "2026-05-24T13:00:44.104Z"
+    "lastUpdated": "2026-05-24T13:57:53.766Z",
+    "openUntil": "18:00"
   }
 }
