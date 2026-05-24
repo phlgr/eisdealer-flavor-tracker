@@ -6004,5 +6004,59 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-05-24T10:30:46.014Z",
+    "buga": {
+      "flavors": [
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Erdbeer Joghurt Schoko",
+          "tags": [],
+          "nameEnglish": "Strawberry-Yogurt-Chocolate"
+        },
+        {
+          "name": "Crunchy Peanut",
+          "tags": [],
+          "nameEnglish": "Crunchy Peanut"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Oreo"
+        }
+      ],
+      "openUntil": "18:00"
+    }
   }
 ]

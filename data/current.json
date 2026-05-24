@@ -73,16 +73,14 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
+        "name": "Schokolade",
+        "tags": [],
+        "nameEnglish": "Chocolate"
       },
       {
         "name": "Erdbeer Joghurt Schoko",
         "tags": [],
-        "nameEnglish": "Strawberry Yogurt Chocolate"
+        "nameEnglish": "Strawberry-Yogurt-Chocolate"
       },
       {
         "name": "Crunchy Peanut",
@@ -116,7 +114,7 @@
         "nameEnglish": "Oreo"
       }
     ],
-    "lastUpdated": "2026-05-23T12:30:42.803Z",
+    "lastUpdated": "2026-05-24T10:30:46.011Z",
     "openUntil": "18:00"
   }
 }
