@@ -6297,5 +6297,53 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-05-25T09:00:44.787Z",
+    "buga": {
+      "flavors": [
+        {
+          "name": "Erdbeer",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime-Mint"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Stracciatella",
+          "tags": [],
+          "nameEnglish": "Stracciatella"
+        },
+        {
+          "name": "Oreo",
+          "tags": [],
+          "nameEnglish": "Oreo"
+        }
+      ],
+      "openUntil": "18:00"
+    }
   }
 ]

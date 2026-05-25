@@ -67,9 +67,14 @@
   "buga": {
     "flavors": [
       {
-        "name": "Vanille",
+        "name": "Erdbeer",
         "tags": [],
-        "nameEnglish": "Vanilla"
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime-Mint"
       },
       {
         "name": "Schokolade",
@@ -77,43 +82,32 @@
         "nameEnglish": "Chocolate"
       },
       {
-        "name": "Erdbeer Joghurt Schoko",
-        "tags": [],
-        "nameEnglish": "Strawberry-Yogurt-Chocolate"
-      },
-      {
-        "name": "Crunchy Peanut",
-        "tags": [],
-        "nameEnglish": "Crunchy Peanut"
-      },
-      {
         "name": "Pistazie",
         "tags": [],
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
+        "name": "Haselnuss Crunch",
+        "tags": [],
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
+        "name": "Strawberry Cheesecake",
+        "tags": [],
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
+        "name": "Stracciatella",
+        "tags": [],
+        "nameEnglish": "Stracciatella"
       },
       {
         "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Oreo"
       }
     ],
-    "lastUpdated": "2026-05-24T13:57:53.766Z",
+    "lastUpdated": "2026-05-25T09:00:44.785Z",
     "openUntil": "18:00"
   }
 }
