@@ -2,24 +2,38 @@
   "main": {
     "flavors": [
       {
-        "name": "Joghurt",
+        "name": "Schokomousse",
         "tags": [],
-        "nameEnglish": "Yogurt"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Himbeere",
+        "name": "Vanille",
         "tags": [],
-        "nameEnglish": "Raspberry"
+        "nameEnglish": "Vanilla"
       },
       {
-        "name": "Mango",
-        "tags": [],
-        "nameEnglish": "Mango"
+        "name": "Lotus Zimtschnecke",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lotus Cinnamon Bun"
       },
       {
         "name": "Oreo",
+        "tags": []
+      },
+      {
+        "name": "Rhabarber",
         "tags": [],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Rhubarb"
+      },
+      {
+        "name": "Salted Caramel",
+        "tags": []
+      },
+      {
+        "name": "Stracciatella",
+        "tags": []
       },
       {
         "name": "Limette Minze",
@@ -27,42 +41,27 @@
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Pistazie",
+        "name": "Himbeere",
         "tags": [],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Raspberry"
       },
       {
-        "name": "Erdbeere",
-        "tags": [],
-        "nameEnglish": "Strawberry"
+        "name": "Mango Lassi",
+        "tags": []
       },
       {
-        "name": "Schokomousse",
-        "tags": [],
-        "nameEnglish": "Chocolate Mousse"
+        "name": "Choc Cherry Cheesecake",
+        "tags": []
       },
       {
-        "name": "Lotus Cheesecake",
-        "tags": [],
-        "nameEnglish": "Lotus Cheesecake"
-      },
-      {
-        "name": "Gebrannte Mandel",
-        "tags": [],
-        "nameEnglish": "Roasted Almond"
-      },
-      {
-        "name": "Sesam Karamell",
-        "tags": [],
-        "nameEnglish": "Sesame Caramel"
-      },
-      {
-        "name": "Vanille",
-        "tags": [],
-        "nameEnglish": "Vanilla"
+        "name": "Zitronenkuchen",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon Cake"
       }
     ],
-    "lastUpdated": "2026-05-24T13:57:53.766Z",
+    "lastUpdated": "2026-05-25T08:30:52.570Z",
     "openUntil": "20:00"
   },
   "buga": {
