@@ -2021,7 +2021,7 @@
           "nameEnglish": "Vanilla"
         },
         {
-          "name": "Himbeer",
+          "name": "Himbeere",
           "tags": [],
           "nameEnglish": "Raspberry"
         },
@@ -3974,7 +3974,7 @@
           "nameEnglish": "Pistachio"
         },
         {
-          "name": "Straciatella",
+          "name": "Stracciatella",
           "tags": [],
           "nameEnglish": "Stracciatella"
         }
@@ -5059,7 +5059,7 @@
           "nameEnglish": "Yogurt Blackberry"
         },
         {
-          "name": "Erdbeere Tiramisu",
+          "name": "Erdbeer Tiramisu",
           "tags": [
             "milk"
           ],
@@ -5151,7 +5151,7 @@
           "nameEnglish": "Yogurt Blackberry"
         },
         {
-          "name": "Erdbeere Tiramisu",
+          "name": "Erdbeer Tiramisu",
           "tags": [
             "milk"
           ],
@@ -5328,7 +5328,7 @@
           "nameEnglish": "Mango"
         },
         {
-          "name": "Brombeer",
+          "name": "Brombeere",
           "tags": [
             "milk"
           ],
@@ -5607,7 +5607,7 @@
           "nameEnglish": "Mango"
         },
         {
-          "name": "Erdbeere Tiramisu",
+          "name": "Erdbeer Tiramisu",
           "tags": [
             "milk"
           ],
@@ -6303,7 +6303,7 @@
     "buga": {
       "flavors": [
         {
-          "name": "Erdbeer",
+          "name": "Erdbeere",
           "tags": [],
           "nameEnglish": "Strawberry"
         },
