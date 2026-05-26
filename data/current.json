@@ -2,6 +2,48 @@
   "main": {
     "flavors": [
       {
+        "name": "Himbeere",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Raspberry"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Oreo",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
+      },
+      {
         "name": "Schokomousse",
         "tags": [
           "vegan"
@@ -9,82 +51,22 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Lemon Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Lemon Cheesecake"
-      },
-      {
-        "name": "Oreo",
+        "name": "Gebrannte Mandel",
         "tags": [],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Roasted Almond"
       },
       {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
+        "name": "Sesam Karamell",
+        "tags": [],
+        "nameEnglish": "Sesame Caramel"
       },
       {
-        "name": "Salted Caramel",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Salted Caramel"
-      },
-      {
-        "name": "White Choc Himbeere",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "White Chocolate Raspberry"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Buttermilch Mango",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Buttermilk Mango"
-      },
-      {
-        "name": "Zitronenkuchen",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon Cake"
-      },
-      {
-        "name": "Choc Cherry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Chocolate Cherry Cheesecake"
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
       }
     ],
-    "lastUpdated": "2026-05-26T09:30:51.417Z",
+    "lastUpdated": "2026-05-26T16:31:00.768Z",
     "openUntil": "20:00"
   },
   "buga": {

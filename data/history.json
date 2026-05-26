@@ -6435,5 +6435,77 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-05-26T16:31:00.771Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Himbeere",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Raspberry"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Gebrannte Mandel",
+          "tags": [],
+          "nameEnglish": "Roasted Almond"
+        },
+        {
+          "name": "Sesam Karamell",
+          "tags": [],
+          "nameEnglish": "Sesame Caramel"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]
