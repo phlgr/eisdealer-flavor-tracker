@@ -3,55 +3,71 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Lotus Zimtschnecke",
+        "name": "Lemon Cheesecake",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Lotus Cinnamon Bun"
+        "nameEnglish": "Lemon Cheesecake"
       },
       {
         "name": "Oreo",
-        "tags": []
+        "tags": [],
+        "nameEnglish": "Oreo"
       },
       {
-        "name": "Rhabarber",
-        "tags": [],
-        "nameEnglish": "Rhubarb"
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
       },
       {
         "name": "Salted Caramel",
-        "tags": []
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Salted Caramel"
       },
       {
-        "name": "Stracciatella",
-        "tags": []
+        "name": "White Choc Himbeere",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "White Chocolate Raspberry"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Himbeere",
-        "tags": [],
-        "nameEnglish": "Raspberry"
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
       },
       {
-        "name": "Mango Lassi",
-        "tags": []
-      },
-      {
-        "name": "Choc Cherry Cheesecake",
-        "tags": []
+        "name": "Buttermilch Mango",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Buttermilk Mango"
       },
       {
         "name": "Zitronenkuchen",
@@ -59,9 +75,16 @@
           "vegan"
         ],
         "nameEnglish": "Lemon Cake"
+      },
+      {
+        "name": "Choc Cherry Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Chocolate Cherry Cheesecake"
       }
     ],
-    "lastUpdated": "2026-05-25T08:30:52.570Z",
+    "lastUpdated": "2026-05-26T09:30:51.417Z",
     "openUntil": "20:00"
   },
   "buga": {
