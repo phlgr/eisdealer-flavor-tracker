@@ -2,71 +2,85 @@
   "main": {
     "flavors": [
       {
-        "name": "Himbeere",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Raspberry"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Mango"
+        "name": "Schokomousse",
+        "tags": [],
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Oreo",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Oreo"
       },
       {
-        "name": "Limette Minze",
+        "name": "Kiwi",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Kiwi"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Zitronenkuchen",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon Cake"
+      },
+      {
+        "name": "Vanille",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Choc Cherry Cheesecake",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Cherry Cheesecake"
+      },
+      {
+        "name": "Crunchy Peanutbutter",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Crunchy Peanut Butter"
       },
       {
         "name": "Pistazie",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Erdbeere",
+        "name": "Lemon Cheesecake",
+        "tags": [],
+        "nameEnglish": "Lemon Cheesecake"
+      },
+      {
+        "name": "Joghurt",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Yogurt"
       },
       {
-        "name": "Schokomousse",
+        "name": "Schokolade",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Gebrannte Mandel",
-        "tags": [],
-        "nameEnglish": "Roasted Almond"
-      },
-      {
-        "name": "Sesam Karamell",
-        "tags": [],
-        "nameEnglish": "Sesame Caramel"
-      },
-      {
-        "name": "Vanille",
-        "tags": [],
-        "nameEnglish": "Vanilla"
+        "nameEnglish": "Chocolate"
       }
     ],
-    "lastUpdated": "2026-05-26T16:31:00.768Z",
+    "lastUpdated": "2026-05-27T11:31:00.070Z",
     "openUntil": "20:00"
   },
   "buga": {
