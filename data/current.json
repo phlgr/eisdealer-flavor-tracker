@@ -3,7 +3,9 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -22,7 +24,9 @@
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
@@ -35,52 +39,54 @@
       {
         "name": "Vanille",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Choc Cherry Cheesecake",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Chocolate Cherry Cheesecake"
+        "nameEnglish": "Choc Cherry Cheesecake"
       },
       {
         "name": "Crunchy Peanutbutter",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Crunchy Peanut Butter"
       },
       {
         "name": "Pistazie",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Pistachio"
       },
       {
         "name": "Lemon Cheesecake",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Lemon Cheesecake"
       },
       {
         "name": "Joghurt",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Yogurt"
       },
       {
         "name": "Schokolade",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Chocolate"
       }
     ],
-    "lastUpdated": "2026-05-27T11:31:00.070Z",
+    "lastUpdated": "2026-05-28T09:00:45.159Z",
     "openUntil": "20:00"
   },
   "buga": {
