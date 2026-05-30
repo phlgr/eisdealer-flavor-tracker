@@ -1,4 +1,7 @@
+import { mkdtemp, rm } from "node:fs/promises";
+import { tmpdir } from "node:os";
 import { join } from "node:path";
+import ffmpegPath from "ffmpeg-static";
 import { type Browser, chromium, type Page } from "playwright";
 import type { ScrapedImage } from "./types";
 
@@ -236,15 +239,10 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 		const seen = new Set<string>();
 
 		function addUrl(url: string) {
-			if (url?.startsWith("http") && !seen.has(url) && !isVideo(url)) {
+			if (url?.startsWith("http") && !seen.has(url)) {
 				seen.add(url);
 				urls.push(url);
 			}
-		}
-
-		function isVideo(url: string): boolean {
-			const l = url.toLowerCase();
-			return l.includes(".mp4") || l.includes("video") || l.includes("/v/");
 		}
 
 		const container = document.querySelector("#sonucc") || document;
@@ -268,10 +266,7 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 		// Any other links to Instagram CDN
 		for (const a of container.querySelectorAll("a[href]")) {
 			const href = a.getAttribute("href") || "";
-			if (
-				(href.includes("cdninstagram") || href.includes("scontent")) &&
-				!isVideo(href)
-			) {
+			if (href.includes("cdninstagram") || href.includes("scontent")) {
 				addUrl(href);
 			}
 		}
@@ -287,36 +282,85 @@ async function extractImages(page: Page): Promise<ScrapedImage[]> {
 				maxRedirects: 0,
 			});
 			const contentType = response.headers()["content-type"] || "";
+			const body = Buffer.from(await response.body());
 
+			let frame: Buffer | null = null;
 			if (contentType.startsWith("video/")) {
-				console.log(`[scrape] Skipped video: ${url.substring(0, 80)}...`);
-				continue;
-			}
-
-			if (contentType.startsWith("image/") || !contentType) {
-				const buffer = Buffer.from(await response.body());
-				if (buffer.length < 5000) {
+				try {
+					frame = await extractFirstFrame(body);
 					console.log(
-						`[scrape] Skipped tiny image (${buffer.length} bytes): ${url.substring(0, 80)}...`,
+						`[scrape] Extracted frame from video (${body.length} -> ${frame.length} bytes): ${url.substring(0, 80)}...`,
+					);
+				} catch (err) {
+					console.error(
+						`[scrape] Failed to extract frame from video: ${err instanceof Error ? err.message : err}`,
 					);
 					continue;
 				}
-
-				const hash = new Bun.CryptoHasher("sha256")
-					.update(buffer)
-					.digest("hex");
-				images.push({ buffer, hash });
+			} else if (contentType.startsWith("image/") || !contentType) {
+				frame = body;
 			} else {
 				console.log(
 					`[scrape] Skipped non-image (${contentType}): ${url.substring(0, 80)}...`,
 				);
+				continue;
 			}
+
+			if (frame.length < 5000) {
+				console.log(
+					`[scrape] Skipped tiny image (${frame.length} bytes): ${url.substring(0, 80)}...`,
+				);
+				continue;
+			}
+
+			const hash = new Bun.CryptoHasher("sha256").update(frame).digest("hex");
+			images.push({ buffer: frame, hash });
 		} catch {
 			// Skip URLs that fail (redirects, broken links, etc.)
 		}
 	}
 
 	return images;
+}
+
+async function extractFirstFrame(videoBuffer: Buffer): Promise<Buffer> {
+	if (!ffmpegPath) {
+		throw new Error("ffmpeg-static binary not available on this platform");
+	}
+	const dir = await mkdtemp(join(tmpdir(), "eisdealer-frame-"));
+	const videoPath = join(dir, "video.mp4");
+	const framePath = join(dir, "frame.jpg");
+	try {
+		await Bun.write(videoPath, videoBuffer);
+		const proc = Bun.spawn(
+			[
+				ffmpegPath,
+				"-ss",
+				"0",
+				"-i",
+				videoPath,
+				"-frames:v",
+				"1",
+				"-q:v",
+				"2",
+				"-update",
+				"1",
+				"-y",
+				framePath,
+			],
+			{ stdout: "pipe", stderr: "pipe" },
+		);
+		const exitCode = await proc.exited;
+		if (exitCode !== 0) {
+			const stderr = await new Response(proc.stderr).text();
+			throw new Error(
+				`ffmpeg exited with code ${exitCode}: ${stderr.slice(-500)}`,
+			);
+		}
+		return Buffer.from(await Bun.file(framePath).arrayBuffer());
+	} finally {
+		await rm(dir, { recursive: true, force: true }).catch(() => {});
+	}
 }
 
 async function debugPage(page: Page, name: string): Promise<void> {

@@ -10,7 +10,8 @@ WORKDIR /app
 # Install dependencies first (better layer caching)
 COPY package.json bun.lock* ./
 COPY packages/scraper/package.json packages/scraper/
-RUN bun install --frozen-lockfile --ignore-scripts
+RUN bun install --frozen-lockfile --ignore-scripts \
+    && node packages/scraper/node_modules/ffmpeg-static/install.js
 
 # Copy full repo (needed for git push)
 COPY . .
