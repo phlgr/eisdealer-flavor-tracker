@@ -39,9 +39,9 @@
       {
         "name": "Cassis",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Black Currant"
+        "nameEnglish": "Blackcurrant"
       },
       {
         "name": "Pistazie",
@@ -72,7 +72,7 @@
       {
         "name": "Schokomousse",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Chocolate Mousse"
       },
@@ -84,7 +84,7 @@
         "nameEnglish": "Chocolate Cherry Cheesecake"
       }
     ],
-    "lastUpdated": "2026-05-30T20:35:24.859Z",
+    "lastUpdated": "2026-05-30T20:48:35.312Z",
     "openUntil": "20:00"
   },
   "buga": {

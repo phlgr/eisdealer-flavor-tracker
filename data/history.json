@@ -6933,5 +6933,95 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-05-30T20:48:35.314Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Gurke Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Cucumber Mint"
+        },
+        {
+          "name": "Cassis",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Blackcurrant"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Kokos Mango Sticky Rice",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Coconut Mango Sticky Rice"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Choc Cherry Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Chocolate Cherry Cheesecake"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]
