@@ -2,89 +2,69 @@
   "main": {
     "flavors": [
       {
-        "name": "Haselnuss Crunch",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Hazelnut Crunch"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Cheesecake"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Gurke Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Cucumber Mint"
-      },
-      {
-        "name": "Cassis",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Blackcurrant"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Joghurt",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
-      },
-      {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
-      },
-      {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Choc Cherry Cheesecake",
+        "name": "Gurke Minze",
+        "tags": [],
+        "nameEnglish": "Cucumber Mint"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Cassis",
+        "tags": [],
+        "nameEnglish": "Blackcurrant"
+      },
+      {
+        "name": "Zitronenkuchen",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Chocolate Cherry Cheesecake"
+        "nameEnglish": "Lemon Cake"
+      },
+      {
+        "name": "Choc Cherry Cheesecake",
+        "tags": [],
+        "nameEnglish": "Choc Cherry Cheesecake"
+      },
+      {
+        "name": "Caffé caramell",
+        "tags": [],
+        "nameEnglish": "Coffee Caramel"
+      },
+      {
+        "name": "Bienenstich",
+        "tags": [],
+        "nameEnglish": "Bee Sting Cake"
+      },
+      {
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Joghurt Erdbeer Schoko",
+        "tags": [],
+        "nameEnglish": "Yogurt Strawberry Chocolate"
       }
     ],
-    "lastUpdated": "2026-05-30T20:48:35.312Z",
+    "lastUpdated": "2026-05-31T10:30:53.316Z",
     "openUntil": "20:00"
   },
   "buga": {
