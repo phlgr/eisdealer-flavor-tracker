@@ -4,7 +4,7 @@
       {
         "name": "Schokomousse",
         "tags": [],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Chocolate mousse"
       },
       {
         "name": "Vanille",
@@ -12,11 +12,9 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
+        "name": "Strawberry Cheesecake",
+        "tags": [],
+        "nameEnglish": "Strawberry cheesecake"
       },
       {
         "name": "Joghurt",
@@ -26,7 +24,17 @@
       {
         "name": "Heidelbeer Quark",
         "tags": [],
-        "nameEnglish": "Blueberry Quark"
+        "nameEnglish": "Blueberry curd"
+      },
+      {
+        "name": "Stracciatella",
+        "tags": [],
+        "nameEnglish": "Stracciatella"
+      },
+      {
+        "name": "Kokos Mango Sticky Rice",
+        "tags": [],
+        "nameEnglish": "Coconut mango sticky rice"
       },
       {
         "name": "Erdbeere",
@@ -34,37 +42,27 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Schlumpfeis Royal",
-        "tags": [],
-        "nameEnglish": "Smurf Ice Cream Royal"
-      },
-      {
-        "name": "Waldfrucht",
-        "tags": [],
-        "nameEnglish": "Wild Berry"
-      },
-      {
         "name": "Limette Minze",
         "tags": [],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Cassis",
-        "tags": [],
-        "nameEnglish": "Blackcurrant"
-      },
-      {
-        "name": "Mango",
-        "tags": [],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Lime mint"
       },
       {
         "name": "Zitrone",
         "tags": [],
         "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Schlumpfeis Royal",
+        "tags": [],
+        "nameEnglish": "Smurf ice cream Royal"
+      },
+      {
+        "name": "Himbeere",
+        "tags": [],
+        "nameEnglish": "Raspberry"
       }
     ],
-    "lastUpdated": "2026-06-03T12:00:49.890Z",
+    "lastUpdated": "2026-06-03T15:00:48.740Z",
     "openUntil": "20:00"
   },
   "buga": {
