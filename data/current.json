@@ -3,90 +3,68 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Zitronenkuchen",
+        "name": "Kokos Mango Sticky Rice",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lemon Cake"
+        "nameEnglish": "Coconut Mango Sticky Rice"
       },
       {
         "name": "Joghurt",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Yogurt"
       },
       {
         "name": "Heidelbeer Quark",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Schlumpfeis Royal",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Smurf Ice Cream Royal"
       },
       {
         "name": "Waldfrucht",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Forest Fruit"
+        "tags": [],
+        "nameEnglish": "Wild Berry"
       },
       {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Blackcurrant"
       },
       {
-        "name": "Orange Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Orange Mint"
+        "name": "Mango",
+        "tags": [],
+        "nameEnglish": "Mango"
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-06-02T12:00:49.603Z",
+    "lastUpdated": "2026-06-03T12:00:49.890Z",
     "openUntil": "20:00"
   },
   "buga": {
