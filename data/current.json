@@ -4,7 +4,7 @@
       {
         "name": "Schokomousse",
         "tags": [],
-        "nameEnglish": "Chocolate mousse"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
@@ -14,7 +14,7 @@
       {
         "name": "Strawberry Cheesecake",
         "tags": [],
-        "nameEnglish": "Strawberry cheesecake"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Joghurt",
@@ -24,7 +24,7 @@
       {
         "name": "Heidelbeer Quark",
         "tags": [],
-        "nameEnglish": "Blueberry curd"
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Stracciatella",
@@ -33,8 +33,10 @@
       },
       {
         "name": "Kokos Mango Sticky Rice",
-        "tags": [],
-        "nameEnglish": "Coconut mango sticky rice"
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Coconut Mango Sticky Rice"
       },
       {
         "name": "Erdbeere",
@@ -44,7 +46,7 @@
       {
         "name": "Limette Minze",
         "tags": [],
-        "nameEnglish": "Lime mint"
+        "nameEnglish": "Lime Mint"
       },
       {
         "name": "Zitrone",
@@ -54,7 +56,7 @@
       {
         "name": "Schlumpfeis Royal",
         "tags": [],
-        "nameEnglish": "Smurf ice cream Royal"
+        "nameEnglish": "Smurf Ice Cream Royal"
       },
       {
         "name": "Himbeere",
@@ -62,8 +64,7 @@
         "nameEnglish": "Raspberry"
       }
     ],
-    "lastUpdated": "2026-06-03T15:00:48.740Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-06-04T09:30:49.874Z"
   },
   "buga": {
     "flavors": [
