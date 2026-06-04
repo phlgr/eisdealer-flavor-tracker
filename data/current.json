@@ -3,32 +3,44 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Strawberry Cheesecake",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Joghurt",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Yogurt"
       },
       {
         "name": "Heidelbeer Quark",
-        "tags": [],
-        "nameEnglish": "Blueberry Quark"
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Blueberry Curd"
       },
       {
         "name": "Stracciatella",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Stracciatella"
       },
       {
@@ -40,31 +52,42 @@
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Schlumpfeis Royal",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Smurf Ice Cream Royal"
       },
       {
         "name": "Himbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Raspberry"
       }
     ],
-    "lastUpdated": "2026-06-04T09:30:49.874Z"
+    "lastUpdated": "2026-06-04T15:00:49.950Z",
+    "openUntil": "19:00"
   },
   "buga": {
     "flavors": [
