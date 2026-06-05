@@ -4,7 +4,7 @@
       {
         "name": "Schokomousse",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Chocolate Mousse"
       },
@@ -16,13 +16,6 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Cheesecake"
-      },
-      {
         "name": "Joghurt",
         "tags": [
           "milk"
@@ -30,11 +23,11 @@
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Heidelbeer Quark",
+        "name": "Strawberry Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Blueberry Curd"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Stracciatella",
@@ -44,11 +37,11 @@
         "nameEnglish": "Stracciatella"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
+        "name": "Heidelbeer Quark",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Erdbeere",
@@ -58,18 +51,18 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Limette Minze",
+        "name": "Kokos Mango Sticky Rice",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Coconut Mango Sticky Rice"
       },
       {
-        "name": "Zitrone",
+        "name": "Himbeere",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Raspberry"
       },
       {
         "name": "Schlumpfeis Royal",
@@ -79,15 +72,21 @@
         "nameEnglish": "Smurf Ice Cream Royal"
       },
       {
-        "name": "Himbeere",
+        "name": "Zitrone",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Raspberry"
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime Mint"
       }
     ],
-    "lastUpdated": "2026-06-04T15:00:49.950Z",
-    "openUntil": "19:00"
+    "lastUpdated": "2026-06-05T10:00:49.349Z"
   },
   "buga": {
     "flavors": [
