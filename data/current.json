@@ -2,92 +2,27 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokomousse",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Chocolate Mousse"
+        "name": "Brookies",
+        "tags": [],
+        "nameEnglish": "Brookies"
       },
       {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
+        "name": "Cookie Dough",
+        "tags": [],
+        "nameEnglish": "Cookie Dough"
       },
       {
-        "name": "Heidelbeer Quark",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Blueberry Quark"
+        "name": "Cookie Erdbeer Karamell",
+        "tags": [],
+        "nameEnglish": "Cookie Strawberry Caramel"
       },
       {
-        "name": "Café Caramel",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coffee Caramel"
-      },
-      {
-        "name": "Schwarzer Sesam White Choc",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Black Sesame White Chocolate"
-      },
-      {
-        "name": "Schlumpfeis Royal",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Smurf Ice Cream Royal"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Cheesecake"
-      },
-      {
-        "name": "Stracciatella",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Stracciatella"
+        "name": "Schoko Cookie Dough Karamell",
+        "tags": [],
+        "nameEnglish": "Chocolate Cookie Dough Caramel"
       }
     ],
-    "lastUpdated": "2026-06-06T09:30:56.355Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-06-06T14:35:16.523Z"
   },
   "buga": {
     "flavors": [

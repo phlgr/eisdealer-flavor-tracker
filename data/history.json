@@ -7844,5 +7844,32 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-06-06T14:35:16.525Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Brookies",
+          "tags": [],
+          "nameEnglish": "Brookies"
+        },
+        {
+          "name": "Cookie Dough",
+          "tags": [],
+          "nameEnglish": "Cookie Dough"
+        },
+        {
+          "name": "Cookie Erdbeer Karamell",
+          "tags": [],
+          "nameEnglish": "Cookie Strawberry Caramel"
+        },
+        {
+          "name": "Schoko Cookie Dough Karamell",
+          "tags": [],
+          "nameEnglish": "Chocolate Cookie Dough Caramel"
+        }
+      ]
+    }
   }
 ]
