@@ -4,7 +4,7 @@
       {
         "name": "Schokomousse",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Chocolate Mousse"
       },
@@ -16,32 +16,39 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Joghurt",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Cheesecake"
-      },
-      {
-        "name": "Stracciatella",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Stracciatella"
-      },
-      {
         "name": "Heidelbeer Quark",
         "tags": [
           "milk"
         ],
         "nameEnglish": "Blueberry Quark"
+      },
+      {
+        "name": "Café Caramel",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Coffee Caramel"
+      },
+      {
+        "name": "Schwarzer Sesam White Choc",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Black Sesame White Chocolate"
+      },
+      {
+        "name": "Schlumpfeis Royal",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Smurf Ice Cream Royal"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime Mint"
       },
       {
         "name": "Erdbeere",
@@ -58,28 +65,28 @@
         "nameEnglish": "Coconut Mango Sticky Rice"
       },
       {
-        "name": "Himbeere",
+        "name": "Zitrone",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Raspberry"
+        "nameEnglish": "Lemon"
       },
       {
-        "name": "Schlumpfeis Royal",
+        "name": "Strawberry Cheesecake",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Smurf Ice Cream Royal"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Minze",
+        "name": "Stracciatella",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Mint"
+        "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-06-06T08:01:27.477Z",
+    "lastUpdated": "2026-06-06T09:30:56.355Z",
     "openUntil": "20:00"
   },
   "buga": {
