@@ -72,21 +72,15 @@
         "nameEnglish": "Smurf Ice Cream Royal"
       },
       {
-        "name": "Zitrone",
+        "name": "Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Mint"
       }
     ],
-    "lastUpdated": "2026-06-05T10:00:49.349Z"
+    "lastUpdated": "2026-06-06T08:01:27.477Z",
+    "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
