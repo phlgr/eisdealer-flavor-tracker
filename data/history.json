@@ -7871,5 +7871,72 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-06-07T10:02:19.038Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [],
+          "nameEnglish": "Blueberry Curd"
+        },
+        {
+          "name": "Crunchy Peanutbutter",
+          "tags": [],
+          "nameEnglish": "Crunchy Peanut Butter"
+        },
+        {
+          "name": "Bienenstich",
+          "tags": [],
+          "nameEnglish": "Bee Sting Cake"
+        },
+        {
+          "name": "Maple Walnut",
+          "tags": [],
+          "nameEnglish": "Maple Walnut"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Himbeere",
+          "tags": [],
+          "nameEnglish": "Raspberry"
+        },
+        {
+          "name": "Kokos Mango Sticky Rice",
+          "tags": [],
+          "nameEnglish": "Coconut Mango Sticky Rice"
+        },
+        {
+          "name": "Oreo",
+          "tags": [],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "White Choc Himbeere",
+          "tags": [],
+          "nameEnglish": "White Chocolate Raspberry"
+        },
+        {
+          "name": "Stracciatella",
+          "tags": [],
+          "nameEnglish": "Stracciatella"
+        }
+      ]
+    }
   }
 ]

@@ -2,27 +2,67 @@
   "main": {
     "flavors": [
       {
-        "name": "Brookies",
+        "name": "Schokomousse",
         "tags": [],
-        "nameEnglish": "Brookies"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Cookie Dough",
+        "name": "Vanille",
         "tags": [],
-        "nameEnglish": "Cookie Dough"
+        "nameEnglish": "Vanilla"
       },
       {
-        "name": "Cookie Erdbeer Karamell",
+        "name": "Heidelbeer Quark",
         "tags": [],
-        "nameEnglish": "Cookie Strawberry Caramel"
+        "nameEnglish": "Blueberry Curd"
       },
       {
-        "name": "Schoko Cookie Dough Karamell",
+        "name": "Crunchy Peanutbutter",
         "tags": [],
-        "nameEnglish": "Chocolate Cookie Dough Caramel"
+        "nameEnglish": "Crunchy Peanut Butter"
+      },
+      {
+        "name": "Bienenstich",
+        "tags": [],
+        "nameEnglish": "Bee Sting Cake"
+      },
+      {
+        "name": "Maple Walnut",
+        "tags": [],
+        "nameEnglish": "Maple Walnut"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Himbeere",
+        "tags": [],
+        "nameEnglish": "Raspberry"
+      },
+      {
+        "name": "Kokos Mango Sticky Rice",
+        "tags": [],
+        "nameEnglish": "Coconut Mango Sticky Rice"
+      },
+      {
+        "name": "Oreo",
+        "tags": [],
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "White Choc Himbeere",
+        "tags": [],
+        "nameEnglish": "White Chocolate Raspberry"
+      },
+      {
+        "name": "Stracciatella",
+        "tags": [],
+        "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-06-06T14:35:16.523Z"
+    "lastUpdated": "2026-06-07T10:02:19.036Z"
   },
   "buga": {
     "flavors": [
