@@ -14,7 +14,7 @@
       {
         "name": "Heidelbeer Quark",
         "tags": [],
-        "nameEnglish": "Blueberry Curd"
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Crunchy Peanutbutter",
@@ -42,27 +42,13 @@
         "nameEnglish": "Raspberry"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [],
-        "nameEnglish": "Coconut Mango Sticky Rice"
-      },
-      {
-        "name": "Oreo",
-        "tags": [],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "White Choc Himbeere",
-        "tags": [],
-        "nameEnglish": "White Chocolate Raspberry"
-      },
-      {
         "name": "Stracciatella",
         "tags": [],
         "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-06-07T10:02:19.036Z"
+    "lastUpdated": "2026-06-07T16:33:19.656Z",
+    "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
