@@ -3,51 +3,90 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Heidelbeer Quark",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Crunchy Peanutbutter",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Crunchy Peanut Butter"
       },
       {
-        "name": "Bienenstich",
-        "tags": [],
-        "nameEnglish": "Bee Sting Cake"
+        "name": "Caffé Caramel",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Coffee Caramel"
       },
       {
-        "name": "Maple Walnut",
-        "tags": [],
-        "nameEnglish": "Maple Walnut"
+        "name": "Zitronenkuchen",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon Cake"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Himbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Raspberry"
       },
       {
-        "name": "Stracciatella",
-        "tags": [],
-        "nameEnglish": "Stracciatella"
+        "name": "Kokos Mango Sticky Rice",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Coconut Mango Sticky Rice"
+      },
+      {
+        "name": "Oreo",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "Schwarzer Sesam White Choc",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Black Sesame White Choc"
+      },
+      {
+        "name": "Schokolade",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Chocolate"
       }
     ],
-    "lastUpdated": "2026-06-07T16:33:19.656Z",
+    "lastUpdated": "2026-06-08T10:01:07.179Z",
     "openUntil": "20:00"
   },
   "buga": {
