@@ -3,91 +3,66 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Heidelbeer Quark",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Crunchy Peanutbutter",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Crunchy Peanut Butter"
       },
       {
-        "name": "Caffé Caramel",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coffee Caramel"
+        "name": "Baileys",
+        "tags": [],
+        "nameEnglish": "Baileys"
       },
       {
-        "name": "Zitronenkuchen",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon Cake"
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
       },
       {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Himbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Raspberry"
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
+        "name": "Choc Cherry Cheesecake",
+        "tags": [],
+        "nameEnglish": "Chocolate Cherry Cheesecake"
       },
       {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Oreo"
+        "name": "Mango",
+        "tags": [],
+        "nameEnglish": "Mango"
       },
       {
-        "name": "Schwarzer Sesam White Choc",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Black Sesame White Choc"
+        "name": "Bienenstich",
+        "tags": [],
+        "nameEnglish": "Bee Sting Cake"
       },
       {
         "name": "Schokolade",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate"
       }
     ],
-    "lastUpdated": "2026-06-08T10:01:07.179Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-06-09T08:31:10.924Z"
   },
   "buga": {
     "flavors": [
