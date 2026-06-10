@@ -8150,5 +8150,85 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-06-10T09:00:49.520Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [],
+          "nameEnglish": "Blueberry Quark"
+        },
+        {
+          "name": "Crunchy Peanutbutter",
+          "tags": [],
+          "nameEnglish": "Crunchy Peanut Butter"
+        },
+        {
+          "name": "Baileys",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Baileys"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Mango Lassi",
+          "tags": [],
+          "nameEnglish": "Mango Lassi"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Choc Cherry Cheesecake",
+          "tags": [],
+          "nameEnglish": "Choc Cherry Cheesecake"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [],
+          "nameEnglish": "Chocolate"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]
