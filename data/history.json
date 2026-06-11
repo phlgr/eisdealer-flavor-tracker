@@ -8230,5 +8230,72 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-06-11T09:00:52.773Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [],
+          "nameEnglish": "Blueberry Quark"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Baileys",
+          "tags": [],
+          "nameEnglish": "Baileys"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Mango Lassi",
+          "tags": [],
+          "nameEnglish": "Mango Lassi"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Choc Cherry Cheesecake",
+          "tags": [],
+          "nameEnglish": "Choc Cherry Cheesecake"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Gurke Minze",
+          "tags": [],
+          "nameEnglish": "Cucumber - Mint"
+        }
+      ]
+    }
   }
 ]

@@ -3,9 +3,7 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -19,37 +17,24 @@
         "nameEnglish": "Blueberry Quark"
       },
       {
-        "name": "Crunchy Peanutbutter",
+        "name": "Pistazie",
         "tags": [],
-        "nameEnglish": "Crunchy Peanut Butter"
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Baileys",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Baileys"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
       },
       {
         "name": "Mango Lassi",
@@ -58,9 +43,7 @@
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
@@ -72,10 +55,14 @@
         "name": "Schokolade",
         "tags": [],
         "nameEnglish": "Chocolate"
+      },
+      {
+        "name": "Gurke Minze",
+        "tags": [],
+        "nameEnglish": "Cucumber - Mint"
       }
     ],
-    "lastUpdated": "2026-06-10T09:00:49.518Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-06-11T09:00:52.771Z"
   },
   "buga": {
     "flavors": [
