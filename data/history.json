@@ -8297,5 +8297,96 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-06-12T11:00:53.787Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Pistazie",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Blueberry Quark"
+        },
+        {
+          "name": "Mango Lassi",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Mango Lassi"
+        },
+        {
+          "name": "Erdbeer Tiramisu",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry Tiramisu"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Wm Geheimsorte",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "World Cup Mystery Flavor"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Gurke Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Cucumber Mint"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        }
+      ]
+    }
   }
 ]

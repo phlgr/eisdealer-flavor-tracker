@@ -2,67 +2,91 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokomousse",
-        "tags": [],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Vanille",
-        "tags": [],
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Heidelbeer Quark",
-        "tags": [],
-        "nameEnglish": "Blueberry Quark"
-      },
-      {
         "name": "Pistazie",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Baileys",
-        "tags": [],
-        "nameEnglish": "Baileys"
-      },
-      {
-        "name": "Mango",
-        "tags": [],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [],
-        "nameEnglish": "Lime Mint"
+        "name": "Heidelbeer Quark",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Mango Lassi",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Mango Lassi"
       },
       {
+        "name": "Erdbeer Tiramisu",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry Tiramisu"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Wm Geheimsorte",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "World Cup Mystery Flavor"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
+      },
+      {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Choc Cherry Cheesecake",
-        "tags": [],
-        "nameEnglish": "Choc Cherry Cheesecake"
-      },
-      {
-        "name": "Schokolade",
-        "tags": [],
-        "nameEnglish": "Chocolate"
+        "name": "Joghurt",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yogurt"
       },
       {
         "name": "Gurke Minze",
-        "tags": [],
-        "nameEnglish": "Cucumber - Mint"
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Cucumber Mint"
+      },
+      {
+        "name": "Vanille",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Vanilla"
       }
     ],
-    "lastUpdated": "2026-06-11T09:00:52.771Z"
+    "lastUpdated": "2026-06-12T11:00:53.786Z"
   },
   "buga": {
     "flavors": [
