@@ -8388,5 +8388,97 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-06-13T09:01:13.729Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Pistazie",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Blueberry Curd"
+        },
+        {
+          "name": "Mango Lassi",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Mango Lassi"
+        },
+        {
+          "name": "Erdbeer Joghurt Schoko",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry - Yoghurt - Chocolate"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "WM Geheimsorte",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "WC Secret Flavor"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yoghurt"
+        },
+        {
+          "name": "Gurke Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Cucumber - Mint"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]

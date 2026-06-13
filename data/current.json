@@ -13,7 +13,7 @@
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Blueberry Quark"
+        "nameEnglish": "Blueberry Curd"
       },
       {
         "name": "Mango Lassi",
@@ -23,11 +23,11 @@
         "nameEnglish": "Mango Lassi"
       },
       {
-        "name": "Erdbeer Tiramisu",
+        "name": "Erdbeer Joghurt Schoko",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry Tiramisu"
+        "nameEnglish": "Strawberry - Yoghurt - Chocolate"
       },
       {
         "name": "Schokomousse",
@@ -37,11 +37,11 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Wm Geheimsorte",
+        "name": "WM Geheimsorte",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "World Cup Mystery Flavor"
+        "nameEnglish": "WC Secret Flavor"
       },
       {
         "name": "Limette Minze",
@@ -69,14 +69,14 @@
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Yogurt"
+        "nameEnglish": "Yoghurt"
       },
       {
         "name": "Gurke Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Cucumber Mint"
+        "nameEnglish": "Cucumber - Mint"
       },
       {
         "name": "Vanille",
@@ -86,7 +86,8 @@
         "nameEnglish": "Vanilla"
       }
     ],
-    "lastUpdated": "2026-06-12T11:00:53.786Z"
+    "lastUpdated": "2026-06-13T09:01:13.727Z",
+    "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
