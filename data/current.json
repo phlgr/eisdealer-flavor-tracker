@@ -3,17 +3,23 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Rhabarber",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Rhubarb"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
@@ -24,53 +30,63 @@
         "nameEnglish": "Cucumber - Mint"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
+        "name": "Mango",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
-      },
-      {
-        "name": "Joghurt",
-        "tags": [],
-        "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Vanille",
-        "tags": [],
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Heidelbeer Quark",
-        "tags": [],
-        "nameEnglish": "Blueberry Quark"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Mango"
       },
       {
         "name": "WM Geheimsorte",
         "tags": [
           "nuss"
         ],
-        "nameEnglish": "World Cup Mystery Flavor"
+        "nameEnglish": "World Cup Secret Flavor"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Hazelnut Crunch"
+      },
+      {
+        "name": "Vanille",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Oreo",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "Orangen Kuchen",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Orange Cake"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Choc Cherry Cheesecake",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Choc Cherry Cheesecake"
       }
     ],
-    "lastUpdated": "2026-06-14T08:02:31.617Z",
+    "lastUpdated": "2026-06-15T11:01:04.693Z",
     "openUntil": "20:00"
   },
   "buga": {
