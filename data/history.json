@@ -71,9 +71,9 @@
           "nameEnglish": "Vanilla"
         },
         {
-          "name": "Joghurt Lemon",
+          "name": "Joghurt Zitrone",
           "tags": [],
-          "nameEnglish": "Yogurt lemon"
+          "nameEnglish": "Yogurt Lemon"
         }
       ],
       "openUntil": "18:00"
@@ -1560,7 +1560,7 @@
           "nameEnglish": "Lotus Cinnamon Roll"
         },
         {
-          "name": "Joghurt Lemon",
+          "name": "Joghurt Zitrone",
           "tags": [],
           "nameEnglish": "Yogurt Lemon"
         },
@@ -1632,7 +1632,7 @@
           "nameEnglish": "Lotus Cinnamon Roll"
         },
         {
-          "name": "Joghurt Lemon",
+          "name": "Joghurt Zitrone",
           "tags": [],
           "nameEnglish": "Yogurt Lemon"
         },
@@ -6787,7 +6787,7 @@
           "nameEnglish": "Yogurt"
         },
         {
-          "name": "Caffé caramel",
+          "name": "Caffé Caramel",
           "tags": [
             "milk"
           ],
@@ -7071,7 +7071,7 @@
           "nameEnglish": "Choc Cherry Cheesecake"
         },
         {
-          "name": "Caffé caramell",
+          "name": "Caffé Caramel",
           "tags": [],
           "nameEnglish": "Coffee Caramel"
         },
@@ -7086,9 +7086,9 @@
           "nameEnglish": "Vanilla"
         },
         {
-          "name": "Joghurt Erdbeer Schoko",
+          "name": "Erdbeer Joghurt Schoko",
           "tags": [],
-          "nameEnglish": "Yogurt Strawberry Chocolate"
+          "nameEnglish": "Strawberry Yogurt Chocolate"
         }
       ],
       "openUntil": "20:00"
@@ -7779,7 +7779,7 @@
           "nameEnglish": "Blueberry Quark"
         },
         {
-          "name": "Café Caramel",
+          "name": "Caffé Caramel",
           "tags": [
             "milk"
           ],

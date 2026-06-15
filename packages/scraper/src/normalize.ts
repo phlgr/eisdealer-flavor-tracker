@@ -11,6 +11,14 @@ const ALIASES: Record<string, string> = {
 	// Recurring mystery flavor read with varying case; the "(Nuss)" suffix is
 	// stripped into a "nuss" tag in buildLocationUpdate, so it never reaches here.
 	"wm geheimsorte": "WM Geheimsorte",
+	// Coffee-caramel read with varying case/accents/spelling ("Café", "caramell").
+	"caffé caramel": "Caffé Caramel",
+	"caffé caramell": "Caffé Caramel",
+	"café caramel": "Caffé Caramel",
+	// Lemon-yogurt read in English; canonicalize to the German name.
+	"joghurt lemon": "Joghurt Zitrone",
+	// Word-order variant of the strawberry-yogurt-chocolate flavor.
+	"joghurt erdbeer schoko": "Erdbeer Joghurt Schoko",
 };
 
 /** Normalize separators so "Buttermilch-Mango" / "Buttermilch Mango" merge. */
