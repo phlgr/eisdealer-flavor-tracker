@@ -8,6 +8,9 @@ const ALIASES: Record<string, string> = {
 	"erdbeere tiramisu": "Erdbeer Tiramisu",
 	// Spelling fix.
 	straciatella: "Stracciatella",
+	// Recurring mystery flavor read with varying case; the "(Nuss)" suffix is
+	// stripped into a "nuss" tag in buildLocationUpdate, so it never reaches here.
+	"wm geheimsorte": "WM Geheimsorte",
 };
 
 /** Normalize separators so "Buttermilch-Mango" / "Buttermilch Mango" merge. */

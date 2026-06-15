@@ -8338,9 +8338,10 @@
           "nameEnglish": "Chocolate Mousse"
         },
         {
-          "name": "Wm Geheimsorte",
+          "name": "WM Geheimsorte",
           "tags": [
-            "vegan"
+            "vegan",
+            "nuss"
           ],
           "nameEnglish": "World Cup Mystery Flavor"
         },
@@ -8431,9 +8432,10 @@
         {
           "name": "WM Geheimsorte",
           "tags": [
-            "milk"
+            "milk",
+            "nuss"
           ],
-          "nameEnglish": "WC Secret Flavor"
+          "nameEnglish": "World Cup Mystery Flavor"
         },
         {
           "name": "Limette Minze",
@@ -8542,9 +8544,11 @@
           "nameEnglish": "Strawberry Cheesecake"
         },
         {
-          "name": "Wm Geheimsorte (Nuss)",
-          "tags": [],
-          "nameEnglish": "WC-Secret Flavor (Nut)"
+          "name": "WM Geheimsorte",
+          "tags": [
+            "nuss"
+          ],
+          "nameEnglish": "World Cup Mystery Flavor"
         },
         {
           "name": "Choc Cherry Cheesecake",

@@ -247,6 +247,11 @@ header {
   color: #fff;
 }
 
+.tag-nuss {
+  background: #8a5a2b;
+  color: #fff;
+}
+
 /* Stale data banner */
 .stale-banner {
   background: #ff9100;

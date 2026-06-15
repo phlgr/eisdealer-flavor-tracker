@@ -21,6 +21,7 @@ Your task:
    - tags: ONLY add tags that are visually indicated in the image. Do NOT guess or infer tags.
      - "vegan": ONLY if the flavor has a visible "(V)", "(v)", leaf symbol, or "vegan" marker next to it
      - "milk": ONLY if the flavor has a visible cow symbol, milk icon, or similar dairy marker next to it
+     - "nuss": ONLY if the flavor has a visible nut marker, e.g. a "(Nuss)" / "(Nut)" suffix or a nut symbol. Strip the "(Nuss)" text from the name and use this tag instead.
      - If no marker is visible next to the flavor, leave tags empty.
 4. Set confidence to "high" if the text is clear, "medium" if partially obscured, "low" if very hard to read.
 5. Determine the location based on which format matched:

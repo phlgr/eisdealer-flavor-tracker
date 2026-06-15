@@ -2,6 +2,7 @@ import { join } from "node:path";
 import { normalizeName } from "./normalize";
 import type {
 	CurrentData,
+	FlavorTag,
 	HistoryEntry,
 	IceCreamFlavor,
 	LocationState,
@@ -78,13 +79,23 @@ export function buildLocationUpdate(
 	if (!latestAnalysis) return null;
 	const flavorMap = new Map<string, IceCreamFlavor>();
 	for (const flavor of latestAnalysis.flavors) {
+		// A parenthetical "(Nuss)"/"(Nut)" marker is a nut indicator, not part of
+		// the name — strip it and record it as a tag (mirrors the "(vegan)" handling).
+		const hasNuss = /\(\s*(nuss?|nut)\s*\)/i.test(flavor.name);
 		const cleanName = normalizeName(
-			flavor.name.replace(/\s*\(v(egan)?\)\s*/gi, "").trim(),
+			flavor.name
+				.replace(/\s*\(v(egan)?\)\s*/gi, "")
+				.replace(/\s*\(\s*(nuss?|nut)\s*\)\s*/gi, " ")
+				.trim(),
 		);
 		const key = cleanName.toLowerCase();
+		const tags: FlavorTag[] =
+			hasNuss && !flavor.tags.includes("nuss")
+				? [...flavor.tags, "nuss"]
+				: flavor.tags;
 
 		if (!flavorMap.has(key)) {
-			flavorMap.set(key, { ...flavor, name: cleanName });
+			flavorMap.set(key, { ...flavor, name: cleanName, tags });
 		}
 	}
 

@@ -23,6 +23,7 @@ export const Route = createFileRoute("/")({ component: HomePage });
 const TAG_LABELS: Record<FlavorTag, { label: string; className: string }> = {
 	vegan: { label: "Vegan", className: "tag-vegan" },
 	milk: { label: "Milch", className: "tag-milk" },
+	nuss: { label: "Nuss", className: "tag-nuss" },
 };
 
 /** Rarities worth highlighting on the main page */

@@ -58,9 +58,11 @@
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Wm Geheimsorte (Nuss)",
-        "tags": [],
-        "nameEnglish": "WC-Secret Flavor (Nut)"
+        "name": "WM Geheimsorte",
+        "tags": [
+          "nuss"
+        ],
+        "nameEnglish": "World Cup Mystery Flavor"
       },
       {
         "name": "Choc Cherry Cheesecake",
