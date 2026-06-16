@@ -37,32 +37,11 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "WM Geheimsorte",
-        "tags": [
-          "nuss"
-        ],
-        "nameEnglish": "World Cup Secret Flavor"
-      },
-      {
-        "name": "Haselnuss Crunch",
+        "name": "Erdbeer Tiramisu",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Hazelnut Crunch"
-      },
-      {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Strawberry - Tiramisu"
       },
       {
         "name": "Orangen Kuchen",
@@ -79,14 +58,36 @@
         "nameEnglish": "Strawberry"
       },
       {
+        "name": "Vanille",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "WM Geheimsorte",
+        "tags": [
+          "nuss",
+          "milk"
+        ],
+        "nameEnglish": "World Cup Mystery Flavor"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Hazelnut Crunch"
+      },
+      {
         "name": "Choc Cherry Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Choc Cherry Cheesecake"
+        "nameEnglish": "Chocolate Cherry Cheesecake"
       }
     ],
-    "lastUpdated": "2026-06-15T11:01:04.693Z",
+    "lastUpdated": "2026-06-16T20:17:05.074Z",
     "openUntil": "20:00"
   },
   "buga": {
