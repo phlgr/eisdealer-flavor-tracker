@@ -12,6 +12,10 @@
 		{
 			"matchDepTypes": ["devDependencies"],
 			"automerge": true
+		},
+		{
+			"groupName": "playwright",
+			"matchPackageNames": ["playwright", "playwright-core", "mcr.microsoft.com/playwright"]
 		}
 	]
 }
