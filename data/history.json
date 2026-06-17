@@ -8743,5 +8743,98 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-06-17T11:00:51.631Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Mango Lassi",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Mango Lassi"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Orangen Kuchen",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Orange Cake"
+        },
+        {
+          "name": "Rhabarber",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Rhubarb"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Gurke Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Cucumber Mint"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Pfirsich Maracuja",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Peach Passion Fruit"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "WM Geheimsorte",
+          "tags": [
+            "milk",
+            "nuss"
+          ],
+          "nameEnglish": "WC Secret Flavor"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]

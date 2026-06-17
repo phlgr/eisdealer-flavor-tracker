@@ -9,39 +9,25 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Rhabarber",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Rhubarb"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Gurke Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Cucumber - Mint"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Erdbeer Tiramisu",
+        "name": "Vanille",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry - Tiramisu"
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Mango Lassi",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Mango Lassi"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Orangen Kuchen",
@@ -51,6 +37,41 @@
         "nameEnglish": "Orange Cake"
       },
       {
+        "name": "Rhabarber",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Rhubarb"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Gurke Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Cucumber Mint"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
+        "name": "Pfirsich Maracuja",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Peach Passion Fruit"
+      },
+      {
         "name": "Erdbeere",
         "tags": [
           "vegan"
@@ -58,36 +79,15 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
-      },
-      {
         "name": "WM Geheimsorte",
         "tags": [
-          "nuss",
-          "milk"
+          "milk",
+          "nuss"
         ],
-        "nameEnglish": "World Cup Mystery Flavor"
-      },
-      {
-        "name": "Haselnuss Crunch",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Hazelnut Crunch"
-      },
-      {
-        "name": "Choc Cherry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Chocolate Cherry Cheesecake"
+        "nameEnglish": "WC Secret Flavor"
       }
     ],
-    "lastUpdated": "2026-06-16T20:17:05.074Z",
+    "lastUpdated": "2026-06-17T11:00:51.629Z",
     "openUntil": "20:00"
   },
   "buga": {
