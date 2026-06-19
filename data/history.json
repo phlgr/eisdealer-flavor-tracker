@@ -8929,5 +8929,97 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-06-19T10:00:51.924Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Salted Caramel",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Salted Caramel"
+        },
+        {
+          "name": "Bienenstich",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Bee Sting Cake"
+        },
+        {
+          "name": "Joghurt Brombeer",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt Blackberry"
+        },
+        {
+          "name": "Sauerkirsch",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Sour Cherry"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Kokos Mango Sticky Rice",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Coconut Mango Sticky Rice"
+        },
+        {
+          "name": "White Choc Himbeere",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "White Chocolate Raspberry"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Chocolate"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]

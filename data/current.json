@@ -23,18 +23,18 @@
         "nameEnglish": "Salted Caramel"
       },
       {
-        "name": "Pistazie",
+        "name": "Bienenstich",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Bee Sting Cake"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
+        "name": "Joghurt Brombeer",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
+        "nameEnglish": "Yogurt Blackberry"
       },
       {
         "name": "Sauerkirsch",
@@ -51,18 +51,18 @@
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Gurke Minze",
+        "name": "Kokos Mango Sticky Rice",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Cucumber - Mint"
+        "nameEnglish": "Coconut Mango Sticky Rice"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "White Choc Himbeere",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "White Chocolate Raspberry"
       },
       {
         "name": "Zitrone",
@@ -74,20 +74,19 @@
       {
         "name": "Erdbeere",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "WM Geheimsorte",
+        "name": "Schokolade",
         "tags": [
-          "nuss",
           "milk"
         ],
-        "nameEnglish": "World Cup Secret Flavor"
+        "nameEnglish": "Chocolate"
       }
     ],
-    "lastUpdated": "2026-06-18T10:30:57.242Z",
+    "lastUpdated": "2026-06-19T10:00:51.922Z",
     "openUntil": "20:00"
   },
   "buga": {
