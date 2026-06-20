@@ -9145,5 +9145,47 @@
       ],
       "openUntil": "17:00"
     }
+  },
+  {
+    "timestamp": "2026-06-20T15:31:06.350Z",
+    "buga": {
+      "flavors": [
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Oreo",
+          "tags": [],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Orange Basilikum",
+          "tags": [],
+          "nameEnglish": "Orange-Basil"
+        },
+        {
+          "name": "Zitrone Minze",
+          "tags": [],
+          "nameEnglish": "Lemon-Mint"
+        }
+      ]
+    }
   }
 ]

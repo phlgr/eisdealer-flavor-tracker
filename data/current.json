@@ -69,16 +69,12 @@
     "flavors": [
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Oreo"
       },
       {
@@ -93,30 +89,20 @@
       },
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Joghurt Brombeere",
+        "name": "Orange Basilikum",
         "tags": [],
-        "nameEnglish": "Yogurt-Blackberry"
+        "nameEnglish": "Orange-Basil"
       },
       {
-        "name": "Orange Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Orange-Mint"
-      },
-      {
-        "name": "Lemon Cheesecake",
+        "name": "Zitrone Minze",
         "tags": [],
-        "nameEnglish": "Lemon-Cheesecake"
+        "nameEnglish": "Lemon-Mint"
       }
     ],
-    "lastUpdated": "2026-06-20T11:31:44.681Z",
-    "openUntil": "17:00"
+    "lastUpdated": "2026-06-20T15:31:06.346Z"
   }
 }
