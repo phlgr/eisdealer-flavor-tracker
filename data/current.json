@@ -69,18 +69,22 @@
     "flavors": [
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Limette Minze",
-        "tags": [],
-        "nameEnglish": "Lime-Mint"
+        "name": "Oreo",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Oreo"
       },
       {
-        "name": "Schokolade",
+        "name": "Vanille",
         "tags": [],
-        "nameEnglish": "Chocolate"
+        "nameEnglish": "Vanilla"
       },
       {
         "name": "Pistazie",
@@ -88,27 +92,31 @@
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Haselnuss Crunch",
-        "tags": [],
-        "nameEnglish": "Hazelnut Crunch"
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Joghurt Brombeere",
         "tags": [],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Yogurt-Blackberry"
       },
       {
-        "name": "Stracciatella",
-        "tags": [],
-        "nameEnglish": "Stracciatella"
+        "name": "Orange Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Orange-Mint"
       },
       {
-        "name": "Oreo",
+        "name": "Lemon Cheesecake",
         "tags": [],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Lemon-Cheesecake"
       }
     ],
-    "lastUpdated": "2026-05-25T09:00:44.785Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-06-20T11:31:44.681Z",
+    "openUntil": "17:00"
   }
 }

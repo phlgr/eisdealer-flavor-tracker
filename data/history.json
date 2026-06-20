@@ -9089,5 +9089,61 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-06-20T11:31:44.683Z",
+    "buga": {
+      "flavors": [
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Joghurt Brombeere",
+          "tags": [],
+          "nameEnglish": "Yogurt-Blackberry"
+        },
+        {
+          "name": "Orange Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Orange-Mint"
+        },
+        {
+          "name": "Lemon Cheesecake",
+          "tags": [],
+          "nameEnglish": "Lemon-Cheesecake"
+        }
+      ],
+      "openUntil": "17:00"
+    }
   }
 ]
