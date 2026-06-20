@@ -3,90 +3,66 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
+        "tags": [],
+        "nameEnglish": "Chocolate mousse"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Salted Caramel",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Salted Caramel"
+        "name": "WM Geheimsorte",
+        "tags": [],
+        "nameEnglish": "World Cup mystery flavor"
       },
       {
-        "name": "Bienenstich",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Bee Sting Cake"
+        "name": "Stracciatella",
+        "tags": [],
+        "nameEnglish": "Stracciatella"
       },
       {
         "name": "Joghurt Brombeer",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt Blackberry"
-      },
-      {
-        "name": "Sauerkirsch",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Sour Cherry"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
-      },
-      {
-        "name": "White Choc Himbeere",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "White Chocolate Raspberry"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
+        "tags": [],
+        "nameEnglish": "Yogurt blackberry"
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime mint"
+      },
+      {
+        "name": "Sesam Karamell",
+        "tags": [],
+        "nameEnglish": "Sesame caramel"
+      },
+      {
+        "name": "Gurke Minze",
+        "tags": [],
+        "nameEnglish": "Cucumber mint"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [],
+        "nameEnglish": "Strawberry cheesecake"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
+      },
+      {
         "name": "Schokolade",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate"
       }
     ],
-    "lastUpdated": "2026-06-19T10:00:51.922Z",
+    "lastUpdated": "2026-06-20T10:01:01.161Z",
     "openUntil": "20:00"
   },
   "buga": {
