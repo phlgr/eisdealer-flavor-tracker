@@ -9187,5 +9187,119 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-06-21T09:31:23.894Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Sesam Karamell",
+          "tags": [],
+          "nameEnglish": "Sesame Caramel"
+        },
+        {
+          "name": "Stracciatella",
+          "tags": [],
+          "nameEnglish": "Stracciatella"
+        },
+        {
+          "name": "White Choc Himbeere",
+          "tags": [],
+          "nameEnglish": "White Chocolate Raspberry"
+        },
+        {
+          "name": "WM Geheimsorte",
+          "tags": [],
+          "nameEnglish": "Secret World Cup Flavor"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Gurke Minze",
+          "tags": [],
+          "nameEnglish": "Cucumber Mint"
+        }
+      ],
+      "openUntil": "20:00"
+    },
+    "buga": {
+      "flavors": [
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Joghurt Beere",
+          "tags": [],
+          "nameEnglish": "Yogurt Berry"
+        },
+        {
+          "name": "Orange Quark",
+          "tags": [],
+          "nameEnglish": "Orange Quark"
+        },
+        {
+          "name": "Zitronen Cheesecake",
+          "tags": [],
+          "nameEnglish": "Lemon Cheesecake"
+        },
+        {
+          "name": "Haselnuss",
+          "tags": [],
+          "nameEnglish": "Hazelnut"
+        }
+      ]
+    }
   }
 ]
