@@ -3,43 +3,31 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Sesam Karamell",
-        "tags": [],
-        "nameEnglish": "Sesame Caramel"
+        "name": "Caffè Latte",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Caffè Latte"
       },
       {
-        "name": "Stracciatella",
-        "tags": [],
-        "nameEnglish": "Stracciatella"
-      },
-      {
-        "name": "White Choc Himbeere",
-        "tags": [],
-        "nameEnglish": "White Chocolate Raspberry"
-      },
-      {
-        "name": "WM Geheimsorte",
-        "tags": [],
-        "nameEnglish": "Secret World Cup Flavor"
-      },
-      {
-        "name": "Schokolade",
-        "tags": [],
-        "nameEnglish": "Chocolate"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [],
-        "nameEnglish": "Lemon"
+        "name": "Himbeer Schmand",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Raspberry Sour Cream"
       },
       {
         "name": "Oreo",
@@ -50,22 +38,55 @@
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Limette Minze",
-        "tags": [],
-        "nameEnglish": "Lime Mint"
+        "name": "Orange Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Orange Mint"
       },
       {
         "name": "Gurke Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Cucumber Mint"
+      },
+      {
+        "name": "Lemon Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Lemon Cheesecake"
+      },
+      {
+        "name": "Sauerkirsch",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Sour Cherry"
+      },
+      {
+        "name": "WM Geheimsorte",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "World Cup Secret Flavor"
+      },
+      {
+        "name": "Heidelbeer Quark",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Blueberry Quark"
       }
     ],
-    "lastUpdated": "2026-06-21T09:31:23.892Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-06-22T09:30:49.235Z"
   },
   "buga": {
     "flavors": [

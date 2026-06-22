@@ -9301,5 +9301,96 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-06-22T09:30:49.237Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Caffè Latte",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Caffè Latte"
+        },
+        {
+          "name": "Himbeer Schmand",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Raspberry Sour Cream"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Orange Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Orange Mint"
+        },
+        {
+          "name": "Gurke Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Cucumber Mint"
+        },
+        {
+          "name": "Lemon Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Lemon Cheesecake"
+        },
+        {
+          "name": "Sauerkirsch",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Sour Cherry"
+        },
+        {
+          "name": "WM Geheimsorte",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "World Cup Secret Flavor"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Blueberry Quark"
+        }
+      ]
+    }
   }
 ]
