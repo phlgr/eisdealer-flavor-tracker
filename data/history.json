@@ -9392,5 +9392,97 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-06-23T09:30:55.233Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Salted Caramel",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Salted Caramel"
+        },
+        {
+          "name": "Erdbeer Tiramisu",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry Tiramisu"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Erdbeere Basilikum",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry Basil"
+        },
+        {
+          "name": "Wassermelone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Watermelon"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Lemon Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Lemon Cheesecake"
+        },
+        {
+          "name": "Sauerkirsch",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Sour Cherry"
+        },
+        {
+          "name": "??? (WM Geheimsorte)",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "??? (WC Mystery Flavor)"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Blueberry Quark"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]

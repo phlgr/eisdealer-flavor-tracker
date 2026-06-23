@@ -16,18 +16,18 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Caffè Latte",
+        "name": "Salted Caramel",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Caffè Latte"
+        "nameEnglish": "Salted Caramel"
       },
       {
-        "name": "Himbeer Schmand",
+        "name": "Erdbeer Tiramisu",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Raspberry Sour Cream"
+        "nameEnglish": "Strawberry Tiramisu"
       },
       {
         "name": "Oreo",
@@ -37,25 +37,25 @@
         "nameEnglish": "Oreo"
       },
       {
-        "name": "Erdbeere",
+        "name": "Erdbeere Basilikum",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Strawberry Basil"
       },
       {
-        "name": "Orange Minze",
+        "name": "Wassermelone",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Orange Mint"
+        "nameEnglish": "Watermelon"
       },
       {
-        "name": "Gurke Minze",
+        "name": "Haselnuss Crunch",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Cucumber Mint"
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Lemon Cheesecake",
@@ -72,11 +72,11 @@
         "nameEnglish": "Sour Cherry"
       },
       {
-        "name": "WM Geheimsorte",
+        "name": "??? (WM Geheimsorte)",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "World Cup Secret Flavor"
+        "nameEnglish": "??? (WC Mystery Flavor)"
       },
       {
         "name": "Heidelbeer Quark",
@@ -86,7 +86,8 @@
         "nameEnglish": "Blueberry Quark"
       }
     ],
-    "lastUpdated": "2026-06-22T09:30:49.235Z"
+    "lastUpdated": "2026-06-23T09:30:55.230Z",
+    "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
