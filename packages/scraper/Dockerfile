@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright:v1.61.1-noble@sha256:b48abd6e59fb69b2acfea52553a4d6b0e2530d1bcad15456e6095d6b222dbced
+FROM mcr.microsoft.com/playwright:v1.61.1-noble@sha256:5b8f294aff9041b7191c34a4bab3ac270157a28774d4b0660e9743297b697e48
 
 # Install bun
 RUN apt-get update && apt-get install -y unzip && rm -rf /var/lib/apt/lists/* \
