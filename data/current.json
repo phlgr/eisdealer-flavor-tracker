@@ -2,11 +2,11 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokomousse",
+        "name": "Joghurt Brombeer",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Yogurt Blackberry"
       },
       {
         "name": "Vanille",
@@ -23,11 +23,18 @@
         "nameEnglish": "Salted Caramel"
       },
       {
-        "name": "Erdbeer Tiramisu",
+        "name": "Pistazie",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry Tiramisu"
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Oreo",
@@ -37,18 +44,11 @@
         "nameEnglish": "Oreo"
       },
       {
-        "name": "Erdbeere Basilikum",
+        "name": "??? (WM Geheimsorte)",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Strawberry Basil"
-      },
-      {
-        "name": "Wassermelone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Watermelon"
+        "nameEnglish": "??? (World Cup Secret Flavor)"
       },
       {
         "name": "Haselnuss Crunch",
@@ -58,25 +58,25 @@
         "nameEnglish": "Hazelnut Crunch"
       },
       {
-        "name": "Lemon Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Lemon Cheesecake"
-      },
-      {
-        "name": "Sauerkirsch",
+        "name": "Cassis",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Sour Cherry"
+        "nameEnglish": "Blackcurrant"
       },
       {
-        "name": "??? (WM Geheimsorte)",
+        "name": "Zitrone",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "??? (WC Mystery Flavor)"
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Heidelbeer Quark",
@@ -86,7 +86,7 @@
         "nameEnglish": "Blueberry Quark"
       }
     ],
-    "lastUpdated": "2026-06-23T09:30:55.230Z",
+    "lastUpdated": "2026-06-24T14:01:05.391Z",
     "openUntil": "20:00"
   },
   "buga": {
