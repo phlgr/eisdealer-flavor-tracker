@@ -399,7 +399,7 @@
           "nameEnglish": "Peach Passion Fruit"
         },
         {
-          "name": "Crunchy Peanut",
+          "name": "Crunchy Peanutbutter",
           "tags": [],
           "nameEnglish": "Crunchy Peanut"
         },
@@ -510,7 +510,7 @@
           "nameEnglish": "Pistachio"
         },
         {
-          "name": "Crunchy Peanut",
+          "name": "Crunchy Peanutbutter",
           "tags": [],
           "nameEnglish": "Crunchy Peanut"
         },
@@ -5314,7 +5314,7 @@
           "nameEnglish": "Coconut"
         },
         {
-          "name": "Peanutbutter",
+          "name": "Crunchy Peanutbutter",
           "tags": [
             "milk"
           ],
@@ -5971,7 +5971,7 @@
           "nameEnglish": "Strawberry Yogurt Chocolate"
         },
         {
-          "name": "Crunchy Peanut",
+          "name": "Crunchy Peanutbutter",
           "tags": [],
           "nameEnglish": "Crunchy Peanut"
         },
@@ -6025,7 +6025,7 @@
           "nameEnglish": "Strawberry-Yogurt-Chocolate"
         },
         {
-          "name": "Crunchy Peanut",
+          "name": "Crunchy Peanutbutter",
           "tags": [],
           "nameEnglish": "Crunchy Peanut"
         },
@@ -6079,7 +6079,7 @@
           "nameEnglish": "Strawberry-Yogurt-Chocolate"
         },
         {
-          "name": "Crunchy Peanut",
+          "name": "Crunchy Peanutbutter",
           "tags": [],
           "nameEnglish": "Crunchy Peanut"
         },
@@ -6197,7 +6197,7 @@
           "nameEnglish": "Strawberry-Yogurt-Chocolate"
         },
         {
-          "name": "Crunchy Peanut",
+          "name": "Crunchy Peanutbutter",
           "tags": [],
           "nameEnglish": "Crunchy Peanut"
         },
@@ -8627,7 +8627,7 @@
           "nameEnglish": "Oreo"
         },
         {
-          "name": "Orangen Kuchen",
+          "name": "Orangenkuchen",
           "tags": [
             "vegan"
           ],
@@ -8698,7 +8698,7 @@
           "nameEnglish": "Strawberry - Tiramisu"
         },
         {
-          "name": "Orangen Kuchen",
+          "name": "Orangenkuchen",
           "tags": [
             "vegan"
           ],
@@ -8777,7 +8777,7 @@
           "nameEnglish": "Pistachio"
         },
         {
-          "name": "Orangen Kuchen",
+          "name": "Orangenkuchen",
           "tags": [
             "vegan"
           ],
@@ -9126,7 +9126,7 @@
           "nameEnglish": "Chocolate Mousse"
         },
         {
-          "name": "Joghurt Brombeere",
+          "name": "Joghurt Brombeer",
           "tags": [],
           "nameEnglish": "Yogurt-Blackberry"
         },
@@ -9290,7 +9290,7 @@
           "nameEnglish": "Orange Quark"
         },
         {
-          "name": "Zitronen Cheesecake",
+          "name": "Lemon Cheesecake",
           "tags": [],
           "nameEnglish": "Lemon Cheesecake"
         },
@@ -9468,7 +9468,7 @@
           "nameEnglish": "Sour Cherry"
         },
         {
-          "name": "??? (WM Geheimsorte)",
+          "name": "WM Geheimsorte",
           "tags": [
             "vegan"
           ],
@@ -9532,7 +9532,7 @@
           "nameEnglish": "Oreo"
         },
         {
-          "name": "??? (WM Geheimsorte)",
+          "name": "WM Geheimsorte",
           "tags": [
             "vegan"
           ],
