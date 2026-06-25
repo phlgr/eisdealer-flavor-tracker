@@ -2,11 +2,11 @@
   "main": {
     "flavors": [
       {
-        "name": "Joghurt Brombeer",
+        "name": "Orange Minze",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Yogurt Blackberry"
+        "nameEnglish": "Orange Mint"
       },
       {
         "name": "Vanille",
@@ -32,37 +32,37 @@
       {
         "name": "Strawberry Cheesecake",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Oreo",
+        "name": "Oreo Cheesecake",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Oreo Cheesecake"
       },
       {
         "name": "WM Geheimsorte",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "??? (World Cup Secret Flavor)"
+        "nameEnglish": "??? (WC Secret Flavor)"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Bienenstich",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Bee Sting Cake"
       },
       {
-        "name": "Cassis",
+        "name": "Mango",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Blackcurrant"
+        "nameEnglish": "Mango"
       },
       {
         "name": "Zitrone",
@@ -86,8 +86,7 @@
         "nameEnglish": "Blueberry Quark"
       }
     ],
-    "lastUpdated": "2026-06-24T14:01:05.391Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-06-25T10:00:53.583Z"
   },
   "buga": {
     "flavors": [
