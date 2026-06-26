@@ -2,11 +2,11 @@
   "main": {
     "flavors": [
       {
-        "name": "Orange Minze",
+        "name": "Schokomousse",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Orange Mint"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
@@ -16,11 +16,18 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Salted Caramel",
+        "name": "Crunchy Peanutbutter",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Salted Caramel"
+        "nameEnglish": "Crunchy Peanut Butter"
+      },
+      {
+        "name": "WM Geheimsorte",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "World Cup Secret Flavor"
       },
       {
         "name": "Pistazie",
@@ -32,7 +39,7 @@
       {
         "name": "Strawberry Cheesecake",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Strawberry Cheesecake"
       },
@@ -44,13 +51,6 @@
         "nameEnglish": "Oreo Cheesecake"
       },
       {
-        "name": "WM Geheimsorte",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "??? (WC Secret Flavor)"
-      },
-      {
         "name": "Bienenstich",
         "tags": [
           "milk"
@@ -58,11 +58,18 @@
         "nameEnglish": "Bee Sting Cake"
       },
       {
-        "name": "Mango",
+        "name": "Heidelbeer Quark",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Blueberry Quark"
+      },
+      {
+        "name": "Kokos Mango Sticky Rice",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Coconut Mango Sticky Rice"
       },
       {
         "name": "Zitrone",
@@ -72,21 +79,15 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Schokomousse",
+        "name": "Wassermelone",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Heidelbeer Quark",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Blueberry Quark"
+        "nameEnglish": "Watermelon"
       }
     ],
-    "lastUpdated": "2026-06-25T10:00:53.583Z"
+    "lastUpdated": "2026-06-26T10:01:03.109Z",
+    "openUntil": "20:00"
   },
   "buga": {
     "flavors": [

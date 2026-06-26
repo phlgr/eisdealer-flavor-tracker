@@ -9667,5 +9667,97 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-06-26T10:01:03.111Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Crunchy Peanutbutter",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Crunchy Peanut Butter"
+        },
+        {
+          "name": "WM Geheimsorte",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "World Cup Secret Flavor"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Oreo Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Oreo Cheesecake"
+        },
+        {
+          "name": "Bienenstich",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Bee Sting Cake"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Blueberry Quark"
+        },
+        {
+          "name": "Kokos Mango Sticky Rice",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Coconut Mango Sticky Rice"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Wassermelone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Watermelon"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]
