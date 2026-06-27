@@ -16,11 +16,11 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Crunchy Peanutbutter",
+        "name": "Oreo",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Crunchy Peanut Butter"
+        "nameEnglish": "Oreo"
       },
       {
         "name": "WM Geheimsorte",
@@ -30,25 +30,25 @@
         "nameEnglish": "World Cup Secret Flavor"
       },
       {
-        "name": "Pistazie",
+        "name": "Kaffee Karamel",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Coffee - Caramel"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Orange Minze",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Orange Mint"
       },
       {
-        "name": "Oreo Cheesecake",
+        "name": "Haselnuss Crunch",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Oreo Cheesecake"
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Bienenstich",
@@ -86,7 +86,7 @@
         "nameEnglish": "Watermelon"
       }
     ],
-    "lastUpdated": "2026-06-26T10:01:03.109Z",
+    "lastUpdated": "2026-06-27T08:01:14.008Z",
     "openUntil": "20:00"
   },
   "buga": {
