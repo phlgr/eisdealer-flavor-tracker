@@ -3,74 +3,71 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Oreo",
+        "name": "Mango",
+        "tags": [],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Mango Limette Chilli",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Mango - Lime - Chilli"
       },
       {
-        "name": "WM Geheimsorte",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "World Cup Secret Flavor"
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime - Mint"
       },
       {
-        "name": "Kaffee Karamel",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coffee - Caramel"
+        "name": "Kokos",
+        "tags": [],
+        "nameEnglish": "Coconut"
       },
       {
-        "name": "Orange Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Orange Mint"
+        "name": "Joghurt",
+        "tags": [],
+        "nameEnglish": "Yogurt"
       },
       {
         "name": "Haselnuss Crunch",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Hazelnut Crunch"
       },
       {
-        "name": "Bienenstich",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Bee Sting Cake"
+        "name": "WM Geheimsorte",
+        "tags": [],
+        "nameEnglish": "World Cup Secret Flavor"
       },
       {
-        "name": "Heidelbeer Quark",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Blueberry Quark"
-      },
-      {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
-      },
+        "name": "Cassis",
+        "tags": [],
+        "nameEnglish": "Blackcurrant"
+      }
+    ],
+    "lastUpdated": "2026-06-28T09:30:55.653Z"
+  },
+  "buga": {
+    "flavors": [
       {
         "name": "Zitrone",
         "tags": [
@@ -79,22 +76,28 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Wassermelone",
+        "name": "Erdbeere",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Watermelon"
-      }
-    ],
-    "lastUpdated": "2026-06-27T08:01:14.008Z",
-    "openUntil": "20:00"
-  },
-  "buga": {
-    "flavors": [
-      {
-        "name": "Erdbeere",
-        "tags": [],
         "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [],
+        "nameEnglish": "Hazelnut Crunch"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Lotus Cheesecake",
+        "tags": [],
+        "nameEnglish": "Lotus Cheesecake"
       },
       {
         "name": "Vanille",
@@ -102,36 +105,18 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Pistazie",
+        "name": "Stracciatella",
         "tags": [],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Stracciatella"
       },
       {
-        "name": "Schokomousse",
-        "tags": [],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Joghurt Beere",
-        "tags": [],
-        "nameEnglish": "Yogurt Berry"
-      },
-      {
-        "name": "Orange Quark",
-        "tags": [],
-        "nameEnglish": "Orange Quark"
-      },
-      {
-        "name": "Lemon Cheesecake",
-        "tags": [],
-        "nameEnglish": "Lemon Cheesecake"
-      },
-      {
-        "name": "Haselnuss",
-        "tags": [],
-        "nameEnglish": "Hazelnut"
+        "name": "Oreo",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Oreo"
       }
     ],
-    "lastUpdated": "2026-06-21T09:31:23.892Z"
+    "lastUpdated": "2026-06-28T09:30:55.653Z"
   }
 }
