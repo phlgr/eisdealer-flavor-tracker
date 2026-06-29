@@ -10064,5 +10064,69 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-06-29T15:31:02.337Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Aperol Spritz (alc)",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Aperol Spritz (alc)"
+        },
+        {
+          "name": "Mango Limette Chili",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango - Lime - Chili"
+        },
+        {
+          "name": "Erdbeere Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry - Mint"
+        },
+        {
+          "name": "Cassis",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Blackcurrant"
+        }
+      ],
+      "openUntil": "18:00"
+    }
   }
 ]

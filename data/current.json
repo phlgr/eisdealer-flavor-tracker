@@ -6,7 +6,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate mousse"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
@@ -30,11 +30,11 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Aperol Spritz",
+        "name": "Aperol Spritz (alc)",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Aperol Spritz"
+        "nameEnglish": "Aperol Spritz (alc)"
       },
       {
         "name": "Mango Limette Chili",
@@ -44,39 +44,11 @@
         "nameEnglish": "Mango - Lime - Chili"
       },
       {
-        "name": "Limette Minze",
+        "name": "Erdbeere Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lime - Mint"
-      },
-      {
-        "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coconut"
-      },
-      {
-        "name": "Choc Cherry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Chocolate Cherry Cheesecake"
-      },
-      {
-        "name": "Crunchy Peanutbutter",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Crunchy Peanut Butter"
-      },
-      {
-        "name": "WM Geheimsorte",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "World Cup secret flavor"
+        "nameEnglish": "Strawberry - Mint"
       },
       {
         "name": "Cassis",
@@ -86,8 +58,8 @@
         "nameEnglish": "Blackcurrant"
       }
     ],
-    "lastUpdated": "2026-06-29T09:30:49.591Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-06-29T15:31:02.335Z",
+    "openUntil": "18:00"
   },
   "buga": {
     "flavors": [
