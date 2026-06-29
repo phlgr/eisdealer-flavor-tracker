@@ -9972,5 +9972,97 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-06-29T09:30:49.594Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Aperol Spritz",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Aperol Spritz"
+        },
+        {
+          "name": "Mango Limette Chili",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango - Lime - Chili"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime - Mint"
+        },
+        {
+          "name": "Kokos",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Choc Cherry Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Chocolate Cherry Cheesecake"
+        },
+        {
+          "name": "Crunchy Peanutbutter",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Crunchy Peanut Butter"
+        },
+        {
+          "name": "WM Geheimsorte",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "World Cup secret flavor"
+        },
+        {
+          "name": "Cassis",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Blackcurrant"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]
