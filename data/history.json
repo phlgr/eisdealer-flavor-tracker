@@ -10128,5 +10128,27 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-06-30T08:30:52.937Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Brownie Karamel",
+          "tags": [],
+          "nameEnglish": "Brownie-Caramel"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        }
+      ]
+    }
   }
 ]

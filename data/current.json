@@ -3,63 +3,21 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
+        "name": "Brownie Karamel",
+        "tags": [],
+        "nameEnglish": "Brownie-Caramel"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Aperol Spritz (alc)",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Aperol Spritz (alc)"
-      },
-      {
-        "name": "Mango Limette Chili",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango - Lime - Chili"
-      },
-      {
-        "name": "Erdbeere Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry - Mint"
-      },
-      {
-        "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Blackcurrant"
       }
     ],
-    "lastUpdated": "2026-06-29T15:31:02.335Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-06-30T08:30:52.934Z"
   },
   "buga": {
     "flavors": [
