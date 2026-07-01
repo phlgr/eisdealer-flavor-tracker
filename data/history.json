@@ -10242,5 +10242,97 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-07-01T11:01:01.689Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Kokos",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Erdbeer Joghurt Schoko",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt Strawberry Chocolate"
+        },
+        {
+          "name": "Stracciatella",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Stracciatella"
+        },
+        {
+          "name": "Crunchy Peanutbutter",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Crunchy Peanut Butter"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Cassis",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Blackcurrant"
+        },
+        {
+          "name": "WM Geheimsorte",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "World Cup Mystery Flavor"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]

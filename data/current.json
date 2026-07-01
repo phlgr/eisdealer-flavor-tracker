@@ -2,6 +2,13 @@
   "main": {
     "flavors": [
       {
+        "name": "Kokos",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Coconut"
+      },
+      {
         "name": "Schokomousse",
         "tags": [
           "vegan"
@@ -30,39 +37,25 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Orange Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Orange Mint"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Erdbeer Tiramisu",
+        "name": "Erdbeer Joghurt Schoko",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry Tiramisu"
+        "nameEnglish": "Yogurt Strawberry Chocolate"
       },
       {
-        "name": "Joghurt Brombeer",
+        "name": "Stracciatella",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Yogurt Blackberry"
+        "nameEnglish": "Stracciatella"
+      },
+      {
+        "name": "Crunchy Peanutbutter",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Crunchy Peanut Butter"
       },
       {
         "name": "Oreo",
@@ -72,21 +65,28 @@
         "nameEnglish": "Oreo"
       },
       {
-        "name": "WM Geheimsorte",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "World Cup Secret Flavor"
-      },
-      {
         "name": "Cassis",
         "tags": [
           "vegan"
         ],
         "nameEnglish": "Blackcurrant"
+      },
+      {
+        "name": "WM Geheimsorte",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "World Cup Mystery Flavor"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
       }
     ],
-    "lastUpdated": "2026-06-30T11:00:53.659Z",
+    "lastUpdated": "2026-07-01T11:01:01.687Z",
     "openUntil": "20:00"
   },
   "buga": {
