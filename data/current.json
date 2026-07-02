@@ -2,13 +2,6 @@
   "main": {
     "flavors": [
       {
-        "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coconut"
-      },
-      {
         "name": "Schokomousse",
         "tags": [
           "vegan"
@@ -23,39 +16,25 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Mango",
+        "name": "Wassermelone",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Watermelon"
       },
       {
-        "name": "Zitrone",
+        "name": "Limette Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Erdbeer Joghurt Schoko",
+        "name": "Erdbeere",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Yogurt Strawberry Chocolate"
-      },
-      {
-        "name": "Stracciatella",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Stracciatella"
-      },
-      {
-        "name": "Crunchy Peanutbutter",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Crunchy Peanut Butter"
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Oreo",
@@ -65,28 +44,49 @@
         "nameEnglish": "Oreo"
       },
       {
-        "name": "Cassis",
+        "name": "Stracciatella",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Blackcurrant"
+        "nameEnglish": "Stracciatella"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Joghurt",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yoghurt"
+      },
+      {
+        "name": "Heidelbeer Quark",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "WM Geheimsorte",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "World Cup Mystery Flavor"
+        "nameEnglish": "World Cup Secret Flavor"
       },
       {
-        "name": "Erdbeere",
+        "name": "Cassis",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Blackcurrant"
       }
     ],
-    "lastUpdated": "2026-07-01T11:01:01.687Z",
+    "lastUpdated": "2026-07-02T13:31:03.826Z",
     "openUntil": "20:00"
   },
   "buga": {
