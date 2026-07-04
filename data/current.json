@@ -92,11 +92,28 @@
   "buga": {
     "flavors": [
       {
-        "name": "Zitrone",
+        "name": "Schokomousse",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Oreo",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "Joghurt Brombeer",
+        "tags": [],
+        "nameEnglish": "Yogurt-Blackberry"
       },
       {
         "name": "Erdbeere",
@@ -106,40 +123,24 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Erdbeer Tiramisu",
         "tags": [],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Strawberry Tiramisu"
       },
       {
-        "name": "Schokomousse",
+        "name": "Banana Split",
+        "tags": [],
+        "nameEnglish": "Banana Split"
+      },
+      {
+        "name": "Orange Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Lotus Cheesecake",
-        "tags": [],
-        "nameEnglish": "Lotus Cheesecake"
-      },
-      {
-        "name": "Vanille",
-        "tags": [],
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Stracciatella",
-        "tags": [],
-        "nameEnglish": "Stracciatella"
-      },
-      {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Orange-Mint"
       }
     ],
-    "lastUpdated": "2026-06-28T09:30:55.653Z"
+    "lastUpdated": "2026-07-04T12:31:01.715Z",
+    "openUntil": "18:00"
   }
 }
