@@ -10628,5 +10628,106 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-07-06T11:00:51.763Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Wassermelone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Watermelon"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "nuss",
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Banane Erdnuss",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Banana Peanut"
+        },
+        {
+          "name": "Joghurt Brombeer",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt Blackberry"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "nuss",
+            "milk"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "??? (WM Geheimorte)",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "??? (WC Secret Place)"
+        },
+        {
+          "name": "Orange Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Orange Mint"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Erdbeer Tiramisu",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry Tiramisu"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]

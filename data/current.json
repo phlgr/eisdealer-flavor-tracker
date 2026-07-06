@@ -6,7 +6,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate mousse"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
@@ -14,6 +14,13 @@
           "milk"
         ],
         "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Wassermelone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Watermelon"
       },
       {
         "name": "Limette Minze",
@@ -31,11 +38,11 @@
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Limoncello",
+        "name": "Zitrone",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Limoncello"
+        "nameEnglish": "Lemon"
       },
       {
         "name": "Banane Erdnuss",
@@ -45,25 +52,26 @@
         "nameEnglish": "Banana Peanut"
       },
       {
-        "name": "Caffè Latte",
+        "name": "Joghurt Brombeer",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Caffè Latte"
+        "nameEnglish": "Yogurt Blackberry"
       },
       {
-        "name": "Crunchy Peanutbutter",
+        "name": "Oreo",
         "tags": [
+          "nuss",
           "milk"
         ],
-        "nameEnglish": "Crunchy Peanut Butter"
+        "nameEnglish": "Oreo"
       },
       {
-        "name": "???",
+        "name": "??? (WM Geheimorte)",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "???"
+        "nameEnglish": "??? (WC Secret Place)"
       },
       {
         "name": "Orange Minze",
@@ -73,11 +81,11 @@
         "nameEnglish": "Orange Mint"
       },
       {
-        "name": "Erdbeere",
+        "name": "Mango",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Mango"
       },
       {
         "name": "Erdbeer Tiramisu",
@@ -87,7 +95,7 @@
         "nameEnglish": "Strawberry Tiramisu"
       }
     ],
-    "lastUpdated": "2026-07-05T11:30:57.435Z",
+    "lastUpdated": "2026-07-06T11:00:51.761Z",
     "openUntil": "20:00"
   },
   "buga": {
