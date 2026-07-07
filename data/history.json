@@ -10729,5 +10729,73 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-07-07T09:30:51.951Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Wassermelone",
+          "tags": [],
+          "nameEnglish": "Watermelon"
+        },
+        {
+          "name": "Oreo",
+          "tags": [],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "WM Geheimsorte",
+          "tags": [],
+          "nameEnglish": "World Cup Mystery Flavor"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Banana Split",
+          "tags": [],
+          "nameEnglish": "Banana Split"
+        },
+        {
+          "name": "Banane Erdnuss",
+          "tags": [],
+          "nameEnglish": "Banana Peanut"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Popcorn Karamell",
+          "tags": [],
+          "nameEnglish": "Popcorn Caramel"
+        },
+        {
+          "name": "Lotus Cheesecake",
+          "tags": [],
+          "nameEnglish": "Lotus Cheesecake"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]
