@@ -10797,5 +10797,97 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-07-08T11:00:52.993Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Wassermelone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Watermelon"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "WM Geheimsorte",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "??? (World Cup Secret Flavor)"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Lotus Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Lotus Cheesecake"
+        },
+        {
+          "name": "Erdbeer Tiramisu",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry Tiramisu"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Milchreis Zimt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Rice Pudding Cinnamon"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]

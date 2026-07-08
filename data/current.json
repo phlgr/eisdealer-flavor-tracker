@@ -3,66 +3,90 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Wassermelone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Watermelon"
       },
       {
         "name": "Oreo",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Oreo"
       },
       {
         "name": "WM Geheimsorte",
-        "tags": [],
-        "nameEnglish": "World Cup Mystery Flavor"
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "??? (World Cup Secret Flavor)"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Banana Split",
-        "tags": [],
-        "nameEnglish": "Banana Split"
+        "name": "Lotus Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Lotus Cheesecake"
       },
       {
-        "name": "Banane Erdnuss",
-        "tags": [],
-        "nameEnglish": "Banana Peanut"
+        "name": "Erdbeer Tiramisu",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry Tiramisu"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Popcorn Karamell",
-        "tags": [],
-        "nameEnglish": "Popcorn Caramel"
+        "name": "Haselnuss Crunch",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
-        "name": "Lotus Cheesecake",
-        "tags": [],
-        "nameEnglish": "Lotus Cheesecake"
+        "name": "Milchreis Zimt",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Rice Pudding Cinnamon"
       }
     ],
-    "lastUpdated": "2026-07-07T09:30:51.949Z",
+    "lastUpdated": "2026-07-08T11:00:52.991Z",
     "openUntil": "20:00"
   },
   "buga": {
