@@ -10889,5 +10889,97 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-07-09T10:30:50.857Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Wassermelone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Watermelon"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Lemon Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Lemon Cheesecake"
+        },
+        {
+          "name": "Milchreis Zimt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Rice Pudding Cinnamon"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Joghurt Brombeer",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt Blackberry"
+        },
+        {
+          "name": "Banana Split",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Banana Split"
+        },
+        {
+          "name": "WM Geheimsorte",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "??? (WC-Mystery Flavor)"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]

@@ -9,32 +9,18 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
+        "name": "Vanille",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Vanilla"
+      },
+      {
         "name": "Wassermelone",
         "tags": [
           "vegan"
         ],
         "nameEnglish": "Watermelon"
-      },
-      {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "WM Geheimsorte",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "??? (World Cup Secret Flavor)"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
       },
       {
         "name": "Limette Minze",
@@ -44,32 +30,25 @@
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Zitrone",
+        "name": "Lemon Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Lemon Cheesecake"
+      },
+      {
+        "name": "Milchreis Zimt",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Rice Pudding Cinnamon"
+      },
+      {
+        "name": "Mango",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Lotus Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Lotus Cheesecake"
-      },
-      {
-        "name": "Erdbeer Tiramisu",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Tiramisu"
-      },
-      {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
+        "nameEnglish": "Mango"
       },
       {
         "name": "Haselnuss Crunch",
@@ -79,14 +58,35 @@
         "nameEnglish": "Hazelnut Crunch"
       },
       {
-        "name": "Milchreis Zimt",
+        "name": "Joghurt Brombeer",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Rice Pudding Cinnamon"
+        "nameEnglish": "Yogurt Blackberry"
+      },
+      {
+        "name": "Banana Split",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Banana Split"
+      },
+      {
+        "name": "WM Geheimsorte",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "??? (WC-Mystery Flavor)"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-07-08T11:00:52.991Z",
+    "lastUpdated": "2026-07-09T10:30:50.855Z",
     "openUntil": "20:00"
   },
   "buga": {
