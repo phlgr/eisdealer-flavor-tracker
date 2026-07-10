@@ -16,11 +16,11 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Wassermelone",
+        "name": "Erdbeere",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Watermelon"
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Limette Minze",
@@ -30,53 +30,53 @@
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Lemon Cheesecake",
+        "name": "Heidelbeer Quark",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Lemon Cheesecake"
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Milchreis Zimt",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Rice Pudding Cinnamon"
       },
       {
-        "name": "Mango",
+        "name": "Orange Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Orange Mint"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Schwarzer Sesam",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Black Sesame"
+      },
+      {
+        "name": "Caffè Latte",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Caffè Latte"
       },
       {
-        "name": "Joghurt Brombeer",
+        "name": "Banane",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Yogurt Blackberry"
-      },
-      {
-        "name": "Banana Split",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Banana Split"
+        "nameEnglish": "Banana"
       },
       {
         "name": "WM Geheimsorte",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "??? (WC-Mystery Flavor)"
+        "nameEnglish": "??? (World Cup Secret Flavor)"
       },
       {
         "name": "Zitrone",
@@ -86,7 +86,7 @@
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-07-09T10:30:50.855Z",
+    "lastUpdated": "2026-07-10T09:01:00.969Z",
     "openUntil": "20:00"
   },
   "buga": {
