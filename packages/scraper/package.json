@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@google/genai": "2.10.0",
-    "arktype": "2.2.2",
+    "arktype": "2.2.3",
     "ffmpeg-static": "5.3.0",
     "playwright": "1.61.1"
   },
