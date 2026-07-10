@@ -32,6 +32,17 @@ const ALIASES: Record<string, string> = {
 	// Peanut-butter flavor read three ways across re-scrapes of the same board.
 	"crunchy peanut": "Crunchy Peanutbutter",
 	peanutbutter: "Crunchy Peanutbutter",
+	// Mystery flavor OCR'd as "??? (WM Geheimorte)" — a typo of "Geheimsorte" with
+	// the "???" placeholder prefix still attached.
+	"??? (wm geheimorte)": "WM Geheimsorte",
+	// Alcohol marker "(alc)" is not part of the name (mirrors "(vegan)"/"(Nuss)").
+	"aperol spritz (alc)": "Aperol Spritz",
+	// Spelling variant of the mango-lime-chili flavor ("Chilli" vs "Chili").
+	"mango limette chilli": "Mango Limette Chili",
+	// German rendering of the coffee-caramel flavor, joining the "caffé/caffè/café
+	// caramel" variants above. (A bare "???" placeholder is deliberately NOT aliased:
+	// it's only WM Geheimsorte in context, not always.)
+	"kaffee karamel": "Caffé Caramel",
 };
 
 /** Normalize separators so "Buttermilch-Mango" / "Buttermilch Mango" merge. */
