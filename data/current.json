@@ -2,11 +2,18 @@
   "main": {
     "flavors": [
       {
+        "name": "WM Geheimsorte",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "World Cup - Mystery flavor"
+      },
+      {
         "name": "Schokomousse",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Chocolate mousse"
       },
       {
         "name": "Vanille",
@@ -27,42 +34,42 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Lime mint"
       },
       {
-        "name": "Heidelbeer Quark",
+        "name": "Haselnuss Crunch",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Blueberry Quark"
+        "nameEnglish": "Hazelnut crunch"
       },
       {
-        "name": "Milchreis Zimt",
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry cheesecake"
+      },
+      {
+        "name": "Mango",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Rice Pudding Cinnamon"
-      },
-      {
-        "name": "Orange Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Orange Mint"
+        "nameEnglish": "Mango"
       },
       {
         "name": "Schwarzer Sesam",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Black Sesame"
+        "nameEnglish": "Black sesame"
       },
       {
-        "name": "Caffè Latte",
+        "name": "Salted Caramel",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Caffè Latte"
+        "nameEnglish": "Salted caramel"
       },
       {
         "name": "Banane",
@@ -72,13 +79,6 @@
         "nameEnglish": "Banana"
       },
       {
-        "name": "WM Geheimsorte",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "??? (World Cup Secret Flavor)"
-      },
-      {
         "name": "Zitrone",
         "tags": [
           "vegan"
@@ -86,8 +86,7 @@
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-07-10T09:01:00.969Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-07-11T10:31:07.705Z"
   },
   "buga": {
     "flavors": [
