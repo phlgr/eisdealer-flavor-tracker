@@ -33,7 +33,7 @@
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.0.3",
     "knip": "6.25.0",
-    "lefthook": "2.1.9",
+    "lefthook": "2.1.10",
     "typescript": "6.0.3",
     "vite": "8.1.3"
   }
