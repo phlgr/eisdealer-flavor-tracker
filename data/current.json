@@ -14,7 +14,7 @@
       {
         "name": "WM Geheimsorte",
         "tags": [],
-        "nameEnglish": "World Cup Mystery Flavor"
+        "nameEnglish": "World Cup Secret Flavor"
       },
       {
         "name": "Erdbeere",
@@ -42,11 +42,11 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "Tobias Mango Sticky Rice",
+        "name": "Kokos Mango Sticky Rice",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Tobias Mango Sticky Rice"
+        "nameEnglish": "Coconut Mango Sticky Rice"
       },
       {
         "name": "Salted Caramel",
@@ -62,18 +62,20 @@
         "name": "Zitrone",
         "tags": [],
         "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [],
-        "nameEnglish": "Coconut Mango Sticky Rice"
       }
     ],
-    "lastUpdated": "2026-07-12T08:01:05.268Z",
+    "lastUpdated": "2026-07-12T09:31:06.174Z",
     "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
+      },
       {
         "name": "Schokomousse",
         "tags": [
@@ -87,26 +89,9 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Pistazie",
+        "name": "Churros",
         "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Haselnuss Crunch",
-        "tags": [],
-        "nameEnglish": "Hazelnut Crunch"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Erdbeer Tiramisu",
-        "tags": [],
-        "nameEnglish": "Strawberry Tiramisu"
+        "nameEnglish": "Churros"
       },
       {
         "name": "Zitrone",
@@ -116,14 +101,21 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Orange Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Orange-Mint"
+        "name": "Heidelbeer Quark",
+        "tags": [],
+        "nameEnglish": "Blueberry Quark"
+      },
+      {
+        "name": "Stracciatella",
+        "tags": [],
+        "nameEnglish": "Stracciatella"
+      },
+      {
+        "name": "Crunchy Peanutbutter",
+        "tags": [],
+        "nameEnglish": "Crunchy Peanut"
       }
     ],
-    "lastUpdated": "2026-07-05T11:30:57.435Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-07-12T09:31:06.175Z"
   }
 }
