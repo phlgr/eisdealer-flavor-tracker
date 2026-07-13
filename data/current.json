@@ -2,19 +2,19 @@
   "main": {
     "flavors": [
       {
-        "name": "Vanille",
-        "tags": [],
-        "nameEnglish": "Vanilla"
-      },
-      {
         "name": "Schokomousse",
         "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
+      },
+      {
         "name": "WM Geheimsorte",
         "tags": [],
-        "nameEnglish": "World Cup Secret Flavor"
+        "nameEnglish": "World Cup - Secret Flavor"
       },
       {
         "name": "Erdbeere",
@@ -22,14 +22,14 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Limette Minze",
+        "name": "Mango",
         "tags": [],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Mango"
       },
       {
         "name": "Crunchy Peanutbutter",
         "tags": [],
-        "nameEnglish": "Crunchy Peanut Butter"
+        "nameEnglish": "Crunchy Peanutbutter"
       },
       {
         "name": "Joghurt",
@@ -37,16 +37,14 @@
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Mango",
+        "name": "Oreo",
         "tags": [],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Oreo"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
+        "name": "Sesam Karamell",
+        "tags": [],
+        "nameEnglish": "Sesame Caramel"
       },
       {
         "name": "Salted Caramel",
@@ -64,8 +62,7 @@
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-07-12T09:31:06.174Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-07-13T09:00:53.188Z"
   },
   "buga": {
     "flavors": [

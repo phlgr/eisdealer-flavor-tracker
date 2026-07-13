@@ -11359,5 +11359,72 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-07-13T09:00:53.191Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "WM Geheimsorte",
+          "tags": [],
+          "nameEnglish": "World Cup - Secret Flavor"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Crunchy Peanutbutter",
+          "tags": [],
+          "nameEnglish": "Crunchy Peanutbutter"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Oreo",
+          "tags": [],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Sesam Karamell",
+          "tags": [],
+          "nameEnglish": "Sesame Caramel"
+        },
+        {
+          "name": "Salted Caramel",
+          "tags": [],
+          "nameEnglish": "Salted Caramel"
+        },
+        {
+          "name": "Stracciatella",
+          "tags": [],
+          "nameEnglish": "Stracciatella"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        }
+      ]
+    }
   }
 ]
