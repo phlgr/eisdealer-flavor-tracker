@@ -43,6 +43,9 @@ const ALIASES: Record<string, string> = {
 	// caramel" variants above. (A bare "???" placeholder is deliberately NOT aliased:
 	// it's only WM Geheimsorte in context, not always.)
 	"kaffee karamel": "Caffé Caramel",
+	// OCR misread "Kokos" as "Tobias" on the 2026-07-12 board (the same scrape
+	// also read the flavor correctly; buildLocationUpdate dedupes by key).
+	"tobias mango sticky rice": "Kokos Mango Sticky Rice",
 };
 
 /** Normalize separators so "Buttermilch-Mango" / "Buttermilch Mango" merge. */
