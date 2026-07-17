@@ -4,7 +4,7 @@
       {
         "name": "Schokomousse",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Chocolate Mousse"
       },
@@ -34,21 +34,21 @@
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Yoghurt"
+        "nameEnglish": "Yogurt"
       },
       {
-        "name": "Salted Caramel",
+        "name": "Crunchy Peanutbutter",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Salted Caramel"
+        "nameEnglish": "Crunchy Peanut Butter"
       },
       {
-        "name": "Himbeere",
+        "name": "Erdbeere",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Raspberry"
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Oreo",
@@ -58,25 +58,18 @@
         "nameEnglish": "Oreo"
       },
       {
-        "name": "Erdbeer Joghurt Schoko",
+        "name": "Sesam Karamell",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Yoghurt Strawberry Chocolate"
+        "nameEnglish": "Sesame Caramel"
       },
       {
-        "name": "Banana Split",
+        "name": "Buttermilch Mango",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Banana Split"
-      },
-      {
-        "name": "WM Geheimsorte",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "World Cup Secret Flavor"
+        "nameEnglish": "Buttermilk Mango"
       },
       {
         "name": "Zitrone",
@@ -84,9 +77,16 @@
           "vegan"
         ],
         "nameEnglish": "Lemon"
+      },
+      {
+        "name": "WM Geheimsorte",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "World Cup - Secret Flavor"
       }
     ],
-    "lastUpdated": "2026-07-16T11:30:48.538Z",
+    "lastUpdated": "2026-07-17T11:30:51.875Z",
     "openUntil": "20:00"
   },
   "buga": {
