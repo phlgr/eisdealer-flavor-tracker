@@ -16,32 +16,32 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Limette Minze",
+        "name": "Orange Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Orange Mint"
       },
       {
-        "name": "Earl Grey",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Earl Grey"
-      },
-      {
-        "name": "Joghurt",
+        "name": "Churros",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Yogurt"
+        "nameEnglish": "Churros"
       },
       {
-        "name": "Crunchy Peanutbutter",
+        "name": "Haselnuss Crunch",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Crunchy Peanut Butter"
+        "nameEnglish": "Hazelnut Crunch"
+      },
+      {
+        "name": "Stracciatella",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Stracciatella"
       },
       {
         "name": "Erdbeere",
@@ -58,35 +58,35 @@
         "nameEnglish": "Oreo"
       },
       {
-        "name": "Sesam Karamell",
+        "name": "Banana Split",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Sesame Caramel"
+        "nameEnglish": "Banana Split"
       },
       {
-        "name": "Buttermilch Mango",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Buttermilk Mango"
-      },
-      {
-        "name": "Zitrone",
+        "name": "Mango",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Wassermelone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Watermelon"
       },
       {
         "name": "WM Geheimsorte",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "World Cup - Secret Flavor"
+        "nameEnglish": "WC - Secret Flavor"
       }
     ],
-    "lastUpdated": "2026-07-17T11:30:51.875Z",
+    "lastUpdated": "2026-07-18T10:00:50.650Z",
     "openUntil": "20:00"
   },
   "buga": {
