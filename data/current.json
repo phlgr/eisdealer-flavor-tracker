@@ -6,7 +6,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Chocolate mousse"
       },
       {
         "name": "Vanille",
@@ -44,25 +44,25 @@
         "nameEnglish": "Stracciatella"
       },
       {
-        "name": "Erdbeere",
+        "name": "Waldfrucht",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Wild berry"
       },
       {
-        "name": "Oreo",
+        "name": "Earl Grey",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Earl Grey"
       },
       {
-        "name": "Banana Split",
+        "name": "White Choc Himbeere",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Banana Split"
+        "nameEnglish": "White Chocolate Raspberry"
       },
       {
         "name": "Mango",
@@ -81,13 +81,12 @@
       {
         "name": "WM Geheimsorte",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "WC - Secret Flavor"
+        "nameEnglish": "WC - Secret flavor"
       }
     ],
-    "lastUpdated": "2026-07-18T10:00:50.650Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-07-19T08:00:58.415Z"
   },
   "buga": {
     "flavors": [
