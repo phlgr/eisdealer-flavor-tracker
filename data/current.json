@@ -91,13 +91,6 @@
   "buga": {
     "flavors": [
       {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
         "name": "Schokomousse",
         "tags": [
           "vegan"
@@ -110,33 +103,42 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Churros",
+        "name": "White Choc Himbeer",
         "tags": [],
-        "nameEnglish": "Churros"
+        "nameEnglish": "White Chocolate Raspberry"
       },
       {
-        "name": "Zitrone",
+        "name": "Limette Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Heidelbeer Quark",
+        "name": "Haselnuss Crunch",
         "tags": [],
-        "nameEnglish": "Blueberry Quark"
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
-        "name": "Stracciatella",
-        "tags": [],
-        "nameEnglish": "Stracciatella"
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
       },
       {
-        "name": "Crunchy Peanutbutter",
+        "name": "Strawberry Cheesecake",
         "tags": [],
-        "nameEnglish": "Crunchy Peanut"
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
+        "name": "Oreo",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Oreo"
       }
     ],
-    "lastUpdated": "2026-07-12T09:31:06.175Z"
+    "lastUpdated": "2026-07-19T10:31:06.709Z"
   }
 }
