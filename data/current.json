@@ -16,25 +16,25 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Orange Minze",
+        "name": "Limette Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Orange Mint"
+        "nameEnglish": "Lime mint"
       },
       {
-        "name": "Churros",
+        "name": "Strawberry Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Churros"
+        "nameEnglish": "Strawberry cheesecake"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Heidelbeer Quark",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Blueberry curd"
       },
       {
         "name": "Stracciatella",
@@ -44,32 +44,11 @@
         "nameEnglish": "Stracciatella"
       },
       {
-        "name": "Waldfrucht",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Wild berry"
-      },
-      {
-        "name": "Earl Grey",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Earl Grey"
-      },
-      {
-        "name": "White Choc Himbeere",
+        "name": "WM Geheimsorte",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "White Chocolate Raspberry"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
+        "nameEnglish": "World Cup secret flavor"
       },
       {
         "name": "Wassermelone",
@@ -79,14 +58,36 @@
         "nameEnglish": "Watermelon"
       },
       {
-        "name": "WM Geheimsorte",
+        "name": "Kokos",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Coconut"
+      },
+      {
+        "name": "Earl Grey",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "WC - Secret flavor"
+        "nameEnglish": "Earl Grey"
+      },
+      {
+        "name": "Joghurt Brombeer",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yogurt blackberry"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
       }
     ],
-    "lastUpdated": "2026-07-19T08:00:58.415Z"
+    "lastUpdated": "2026-07-20T12:30:49.134Z",
+    "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
