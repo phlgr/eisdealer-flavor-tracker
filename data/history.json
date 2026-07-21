@@ -12117,5 +12117,95 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-07-21T12:00:51.455Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Joghurt Brombeer",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt Blackberry"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Kokos",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "White Choc Himbeer",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "White Chocolate Raspberry"
+        },
+        {
+          "name": "Salted Caramel Croissant",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Salted Caramel Croissant"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Churros",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Churros"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Wassermelone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Watermelon"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]

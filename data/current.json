@@ -6,7 +6,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate mousse"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
@@ -16,67 +16,39 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime mint"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry cheesecake"
-      },
-      {
-        "name": "Heidelbeer Quark",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Blueberry curd"
-      },
-      {
-        "name": "Stracciatella",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Stracciatella"
-      },
-      {
-        "name": "WM Geheimsorte",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "World Cup secret flavor"
-      },
-      {
-        "name": "Wassermelone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Watermelon"
-      },
-      {
-        "name": "Kokos",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut"
-      },
-      {
-        "name": "Earl Grey",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Earl Grey"
-      },
-      {
         "name": "Joghurt Brombeer",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Yogurt blackberry"
+        "nameEnglish": "Yogurt Blackberry"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Kokos",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Coconut"
+      },
+      {
+        "name": "White Choc Himbeer",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "White Chocolate Raspberry"
+      },
+      {
+        "name": "Salted Caramel Croissant",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Salted Caramel Croissant"
       },
       {
         "name": "Erdbeere",
@@ -84,9 +56,35 @@
           "vegan"
         ],
         "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Churros",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Churros"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Schokolade",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Chocolate"
+      },
+      {
+        "name": "Wassermelone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Watermelon"
       }
     ],
-    "lastUpdated": "2026-07-20T12:30:49.134Z",
+    "lastUpdated": "2026-07-21T12:00:51.452Z",
     "openUntil": "20:00"
   },
   "buga": {
