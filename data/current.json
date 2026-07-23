@@ -4,7 +4,7 @@
       {
         "name": "Schokomousse",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Chocolate Mousse"
       },
@@ -16,13 +16,6 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Joghurt Brombeer",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt Blackberry"
-      },
-      {
         "name": "Zitrone",
         "tags": [
           "vegan"
@@ -30,16 +23,25 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Kokos",
+        "name": "Joghurt Brombeer",
         "tags": [
           "milk"
+        ],
+        "nameEnglish": "Yogurt Blackberry"
+      },
+      {
+        "name": "Kokos",
+        "tags": [
+          "vegan"
         ],
         "nameEnglish": "Coconut"
       },
       {
-        "name": "Brownie Caramel",
-        "tags": [],
-        "nameEnglish": "Brownie Caramel"
+        "name": "Cassis",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Blackcurrant"
       },
       {
         "name": "Salted Caramel Croissant",
@@ -51,21 +53,21 @@
       {
         "name": "Erdbeere",
         "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Churros",
-        "tags": [
           "milk"
         ],
-        "nameEnglish": "Churros"
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Pistazie",
         "tags": [],
         "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Earl Grey",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Earl Grey"
       },
       {
         "name": "Schokolade",
@@ -82,7 +84,7 @@
         "nameEnglish": "Watermelon"
       }
     ],
-    "lastUpdated": "2026-07-22T08:00:45.363Z",
+    "lastUpdated": "2026-07-23T12:00:51.491Z",
     "openUntil": "20:00"
   },
   "buga": {
