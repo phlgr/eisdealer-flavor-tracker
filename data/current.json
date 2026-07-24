@@ -4,7 +4,7 @@
       {
         "name": "Schokomousse",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Chocolate Mousse"
       },
@@ -16,6 +16,13 @@
         "nameEnglish": "Vanilla"
       },
       {
+        "name": "Limette Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime Mint"
+      },
+      {
         "name": "Zitrone",
         "tags": [
           "vegan"
@@ -23,16 +30,9 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Joghurt Brombeer",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt Blackberry"
-      },
-      {
         "name": "Kokos",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Coconut"
       },
@@ -44,30 +44,18 @@
         "nameEnglish": "Blackcurrant"
       },
       {
-        "name": "Salted Caramel Croissant",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Salted Caramel Croissant"
-      },
-      {
         "name": "Erdbeere",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Pistazie",
-        "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Earl Grey",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Earl Grey"
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Schokolade",
@@ -82,9 +70,23 @@
           "vegan"
         ],
         "nameEnglish": "Watermelon"
+      },
+      {
+        "name": "Lemon Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Lemon Cheesecake"
+      },
+      {
+        "name": "Brownie Caramel",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Brownie Caramel"
       }
     ],
-    "lastUpdated": "2026-07-23T12:00:51.491Z",
+    "lastUpdated": "2026-07-24T15:00:49.804Z",
     "openUntil": "20:00"
   },
   "buga": {
