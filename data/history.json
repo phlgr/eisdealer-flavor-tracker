@@ -12477,5 +12477,75 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-07-25T10:30:52.034Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Brownie Caramel",
+          "tags": [],
+          "nameEnglish": "Brownie Caramel"
+        },
+        {
+          "name": "Kokos",
+          "tags": [],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "nuss"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Oreo",
+          "tags": [],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Erdbeer Tiramisu",
+          "tags": [],
+          "nameEnglish": "Strawberry - Tiramisu"
+        },
+        {
+          "name": "Wassermelone Zitrone Minze",
+          "tags": [],
+          "nameEnglish": "Watermelon - Lemon - Mint"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]

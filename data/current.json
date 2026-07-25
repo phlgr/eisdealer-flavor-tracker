@@ -3,90 +3,68 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
+        "name": "Brownie Caramel",
+        "tags": [],
+        "nameEnglish": "Brownie Caramel"
+      },
+      {
         "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Coconut"
       },
       {
-        "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Blackcurrant"
+        "name": "Mango",
+        "tags": [],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime Mint"
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Pistazie",
         "tags": [
-          "milk"
+          "nuss"
         ],
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Schokolade",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Chocolate"
+        "name": "Oreo",
+        "tags": [],
+        "nameEnglish": "Oreo"
       },
       {
-        "name": "Wassermelone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Watermelon"
+        "name": "Erdbeer Tiramisu",
+        "tags": [],
+        "nameEnglish": "Strawberry - Tiramisu"
       },
       {
-        "name": "Lemon Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Lemon Cheesecake"
-      },
-      {
-        "name": "Brownie Caramel",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Brownie Caramel"
+        "name": "Wassermelone Zitrone Minze",
+        "tags": [],
+        "nameEnglish": "Watermelon - Lemon - Mint"
       }
     ],
-    "lastUpdated": "2026-07-24T15:00:49.804Z",
+    "lastUpdated": "2026-07-25T10:30:52.031Z",
     "openUntil": "20:00"
   },
   "buga": {
