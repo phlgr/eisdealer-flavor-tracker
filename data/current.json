@@ -74,7 +74,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Chocolate mousse"
       },
       {
         "name": "Vanille",
@@ -82,21 +82,16 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "White Choc Himbeer",
-        "tags": [],
-        "nameEnglish": "White Chocolate Raspberry"
-      },
-      {
         "name": "Limette Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Lime mint"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Strawberry Cheesecake",
         "tags": [],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Strawberry cheesecake"
       },
       {
         "name": "Erdbeere",
@@ -106,18 +101,24 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Stracciatella",
         "tags": [],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Stracciatella"
       },
       {
-        "name": "Oreo",
+        "name": "Zitrone",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Kokos",
+        "tags": [],
+        "nameEnglish": "Coconut"
       }
     ],
-    "lastUpdated": "2026-07-19T10:31:06.709Z"
+    "lastUpdated": "2026-07-25T12:01:05.753Z",
+    "openUntil": "18:00"
   }
 }
