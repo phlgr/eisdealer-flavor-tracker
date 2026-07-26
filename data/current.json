@@ -71,10 +71,8 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate mousse"
+        "tags": [],
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
@@ -82,16 +80,14 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime mint"
+        "name": "White Chocolate",
+        "tags": [],
+        "nameEnglish": "White Chocolate"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Pistazie",
         "tags": [],
-        "nameEnglish": "Strawberry cheesecake"
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Erdbeere",
@@ -101,24 +97,23 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Stracciatella",
-        "tags": [],
-        "nameEnglish": "Stracciatella"
-      },
-      {
-        "name": "Zitrone",
+        "name": "Oreo",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Oreo"
       },
       {
-        "name": "Kokos",
+        "name": "Limette Minze",
         "tags": [],
-        "nameEnglish": "Coconut"
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Banana Split",
+        "tags": [],
+        "nameEnglish": "Banana Split"
       }
     ],
-    "lastUpdated": "2026-07-25T12:01:05.753Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-07-26T10:30:50.800Z"
   }
 }

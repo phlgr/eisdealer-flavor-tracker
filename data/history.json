@@ -12603,5 +12603,56 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-07-26T10:30:50.802Z",
+    "buga": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "White Chocolate",
+          "tags": [],
+          "nameEnglish": "White Chocolate"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Banana Split",
+          "tags": [],
+          "nameEnglish": "Banana Split"
+        }
+      ]
+    }
   }
 ]
