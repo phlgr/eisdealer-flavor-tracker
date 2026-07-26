@@ -3,68 +3,90 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Brownie Caramel",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Brownie Caramel"
       },
       {
         "name": "Kokos",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Coconut"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Pistazie",
         "tags": [
-          "nuss"
+          "milk"
         ],
         "nameEnglish": "Pistachio"
       },
       {
         "name": "Oreo",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Oreo"
       },
       {
         "name": "Erdbeer Tiramisu",
-        "tags": [],
-        "nameEnglish": "Strawberry - Tiramisu"
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry Tiramisu"
       },
       {
-        "name": "Wassermelone Zitrone Minze",
-        "tags": [],
-        "nameEnglish": "Watermelon - Lemon - Mint"
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry Cheesecake"
       }
     ],
-    "lastUpdated": "2026-07-25T10:30:52.031Z",
+    "lastUpdated": "2026-07-26T11:00:55.505Z",
     "openUntil": "20:00"
   },
   "buga": {
