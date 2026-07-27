@@ -23,18 +23,11 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Brownie Caramel",
+        "name": "Bananen Split",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Brownie Caramel"
-      },
-      {
-        "name": "Kokos",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut"
+        "nameEnglish": "Banana Split"
       },
       {
         "name": "Mango",
@@ -44,18 +37,18 @@
         "nameEnglish": "Mango"
       },
       {
+        "name": "Kokos",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Coconut"
+      },
+      {
         "name": "Limette Minze",
         "tags": [
           "vegan"
         ],
         "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry"
       },
       {
         "name": "Pistazie",
@@ -65,6 +58,20 @@
         "nameEnglish": "Pistachio"
       },
       {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Erdbeer Joghurt Schoko",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yogurt Strawberry Chocolate"
+      },
+      {
         "name": "Oreo",
         "tags": [
           "vegan"
@@ -72,21 +79,14 @@
         "nameEnglish": "Oreo"
       },
       {
-        "name": "Erdbeer Tiramisu",
+        "name": "Stracciatella",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry Tiramisu"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-07-26T11:00:55.505Z",
+    "lastUpdated": "2026-07-27T10:01:15.943Z",
     "openUntil": "20:00"
   },
   "buga": {
