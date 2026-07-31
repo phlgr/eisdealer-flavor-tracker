@@ -12906,5 +12906,73 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-07-31T10:30:49.653Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Wassermelone",
+          "tags": [],
+          "nameEnglish": "Watermelon"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Kokos",
+          "tags": [],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Crunchy Peanutbutter",
+          "tags": [],
+          "nameEnglish": "Crunchy Peanutbutter"
+        },
+        {
+          "name": "White Choc Himbeere",
+          "tags": [],
+          "nameEnglish": "White Chocolate Raspberry"
+        },
+        {
+          "name": "Stracciatella",
+          "tags": [],
+          "nameEnglish": "Stracciatella"
+        },
+        {
+          "name": "Joghurt Brombeer",
+          "tags": [],
+          "nameEnglish": "Yogurt Blackberry"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]
