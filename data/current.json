@@ -3,90 +3,66 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Bananen Split",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Banana Split"
+        "name": "Wassermelone",
+        "tags": [],
+        "nameEnglish": "Watermelon"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
         "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Coconut"
       },
       {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
+        "name": "Schokolade",
+        "tags": [],
+        "nameEnglish": "Chocolate"
       },
       {
-        "name": "Pistazie",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Pistachio"
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Erdbeer Joghurt Schoko",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt Strawberry Chocolate"
+        "name": "Crunchy Peanutbutter",
+        "tags": [],
+        "nameEnglish": "Crunchy Peanut Butter"
       },
       {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Oreo"
+        "name": "Buttermilch Mango",
+        "tags": [],
+        "nameEnglish": "Buttermilk Mango"
       },
       {
         "name": "Stracciatella",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Stracciatella"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [],
+        "nameEnglish": "Hazelnut Crunch"
       }
     ],
-    "lastUpdated": "2026-07-27T10:01:15.943Z",
+    "lastUpdated": "2026-07-31T08:00:50.569Z",
     "openUntil": "20:00"
   },
   "buga": {
