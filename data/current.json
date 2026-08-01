@@ -3,66 +3,90 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Wassermelone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Watermelon"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
+        "name": "Lemon Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Lemon Cheesecake"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Hazelnut Crunch"
+      },
+      {
         "name": "Kokos",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Coconut"
       },
       {
-        "name": "Schokolade",
-        "tags": [],
-        "nameEnglish": "Chocolate"
+        "name": "Joghurt Brombeer",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yogurt Blackberry"
       },
       {
-        "name": "Zitrone",
-        "tags": [],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [],
-        "nameEnglish": "Strawberry"
+        "name": "Sesam Karamell",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Sesame Caramel"
       },
       {
         "name": "Crunchy Peanutbutter",
-        "tags": [],
-        "nameEnglish": "Crunchy Peanutbutter"
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Crunchy Peanut Butter"
       },
       {
-        "name": "White Choc Himbeere",
-        "tags": [],
-        "nameEnglish": "White Chocolate Raspberry"
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
       },
       {
-        "name": "Stracciatella",
-        "tags": [],
-        "nameEnglish": "Stracciatella"
-      },
-      {
-        "name": "Joghurt Brombeer",
-        "tags": [],
-        "nameEnglish": "Yogurt Blackberry"
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-07-31T10:30:49.651Z",
+    "lastUpdated": "2026-08-01T09:30:49.524Z",
     "openUntil": "20:00"
   },
   "buga": {
