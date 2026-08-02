@@ -30,18 +30,40 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "Lemon Cheesecake",
+        "name": "Apfel Holunder",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Lemon Cheesecake"
+        "nameEnglish": "Apple-Elderberry"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Oreo",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Banane Walnuss",
+        "tags": [
+          "milk",
+          "nuss"
+        ],
+        "nameEnglish": "Banana Walnut"
+      },
+      {
+        "name": "Sesam Karamell",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Sesame Caramel"
       },
       {
         "name": "Kokos",
@@ -58,35 +80,14 @@
         "nameEnglish": "Yogurt Blackberry"
       },
       {
-        "name": "Sesam Karamell",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Sesame Caramel"
-      },
-      {
-        "name": "Crunchy Peanutbutter",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Crunchy Peanut Butter"
-      },
-      {
-        "name": "Erdbeere",
+        "name": "Limette Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Lime Mint"
       }
     ],
-    "lastUpdated": "2026-08-01T09:30:49.524Z",
+    "lastUpdated": "2026-08-02T09:30:50.708Z",
     "openUntil": "20:00"
   },
   "buga": {
