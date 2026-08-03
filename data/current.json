@@ -3,91 +3,66 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Wassermelone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Watermelon"
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
         "name": "Apfel Holunder",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Apple-Elderberry"
       },
       {
         "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Oreo"
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Banane Walnuss",
-        "tags": [
-          "milk",
-          "nuss"
-        ],
-        "nameEnglish": "Banana Walnut"
+        "name": "Lotus Biscoff",
+        "tags": [],
+        "nameEnglish": "Lotus Biscoff"
       },
       {
         "name": "Sesam Karamell",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Sesame Caramel"
       },
       {
-        "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coconut"
-      },
-      {
-        "name": "Joghurt Brombeer",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt Blackberry"
+        "name": "Haselnuss Crunch",
+        "tags": [],
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Joghurt Brombeer",
+        "tags": [],
+        "nameEnglish": "Yoghurt Blackberry"
       }
     ],
-    "lastUpdated": "2026-08-02T09:30:50.708Z",
+    "lastUpdated": "2026-08-03T10:30:52.712Z",
     "openUntil": "20:00"
   },
   "buga": {
