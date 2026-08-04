@@ -3,66 +3,91 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
-        "nameEnglish": "Chocolate Mousse"
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
-        "name": "Apfel Holunder",
-        "tags": [],
-        "nameEnglish": "Apple-Elderberry"
+        "name": "Sauerkirsch",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Sour cherry"
       },
       {
-        "name": "Oreo",
-        "tags": [],
-        "nameEnglish": "Oreo"
+        "name": "Stracciatella",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Stracciatella"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Lotus Biscoff",
-        "tags": [],
-        "nameEnglish": "Lotus Biscoff"
+        "name": "Pistazie",
+        "tags": [
+          "nuss",
+          "milk"
+        ],
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Sesam Karamell",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Sesame Caramel"
       },
       {
         "name": "Haselnuss Crunch",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Joghurt Brombeer",
-        "tags": [],
-        "nameEnglish": "Yoghurt Blackberry"
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yogurt Blackberry"
       }
     ],
-    "lastUpdated": "2026-08-03T10:30:52.712Z",
+    "lastUpdated": "2026-08-04T09:30:50.746Z",
     "openUntil": "20:00"
   },
   "buga": {
