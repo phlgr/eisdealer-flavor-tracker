@@ -3,91 +3,66 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate mousse"
+        "tags": [],
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
-        "name": "Sauerkirsch",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Sour cherry"
-      },
-      {
         "name": "Stracciatella",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Stracciatella"
       },
       {
+        "name": "Strawberry Cheesecake",
+        "tags": [],
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Pistazie",
-        "tags": [
-          "nuss",
-          "milk"
-        ],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Sesam Karamell",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Sesame Caramel"
-      },
-      {
-        "name": "Haselnuss Crunch",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Hazelnut Crunch"
-      },
-      {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
       },
       {
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Milchreis Zimt",
+        "tags": [],
+        "nameEnglish": "Rice Pudding Cinnamon"
+      },
+      {
+        "name": "Bienenstich",
+        "tags": [],
+        "nameEnglish": "Bee Sting Cake"
+      },
+      {
         "name": "Joghurt Brombeer",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Yogurt Blackberry"
       }
     ],
-    "lastUpdated": "2026-08-04T09:30:50.746Z",
+    "lastUpdated": "2026-08-05T11:01:06.042Z",
     "openUntil": "20:00"
   },
   "buga": {
