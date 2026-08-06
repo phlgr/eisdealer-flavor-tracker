@@ -17,9 +17,9 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Mango",
+        "name": "Himbeere",
         "tags": [],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Raspberry"
       },
       {
         "name": "Stracciatella",
@@ -43,13 +43,15 @@
       },
       {
         "name": "Pistazie",
-        "tags": [],
+        "tags": [
+          "nuss"
+        ],
         "nameEnglish": "Pistachio"
       },
       {
         "name": "Milchreis Zimt",
         "tags": [],
-        "nameEnglish": "Rice Pudding Cinnamon"
+        "nameEnglish": "Milk Rice Cinnamon"
       },
       {
         "name": "Bienenstich",
@@ -57,12 +59,12 @@
         "nameEnglish": "Bee Sting Cake"
       },
       {
-        "name": "Joghurt Brombeer",
+        "name": "Salted Caramel",
         "tags": [],
-        "nameEnglish": "Yogurt Blackberry"
+        "nameEnglish": "Salted Caramel"
       }
     ],
-    "lastUpdated": "2026-08-05T11:01:06.042Z",
+    "lastUpdated": "2026-08-06T12:30:55.314Z",
     "openUntil": "20:00"
   },
   "buga": {
