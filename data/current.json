@@ -3,68 +3,91 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Himbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Raspberry"
       },
       {
         "name": "Stracciatella",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Stracciatella"
       },
       {
         "name": "Strawberry Cheesecake",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Pistazie",
         "tags": [
-          "nuss"
+          "nuss",
+          "milk"
         ],
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Milchreis Zimt",
-        "tags": [],
-        "nameEnglish": "Milk Rice Cinnamon"
-      },
-      {
-        "name": "Bienenstich",
-        "tags": [],
-        "nameEnglish": "Bee Sting Cake"
+        "name": "Heidelbeer Quark",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Salted Caramel",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Salted Caramel"
+      },
+      {
+        "name": "Joghurt Brombeer",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yogurt Blackberry"
       }
     ],
-    "lastUpdated": "2026-08-06T12:30:55.314Z",
+    "lastUpdated": "2026-08-07T10:30:50.126Z",
     "openUntil": "20:00"
   },
   "buga": {
