@@ -6,7 +6,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Chocolate mousse"
       },
       {
         "name": "Vanille",
@@ -23,25 +23,25 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Himbeere",
+        "name": "Cassis",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Raspberry"
+        "nameEnglish": "Blackcurrant"
       },
       {
-        "name": "Stracciatella",
+        "name": "Oreo",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Stracciatella"
+        "nameEnglish": "Oreo"
       },
       {
         "name": "Strawberry Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Strawberry cheesecake"
       },
       {
         "name": "Zitrone",
@@ -51,11 +51,11 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Limette Minze",
+        "name": "Joghurt Brombeer",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Yogurt blackberry"
       },
       {
         "name": "Pistazie",
@@ -70,24 +70,24 @@
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Blueberry Quark"
+        "nameEnglish": "Blueberry curd"
       },
       {
-        "name": "Salted Caramel",
+        "name": "Limette Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime mint"
+      },
+      {
+        "name": "Sesam Karamell",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Salted Caramel"
-      },
-      {
-        "name": "Joghurt Brombeer",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt Blackberry"
+        "nameEnglish": "Sesame caramel"
       }
     ],
-    "lastUpdated": "2026-08-07T10:30:50.126Z",
+    "lastUpdated": "2026-08-08T10:00:53.672Z",
     "openUntil": "20:00"
   },
   "buga": {

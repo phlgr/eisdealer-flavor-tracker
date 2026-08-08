@@ -13551,5 +13551,98 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-08-08T10:00:53.675Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Cassis",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Blackcurrant"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry cheesecake"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Joghurt Brombeer",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt blackberry"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "nuss",
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Blueberry curd"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime mint"
+        },
+        {
+          "name": "Sesam Karamell",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Sesame caramel"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]
