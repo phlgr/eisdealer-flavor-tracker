@@ -6,7 +6,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate mousse"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
@@ -30,18 +30,18 @@
         "nameEnglish": "Blackcurrant"
       },
       {
-        "name": "Oreo",
+        "name": "Stracciatella",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Stracciatella"
       },
       {
         "name": "Strawberry Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry cheesecake"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Zitrone",
@@ -51,11 +51,11 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Joghurt Brombeer",
+        "name": "Limette Minze",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Yogurt blackberry"
+        "nameEnglish": "Lime Mint"
       },
       {
         "name": "Pistazie",
@@ -66,58 +66,60 @@
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Heidelbeer Quark",
+        "name": "Lemon Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Blueberry curd"
+        "nameEnglish": "Lemon Cheesecake"
       },
       {
-        "name": "Limette Minze",
+        "name": "Sauerkirsch",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lime mint"
+        "nameEnglish": "Sour Cherry"
       },
       {
         "name": "Sesam Karamell",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Sesame caramel"
+        "nameEnglish": "Sesame Caramel"
       }
     ],
-    "lastUpdated": "2026-08-08T10:00:53.672Z",
+    "lastUpdated": "2026-08-09T09:01:13.862Z",
     "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
-      {
-        "name": "Schokomousse",
-        "tags": [],
-        "nameEnglish": "Chocolate Mousse"
-      },
       {
         "name": "Vanille",
         "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "White Chocolate",
-        "tags": [],
-        "nameEnglish": "White Chocolate"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Erdbeere",
+        "name": "Schokomousse",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [],
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Crunchy Peanutbutter",
+        "tags": [],
+        "nameEnglish": "Crunchy Peanut"
       },
       {
         "name": "Oreo",
@@ -127,16 +129,18 @@
         "nameEnglish": "Oreo"
       },
       {
-        "name": "Limette Minze",
+        "name": "Kokos",
         "tags": [],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Coconut"
       },
       {
-        "name": "Banana Split",
-        "tags": [],
-        "nameEnglish": "Banana Split"
+        "name": "Cassis",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Blackcurrant"
       }
     ],
-    "lastUpdated": "2026-07-26T10:30:50.800Z"
+    "lastUpdated": "2026-08-09T09:01:13.862Z"
   }
 }
