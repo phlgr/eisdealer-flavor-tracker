@@ -2,11 +2,9 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
+        "name": "Triple Choc",
+        "tags": [],
+        "nameEnglish": "Triple Chocolate"
       },
       {
         "name": "Vanille",
@@ -17,16 +15,12 @@
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Blackcurrant"
       },
       {
@@ -45,16 +39,12 @@
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
       },
       {
@@ -66,29 +56,26 @@
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Lemon Cheesecake",
+        "name": "Kokos",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Lemon Cheesecake"
+        "nameEnglish": "Coconut"
       },
       {
-        "name": "Sauerkirsch",
+        "name": "White Choc Himbeer",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Sour Cherry"
+        "nameEnglish": "White Chocolate Raspberry"
       },
       {
         "name": "Sesam Karamell",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Sesame Caramel"
       }
     ],
-    "lastUpdated": "2026-08-09T09:01:13.862Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-08-10T13:00:51.219Z"
   },
   "buga": {
     "flavors": [
