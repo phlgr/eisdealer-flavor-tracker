@@ -2,9 +2,11 @@
   "main": {
     "flavors": [
       {
-        "name": "Triple Choc",
-        "tags": [],
-        "nameEnglish": "Triple Chocolate"
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
@@ -14,53 +16,23 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Erdbeere",
-        "tags": [],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Cassis",
-        "tags": [],
-        "nameEnglish": "Blackcurrant"
-      },
-      {
-        "name": "Stracciatella",
+        "name": "Haselnuss Crunch",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Stracciatella"
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Buttermilch Mango",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry Cheesecake"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Buttermilk Mango"
       },
       {
         "name": "Pistazie",
-        "tags": [
-          "nuss",
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coconut"
       },
       {
         "name": "White Choc Himbeer",
@@ -70,12 +42,50 @@
         "nameEnglish": "White Chocolate Raspberry"
       },
       {
-        "name": "Sesam Karamell",
-        "tags": [],
-        "nameEnglish": "Sesame Caramel"
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Milchreis Zimt",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Rice Pudding Cinnamon"
+      },
+      {
+        "name": "Kokos",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Coconut"
+      },
+      {
+        "name": "Schokolade",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Chocolate"
+      },
+      {
+        "name": "Lotus Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Lotus Cheesecake"
       }
     ],
-    "lastUpdated": "2026-08-10T13:00:51.219Z"
+    "lastUpdated": "2026-08-11T08:30:51.159Z",
+    "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
