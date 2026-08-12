@@ -2,18 +2,18 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
         "name": "Vanille",
         "tags": [
           "milk"
         ],
         "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Haselnuss Crunch",
@@ -31,15 +31,17 @@
       },
       {
         "name": "Pistazie",
-        "tags": [],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "White Choc Himbeer",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "White Chocolate Raspberry"
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Oreo",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Oreo"
       },
       {
         "name": "Zitrone",
@@ -47,13 +49,6 @@
           "vegan"
         ],
         "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
       },
       {
         "name": "Milchreis Zimt",
@@ -77,14 +72,14 @@
         "nameEnglish": "Chocolate"
       },
       {
-        "name": "Lotus Cheesecake",
+        "name": "Strawberry Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Lotus Cheesecake"
+        "nameEnglish": "Strawberry Cheesecake"
       }
     ],
-    "lastUpdated": "2026-08-11T08:30:51.159Z",
+    "lastUpdated": "2026-08-12T09:00:53.638Z",
     "openUntil": "20:00"
   },
   "buga": {
