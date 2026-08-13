@@ -16,11 +16,25 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Joghurt Brombeer",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Yogurt Blackberry"
+      },
+      {
+        "name": "Heidelbeer Quark",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Blueberry Quark"
+      },
+      {
+        "name": "Schokolade",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Chocolate"
       },
       {
         "name": "Buttermilch Mango",
@@ -30,25 +44,18 @@
         "nameEnglish": "Buttermilk Mango"
       },
       {
-        "name": "Pistazie",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Oreo"
-      },
-      {
         "name": "Zitrone",
         "tags": [
           "vegan"
         ],
         "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Milchreis Zimt",
@@ -65,21 +72,19 @@
         "nameEnglish": "Coconut"
       },
       {
-        "name": "Schokolade",
+        "name": "Mango",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Chocolate"
+        "nameEnglish": "Mango"
       },
       {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "name": "Maple Walnut",
+        "tags": [],
+        "nameEnglish": "Maple Walnut"
       }
     ],
-    "lastUpdated": "2026-08-12T09:00:53.638Z",
+    "lastUpdated": "2026-08-13T10:30:50.995Z",
     "openUntil": "20:00"
   },
   "buga": {
