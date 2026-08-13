@@ -14134,5 +14134,75 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-08-13T15:00:59.042Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Joghurt Brombeer",
+          "tags": [],
+          "nameEnglish": "Yogurt Blackberry"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [],
+          "nameEnglish": "Blueberry Curd"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Buttermilch Mango",
+          "tags": [],
+          "nameEnglish": "Buttermilk Mango"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Milchreis Zimt",
+          "tags": [],
+          "nameEnglish": "Rice Pudding Cinnamon"
+        },
+        {
+          "name": "Kokos",
+          "tags": [],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Maple Walnut",
+          "tags": [
+            "nuss"
+          ],
+          "nameEnglish": "Maple Walnut"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]
