@@ -3,68 +3,88 @@
     "flavors": [
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Joghurt Brombeer",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Yogurt Blackberry"
       },
       {
         "name": "Heidelbeer Quark",
-        "tags": [],
-        "nameEnglish": "Blueberry Curd"
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Schokolade",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Chocolate"
       },
       {
         "name": "Buttermilch Mango",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Buttermilk Mango"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Milchreis Zimt",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Rice Pudding Cinnamon"
       },
       {
         "name": "Kokos",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Coconut"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Maple Walnut",
-        "tags": [
-          "nuss"
-        ],
+        "tags": [],
         "nameEnglish": "Maple Walnut"
       }
     ],
-    "lastUpdated": "2026-08-13T15:00:59.039Z",
+    "lastUpdated": "2026-08-13T15:30:57.207Z",
     "openUntil": "20:00"
   },
   "buga": {
