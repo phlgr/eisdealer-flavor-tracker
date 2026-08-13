@@ -27,7 +27,7 @@
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Blueberry Curd"
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Schokolade",
@@ -80,11 +80,14 @@
       },
       {
         "name": "Maple Walnut",
-        "tags": [],
+        "tags": [
+          "nuss",
+          "milk"
+        ],
         "nameEnglish": "Maple Walnut"
       }
     ],
-    "lastUpdated": "2026-08-13T16:00:52.254Z",
+    "lastUpdated": "2026-08-13T16:32:42.476Z",
     "openUntil": "20:00"
   },
   "buga": {
