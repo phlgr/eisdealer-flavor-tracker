@@ -28,41 +28,55 @@
       },
       {
         "name": "Maple Walnut",
-        "tags": [],
+        "tags": [
+          "nuss"
+        ],
         "nameEnglish": "Maple Walnut"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Apfel Holunder",
-        "tags": [],
-        "nameEnglish": "Apple-Elderflower"
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Apple-Elderberry"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Chocolate Mousse"
       }
     ],
-    "lastUpdated": "2026-08-14T10:31:00.311Z"
+    "lastUpdated": "2026-08-14T15:30:56.956Z"
   },
   "buga": {
     "flavors": [

@@ -14544,5 +14544,86 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-14T15:30:56.958Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [],
+          "nameEnglish": "Blueberry Quark"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Milchreis Zimt",
+          "tags": [],
+          "nameEnglish": "Rice Pudding Cinnamon"
+        },
+        {
+          "name": "Kokos",
+          "tags": [],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Maple Walnut",
+          "tags": [
+            "nuss"
+          ],
+          "nameEnglish": "Maple Walnut"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Apfel Holunder",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Apple-Elderberry"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        }
+      ]
+    }
   }
 ]
