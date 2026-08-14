@@ -2,93 +2,67 @@
   "main": {
     "flavors": [
       {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Joghurt Brombeer",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt Blackberry"
-      },
-      {
         "name": "Heidelbeer Quark",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Schokolade",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate"
       },
       {
-        "name": "Buttermilch Mango",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Buttermilk Mango"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
         "name": "Milchreis Zimt",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Rice Pudding Cinnamon"
       },
       {
         "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Coconut"
       },
       {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
       },
       {
         "name": "Maple Walnut",
-        "tags": [
-          "nuss",
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Maple Walnut"
+      },
+      {
+        "name": "Mango",
+        "tags": [],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Apfel Holunder",
+        "tags": [],
+        "nameEnglish": "Apple-Elderflower"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [],
+        "nameEnglish": "Chocolate Mousse"
       }
     ],
-    "lastUpdated": "2026-08-13T16:32:42.476Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-08-14T10:31:00.311Z"
   },
   "buga": {
     "flavors": [
