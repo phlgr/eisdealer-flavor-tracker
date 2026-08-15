@@ -2,32 +2,28 @@
   "main": {
     "flavors": [
       {
-        "name": "Heidelbeer Quark",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Blueberry Quark"
+        "name": "Strawberry Cheesecake",
+        "tags": [],
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Schokolade",
+        "name": "Kiwi",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Chocolate"
+        "nameEnglish": "Kiwi"
       },
       {
-        "name": "Milchreis Zimt",
+        "name": "Himbeere",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Rice Pudding Cinnamon"
+        "nameEnglish": "Raspberry"
       },
       {
-        "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coconut"
+        "name": "Buttermilch Mango",
+        "tags": [],
+        "nameEnglish": "Buttermilk Mango"
       },
       {
         "name": "Vanille",
@@ -37,19 +33,16 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Maple Walnut",
+        "name": "Schokomousse",
         "tags": [
-          "nuss",
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Maple Walnut"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Mango",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Mango"
+        "name": "Lotus Cheesecake",
+        "tags": [],
+        "nameEnglish": "Lotus Cheesecake"
       },
       {
         "name": "Erdbeere",
@@ -61,33 +54,34 @@
       {
         "name": "Apfel Holunder",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Apple Elderberry"
+        "nameEnglish": "Apple - Elderberry"
       },
       {
         "name": "Zitrone",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Limette Minze",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Schokomousse",
+        "name": "Mango",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Mango"
       }
     ],
-    "lastUpdated": "2026-08-15T08:00:50.887Z"
+    "lastUpdated": "2026-08-15T10:00:51.814Z",
+    "openUntil": "20:00"
   },
   "buga": {
     "flavors": [

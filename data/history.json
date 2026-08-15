@@ -14717,5 +14717,91 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-15T10:00:51.817Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Kiwi",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Kiwi"
+        },
+        {
+          "name": "Himbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Raspberry"
+        },
+        {
+          "name": "Buttermilch Mango",
+          "tags": [],
+          "nameEnglish": "Buttermilk Mango"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Lotus Cheesecake",
+          "tags": [],
+          "nameEnglish": "Lotus Cheesecake"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Apfel Holunder",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Apple - Elderberry"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]
