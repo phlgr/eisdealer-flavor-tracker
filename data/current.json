@@ -7,17 +7,15 @@
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Kiwi",
+        "name": "Keks",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Kiwi"
+        "nameEnglish": "Cookie"
       },
       {
         "name": "Himbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Raspberry"
       },
       {
@@ -27,16 +25,12 @@
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -46,41 +40,31 @@
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Apfel Holunder",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Apple - Elderberry"
+        "tags": [],
+        "nameEnglish": "Apple - Elderflower"
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       }
     ],
-    "lastUpdated": "2026-08-15T10:00:51.814Z",
+    "lastUpdated": "2026-08-15T15:00:49.167Z",
     "openUntil": "20:00"
   },
   "buga": {
