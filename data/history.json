@@ -14625,5 +14625,97 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-15T08:00:50.890Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Blueberry Quark"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Milchreis Zimt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Rice Pudding Cinnamon"
+        },
+        {
+          "name": "Kokos",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Maple Walnut",
+          "tags": [
+            "nuss",
+            "milk"
+          ],
+          "nameEnglish": "Maple Walnut"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Apfel Holunder",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Apple Elderberry"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        }
+      ]
+    }
   }
 ]

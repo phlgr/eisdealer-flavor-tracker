@@ -3,68 +3,79 @@
     "flavors": [
       {
         "name": "Heidelbeer Quark",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Schokolade",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Chocolate"
       },
       {
         "name": "Milchreis Zimt",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Rice Pudding Cinnamon"
       },
       {
         "name": "Kokos",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Coconut"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Maple Walnut",
         "tags": [
-          "nuss"
+          "nuss",
+          "milk"
         ],
         "nameEnglish": "Maple Walnut"
       },
       {
         "name": "Mango",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Erdbeere",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Apfel Holunder",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Apple-Elderberry"
+        "nameEnglish": "Apple Elderberry"
       },
       {
         "name": "Zitrone",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Limette Minze",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Lime Mint"
       },
@@ -76,7 +87,7 @@
         "nameEnglish": "Chocolate Mousse"
       }
     ],
-    "lastUpdated": "2026-08-14T15:30:56.956Z"
+    "lastUpdated": "2026-08-15T08:00:50.887Z"
   },
   "buga": {
     "flavors": [
