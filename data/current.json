@@ -3,68 +3,90 @@
     "flavors": [
       {
         "name": "Strawberry Cheesecake",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Keks",
+        "name": "Kiwi",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Cookie"
+        "nameEnglish": "Kiwi"
       },
       {
         "name": "Himbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Raspberry"
       },
       {
         "name": "Buttermilch Mango",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Buttermilk Mango"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Lotus Cheesecake",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Lotus Cheesecake"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Apfel Holunder",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Apple - Elderflower"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       }
     ],
-    "lastUpdated": "2026-08-15T15:00:49.167Z",
+    "lastUpdated": "2026-08-16T08:00:53.782Z",
     "openUntil": "20:00"
   },
   "buga": {
