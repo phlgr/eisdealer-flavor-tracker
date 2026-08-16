@@ -59,7 +59,9 @@
       },
       {
         "name": "Lotus Tiramisu",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Lotus Tiramisu"
       },
       {
@@ -84,49 +86,37 @@
         "nameEnglish": "Mango"
       }
     ],
-    "lastUpdated": "2026-08-16T09:31:01.709Z",
+    "lastUpdated": "2026-08-16T10:01:16.235Z",
     "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
       {
-        "name": "Schokomousse",
+        "name": "Erdbeere",
         "tags": [],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Strawberry"
       },
       {
-        "name": "Salziges Karamell",
+        "name": "Haselnuss",
         "tags": [],
-        "nameEnglish": "Salted Caramel"
+        "nameEnglish": "Hazelnut"
       },
       {
-        "name": "Sesam Karamell",
+        "name": "Schokolade",
         "tags": [],
-        "nameEnglish": "Sesame Caramel"
-      },
-      {
-        "name": "Pfirsich",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Peach"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Blumenkohle",
-        "tags": [],
-        "nameEnglish": "Cauliflower"
+        "nameEnglish": "Chocolate"
       },
       {
         "name": "Vanille",
         "tags": [],
         "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Salzkaramell",
+        "tags": [],
+        "nameEnglish": "Salted Caramel"
       }
     ],
-    "lastUpdated": "2026-08-16T09:31:01.709Z"
+    "lastUpdated": "2026-08-16T10:01:16.236Z"
   }
 }
