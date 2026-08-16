@@ -2,11 +2,25 @@
   "main": {
     "flavors": [
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Vanille",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Cassis",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Blackcurrant"
       },
       {
         "name": "Kiwi",
@@ -16,53 +30,18 @@
         "nameEnglish": "Kiwi"
       },
       {
-        "name": "Himbeere",
+        "name": "Haselnuss Crunch",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Hazelnut Crunch"
+      },
+      {
+        "name": "Limette Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Raspberry"
-      },
-      {
-        "name": "Buttermilch Mango",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Buttermilk Mango"
-      },
-      {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Lotus Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Lotus Cheesecake"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Apfel Holunder",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Apple - Elderflower"
+        "nameEnglish": "Lime Mint"
       },
       {
         "name": "Zitrone",
@@ -72,53 +51,16 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Limette Minze",
+        "name": "Erdbeere",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Strawberry"
       },
       {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
-      }
-    ],
-    "lastUpdated": "2026-08-16T08:00:53.782Z",
-    "openUntil": "20:00"
-  },
-  "buga": {
-    "flavors": [
-      {
-        "name": "Vanille",
+        "name": "Lotus Tiramisu",
         "tags": [],
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [],
-        "nameEnglish": "Strawberry Cheesecake"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Crunchy Peanutbutter",
-        "tags": [],
-        "nameEnglish": "Crunchy Peanut"
+        "nameEnglish": "Lotus Tiramisu"
       },
       {
         "name": "Oreo",
@@ -128,18 +70,63 @@
         "nameEnglish": "Oreo"
       },
       {
-        "name": "Kokos",
-        "tags": [],
-        "nameEnglish": "Coconut"
-      },
-      {
-        "name": "Cassis",
+        "name": "Himbeere",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Blackcurrant"
+        "nameEnglish": "Raspberry"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
       }
     ],
-    "lastUpdated": "2026-08-09T09:01:13.862Z"
+    "lastUpdated": "2026-08-16T09:31:01.709Z",
+    "openUntil": "20:00"
+  },
+  "buga": {
+    "flavors": [
+      {
+        "name": "Schokomousse",
+        "tags": [],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Salziges Karamell",
+        "tags": [],
+        "nameEnglish": "Salted Caramel"
+      },
+      {
+        "name": "Sesam Karamell",
+        "tags": [],
+        "nameEnglish": "Sesame Caramel"
+      },
+      {
+        "name": "Pfirsich",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Peach"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Blumenkohle",
+        "tags": [],
+        "nameEnglish": "Cauliflower"
+      },
+      {
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
+      }
+    ],
+    "lastUpdated": "2026-08-16T09:31:01.709Z"
   }
 }
