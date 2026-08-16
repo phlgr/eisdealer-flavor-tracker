@@ -15217,5 +15217,107 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-16T11:00:56.534Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Cassis",
+          "tags": [],
+          "nameEnglish": "Cassis"
+        },
+        {
+          "name": "Kiwi",
+          "tags": [],
+          "nameEnglish": "Kiwi"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Lotus Tiramisu",
+          "tags": [],
+          "nameEnglish": "Lotus Tiramisu"
+        },
+        {
+          "name": "Oreo",
+          "tags": [],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Himbeere",
+          "tags": [],
+          "nameEnglish": "Raspberry"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        }
+      ],
+      "openUntil": "20:00"
+    },
+    "buga": {
+      "flavors": [
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Haselnuss",
+          "tags": [],
+          "nameEnglish": "Hazelnut"
+        },
+        {
+          "name": "Joghurt Kirsch",
+          "tags": [],
+          "nameEnglish": "Yogurt Cherry"
+        }
+      ]
+    }
   }
 ]

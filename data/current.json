@@ -3,103 +3,74 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Blackcurrant"
+        "tags": [],
+        "nameEnglish": "Cassis"
       },
       {
         "name": "Kiwi",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Kiwi"
       },
       {
         "name": "Haselnuss Crunch",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Lotus Tiramisu",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Lotus Tiramisu"
       },
       {
         "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Oreo"
       },
       {
         "name": "Himbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Raspberry"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       }
     ],
-    "lastUpdated": "2026-08-16T10:01:16.235Z",
+    "lastUpdated": "2026-08-16T11:00:56.532Z",
     "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
       {
-        "name": "Erdbeere",
+        "name": "Vanille",
         "tags": [],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Haselnuss",
-        "tags": [],
-        "nameEnglish": "Hazelnut"
+        "nameEnglish": "Vanilla"
       },
       {
         "name": "Schokolade",
@@ -107,16 +78,26 @@
         "nameEnglish": "Chocolate"
       },
       {
-        "name": "Vanille",
+        "name": "Erdbeere",
         "tags": [],
-        "nameEnglish": "Vanilla"
+        "nameEnglish": "Strawberry"
       },
       {
-        "name": "Salzkaramell",
+        "name": "Zitrone",
         "tags": [],
-        "nameEnglish": "Salted Caramel"
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Haselnuss",
+        "tags": [],
+        "nameEnglish": "Hazelnut"
+      },
+      {
+        "name": "Joghurt Kirsch",
+        "tags": [],
+        "nameEnglish": "Yogurt Cherry"
       }
     ],
-    "lastUpdated": "2026-08-16T10:01:16.236Z"
+    "lastUpdated": "2026-08-16T11:00:56.532Z"
   }
 }
