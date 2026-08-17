@@ -15607,5 +15607,97 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-08-17T16:01:03.634Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Kiwi",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Kiwi"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Lotus Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Lotus Cheesecake"
+        },
+        {
+          "name": "Banana Split",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Banana Split"
+        },
+        {
+          "name": "Himbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Raspberry"
+        },
+        {
+          "name": "Crunchy Peanutbutter",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Crunchy Peanutbutter"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]

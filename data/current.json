@@ -3,7 +3,9 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -15,7 +17,9 @@
       },
       {
         "name": "Oreo",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Oreo"
       },
       {
@@ -79,10 +83,10 @@
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Crunchy Peanut Butter"
+        "nameEnglish": "Crunchy Peanutbutter"
       }
     ],
-    "lastUpdated": "2026-08-17T12:00:54.923Z",
+    "lastUpdated": "2026-08-17T16:01:03.631Z",
     "openUntil": "20:00"
   },
   "buga": {
