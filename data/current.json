@@ -3,9 +3,7 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -16,17 +14,13 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Cassis",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Blackcurrant"
+        "name": "Oreo",
+        "tags": [],
+        "nameEnglish": "Oreo"
       },
       {
         "name": "Kiwi",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Kiwi"
       },
       {
@@ -37,56 +31,50 @@
         "nameEnglish": "Hazelnut Crunch"
       },
       {
-        "name": "Limette Minze",
+        "name": "Pistazie",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Lotus Tiramisu",
+        "name": "Lotus Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Lotus Tiramisu"
+        "nameEnglish": "Lotus Cheesecake"
       },
       {
-        "name": "Oreo",
+        "name": "Banana Split",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Banana Split"
       },
       {
         "name": "Himbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Raspberry"
       },
       {
-        "name": "Mango",
+        "name": "Crunchy Peanutbutter",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Crunchy Peanut Butter"
       }
     ],
-    "lastUpdated": "2026-08-17T08:01:22.974Z",
+    "lastUpdated": "2026-08-17T10:30:50.238Z",
     "openUntil": "20:00"
   },
   "buga": {
