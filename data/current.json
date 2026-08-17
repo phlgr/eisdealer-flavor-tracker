@@ -20,7 +20,9 @@
       },
       {
         "name": "Kiwi",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Kiwi"
       },
       {
@@ -39,12 +41,16 @@
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
@@ -63,7 +69,9 @@
       },
       {
         "name": "Himbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Raspberry"
       },
       {
@@ -74,7 +82,7 @@
         "nameEnglish": "Crunchy Peanut Butter"
       }
     ],
-    "lastUpdated": "2026-08-17T10:30:50.238Z",
+    "lastUpdated": "2026-08-17T12:00:54.923Z",
     "openUntil": "20:00"
   },
   "buga": {
