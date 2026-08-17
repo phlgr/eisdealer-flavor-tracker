@@ -15319,5 +15319,125 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-17T08:01:22.977Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Cassis",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Blackcurrant"
+        },
+        {
+          "name": "Kiwi",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Kiwi"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Lotus Tiramisu",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Lotus Tiramisu"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Himbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Raspberry"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        }
+      ],
+      "openUntil": "20:00"
+    },
+    "buga": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": []
+        },
+        {
+          "name": "Eisfee Charlotte",
+          "tags": []
+        },
+        {
+          "name": "Beeren Joghurt",
+          "tags": []
+        },
+        {
+          "name": "Pistazie",
+          "tags": []
+        },
+        {
+          "name": "Gebrannte Mandel",
+          "tags": []
+        },
+        {
+          "name": "Vanille",
+          "tags": []
+        }
+      ]
+    }
   }
 ]
