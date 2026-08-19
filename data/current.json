@@ -16,11 +16,11 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Oreo",
+        "name": "Sesam Karamell",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Sesame Caramel"
       },
       {
         "name": "Kiwi",
@@ -30,11 +30,11 @@
         "nameEnglish": "Kiwi"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Joghurt Brombeer",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Yogurt Blackberry"
       },
       {
         "name": "Pistazie",
@@ -51,25 +51,25 @@
         "nameEnglish": "Lemon"
       },
       {
+        "name": "Kokos Mango Sticky Rice",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Coconut Mango Sticky Rice"
+      },
+      {
+        "name": "Salted Caramel",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Salted Caramel"
+      },
+      {
         "name": "Erdbeere",
         "tags": [
           "vegan"
         ],
         "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Lotus Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Lotus Cheesecake"
-      },
-      {
-        "name": "Banana Split",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Banana Split"
       },
       {
         "name": "Himbeere",
@@ -83,11 +83,10 @@
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Crunchy Peanutbutter"
+        "nameEnglish": "Crunchy Peanut Butter"
       }
     ],
-    "lastUpdated": "2026-08-17T16:01:03.631Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-08-19T11:01:07.074Z"
   },
   "buga": {
     "flavors": [
