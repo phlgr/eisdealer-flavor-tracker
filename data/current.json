@@ -3,90 +3,67 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Sesam Karamell",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Sesame Caramel"
       },
       {
-        "name": "Kiwi",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Kiwi"
+        "name": "Kokos",
+        "tags": [],
+        "nameEnglish": "Coconut"
       },
       {
-        "name": "Joghurt Brombeer",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt Blackberry"
+        "name": "Erdbeer Joghurt Schoko",
+        "tags": [],
+        "nameEnglish": "Yogurt Strawberry Chocolate"
       },
       {
         "name": "Pistazie",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
+        "name": "Espresso Martini",
+        "tags": [],
+        "nameEnglish": "Espresso Martini"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
+        "name": "Buttermilch Mango",
+        "tags": [],
+        "nameEnglish": "Buttermilk Mango"
       },
       {
-        "name": "Salted Caramel",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Salted Caramel"
+        "name": "Tonka",
+        "tags": [],
+        "nameEnglish": "Tonka"
+      },
+      {
+        "name": "Wassermelone",
+        "tags": [],
+        "nameEnglish": "Watermelon"
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Himbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Raspberry"
-      },
-      {
-        "name": "Crunchy Peanutbutter",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Crunchy Peanut Butter"
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-08-19T11:01:07.074Z"
+    "lastUpdated": "2026-08-21T10:30:59.375Z",
+    "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
