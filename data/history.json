@@ -15858,5 +15858,90 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-08-22T09:30:55.669Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Sesam Karamell",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Sesame Caramel"
+        },
+        {
+          "name": "Kokos",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Espresso Martini",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Espresso Martini"
+        },
+        {
+          "name": "Buttermilch Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Buttermilk Mango"
+        },
+        {
+          "name": "Schoko Cookie Dough Caramel",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Cookie Dough Caramel"
+        },
+        {
+          "name": "Wassermelone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Watermelon"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]

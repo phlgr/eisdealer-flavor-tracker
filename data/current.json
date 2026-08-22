@@ -3,66 +3,83 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Sesam Karamell",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Sesame Caramel"
       },
       {
         "name": "Kokos",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Coconut"
       },
       {
-        "name": "Erdbeer Joghurt Schoko",
-        "tags": [],
-        "nameEnglish": "Yogurt Strawberry Chocolate"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [],
-        "nameEnglish": "Pistachio"
+        "name": "Haselnuss Crunch",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Espresso Martini",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Espresso Martini"
       },
       {
         "name": "Buttermilch Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Buttermilk Mango"
       },
       {
-        "name": "Tonka",
-        "tags": [],
-        "nameEnglish": "Tonka"
+        "name": "Schoko Cookie Dough Caramel",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Cookie Dough Caramel"
       },
       {
         "name": "Wassermelone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Watermelon"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-08-21T10:30:59.375Z",
+    "lastUpdated": "2026-08-22T09:30:55.667Z",
     "openUntil": "20:00"
   },
   "buga": {
