@@ -11,51 +11,58 @@
       {
         "name": "Vanille",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Sesam Karamell",
+        "name": "Salted Caramel",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Sesame Caramel"
+        "nameEnglish": "Salted Caramel"
       },
       {
         "name": "Kokos",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Coconut"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Joghurt",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Yogurt"
+      },
+      {
+        "name": "Himbeer Schmand",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Raspberry Sour Cream"
       },
       {
         "name": "Espresso Martini",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Espresso Martini"
       },
       {
         "name": "Buttermilch Mango",
         "tags": [
-          "vegan"
+          "milk"
         ],
         "nameEnglish": "Buttermilk Mango"
       },
       {
-        "name": "Schoko Cookie Dough Caramel",
+        "name": "Zitrone",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate Cookie Dough Caramel"
+        "nameEnglish": "Lemon"
       },
       {
         "name": "Wassermelone",
@@ -72,14 +79,14 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Zitrone",
+        "name": "Erdbeertiramisu",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Strawberry Tiramisu"
       }
     ],
-    "lastUpdated": "2026-08-22T09:30:55.667Z",
+    "lastUpdated": "2026-08-23T11:00:50.454Z",
     "openUntil": "20:00"
   },
   "buga": {
