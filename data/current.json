@@ -2,9 +2,9 @@
   "main": {
     "flavors": [
       {
-        "name": "Pistazie",
+        "name": "Haselnuss Crunch",
         "tags": [],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Strawberry Cheesecake",
@@ -44,14 +44,9 @@
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Kokos",
+        "name": "Schokomousse",
         "tags": [],
-        "nameEnglish": "Coconut"
-      },
-      {
-        "name": "Schokolade",
-        "tags": [],
-        "nameEnglish": "Chocolate"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
@@ -59,13 +54,17 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Schokomousse",
+        "name": "Schokolade",
         "tags": [],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Chocolate"
+      },
+      {
+        "name": "Cookie Dough Chocolate Caramel",
+        "tags": [],
+        "nameEnglish": "Cookie Dough Chocolate Caramel"
       }
     ],
-    "lastUpdated": "2026-08-25T08:00:50.266Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-08-25T16:00:54.336Z"
   },
   "buga": {
     "flavors": [
