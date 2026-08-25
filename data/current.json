@@ -2,34 +2,29 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokomousse",
+        "name": "Pistazie",
         "tags": [],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Pistachio"
       },
       {
-        "name": "Vanille",
+        "name": "Strawberry Cheesecake",
         "tags": [],
-        "nameEnglish": "Vanilla"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Schokolade",
+        "name": "Zitrone",
         "tags": [],
-        "nameEnglish": "Chocolate"
+        "nameEnglish": "Lemon"
       },
       {
-        "name": "Kokos",
+        "name": "Mango",
         "tags": [],
-        "nameEnglish": "Coconut"
+        "nameEnglish": "Mango"
       },
       {
-        "name": "Joghurt",
+        "name": "Erdbeere",
         "tags": [],
-        "nameEnglish": "Yoghurt"
-      },
-      {
-        "name": "Oreo",
-        "tags": [],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Kokos Mango Sticky Rice",
@@ -39,32 +34,37 @@
         "nameEnglish": "Coconut Mango Sticky Rice"
       },
       {
-        "name": "Erdbeere",
+        "name": "Oreo",
         "tags": [],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Oreo"
       },
       {
-        "name": "Mango",
+        "name": "Joghurt",
         "tags": [],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Yogurt"
       },
       {
-        "name": "Zitrone",
+        "name": "Kokos",
         "tags": [],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Coconut"
       },
       {
-        "name": "Joghurt Brombeer",
+        "name": "Schokolade",
         "tags": [],
-        "nameEnglish": "Yoghurt Blackberry"
+        "nameEnglish": "Chocolate"
       },
       {
-        "name": "Espresso Martini Cake",
+        "name": "Vanille",
         "tags": [],
-        "nameEnglish": "Espresso Martini Cake"
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [],
+        "nameEnglish": "Chocolate Mousse"
       }
     ],
-    "lastUpdated": "2026-08-24T08:00:52.379Z",
+    "lastUpdated": "2026-08-25T08:00:50.266Z",
     "openUntil": "20:00"
   },
   "buga": {

@@ -16105,5 +16105,75 @@
       ],
       "openUntil": "20:00"
     }
+  },
+  {
+    "timestamp": "2026-08-25T08:00:50.269Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Kokos Mango Sticky Rice",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Coconut Mango Sticky Rice"
+        },
+        {
+          "name": "Oreo",
+          "tags": [],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Kokos",
+          "tags": [],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        }
+      ],
+      "openUntil": "20:00"
+    }
   }
 ]
