@@ -27,7 +27,7 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
+        "name": "Coco Mango Sticky Rice",
         "tags": [
           "vegan"
         ],
@@ -59,12 +59,13 @@
         "nameEnglish": "Chocolate"
       },
       {
-        "name": "Cookie Dough Chocolate Caramel",
+        "name": "Cookie Dough Chocolate Coconut",
         "tags": [],
-        "nameEnglish": "Cookie Dough Chocolate Caramel"
+        "nameEnglish": "Cookie Dough Chocolate Coconut"
       }
     ],
-    "lastUpdated": "2026-08-25T16:00:54.336Z"
+    "lastUpdated": "2026-08-26T11:00:56.598Z",
+    "openUntil": "20:00"
   },
   "buga": {
     "flavors": [
