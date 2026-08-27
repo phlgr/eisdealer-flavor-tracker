@@ -2,48 +2,6 @@
   "main": {
     "flavors": [
       {
-        "name": "Haselnuss Crunch",
-        "tags": [],
-        "nameEnglish": "Hazelnut Crunch"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [],
-        "nameEnglish": "Strawberry Cheesecake"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Mango",
-        "tags": [],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Coco Mango Sticky Rice",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
-      },
-      {
-        "name": "Oreo",
-        "tags": [],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Joghurt",
-        "tags": [],
-        "nameEnglish": "Yogurt"
-      },
-      {
         "name": "Schokomousse",
         "tags": [],
         "nameEnglish": "Chocolate Mousse"
@@ -54,17 +12,57 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Schokolade",
+        "name": "White Choc Himbeer",
         "tags": [],
-        "nameEnglish": "Chocolate"
+        "nameEnglish": "White Chocolate Raspberry"
       },
       {
-        "name": "Cookie Dough Chocolate Coconut",
+        "name": "Stracciatella",
         "tags": [],
-        "nameEnglish": "Cookie Dough Chocolate Coconut"
+        "nameEnglish": "Stracciatella"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [],
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
+        "name": "Mango",
+        "tags": [],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Cookie Dough Chocolate Caramel",
+        "tags": [],
+        "nameEnglish": "Cookie Dough Chocolate Caramel"
+      },
+      {
+        "name": "Apfel Holunder",
+        "tags": [],
+        "nameEnglish": "Apple Elderberry"
       }
     ],
-    "lastUpdated": "2026-08-26T11:00:56.598Z",
+    "lastUpdated": "2026-08-27T09:00:57.368Z",
     "openUntil": "20:00"
   },
   "buga": {
