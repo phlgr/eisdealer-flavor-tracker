@@ -12,9 +12,9 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "White Choc Himbeer",
+        "name": "Crunchy Peanutbutter",
         "tags": [],
-        "nameEnglish": "White Chocolate Raspberry"
+        "nameEnglish": "Crunchy Peanut Butter"
       },
       {
         "name": "Stracciatella",
@@ -27,9 +27,9 @@
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Joghurt Brombeer",
         "tags": [],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Yogurt Blackberry"
       },
       {
         "name": "Mango",
@@ -52,17 +52,17 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Cookie Dough Chocolate Caramel",
-        "tags": [],
-        "nameEnglish": "Cookie Dough Chocolate Caramel"
-      },
-      {
         "name": "Apfel Holunder",
         "tags": [],
         "nameEnglish": "Apple Elderberry"
+      },
+      {
+        "name": "Cookie Dough Chocolate Caramel",
+        "tags": [],
+        "nameEnglish": "Cookie Dough Chocolate Caramel"
       }
     ],
-    "lastUpdated": "2026-08-27T09:00:57.368Z",
+    "lastUpdated": "2026-08-28T10:00:56.890Z",
     "openUntil": "20:00"
   },
   "buga": {
