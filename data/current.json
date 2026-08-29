@@ -27,9 +27,9 @@
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Joghurt Brombeer",
+        "name": "Joghurt",
         "tags": [],
-        "nameEnglish": "Yogurt Blackberry"
+        "nameEnglish": "Yogurt"
       },
       {
         "name": "Mango",
@@ -52,17 +52,17 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Apfel Holunder",
-        "tags": [],
-        "nameEnglish": "Apple Elderberry"
-      },
-      {
         "name": "Cookie Dough Chocolate Caramel",
         "tags": [],
         "nameEnglish": "Cookie Dough Chocolate Caramel"
+      },
+      {
+        "name": "Rhabarber",
+        "tags": [],
+        "nameEnglish": "Rhubarb"
       }
     ],
-    "lastUpdated": "2026-08-28T10:00:56.890Z",
+    "lastUpdated": "2026-08-29T08:00:54.715Z",
     "openUntil": "20:00"
   },
   "buga": {
