@@ -12,9 +12,9 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Crunchy Peanutbutter",
+        "name": "Schokolade",
         "tags": [],
-        "nameEnglish": "Crunchy Peanut Butter"
+        "nameEnglish": "Chocolate"
       },
       {
         "name": "Stracciatella",
@@ -32,9 +32,9 @@
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Mango",
+        "name": "Buttermilch Mango",
         "tags": [],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Buttermilk Mango"
       },
       {
         "name": "Limette Minze",
@@ -62,7 +62,7 @@
         "nameEnglish": "Rhubarb"
       }
     ],
-    "lastUpdated": "2026-08-29T08:00:54.715Z",
+    "lastUpdated": "2026-08-30T08:00:56.437Z",
     "openUntil": "20:00"
   },
   "buga": {
