@@ -12,9 +12,9 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Schokolade",
+        "name": "Erdbeere Joghurt Schoko",
         "tags": [],
-        "nameEnglish": "Chocolate"
+        "nameEnglish": "Strawberry - Yogurt - Chocolate"
       },
       {
         "name": "Stracciatella",
@@ -52,18 +52,18 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Cookie Dough Chocolate Caramel",
+        "name": "Lotus Tiramisu",
         "tags": [],
-        "nameEnglish": "Cookie Dough Chocolate Caramel"
+        "nameEnglish": "Lotus Tiramisu"
       },
       {
-        "name": "Rhabarber",
+        "name": "Apfel Holunder",
         "tags": [],
-        "nameEnglish": "Rhubarb"
+        "nameEnglish": "Apple - Elderflower"
       }
     ],
-    "lastUpdated": "2026-08-30T08:00:56.437Z",
-    "openUntil": "20:00"
+    "lastUpdated": "2026-09-01T08:00:56.079Z",
+    "openUntil": "19:00"
   },
   "buga": {
     "flavors": [
