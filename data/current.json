@@ -12,14 +12,14 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Erdbeere Joghurt Schoko",
-        "tags": [],
-        "nameEnglish": "Strawberry - Yogurt - Chocolate"
-      },
-      {
         "name": "Stracciatella",
         "tags": [],
         "nameEnglish": "Stracciatella"
+      },
+      {
+        "name": "Himbeer Schmand",
+        "tags": [],
+        "nameEnglish": "Raspberry Sour Cream"
       },
       {
         "name": "Pistazie",
@@ -27,19 +27,9 @@
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Joghurt",
+        "name": "Erdbeer Tiramisu",
         "tags": [],
-        "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Buttermilch Mango",
-        "tags": [],
-        "nameEnglish": "Buttermilk Mango"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Strawberry Tiramisu"
       },
       {
         "name": "Zitrone",
@@ -47,22 +37,32 @@
         "nameEnglish": "Lemon"
       },
       {
+        "name": "Oreo",
+        "tags": [],
+        "nameEnglish": "Oreo"
+      },
+      {
         "name": "Erdbeere",
         "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Lotus Tiramisu",
+        "name": "Rhabarber",
         "tags": [],
-        "nameEnglish": "Lotus Tiramisu"
+        "nameEnglish": "Rhubarb"
       },
       {
-        "name": "Apfel Holunder",
+        "name": "Limette Minze",
         "tags": [],
-        "nameEnglish": "Apple - Elderflower"
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Tonka",
+        "tags": [],
+        "nameEnglish": "Tonka"
       }
     ],
-    "lastUpdated": "2026-09-01T08:00:56.079Z",
+    "lastUpdated": "2026-09-02T13:00:52.738Z",
     "openUntil": "19:00"
   },
   "buga": {
