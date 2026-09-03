@@ -22,9 +22,9 @@
         "nameEnglish": "Raspberry Sour Cream"
       },
       {
-        "name": "Pistazie",
+        "name": "Strawberry Cheesecake",
         "tags": [],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Erdbeer Tiramisu",
@@ -42,14 +42,14 @@
         "nameEnglish": "Oreo"
       },
       {
-        "name": "Erdbeere",
-        "tags": [],
-        "nameEnglish": "Strawberry"
-      },
-      {
         "name": "Rhabarber",
         "tags": [],
         "nameEnglish": "Rhubarb"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Limette Minze",
@@ -62,8 +62,8 @@
         "nameEnglish": "Tonka"
       }
     ],
-    "lastUpdated": "2026-09-02T13:00:52.738Z",
-    "openUntil": "19:00"
+    "lastUpdated": "2026-09-03T08:01:20.401Z",
+    "openUntil": "18:00"
   },
   "buga": {
     "flavors": [
