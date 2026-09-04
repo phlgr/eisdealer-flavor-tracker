@@ -16790,5 +16790,73 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-09-04T12:01:04.690Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Himbeer Schmand",
+          "tags": [],
+          "nameEnglish": "Raspberry Sour Cream"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Mango Lassi",
+          "tags": [],
+          "nameEnglish": "Mango Lassi"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Cassis",
+          "tags": [],
+          "nameEnglish": "Blackcurrant"
+        },
+        {
+          "name": "Cookie Dough Chocolate Caramel",
+          "tags": [],
+          "nameEnglish": "Cookie Dough Chocolate Caramel"
+        },
+        {
+          "name": "Wassermelone",
+          "tags": [],
+          "nameEnglish": "Watermelon"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Tonka",
+          "tags": [],
+          "nameEnglish": "Tonka Bean"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]

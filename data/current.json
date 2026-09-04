@@ -12,9 +12,9 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Stracciatella",
+        "name": "Erdbeere",
         "tags": [],
-        "nameEnglish": "Stracciatella"
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Himbeer Schmand",
@@ -22,34 +22,34 @@
         "nameEnglish": "Raspberry Sour Cream"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Pistazie",
         "tags": [],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Pistachio"
       },
       {
-        "name": "Erdbeer Tiramisu",
+        "name": "Mango Lassi",
         "tags": [],
-        "nameEnglish": "Strawberry Tiramisu"
+        "nameEnglish": "Mango Lassi"
       },
       {
-        "name": "Zitrone",
+        "name": "Mango",
         "tags": [],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Mango"
       },
       {
-        "name": "Oreo",
+        "name": "Cassis",
         "tags": [],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Blackcurrant"
       },
       {
-        "name": "Rhabarber",
+        "name": "Cookie Dough Chocolate Caramel",
         "tags": [],
-        "nameEnglish": "Rhubarb"
+        "nameEnglish": "Cookie Dough Chocolate Caramel"
       },
       {
-        "name": "Erdbeere",
+        "name": "Wassermelone",
         "tags": [],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Watermelon"
       },
       {
         "name": "Limette Minze",
@@ -59,11 +59,11 @@
       {
         "name": "Tonka",
         "tags": [],
-        "nameEnglish": "Tonka"
+        "nameEnglish": "Tonka Bean"
       }
     ],
-    "lastUpdated": "2026-09-03T08:01:20.401Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-09-04T12:01:04.685Z",
+    "openUntil": "19:00"
   },
   "buga": {
     "flavors": [
