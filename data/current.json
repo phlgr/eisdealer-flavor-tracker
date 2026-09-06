@@ -17,14 +17,14 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Himbeer Schmand",
+        "name": "Milchreis Zimt",
         "tags": [],
-        "nameEnglish": "Raspberry Sour Cream"
+        "nameEnglish": "Rice Pudding Cinnamon"
       },
       {
-        "name": "Pistazie",
+        "name": "Salted Caramel",
         "tags": [],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Salted Caramel"
       },
       {
         "name": "Mango Lassi",
@@ -33,65 +33,100 @@
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Cassis",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Blackcurrant"
       },
       {
         "name": "Cookie Dough Chocolate Caramel",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Cookie Dough Chocolate Caramel"
       },
       {
         "name": "Wassermelone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Watermelon"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Tonka",
-        "tags": [],
-        "nameEnglish": "Tonka Bean"
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Tonka"
       }
     ],
-    "lastUpdated": "2026-09-04T12:01:04.685Z",
+    "lastUpdated": "2026-09-06T15:03:44.518Z",
     "openUntil": "19:00"
   },
   "buga": {
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": []
-      },
-      {
-        "name": "Eisfee Charlotte",
-        "tags": []
-      },
-      {
-        "name": "Beeren Joghurt",
-        "tags": []
-      },
-      {
-        "name": "Pistazie",
-        "tags": []
-      },
-      {
-        "name": "Gebrannte Mandel",
-        "tags": []
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": []
+        "tags": [],
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Salted Caramel",
+        "tags": [],
+        "nameEnglish": "Salted Caramel"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Joghurt",
+        "tags": [],
+        "nameEnglish": "Yogurt"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Zimtschnecke",
+        "tags": [],
+        "nameEnglish": "Cinnamon Roll"
+      },
+      {
+        "name": "Bueno",
+        "tags": [],
+        "nameEnglish": "Bueno"
       }
     ],
-    "lastUpdated": "2026-08-17T08:01:22.974Z"
+    "lastUpdated": "2026-09-06T15:03:44.519Z",
+    "openUntil": "18:00"
   }
 }
