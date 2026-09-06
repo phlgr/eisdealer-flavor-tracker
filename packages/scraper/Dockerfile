@@ -16,6 +16,9 @@ RUN bun install --frozen-lockfile --ignore-scripts \
 # Copy full repo (needed for git push)
 COPY . .
 
+# Fail the build if playwright cannot launch the Chromium shipped in this image
+RUN bun run packages/scraper/scripts/smoke-browser.ts
+
 # Chromium is already in the playwright base image
 # Keep container alive for dokploy scheduled jobs
 CMD ["tail", "-f", "/dev/null"]
