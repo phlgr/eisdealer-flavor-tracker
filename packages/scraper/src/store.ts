@@ -74,8 +74,12 @@ export function buildLocationUpdate(
 		return null;
 	}
 
-	// Use only the latest flavor list — it represents the current menu
-	const latestAnalysis = flavorAnalyses.at(-1);
+	// Use only the newest flavor list — it represents the current menu.
+	// storysaver.net lists stories newest-first, and extractImages preserves
+	// that DOM order, so the first flavor list is the most recent board. Taking
+	// the last one picked a stale board when two lists were posted in one day
+	// (2026-09-06: the updated "Bueno" board lost to the morning list).
+	const latestAnalysis = flavorAnalyses.at(0);
 	if (!latestAnalysis) return null;
 	const flavorMap = new Map<string, IceCreamFlavor>();
 	for (const flavor of latestAnalysis.flavors) {

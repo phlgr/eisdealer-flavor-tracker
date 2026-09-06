@@ -16865,33 +16865,45 @@
       "flavors": [
         {
           "name": "Schokomousse",
-          "tags": [],
+          "tags": [
+            "vegan"
+          ],
           "nameEnglish": "Chocolate Mousse"
         },
         {
           "name": "Vanille",
-          "tags": [],
+          "tags": [
+            "milk"
+          ],
           "nameEnglish": "Vanilla"
         },
         {
           "name": "Erdbeere",
-          "tags": [],
+          "tags": [
+            "vegan"
+          ],
           "nameEnglish": "Strawberry"
         },
         {
           "name": "Milchreis Zimt",
-          "tags": [],
+          "tags": [
+            "milk"
+          ],
           "nameEnglish": "Rice Pudding Cinnamon"
         },
         {
           "name": "Salted Caramel",
-          "tags": [],
+          "tags": [
+            "milk"
+          ],
           "nameEnglish": "Salted Caramel"
         },
         {
-          "name": "Mango Lassi",
-          "tags": [],
-          "nameEnglish": "Mango Lassi"
+          "name": "Bueno",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Bueno"
         },
         {
           "name": "Mango",
@@ -16910,7 +16922,7 @@
         {
           "name": "Cookie Dough Chocolate Caramel",
           "tags": [
-            "vegan"
+            "milk"
           ],
           "nameEnglish": "Cookie Dough Chocolate Caramel"
         },
@@ -16931,9 +16943,9 @@
         {
           "name": "Tonka",
           "tags": [
-            "vegan"
+            "milk"
           ],
-          "nameEnglish": "Tonka"
+          "nameEnglish": "Tonka Bean"
         }
       ],
       "openUntil": "19:00"
