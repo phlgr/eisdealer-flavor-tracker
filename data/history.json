@@ -17001,5 +17001,75 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-09-07T11:00:58.824Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Kokos Mango Sticky Rice",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Coconut Mango Sticky Rice"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Salted Caramel",
+          "tags": [],
+          "nameEnglish": "Salted Caramel"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Zimtschnecke",
+          "tags": [],
+          "nameEnglish": "Cinnamon Roll"
+        },
+        {
+          "name": "Cookie Dough Chocolate Caramel",
+          "tags": [],
+          "nameEnglish": "Cookie Dough Chocolate Caramel"
+        },
+        {
+          "name": "Wassermelone",
+          "tags": [],
+          "nameEnglish": "Watermelon"
+        },
+        {
+          "name": "Tonka",
+          "tags": [],
+          "nameEnglish": "Tonka"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]
