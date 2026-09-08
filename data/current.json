@@ -3,68 +3,92 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
+        "name": "Pistazie",
         "tags": [
-          "vegan"
+          "nuss",
+          "milk"
         ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Joghurt",
-        "tags": [],
-        "nameEnglish": "Yogurt"
+        "name": "Heidelbeer Quark",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Salted Caramel",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Salted Caramel"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
-        "name": "Zimtschnecke",
-        "tags": [],
-        "nameEnglish": "Cinnamon Roll"
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Cookie Dough Chocolate Caramel",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Cookie Dough Chocolate Caramel"
       },
       {
-        "name": "Wassermelone",
-        "tags": [],
-        "nameEnglish": "Watermelon"
+        "name": "Maple Walnut",
+        "tags": [
+          "nuss",
+          "vegan"
+        ],
+        "nameEnglish": "Maple Walnut"
       },
       {
         "name": "Tonka",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Tonka"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       }
     ],
-    "lastUpdated": "2026-09-07T11:00:58.820Z",
+    "lastUpdated": "2026-09-08T11:31:05.416Z",
     "openUntil": "19:00"
   },
   "buga": {
