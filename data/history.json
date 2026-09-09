@@ -17165,5 +17165,77 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-09-09T10:01:02.381Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "nuss"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Bueno",
+          "tags": [],
+          "nameEnglish": "Bueno"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [],
+          "nameEnglish": "Blueberry Quark"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Cookie dough chocolate caramel",
+          "tags": [],
+          "nameEnglish": "Cookie dough chocolate caramel"
+        },
+        {
+          "name": "Maple Walnut",
+          "tags": [
+            "nuss"
+          ],
+          "nameEnglish": "Maple Walnut"
+        },
+        {
+          "name": "Amalfi Zitrone",
+          "tags": [],
+          "nameEnglish": "Amalfi Lemon"
+        },
+        {
+          "name": "Tonka",
+          "tags": [],
+          "nameEnglish": "Tonka"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]

@@ -3,92 +3,70 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Pistazie",
         "tags": [
-          "nuss",
-          "milk"
+          "nuss"
         ],
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
+        "name": "Bueno",
+        "tags": [],
+        "nameEnglish": "Bueno"
       },
       {
         "name": "Heidelbeer Quark",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Blueberry Quark"
       },
       {
-        "name": "Salted Caramel",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Salted Caramel"
-      },
-      {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
         "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Cookie Dough Chocolate Caramel",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Cookie Dough Chocolate Caramel"
+        "name": "Cookie dough chocolate caramel",
+        "tags": [],
+        "nameEnglish": "Cookie dough chocolate caramel"
       },
       {
         "name": "Maple Walnut",
         "tags": [
-          "nuss",
-          "vegan"
+          "nuss"
         ],
         "nameEnglish": "Maple Walnut"
       },
       {
-        "name": "Tonka",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Tonka"
+        "name": "Amalfi Zitrone",
+        "tags": [],
+        "nameEnglish": "Amalfi Lemon"
       },
       {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
+        "name": "Tonka",
+        "tags": [],
+        "nameEnglish": "Tonka"
       }
     ],
-    "lastUpdated": "2026-09-08T11:31:05.416Z",
+    "lastUpdated": "2026-09-09T10:01:02.377Z",
     "openUntil": "19:00"
   },
   "buga": {
