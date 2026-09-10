@@ -2,51 +2,75 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokomousse",
-        "tags": [],
-        "nameEnglish": "Chocolate Mousse"
+        "name": "Amalfi Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Amalfi Lemon"
+      },
+      {
+        "name": "Tonka",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Tonka"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Bueno",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Bueno"
+      },
+      {
+        "name": "Heidelbeer Quark",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Blueberry Curd"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Pistazie",
         "tags": [
-          "nuss"
+          "nuss",
+          "milk"
         ],
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Bueno",
-        "tags": [],
-        "nameEnglish": "Bueno"
-      },
-      {
-        "name": "Heidelbeer Quark",
-        "tags": [],
-        "nameEnglish": "Blueberry Quark"
-      },
-      {
-        "name": "Mango",
-        "tags": [],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [],
-        "nameEnglish": "Strawberry Cheesecake"
-      },
-      {
-        "name": "Cookie dough chocolate caramel",
-        "tags": [],
-        "nameEnglish": "Cookie dough chocolate caramel"
+        "name": "Haselnuss Crunch",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Maple Walnut",
@@ -56,17 +80,14 @@
         "nameEnglish": "Maple Walnut"
       },
       {
-        "name": "Amalfi Zitrone",
-        "tags": [],
-        "nameEnglish": "Amalfi Lemon"
-      },
-      {
-        "name": "Tonka",
-        "tags": [],
-        "nameEnglish": "Tonka"
+        "name": "Schokomousse",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Chocolate Mousse"
       }
     ],
-    "lastUpdated": "2026-09-09T10:01:02.377Z",
+    "lastUpdated": "2026-09-10T08:01:07.439Z",
     "openUntil": "19:00"
   },
   "buga": {

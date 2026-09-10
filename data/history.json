@@ -17237,5 +17237,98 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-09-10T08:01:07.442Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Amalfi Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Amalfi Lemon"
+        },
+        {
+          "name": "Tonka",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Tonka"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Bueno",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Bueno"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Blueberry Curd"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "nuss",
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Maple Walnut",
+          "tags": [
+            "nuss"
+          ],
+          "nameEnglish": "Maple Walnut"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]
