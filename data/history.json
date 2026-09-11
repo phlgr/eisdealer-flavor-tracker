@@ -17330,5 +17330,87 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-09-11T11:30:56.661Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "nuss"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Bueno",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Bueno"
+        },
+        {
+          "name": "White Choc Himbeere",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "White Chocolate Raspberry"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Amalfi Zitrone",
+          "tags": [],
+          "nameEnglish": "Amalfi Lemon"
+        },
+        {
+          "name": "Tonka",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Tonka"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]
