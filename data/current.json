@@ -3,32 +3,39 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Pistazie",
         "tags": [
-          "nuss"
+          "nuss",
+          "milk"
         ],
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Bueno",
+        "name": "Lotus Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Bueno"
+        "nameEnglish": "Lotus Cheesecake"
       },
       {
         "name": "White Choc Himbeere",
@@ -39,7 +46,9 @@
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
@@ -65,7 +74,9 @@
       },
       {
         "name": "Amalfi Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Amalfi Lemon"
       },
       {
@@ -76,11 +87,16 @@
         "nameEnglish": "Tonka"
       }
     ],
-    "lastUpdated": "2026-09-11T11:30:56.658Z",
+    "lastUpdated": "2026-09-12T12:31:19.441Z",
     "openUntil": "19:00"
   },
   "buga": {
     "flavors": [
+      {
+        "name": "Cookie Dough Choc Caramel",
+        "tags": [],
+        "nameEnglish": "Cookie Dough - Chocolate - Caramel"
+      },
       {
         "name": "Schokomousse",
         "tags": [
@@ -89,46 +105,40 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
+        "name": "Kokos Mango Sticky Rice",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Coconut - Mango - Sticky Rice"
+      },
+      {
         "name": "Vanille",
         "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Salted Caramel",
+        "name": "White Choc Himbeer",
         "tags": [],
-        "nameEnglish": "Salted Caramel"
+        "nameEnglish": "White Chocolate - Raspberry"
       },
       {
-        "name": "Erdbeere",
+        "name": "Banana Split",
+        "tags": [],
+        "nameEnglish": "Banana Split"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Zitrone",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Joghurt",
-        "tags": [],
-        "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Zimtschnecke",
-        "tags": [],
-        "nameEnglish": "Cinnamon Roll"
-      },
-      {
-        "name": "Bueno",
-        "tags": [],
-        "nameEnglish": "Bueno"
+        "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-09-06T15:03:44.519Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-09-12T12:31:19.442Z"
   }
 }

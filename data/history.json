@@ -17412,5 +17412,148 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-09-12T12:31:19.445Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "nuss",
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Lotus Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Lotus Cheesecake"
+        },
+        {
+          "name": "White Choc Himbeere",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "White Chocolate Raspberry"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Amalfi Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Amalfi Lemon"
+        },
+        {
+          "name": "Tonka",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Tonka"
+        }
+      ],
+      "openUntil": "19:00"
+    },
+    "buga": {
+      "flavors": [
+        {
+          "name": "Cookie Dough Choc Caramel",
+          "tags": [],
+          "nameEnglish": "Cookie Dough - Chocolate - Caramel"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Kokos Mango Sticky Rice",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Coconut - Mango - Sticky Rice"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "White Choc Himbeer",
+          "tags": [],
+          "nameEnglish": "White Chocolate - Raspberry"
+        },
+        {
+          "name": "Banana Split",
+          "tags": [],
+          "nameEnglish": "Banana Split"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        }
+      ]
+    }
   }
 ]
