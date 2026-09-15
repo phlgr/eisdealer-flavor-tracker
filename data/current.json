@@ -3,91 +3,66 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
-      },
-      {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Pistazie",
-        "tags": [
-          "nuss",
-          "milk"
-        ],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Lotus Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Lotus Cheesecake"
-      },
-      {
-        "name": "White Choc Himbeere",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "White Chocolate Raspberry"
-      },
-      {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "name": "Bananen Split",
+        "tags": [],
+        "nameEnglish": "Banana Split"
       },
       {
-        "name": "Haselnuss Crunch",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Hazelnut Crunch"
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
       },
       {
         "name": "Schokolade",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate"
       },
       {
-        "name": "Amalfi Zitron",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Amalfi Lemon"
+        "name": "Cookie Dough Chocolate Caramel",
+        "tags": [],
+        "nameEnglish": "Cookie Dough Chocolate Caramel"
       },
       {
-        "name": "Tonka",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Tonka"
+        "name": "Joghurt Honig Walnuss",
+        "tags": [],
+        "nameEnglish": "Yogurt Honey Walnut"
+      },
+      {
+        "name": "Lotus Cheesecake",
+        "tags": [],
+        "nameEnglish": "Lotus Cheesecake"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Milchreis Zimt",
+        "tags": [],
+        "nameEnglish": "Rice Pudding Cinnamon"
       }
     ],
-    "lastUpdated": "2026-09-14T10:30:54.940Z",
+    "lastUpdated": "2026-09-15T09:30:59.269Z",
     "openUntil": "19:00"
   },
   "buga": {
