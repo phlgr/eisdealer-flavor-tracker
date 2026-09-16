@@ -18,7 +18,9 @@
       },
       {
         "name": "Bananen Split",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Banana Split"
       },
       {
@@ -28,41 +30,57 @@
       },
       {
         "name": "Schokolade",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Chocolate"
       },
       {
         "name": "Cookie Dough Chocolate Caramel",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Cookie Dough Chocolate Caramel"
       },
       {
         "name": "Joghurt Honig Walnuss",
-        "tags": [],
+        "tags": [
+          "nuss",
+          "milk"
+        ],
         "nameEnglish": "Yogurt Honey Walnut"
       },
       {
-        "name": "Lotus Cheesecake",
-        "tags": [],
-        "nameEnglish": "Lotus Cheesecake"
-      },
-      {
         "name": "Pistazie",
-        "tags": [],
+        "tags": [
+          "nuss",
+          "milk"
+        ],
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Vanille",
-        "tags": [],
-        "nameEnglish": "Vanilla"
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Milchreis Zimt",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Rice Pudding Cinnamon"
+      },
+      {
+        "name": "Vanille",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Vanilla"
       }
     ],
-    "lastUpdated": "2026-09-15T09:30:59.269Z",
+    "lastUpdated": "2026-09-16T11:31:01.254Z",
     "openUntil": "19:00"
   },
   "buga": {
