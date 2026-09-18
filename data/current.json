@@ -2,14 +2,19 @@
   "main": {
     "flavors": [
       {
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
+      },
+      {
         "name": "Schokomousse",
         "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Erdbeere",
+        "name": "Strawberry Cheesecake",
         "tags": [],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Mango",
@@ -17,70 +22,49 @@
         "nameEnglish": "Mango"
       },
       {
-        "name": "Bananen Split",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Banana Split"
-      },
-      {
         "name": "Zitrone",
         "tags": [],
         "nameEnglish": "Lemon"
       },
       {
+        "name": "Joghurt Erdbeer",
+        "tags": [],
+        "nameEnglish": "Strawberry Yogurt"
+      },
+      {
         "name": "Schokolade",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate"
       },
       {
-        "name": "Cookie Dough Chocolate Caramel",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Cookie Dough Chocolate Caramel"
+        "name": "Bananen Split",
+        "tags": [],
+        "nameEnglish": "Banana Split"
       },
       {
-        "name": "Joghurt Honig Walnuss",
-        "tags": [
-          "nuss",
-          "milk"
-        ],
-        "nameEnglish": "Yogurt Honey Walnut"
+        "name": "Crunchy Peanutbutter",
+        "tags": [],
+        "nameEnglish": "Crunchy Peanut Butter"
+      },
+      {
+        "name": "Heidelbeer Quark",
+        "tags": [],
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Pistazie",
         "tags": [
-          "nuss",
-          "milk"
+          "nuss"
         ],
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Cheesecake"
-      },
-      {
-        "name": "Milchreis Zimt",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Rice Pudding Cinnamon"
-      },
-      {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
+        "name": "Limette Minze",
+        "tags": [],
+        "nameEnglish": "Lime Mint"
       }
     ],
-    "lastUpdated": "2026-09-16T11:31:01.254Z",
+    "lastUpdated": "2026-09-18T12:30:52.523Z",
     "openUntil": "19:00"
   },
   "buga": {
