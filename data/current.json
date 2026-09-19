@@ -3,52 +3,72 @@
     "flavors": [
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Strawberry Cheesecake",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Joghurt Erdbeer",
-        "tags": [],
-        "nameEnglish": "Strawberry Yogurt"
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yogurt Strawberry"
       },
       {
         "name": "Schokolade",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Chocolate"
       },
       {
         "name": "Bananen Split",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Banana Split"
       },
       {
         "name": "Crunchy Peanutbutter",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Crunchy Peanut Butter"
       },
       {
         "name": "Heidelbeer Quark",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Blueberry Quark"
       },
       {
@@ -60,12 +80,13 @@
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       }
     ],
-    "lastUpdated": "2026-09-18T12:30:52.523Z",
-    "openUntil": "19:00"
+    "lastUpdated": "2026-09-19T13:01:27.884Z"
   },
   "buga": {
     "flavors": [
