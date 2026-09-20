@@ -2,6 +2,48 @@
   "main": {
     "flavors": [
       {
+        "name": "Vanille Brownie",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Vanilla Brownie"
+      },
+      {
+        "name": "Kokos Mango Sticky Rice",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Coconut Mango Sticky Rice"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Limette Minze",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Mango"
+      },
+      {
         "name": "Vanille",
         "tags": [
           "milk"
@@ -9,39 +51,19 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Strawberry Cheesecake",
+        "name": "Salted Caramel",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Salted Caramel"
       },
       {
-        "name": "Mango",
+        "name": "Pistazie",
         "tags": [
-          "vegan"
+          "milk",
+          "nuss"
         ],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Joghurt Erdbeer",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt Strawberry"
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Schokolade",
@@ -51,42 +73,22 @@
         "nameEnglish": "Chocolate"
       },
       {
-        "name": "Bananen Split",
+        "name": "Kokos",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Banana Split"
+        "nameEnglish": "Coconut"
       },
       {
-        "name": "Crunchy Peanutbutter",
+        "name": "Stracciatella",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Crunchy Peanut Butter"
-      },
-      {
-        "name": "Heidelbeer Quark",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Blueberry Quark"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [
-          "nuss"
-        ],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
+        "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-09-19T13:01:27.884Z"
+    "lastUpdated": "2026-09-20T09:30:58.823Z",
+    "openUntil": "19:00"
   },
   "buga": {
     "flavors": [
