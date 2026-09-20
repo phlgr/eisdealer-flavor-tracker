@@ -18056,5 +18056,87 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-09-20T10:02:42.610Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Vanille Brownie",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Vanilla Brownie"
+        },
+        {
+          "name": "Kokos Mango Sticky Rice",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Coconut Mango Sticky Rice"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Salted Caramel",
+          "tags": [],
+          "nameEnglish": "Salted Caramel"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "nuss"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Kokos",
+          "tags": [],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Stracciatella",
+          "tags": [],
+          "nameEnglish": "Stracciatella"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]
