@@ -2,18 +2,29 @@
   "main": {
     "flavors": [
       {
-        "name": "Vanille Brownie",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Vanilla Brownie"
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Tiramisu",
+        "tags": [],
+        "nameEnglish": "Tiramisu"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [],
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Stracciatella",
+        "tags": [],
+        "nameEnglish": "Stracciatella"
       },
       {
         "name": "Schokomousse",
@@ -23,13 +34,6 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
         "name": "Zitrone",
         "tags": [
           "vegan"
@@ -37,47 +41,17 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Vanille",
+        "name": "Kokos Mango",
         "tags": [],
-        "nameEnglish": "Vanilla"
+        "nameEnglish": "Coconut-Mango"
       },
       {
-        "name": "Salted Caramel",
+        "name": "Sticky Rice",
         "tags": [],
-        "nameEnglish": "Salted Caramel"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [
-          "nuss"
-        ],
-        "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Schokolade",
-        "tags": [],
-        "nameEnglish": "Chocolate"
-      },
-      {
-        "name": "Kokos",
-        "tags": [],
-        "nameEnglish": "Coconut"
-      },
-      {
-        "name": "Stracciatella",
-        "tags": [],
-        "nameEnglish": "Stracciatella"
+        "nameEnglish": "Sticky Rice"
       }
     ],
-    "lastUpdated": "2026-09-20T10:02:42.608Z",
-    "openUntil": "19:00"
+    "lastUpdated": "2026-09-20T11:01:30.992Z"
   },
   "buga": {
     "flavors": [
