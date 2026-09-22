@@ -3,27 +3,37 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Bienenstich",
-        "tags": [],
-        "nameEnglish": "Bee Sting"
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Bee Sting (Honey Cream Cake)"
       },
       {
         "name": "Kokos",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Coconut"
       },
       {
@@ -33,36 +43,49 @@
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Erdbeer Tiramisu",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Strawberry Tiramisu"
       },
       {
         "name": "Kokos Mango Sticky Rice",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Coconut Mango Sticky Rice"
       },
       {
         "name": "Schokolade",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Chocolate"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Stracciatella",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-09-21T12:01:01.955Z"
+    "lastUpdated": "2026-09-22T10:00:52.764Z",
+    "openUntil": "19:00"
   },
   "buga": {
     "flavors": [
