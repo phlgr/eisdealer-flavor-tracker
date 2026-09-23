@@ -3,37 +3,27 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Bienenstich",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Bee Sting (Honey Cream Cake)"
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
       },
       {
         "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Coconut"
       },
       {
@@ -43,9 +33,7 @@
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
@@ -64,27 +52,21 @@
       },
       {
         "name": "Schokolade",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate"
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Stracciatella",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-09-22T10:00:52.764Z",
+    "lastUpdated": "2026-09-23T14:01:29.207Z",
     "openUntil": "19:00"
   },
   "buga": {

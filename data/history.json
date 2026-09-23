@@ -18351,5 +18351,77 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-09-23T14:01:29.210Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Kokos",
+          "tags": [],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Oreo",
+          "tags": [],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Erdbeer Tiramisu",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry Tiramisu"
+        },
+        {
+          "name": "Kokos Mango Sticky Rice",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Coconut Mango Sticky Rice"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Stracciatella",
+          "tags": [],
+          "nameEnglish": "Stracciatella"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]
