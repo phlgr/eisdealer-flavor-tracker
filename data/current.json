@@ -3,70 +3,93 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Kokos",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Coconut"
       },
       {
         "name": "Oreo",
-        "tags": [],
+        "tags": [
+          "milk",
+          "nuss"
+        ],
         "nameEnglish": "Oreo"
       },
       {
         "name": "Mango",
-        "tags": [],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Erdbeer Tiramisu",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry Tiramisu"
+        "nameEnglish": "Mango"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
+        "name": "Brownie Caramel",
         "tags": [
-          "vegan"
+          "milk",
+          "nuss"
         ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
+        "nameEnglish": "Brownie Caramel"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [
+          "milk",
+          "nuss"
+        ],
+        "nameEnglish": "Pistachio"
       },
       {
         "name": "Schokolade",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Chocolate"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Stracciatella",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-09-23T14:01:29.207Z",
+    "lastUpdated": "2026-09-24T15:31:23.096Z",
     "openUntil": "19:00"
   },
   "buga": {

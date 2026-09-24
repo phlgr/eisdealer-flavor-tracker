@@ -18423,5 +18423,100 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-09-24T15:31:23.101Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Kokos",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "milk",
+            "nuss"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Brownie Caramel",
+          "tags": [
+            "milk",
+            "nuss"
+          ],
+          "nameEnglish": "Brownie Caramel"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "milk",
+            "nuss"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Schokolade",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Chocolate"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Stracciatella",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Stracciatella"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]
