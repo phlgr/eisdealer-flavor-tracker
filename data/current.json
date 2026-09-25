@@ -4,7 +4,7 @@
       {
         "name": "Schokomousse",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Chocolate Mousse"
       },
@@ -18,14 +18,14 @@
       {
         "name": "Limette Minze",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Erdbeere",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Strawberry"
       },
@@ -39,31 +39,30 @@
       {
         "name": "Oreo",
         "tags": [
-          "milk",
-          "nuss"
+          "nuss",
+          "milk"
         ],
         "nameEnglish": "Oreo"
       },
       {
-        "name": "Mango",
+        "name": "Mango Lassi",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Mango Lassi"
       },
       {
-        "name": "Brownie Caramel",
+        "name": "Strawberry Cheesecake",
         "tags": [
-          "milk",
-          "nuss"
+          "milk"
         ],
-        "nameEnglish": "Brownie Caramel"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Pistazie",
         "tags": [
-          "milk",
-          "nuss"
+          "nuss",
+          "milk"
         ],
         "nameEnglish": "Pistachio"
       },
@@ -77,7 +76,7 @@
       {
         "name": "Zitrone",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Lemon"
       },
@@ -89,7 +88,7 @@
         "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-09-24T15:31:23.096Z",
+    "lastUpdated": "2026-09-25T12:31:11.017Z",
     "openUntil": "19:00"
   },
   "buga": {
