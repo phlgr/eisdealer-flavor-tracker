@@ -2,94 +2,118 @@
   "main": {
     "flavors": [
       {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coconut"
-      },
-      {
-        "name": "Oreo",
-        "tags": [
-          "nuss",
-          "milk"
-        ],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Mango Lassi",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Mango Lassi"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Cheesecake"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [
-          "nuss",
-          "milk"
-        ],
-        "nameEnglish": "Pistachio"
-      },
-      {
         "name": "Schokolade",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate"
       },
       {
-        "name": "Zitrone",
+        "name": "Vanille Brownie",
         "tags": [
           "vegan"
         ],
+        "nameEnglish": "Vanilla Brownie"
+      },
+      {
+        "name": "Milchreis Zimt",
+        "tags": [],
+        "nameEnglish": "Rice Pudding Cinnamon"
+      },
+      {
+        "name": "Zimtschnecke",
+        "tags": [],
+        "nameEnglish": "Cinnamon Roll"
+      },
+      {
+        "name": "Mango Lassi",
+        "tags": [],
+        "nameEnglish": "Mango Lassi"
+      },
+      {
+        "name": "Lotus Cheesecake",
+        "tags": [],
+        "nameEnglish": "Lotus Cheesecake"
+      },
+      {
+        "name": "Joghurt Erdbeere",
+        "tags": [],
+        "nameEnglish": "Yogurt Strawberry"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Stracciatella",
+        "name": "Oreo",
+        "tags": [],
+        "nameEnglish": "Oreo"
+      },
+      {
+        "name": "Minze",
+        "tags": [],
+        "nameEnglish": "Mint"
+      },
+      {
+        "name": "White Choc Himbeer",
+        "tags": [],
+        "nameEnglish": "White Chocolate Raspberry"
+      },
+      {
+        "name": "Kokos Mango Sticky Rice",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Stracciatella"
+        "nameEnglish": "Coconut Mango Sticky Rice"
+      },
+      {
+        "name": "Wassermelone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Watermelon"
+      },
+      {
+        "name": "Joghurt",
+        "tags": [],
+        "nameEnglish": "Yogurt"
+      },
+      {
+        "name": "Salted Caramel",
+        "tags": [],
+        "nameEnglish": "Salted Caramel"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [],
+        "nameEnglish": "Hazelnut Crunch"
+      },
+      {
+        "name": "Mango",
+        "tags": [],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Cheesecake",
+        "tags": [],
+        "nameEnglish": "Cheesecake"
+      },
+      {
+        "name": "Kokos",
+        "tags": [],
+        "nameEnglish": "Coconut"
       }
     ],
-    "lastUpdated": "2026-09-25T12:31:11.017Z",
-    "openUntil": "19:00"
+    "lastUpdated": "2026-09-26T08:31:13.735Z"
   },
   "buga": {
     "flavors": [
