@@ -82,43 +82,16 @@
   "buga": {
     "flavors": [
       {
-        "name": "Cookie Dough Choc Caramel",
-        "tags": [],
-        "nameEnglish": "Cookie Dough - Chocolate - Caramel"
-      },
-      {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut - Mango - Sticky Rice"
-      },
-      {
         "name": "Vanille",
         "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "White Choc Himbeer",
-        "tags": [],
-        "nameEnglish": "White Chocolate - Raspberry"
-      },
-      {
         "name": "Banana Split",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Banana Split"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [],
-        "nameEnglish": "Pistachio"
       },
       {
         "name": "Zitrone",
@@ -126,8 +99,28 @@
           "vegan"
         ],
         "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Salted Caramel",
+        "tags": [],
+        "nameEnglish": "Salted Caramel"
+      },
+      {
+        "name": "Brownie Caramel",
+        "tags": [],
+        "nameEnglish": "Brownie Caramel"
+      },
+      {
+        "name": "Bienenstich",
+        "tags": [],
+        "nameEnglish": "Bee Sting Cake"
+      },
+      {
+        "name": "White Choc",
+        "tags": [],
+        "nameEnglish": "White Chocolate"
       }
     ],
-    "lastUpdated": "2026-09-12T12:31:19.442Z"
+    "lastUpdated": "2026-09-27T14:00:49.691Z"
   }
 }

@@ -18812,5 +18812,51 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-09-27T14:00:49.698Z",
+    "buga": {
+      "flavors": [
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Banana Split",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Banana Split"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Salted Caramel",
+          "tags": [],
+          "nameEnglish": "Salted Caramel"
+        },
+        {
+          "name": "Brownie Caramel",
+          "tags": [],
+          "nameEnglish": "Brownie Caramel"
+        },
+        {
+          "name": "Bienenstich",
+          "tags": [],
+          "nameEnglish": "Bee Sting Cake"
+        },
+        {
+          "name": "White Choc",
+          "tags": [],
+          "nameEnglish": "White Chocolate"
+        }
+      ]
+    }
   }
 ]
