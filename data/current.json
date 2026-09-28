@@ -8,9 +8,7 @@
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
@@ -19,11 +17,29 @@
         "nameEnglish": "Lime Mint"
       },
       {
+        "name": "Lotus Cheesecake",
+        "tags": [],
+        "nameEnglish": "Lotus Cheesecake"
+      },
+      {
         "name": "Milchreis Zimt",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Milk Rice Cinnamon"
+        "tags": [],
+        "nameEnglish": "Rice Pudding Cinnamon"
+      },
+      {
+        "name": "Kokos",
+        "tags": [],
+        "nameEnglish": "Coconut"
+      },
+      {
+        "name": "Omas Apfelkuchen",
+        "tags": [],
+        "nameEnglish": "Grandma's Apple Pie"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [],
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Erdbeere",
@@ -31,37 +47,9 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Stracciatella",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Stracciatella"
-      },
-      {
-        "name": "Oreo",
+        "name": "Heidelbeer Quark",
         "tags": [],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Mango Lassi",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Mango Lassi"
-      },
-      {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
-      },
-      {
-        "name": "Salted Caramel",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Salted Caramel"
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Zitrone",
@@ -70,13 +58,11 @@
       },
       {
         "name": "Belgische Waffel",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Belgian Waffle"
       }
     ],
-    "lastUpdated": "2026-09-27T08:00:54.826Z",
+    "lastUpdated": "2026-09-28T10:31:19.666Z",
     "openUntil": "19:00"
   },
   "buga": {
