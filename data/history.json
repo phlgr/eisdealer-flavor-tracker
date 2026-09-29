@@ -18926,5 +18926,73 @@
       ],
       "openUntil": "19:00"
     }
+  },
+  {
+    "timestamp": "2026-09-29T10:01:13.587Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Omas Apfelkuchen",
+          "tags": [],
+          "nameEnglish": "Grandma's Apple Pie"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Lotus Cheesecake",
+          "tags": [],
+          "nameEnglish": "Lotus Cheesecake"
+        },
+        {
+          "name": "Milchreis Zimt",
+          "tags": [],
+          "nameEnglish": "Rice Pudding Cinnamon"
+        },
+        {
+          "name": "Kokos",
+          "tags": [],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Heidelbeer Quark",
+          "tags": [],
+          "nameEnglish": "Blueberry Curd"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [],
+          "nameEnglish": "Yogurt"
+        }
+      ],
+      "openUntil": "19:00"
+    }
   }
 ]

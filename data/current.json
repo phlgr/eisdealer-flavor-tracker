@@ -17,6 +17,21 @@
         "nameEnglish": "Lime Mint"
       },
       {
+        "name": "Omas Apfelkuchen",
+        "tags": [],
+        "nameEnglish": "Grandma's Apple Pie"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
+      },
+      {
         "name": "Lotus Cheesecake",
         "tags": [],
         "nameEnglish": "Lotus Cheesecake"
@@ -32,37 +47,22 @@
         "nameEnglish": "Coconut"
       },
       {
-        "name": "Omas Apfelkuchen",
-        "tags": [],
-        "nameEnglish": "Grandma's Apple Pie"
-      },
-      {
         "name": "Haselnuss Crunch",
         "tags": [],
         "nameEnglish": "Hazelnut Crunch"
       },
       {
-        "name": "Erdbeere",
-        "tags": [],
-        "nameEnglish": "Strawberry"
-      },
-      {
         "name": "Heidelbeer Quark",
         "tags": [],
-        "nameEnglish": "Blueberry Quark"
+        "nameEnglish": "Blueberry Curd"
       },
       {
-        "name": "Zitrone",
+        "name": "Joghurt",
         "tags": [],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Belgische Waffel",
-        "tags": [],
-        "nameEnglish": "Belgian Waffle"
+        "nameEnglish": "Yogurt"
       }
     ],
-    "lastUpdated": "2026-09-28T10:31:19.666Z",
+    "lastUpdated": "2026-09-29T10:01:13.582Z",
     "openUntil": "19:00"
   },
   "buga": {
