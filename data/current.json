@@ -3,66 +3,88 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Omas Apfelkuchen",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Grandma's Apple Pie"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Lotus Cheesecake",
+        "name": "Oreo",
         "tags": [],
-        "nameEnglish": "Lotus Cheesecake"
+        "nameEnglish": "Oreo"
       },
       {
         "name": "Milchreis Zimt",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Rice Pudding Cinnamon"
       },
       {
         "name": "Kokos",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Coconut"
       },
       {
         "name": "Haselnuss Crunch",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Heidelbeer Quark",
-        "tags": [],
-        "nameEnglish": "Blueberry Curd"
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Blueberry Quark"
       },
       {
         "name": "Joghurt",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Yogurt"
       }
     ],
-    "lastUpdated": "2026-09-29T10:01:13.582Z",
+    "lastUpdated": "2026-09-30T09:01:16.094Z",
     "openUntil": "19:00"
   },
   "buga": {
