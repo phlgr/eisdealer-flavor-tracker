@@ -16,6 +16,13 @@
         "nameEnglish": "Vanilla"
       },
       {
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
+      },
+      {
         "name": "Limette Minze",
         "tags": [
           "vegan"
@@ -23,18 +30,11 @@
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Omas Apfelkuchen",
+        "name": "Banana Split",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Grandma's Apple Pie"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
+        "nameEnglish": "Banana Split"
       },
       {
         "name": "Erdbeere",
@@ -44,16 +44,11 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Oreo",
-        "tags": [],
-        "nameEnglish": "Oreo"
-      },
-      {
-        "name": "Milchreis Zimt",
+        "name": "Birne Zimt",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Rice Pudding Cinnamon"
+        "nameEnglish": "Pear Cinnamon"
       },
       {
         "name": "Kokos",
@@ -63,29 +58,37 @@
         "nameEnglish": "Coconut"
       },
       {
-        "name": "Haselnuss Crunch",
+        "name": "Milchreis Zimt",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Hazelnut Crunch"
-      },
-      {
-        "name": "Heidelbeer Quark",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Blueberry Quark"
+        "nameEnglish": "Milk Rice Cinnamon"
       },
       {
         "name": "Joghurt",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Yogurt"
+        "nameEnglish": "Yoghurt"
+      },
+      {
+        "name": "Brownie Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Brownie Cheesecake"
+      },
+      {
+        "name": "Pistazie",
+        "tags": [
+          "nuss",
+          "milk"
+        ],
+        "nameEnglish": "Pistachio"
       }
     ],
-    "lastUpdated": "2026-09-30T09:01:16.094Z",
-    "openUntil": "19:00"
+    "lastUpdated": "2026-10-02T09:30:59.101Z",
+    "openUntil": "18:00"
   },
   "buga": {
     "flavors": [
