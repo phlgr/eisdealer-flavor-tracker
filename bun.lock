@@ -29,7 +29,7 @@
       "name": "@eisdealer/scraper",
       "dependencies": {
         "@google/genai": "2.24.0",
-        "arktype": "2.2.5",
+        "arktype": "2.2.6",
         "ffmpeg-static": "5.3.0",
         "playwright": "1.63.0",
       },
@@ -39,9 +39,9 @@
     },
   },
   "packages": {
-    "@ark/schema": ["@ark/schema@0.56.4", "", { "dependencies": { "@ark/util": "0.56.4" } }, "sha512-nd4OqaWdKZJeGF5zNmZysDQO7NyyJ1ycl4S7i16Hj1VxqL+x72Z66lOn7ErpsoMUZtCtslAMHMjqJhuQSxciyw=="],
+    "@ark/schema": ["@ark/schema@0.56.5", "", { "dependencies": { "@ark/util": "0.56.5" } }, "sha512-ZSh8eGK1Z7LNHPZe0b1Q2XuV1mgznv6dpRmerzUmkfnDQ99GK9xYfxquyuG6a/32IsbpC45G+NELCaIQn+NJgQ=="],
 
-    "@ark/util": ["@ark/util@0.56.4", "", {}, "sha512-KKqwGSia44cvuuDY70jGfbiUdG2E8F2cM4npdqvJ22S5a0LknlwG6nIrfQG1nF8fzxpzP30098wp0a8ASs0prQ=="],
+    "@ark/util": ["@ark/util@0.56.5", "", {}, "sha512-Klxtj2QlkLnl5tdaUUtLHqRHdmQNUsuJelkAj/vyIK6crz/xT0kbUvF2sIf+fIDkhit80OGf/1lBmmDn1bBWpw=="],
 
     "@babel/code-frame": ["@babel/code-frame@7.29.7", "", { "dependencies": { "@babel/helper-validator-identifier": "^7.29.7", "js-tokens": "^4.0.0", "picocolors": "^1.1.1" } }, "sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw=="],
 
@@ -381,9 +381,9 @@
 
     "argparse": ["argparse@2.0.1", "", {}, "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q=="],
 
-    "arkregex": ["arkregex@0.0.10", "", { "dependencies": { "@ark/util": "0.56.4" } }, "sha512-+iDWBYBjH8w7wqEv8VY4loBwRldFxX84KNwKbobH3FJPay/18XI9sTesmXYpKyIrgbC5z/s16+vSJYHCC9FEvQ=="],
+    "arkregex": ["arkregex@0.0.11", "", { "dependencies": { "@ark/util": "0.56.5" } }, "sha512-b7bu/QijB2MCuRrivlzIc2e7TccVA16eswurQFZbtCzd9tubIdVRh1c3clVRVTdO2ExTXXuoRctkkLIsWNP00w=="],
 
-    "arktype": ["arktype@2.2.5", "", { "dependencies": { "@ark/schema": "0.56.4", "@ark/util": "0.56.4", "arkregex": "0.0.10" } }, "sha512-c9oqY1eBab2LceqvpWX50xae2HB8P/nJPxRhuhPVf5lEDi3WQpf7WQflJFMsyCiA3NGh6zENOlse30gWBzlwDg=="],
+    "arktype": ["arktype@2.2.6", "", { "dependencies": { "@ark/schema": "0.56.5", "@ark/util": "0.56.5", "arkregex": "0.0.11" } }, "sha512-0ygTf58QUodmxeEXdGm/1DGzd2lOdER5rIrtNWrCUV8QUMYdv0Ig1vzC9dwP1GP86aMgvrrI6k9FvYncDxp4tQ=="],
 
     "babel-dead-code-elimination": ["babel-dead-code-elimination@1.0.12", "", { "dependencies": { "@babel/core": "^7.23.7", "@babel/parser": "^7.23.6", "@babel/traverse": "^7.23.7", "@babel/types": "^7.23.6" } }, "sha512-GERT7L2TiYcYDtYk1IpD+ASAYXjKbLTDPhBtYj7X1NuRMDTMtAx9kyBenub1Ev41lo91OHCKdmP+egTDmfQ7Ig=="],
 
