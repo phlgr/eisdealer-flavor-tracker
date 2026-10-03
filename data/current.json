@@ -6,7 +6,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate mousse"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
@@ -30,11 +30,11 @@
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Banana Split",
+        "name": "White Choc Himbeere",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Banana Split"
+        "nameEnglish": "White Chocolate Raspberry"
       },
       {
         "name": "Erdbeere",
@@ -58,11 +58,11 @@
         "nameEnglish": "Coconut"
       },
       {
-        "name": "Milchreis Zimt",
+        "name": "Zimtschnecke",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Rice Pudding Cinnamon"
+        "nameEnglish": "Cinnamon Roll"
       },
       {
         "name": "Joghurt",
@@ -72,22 +72,21 @@
         "nameEnglish": "Yogurt"
       },
       {
-        "name": "Brownie Cheesecake",
+        "name": "Stracciatella",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Brownie Cheesecake"
+        "nameEnglish": "Stracciatella"
       },
       {
-        "name": "Pistazie",
+        "name": "Joghurt Walnuss Honig",
         "tags": [
-          "nuss",
           "milk"
         ],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Yogurt Walnut Honey"
       }
     ],
-    "lastUpdated": "2026-10-03T08:30:52.051Z",
+    "lastUpdated": "2026-10-03T11:00:59.897Z",
     "openUntil": "18:00"
   },
   "buga": {
