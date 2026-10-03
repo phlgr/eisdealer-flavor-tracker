@@ -19177,5 +19177,98 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-10-03T08:30:52.054Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Banana Split",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Banana Split"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Birne Zimt",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Pear Cinnamon"
+        },
+        {
+          "name": "Kokos",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Milchreis Zimt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Rice Pudding Cinnamon"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Brownie Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Brownie Cheesecake"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "nuss",
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        }
+      ],
+      "openUntil": "18:00"
+    }
   }
 ]

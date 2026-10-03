@@ -6,7 +6,7 @@
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Chocolate mousse"
       },
       {
         "name": "Vanille",
@@ -62,14 +62,14 @@
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Milk Rice Cinnamon"
+        "nameEnglish": "Rice Pudding Cinnamon"
       },
       {
         "name": "Joghurt",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Yoghurt"
+        "nameEnglish": "Yogurt"
       },
       {
         "name": "Brownie Cheesecake",
@@ -87,7 +87,7 @@
         "nameEnglish": "Pistachio"
       }
     ],
-    "lastUpdated": "2026-10-02T09:30:59.101Z",
+    "lastUpdated": "2026-10-03T08:30:52.051Z",
     "openUntil": "18:00"
   },
   "buga": {
