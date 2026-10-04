@@ -96,11 +96,28 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Banana Split",
+        "name": "Schokomousse",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Banana Split"
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
+        "name": "Joghurt Walnuss Honig",
+        "tags": [],
+        "nameEnglish": "Yogurt-Walnut-Honey"
+      },
+      {
+        "name": "Waldfrucht",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Forest Fruit"
+      },
+      {
+        "name": "Belgische Waffel",
+        "tags": [],
+        "nameEnglish": "Belgian Waffle"
       },
       {
         "name": "Zitrone",
@@ -115,21 +132,13 @@
         "nameEnglish": "Salted Caramel"
       },
       {
-        "name": "Brownie Caramel",
-        "tags": [],
-        "nameEnglish": "Brownie Caramel"
-      },
-      {
-        "name": "Bienenstich",
-        "tags": [],
-        "nameEnglish": "Bee Sting Cake"
-      },
-      {
-        "name": "White Choc",
-        "tags": [],
-        "nameEnglish": "White Chocolate"
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
       }
     ],
-    "lastUpdated": "2026-09-27T14:00:49.691Z"
+    "lastUpdated": "2026-10-04T11:31:04.305Z"
   }
 }

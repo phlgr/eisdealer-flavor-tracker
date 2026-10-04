@@ -19453,5 +19453,60 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-10-04T11:31:04.308Z",
+    "buga": {
+      "flavors": [
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Joghurt Walnuss Honig",
+          "tags": [],
+          "nameEnglish": "Yogurt-Walnut-Honey"
+        },
+        {
+          "name": "Waldfrucht",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Forest Fruit"
+        },
+        {
+          "name": "Belgische Waffel",
+          "tags": [],
+          "nameEnglish": "Belgian Waffle"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Salted Caramel",
+          "tags": [],
+          "nameEnglish": "Salted Caramel"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        }
+      ]
+    }
   }
 ]
