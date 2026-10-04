@@ -9,32 +9,11 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Zitrone",
+        "name": "Oreo",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lime Mint"
-      },
-      {
-        "name": "White Choc Himbeere",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "White Chocolate Raspberry"
+        "nameEnglish": "Oreo"
       },
       {
         "name": "Erdbeere",
@@ -44,11 +23,46 @@
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Birne Zimt",
+        "name": "Limette Minze",
         "tags": [
           "vegan"
         ],
-        "nameEnglish": "Pear Cinnamon"
+        "nameEnglish": "Lime Mint"
+      },
+      {
+        "name": "Crunchy Peanutbutter",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Crunchy Peanut Butter"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Vanille",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Kokos",
@@ -70,24 +84,9 @@
           "milk"
         ],
         "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Stracciatella",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Stracciatella"
-      },
-      {
-        "name": "Joghurt Walnuss Honig",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Yogurt Walnut Honey"
       }
     ],
-    "lastUpdated": "2026-10-03T11:00:59.897Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-10-04T10:01:12.931Z"
   },
   "buga": {
     "flavors": [
