@@ -30,13 +30,6 @@
         "nameEnglish": "Lime Mint"
       },
       {
-        "name": "Crunchy Peanutbutter",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Crunchy Peanut Butter"
-      },
-      {
         "name": "Mango",
         "tags": [
           "vegan"
@@ -65,28 +58,36 @@
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coconut"
-      },
-      {
-        "name": "Zimtschnecke",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Cinnamon Roll"
-      },
-      {
         "name": "Joghurt",
         "tags": [
           "milk"
         ],
         "nameEnglish": "Yogurt"
+      },
+      {
+        "name": "Belgische Waffel",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Belgian Waffle"
+      },
+      {
+        "name": "Crunchy Peanutbutter",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Crunchy Peanut Butter"
+      },
+      {
+        "name": "Stracciatella",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-10-04T10:01:12.931Z"
+    "lastUpdated": "2026-10-05T11:01:08.953Z",
+    "openUntil": "18:00"
   },
   "buga": {
     "flavors": [
