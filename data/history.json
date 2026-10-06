@@ -19600,5 +19600,77 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-10-06T10:31:00.364Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate mousse"
+        },
+        {
+          "name": "Oreo",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Oreo"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Bienenstich",
+          "tags": [],
+          "nameEnglish": "Bienenstich (Bee Sting Cake)"
+        },
+        {
+          "name": "Joghurt",
+          "tags": [],
+          "nameEnglish": "Yogurt"
+        },
+        {
+          "name": "Belgische Waffel",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Belgian Waffle"
+        },
+        {
+          "name": "Crunchy Peanutbutter",
+          "tags": [],
+          "nameEnglish": "Crunchy Peanut Butter"
+        },
+        {
+          "name": "Stracciatella",
+          "tags": [],
+          "nameEnglish": "Stracciatella"
+        }
+      ],
+      "openUntil": "18:00"
+    }
   }
 ]

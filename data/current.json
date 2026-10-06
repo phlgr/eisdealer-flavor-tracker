@@ -3,10 +3,8 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
+        "tags": [],
+        "nameEnglish": "Chocolate mousse"
       },
       {
         "name": "Oreo",
@@ -17,51 +15,37 @@
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "name": "Bienenstich",
+        "tags": [],
+        "nameEnglish": "Bienenstich (Bee Sting Cake)"
       },
       {
         "name": "Joghurt",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Yogurt"
       },
       {
@@ -73,20 +57,16 @@
       },
       {
         "name": "Crunchy Peanutbutter",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Crunchy Peanut Butter"
       },
       {
         "name": "Stracciatella",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Stracciatella"
       }
     ],
-    "lastUpdated": "2026-10-05T11:01:08.953Z",
+    "lastUpdated": "2026-10-06T10:31:00.360Z",
     "openUntil": "18:00"
   },
   "buga": {
