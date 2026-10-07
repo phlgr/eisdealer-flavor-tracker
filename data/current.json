@@ -4,14 +4,7 @@
       {
         "name": "Schokomousse",
         "tags": [],
-        "nameEnglish": "Chocolate mousse"
-      },
-      {
-        "name": "Oreo",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Oreo"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Erdbeere",
@@ -34,39 +27,55 @@
         "nameEnglish": "Lemon"
       },
       {
+        "name": "Zimtschnecke",
+        "tags": [],
+        "nameEnglish": "Cinnamon Roll"
+      },
+      {
         "name": "Vanille",
-        "tags": [],
-        "nameEnglish": "Vanilla"
-      },
-      {
-        "name": "Bienenstich",
-        "tags": [],
-        "nameEnglish": "Bienenstich (Bee Sting Cake)"
-      },
-      {
-        "name": "Joghurt",
-        "tags": [],
-        "nameEnglish": "Yogurt"
-      },
-      {
-        "name": "Belgische Waffel",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Belgian Waffle"
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Mango Lassi",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Mango Lassi"
+      },
+      {
+        "name": "Schokolade",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Chocolate"
+      },
+      {
+        "name": "Kokos",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Coconut"
       },
       {
         "name": "Crunchy Peanutbutter",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Crunchy Peanut Butter"
       },
       {
-        "name": "Stracciatella",
-        "tags": [],
-        "nameEnglish": "Stracciatella"
+        "name": "Pistazie",
+        "tags": [
+          "nuss",
+          "milk"
+        ],
+        "nameEnglish": "Pistachio"
       }
     ],
-    "lastUpdated": "2026-10-06T10:31:00.360Z",
+    "lastUpdated": "2026-10-07T10:00:52.018Z",
     "openUntil": "18:00"
   },
   "buga": {
