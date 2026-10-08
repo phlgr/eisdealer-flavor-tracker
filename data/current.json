@@ -3,32 +3,44 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Zimtschnecke",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Cinnamon Roll"
       },
       {
@@ -39,18 +51,18 @@
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Mango Lassi",
+        "name": "Buttermilch Mango",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Mango Lassi"
+        "nameEnglish": "Buttermilk Mango"
       },
       {
-        "name": "Schokolade",
+        "name": "Gebrannte Mandel",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Chocolate"
+        "nameEnglish": "Roasted Almond"
       },
       {
         "name": "Kokos",
@@ -69,13 +81,12 @@
       {
         "name": "Pistazie",
         "tags": [
-          "nuss",
           "milk"
         ],
         "nameEnglish": "Pistachio"
       }
     ],
-    "lastUpdated": "2026-10-07T10:00:52.018Z",
+    "lastUpdated": "2026-10-08T12:31:06.936Z",
     "openUntil": "18:00"
   },
   "buga": {
