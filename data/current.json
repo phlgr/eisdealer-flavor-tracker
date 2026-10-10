@@ -3,44 +3,32 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Limette Minze",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Zimtschnecke",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Cinnamon Roll"
       },
       {
@@ -76,7 +64,7 @@
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Crunchy Peanut Butter"
+        "nameEnglish": "Crunchy Peanutbutter"
       },
       {
         "name": "Pistazie",
@@ -86,7 +74,7 @@
         "nameEnglish": "Pistachio"
       }
     ],
-    "lastUpdated": "2026-10-08T12:31:06.936Z",
+    "lastUpdated": "2026-10-10T10:31:12.253Z",
     "openUntil": "18:00"
   },
   "buga": {

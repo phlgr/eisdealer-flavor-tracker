@@ -19845,5 +19845,85 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-10-10T10:31:12.256Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Limette Minze",
+          "tags": [],
+          "nameEnglish": "Lime Mint"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Zimtschnecke",
+          "tags": [],
+          "nameEnglish": "Cinnamon Roll"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Buttermilch Mango",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Buttermilk Mango"
+        },
+        {
+          "name": "Gebrannte Mandel",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Roasted Almond"
+        },
+        {
+          "name": "Kokos",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Coconut"
+        },
+        {
+          "name": "Crunchy Peanutbutter",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Crunchy Peanutbutter"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        }
+      ],
+      "openUntil": "18:00"
+    }
   }
 ]
