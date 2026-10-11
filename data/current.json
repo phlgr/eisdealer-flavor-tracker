@@ -3,78 +3,95 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Limette Minze",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lime Mint"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Zimtschnecke",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Cinnamon Roll"
       },
       {
-        "name": "Vanille",
+        "name": "Pistazie",
         "tags": [
+          "nuss",
           "milk"
         ],
-        "nameEnglish": "Vanilla"
+        "nameEnglish": "Pistachio"
+      },
+      {
+        "name": "Crunchy Peanutbutter",
+        "tags": [
+          "nuss",
+          "milk"
+        ],
+        "nameEnglish": "Crunchy Peanut Butter"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [
+          "nuss",
+          "milk"
+        ],
+        "nameEnglish": "Hazelnut Crunch"
+      },
+      {
+        "name": "Pflaumenkuchen",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Plum Cake"
       },
       {
         "name": "Buttermilch Mango",
         "tags": [
+          "nuss",
           "milk"
         ],
         "nameEnglish": "Buttermilk Mango"
       },
       {
-        "name": "Gebrannte Mandel",
+        "name": "Vanille",
         "tags": [
+          "nuss",
           "milk"
         ],
-        "nameEnglish": "Roasted Almond"
-      },
-      {
-        "name": "Kokos",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Coconut"
-      },
-      {
-        "name": "Crunchy Peanutbutter",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Crunchy Peanutbutter"
-      },
-      {
-        "name": "Pistazie",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Vanilla"
       }
     ],
-    "lastUpdated": "2026-10-10T10:31:12.253Z",
+    "lastUpdated": "2026-10-11T08:31:04.496Z",
     "openUntil": "18:00"
   },
   "buga": {
