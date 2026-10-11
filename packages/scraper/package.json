@@ -6,7 +6,7 @@
     "start": "bun run src/index.ts"
   },
   "dependencies": {
-    "@google/genai": "2.27.0",
+    "@google/genai": "2.28.0",
     "arktype": "2.2.8",
     "ffmpeg-static": "5.3.0",
     "playwright": "1.63.0"
