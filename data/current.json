@@ -7,9 +7,14 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Erdbeere",
+        "name": "Vanille",
         "tags": [],
-        "nameEnglish": "Strawberry"
+        "nameEnglish": "Vanilla"
+      },
+      {
+        "name": "Haselnuss Crunch",
+        "tags": [],
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Banana Split",
@@ -19,38 +24,14 @@
         "nameEnglish": "Banana Split"
       },
       {
-        "name": "Mango",
+        "name": "Birne Zimt",
         "tags": [],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Pear Cinnamon"
       },
       {
-        "name": "Zitrone",
+        "name": "Buttermilch Mango",
         "tags": [],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Zimtschnecke",
-        "tags": [],
-        "nameEnglish": "Cinnamon Roll"
-      },
-      {
-        "name": "Erdbeer Tiramisu",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Tiramisu"
-      },
-      {
-        "name": "Omas Apfelkuchen",
-        "tags": [],
-        "nameEnglish": "Grandma's Apple Pie"
-      },
-      {
-        "name": "Haselnuss Crunch",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Hazelnut Crunch"
+        "nameEnglish": "Buttermilk Mango"
       },
       {
         "name": "Pflaumenkuchen",
@@ -58,21 +39,32 @@
         "nameEnglish": "Plum Cake"
       },
       {
-        "name": "Buttermilch Mango",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Buttermilk Mango"
+        "name": "Mango",
+        "tags": [],
+        "nameEnglish": "Mango"
       },
       {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
+        "name": "Zimtschnecke",
+        "tags": [],
+        "nameEnglish": "Cinnamon Roll"
+      },
+      {
+        "name": "Erdbeere",
+        "tags": [],
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Erdbeer Tiramisu",
+        "tags": [],
+        "nameEnglish": "Strawberry Tiramisu"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [],
+        "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-10-12T11:31:09.610Z",
+    "lastUpdated": "2026-10-13T12:01:37.974Z",
     "openUntil": "18:00"
   },
   "buga": {
