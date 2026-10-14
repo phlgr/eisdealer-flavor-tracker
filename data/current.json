@@ -3,21 +3,28 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Vanille",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Haselnuss Crunch",
-        "tags": [],
-        "nameEnglish": "Hazelnut Crunch"
+        "name": "Pistazie",
+        "tags": [
+          "nuss",
+          "milk"
+        ],
+        "nameEnglish": "Pistachio"
       },
       {
-        "name": "Banane Split",
+        "name": "Banana Split",
         "tags": [
           "vegan"
         ],
@@ -25,46 +32,62 @@
       },
       {
         "name": "Birne Zimt",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Pear Cinnamon"
       },
       {
-        "name": "Buttermilch Mango",
-        "tags": [],
-        "nameEnglish": "Buttermilk Mango"
+        "name": "Strawberry Cheesecake",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Pflaumenkuchen",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Plum Cake"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Zimtschnecke",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Cinnamon Roll"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Erdbeer Tiramisu",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Strawberry Tiramisu"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-10-13T12:30:46.127Z",
+    "lastUpdated": "2026-10-14T09:00:54.735Z",
     "openUntil": "18:00"
   },
   "buga": {
