@@ -3,9 +3,7 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -38,38 +36,28 @@
         "nameEnglish": "Pear Cinnamon"
       },
       {
-        "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "name": "Omas Apfelkuchen",
+        "tags": [],
+        "nameEnglish": "Grandma's Apple Pie"
       },
       {
         "name": "Pflaumenkuchen",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Plum Cake"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
         "name": "Zimtschnecke",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Cinnamon Roll"
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
@@ -81,13 +69,11 @@
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-10-14T09:00:54.735Z",
+    "lastUpdated": "2026-10-15T09:00:52.669Z",
     "openUntil": "18:00"
   },
   "buga": {
