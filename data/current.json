@@ -37,43 +37,56 @@
       },
       {
         "name": "Omas Apfelkuchen",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Grandma's Apple Pie"
       },
       {
         "name": "Pflaumenkuchen",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Plum Cake"
       },
       {
         "name": "Mango",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Mango"
       },
       {
         "name": "Zimtschnecke",
-        "tags": [],
+        "tags": [
+          "milk"
+        ],
         "nameEnglish": "Cinnamon Roll"
       },
       {
         "name": "Erdbeere",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Strawberry"
       },
       {
-        "name": "Erdbeer Tiramisu",
+        "name": "Haselnuss Crunch",
         "tags": [
+          "nuss",
           "milk"
         ],
-        "nameEnglish": "Strawberry Tiramisu"
+        "nameEnglish": "Hazelnut Crunch"
       },
       {
         "name": "Zitrone",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-10-15T09:00:52.669Z",
+    "lastUpdated": "2026-10-16T11:01:16.207Z",
     "openUntil": "18:00"
   },
   "buga": {
