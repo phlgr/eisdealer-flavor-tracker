@@ -22,7 +22,7 @@
     "@plausible-analytics/tracker": "0.4.6",
     "@tailwindcss/vite": "4.3.3",
     "@tanstack/react-router": "1.170.44",
-    "@tanstack/react-start": "1.169.1",
+    "@tanstack/react-start": "1.169.2",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "tailwindcss": "4.3.3"
