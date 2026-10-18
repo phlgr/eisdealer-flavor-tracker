@@ -3,7 +3,9 @@
     "flavors": [
       {
         "name": "Schokomousse",
-        "tags": [],
+        "tags": [
+          "vegan"
+        ],
         "nameEnglish": "Chocolate Mousse"
       },
       {
@@ -22,11 +24,11 @@
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Banana Split",
+        "name": "Kokos Mango Sticky Rice",
         "tags": [
-          "vegan"
+          "milk"
         ],
-        "nameEnglish": "Banana Split"
+        "nameEnglish": "Coconut Mango Sticky Rice"
       },
       {
         "name": "Birne Zimt",
@@ -36,18 +38,18 @@
         "nameEnglish": "Pear Cinnamon"
       },
       {
-        "name": "Omas Apfelkuchen",
+        "name": "Strawberry Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Grandma's Apple Pie"
+        "nameEnglish": "Strawberry Cheesecake"
       },
       {
-        "name": "Pflaumenkuchen",
+        "name": "Maple Walnut",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Plum Cake"
+        "nameEnglish": "Maple Walnut"
       },
       {
         "name": "Mango",
@@ -59,7 +61,7 @@
       {
         "name": "Zimtschnecke",
         "tags": [
-          "milk"
+          "vegan"
         ],
         "nameEnglish": "Cinnamon Roll"
       },
@@ -73,7 +75,6 @@
       {
         "name": "Haselnuss Crunch",
         "tags": [
-          "nuss",
           "milk"
         ],
         "nameEnglish": "Hazelnut Crunch"
@@ -86,8 +87,7 @@
         "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-10-16T11:01:16.207Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-10-18T08:01:58.486Z"
   },
   "buga": {
     "flavors": [

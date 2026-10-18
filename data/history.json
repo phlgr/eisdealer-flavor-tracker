@@ -20504,5 +20504,97 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-10-18T08:01:58.489Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "nuss",
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Kokos Mango Sticky Rice",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Coconut Mango Sticky Rice"
+        },
+        {
+          "name": "Birne Zimt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pear Cinnamon"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Maple Walnut",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Maple Walnut"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Zimtschnecke",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Cinnamon Roll"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Haselnuss Crunch",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Hazelnut Crunch"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        }
+      ]
+    }
   }
 ]
