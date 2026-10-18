@@ -20596,5 +20596,99 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-10-18T12:01:36.867Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Vanille",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Mango",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [
+            "nuss",
+            "milk"
+          ],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Erdbeer Joghurt Schoko",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Yogurt Strawberry Chocolate"
+        },
+        {
+          "name": "Birne Zimt",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pear Cinnamon"
+        },
+        {
+          "name": "Pumpkin Spice",
+          "tags": [
+            "milk"
+          ],
+          "nameEnglish": "Pumpkin Spice"
+        },
+        {
+          "name": "Kokos Mango Sticky Rice",
+          "tags": [
+            "vegan"
+          ],
+          "nameEnglish": "Coconut Mango Sticky Rice"
+        },
+        {
+          "name": "Maple Walnut",
+          "tags": [
+            "nuss",
+            "vegan"
+          ],
+          "nameEnglish": "Maple Walnut"
+        }
+      ],
+      "openUntil": "18:00"
+    }
   }
 ]

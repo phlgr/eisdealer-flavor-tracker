@@ -2,6 +2,13 @@
   "main": {
     "flavors": [
       {
+        "name": "Vanille",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Vanilla"
+      },
+      {
         "name": "Schokomousse",
         "tags": [
           "vegan"
@@ -9,11 +16,25 @@
         "nameEnglish": "Chocolate Mousse"
       },
       {
-        "name": "Vanille",
+        "name": "Erdbeere",
         "tags": [
-          "milk"
+          "vegan"
         ],
-        "nameEnglish": "Vanilla"
+        "nameEnglish": "Strawberry"
+      },
+      {
+        "name": "Zitrone",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Lemon"
+      },
+      {
+        "name": "Mango",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Mango"
       },
       {
         "name": "Pistazie",
@@ -24,11 +45,18 @@
         "nameEnglish": "Pistachio"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
+        "name": "Strawberry Cheesecake",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
+        "nameEnglish": "Strawberry Cheesecake"
+      },
+      {
+        "name": "Erdbeer Joghurt Schoko",
+        "tags": [
+          "milk"
+        ],
+        "nameEnglish": "Yogurt Strawberry Chocolate"
       },
       {
         "name": "Birne Zimt",
@@ -38,56 +66,30 @@
         "nameEnglish": "Pear Cinnamon"
       },
       {
-        "name": "Strawberry Cheesecake",
+        "name": "Pumpkin Spice",
         "tags": [
           "milk"
         ],
-        "nameEnglish": "Strawberry Cheesecake"
+        "nameEnglish": "Pumpkin Spice"
+      },
+      {
+        "name": "Kokos Mango Sticky Rice",
+        "tags": [
+          "vegan"
+        ],
+        "nameEnglish": "Coconut Mango Sticky Rice"
       },
       {
         "name": "Maple Walnut",
         "tags": [
+          "nuss",
           "vegan"
         ],
         "nameEnglish": "Maple Walnut"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
-      },
-      {
-        "name": "Zimtschnecke",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Cinnamon Roll"
-      },
-      {
-        "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Haselnuss Crunch",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Hazelnut Crunch"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
       }
     ],
-    "lastUpdated": "2026-10-18T08:01:58.486Z"
+    "lastUpdated": "2026-10-18T12:01:36.865Z",
+    "openUntil": "18:00"
   },
   "buga": {
     "flavors": [
