@@ -46,6 +46,39 @@ const ALIASES: Record<string, string> = {
 	// OCR misread "Kokos" as "Tobias" on the 2026-07-12 board (the same scrape
 	// also read the flavor correctly; buildLocationUpdate dedupes by key).
 	"tobias mango sticky rice": "Kokos Mango Sticky Rice",
+	// English "Coco" rendering of the same coconut flavor.
+	"coco mango sticky rice": "Kokos Mango Sticky Rice",
+	// Missing trailing "e".
+	"amalfi zitron": "Amalfi Zitrone",
+	// German spellings of the banana-split flavor.
+	"banane split": "Banana Split",
+	"bananen split": "Banana Split",
+	// Word-order/singular variant of the berry-yogurt flavor.
+	"joghurt beere": "Beeren Joghurt",
+	// German "Karamel" spelling; canonical uses English "Caramel".
+	"brownie karamel": "Brownie Caramel",
+	// Case, abbreviation and German word-order variants of the cookie-dough flavor.
+	"cookie dough chocolate caramel": "Cookie Dough Chocolate Caramel",
+	"cookie dough choc caramel": "Cookie Dough Chocolate Caramel",
+	"schoko cookie dough caramel": "Cookie Dough Chocolate Caramel",
+	"schoko cookie dough karamell": "Cookie Dough Chocolate Caramel",
+	// German renderings of the salted-caramel flavor.
+	salzkaramell: "Salted Caramel",
+	"salziges karamell": "Salted Caramel",
+	// Early slash-separated read of the yogurt-walnut-honey flavor.
+	"joghurt / honig": "Joghurt Walnuss Honig",
+	// Berry stem/noun variants; canonical is whichever form the majority uses.
+	"erdbeere joghurt schoko": "Erdbeer Joghurt Schoko",
+	"joghurt erdbeere": "Joghurt Erdbeer",
+	"white choc himbeer": "White Choc Himbeere",
+	// Single-word variant of the strawberry tiramisu.
+	erdbeertiramisu: "Erdbeer Tiramisu",
+	// Word-order variant of the yogurt-walnut-honey flavor.
+	"joghurt honig walnuss": "Joghurt Walnuss Honig",
+	// Low-German/OCR "Appel" for "Apfel".
+	"omas appelkuchen": "Omas Apfelkuchen",
+	// Unabbreviated white-chocolate flavor.
+	"white chocolate": "White Choc",
 };
 
 /** Normalize separators so "Buttermilch-Mango" / "Buttermilch Mango" merge. */
