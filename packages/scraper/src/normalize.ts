@@ -57,10 +57,16 @@ const ALIASES: Record<string, string> = {
 	"joghurt beere": "Beeren Joghurt",
 	// German "Karamel" spelling; canonical uses English "Caramel".
 	"brownie karamel": "Brownie Caramel",
-	"schoko cookie dough karamell": "Schoko Cookie Dough Caramel",
-	// Case variant and "Choc" abbreviation of the cookie-dough flavor.
+	// Case, abbreviation and German word-order variants of the cookie-dough flavor.
 	"cookie dough chocolate caramel": "Cookie Dough Chocolate Caramel",
 	"cookie dough choc caramel": "Cookie Dough Chocolate Caramel",
+	"schoko cookie dough caramel": "Cookie Dough Chocolate Caramel",
+	"schoko cookie dough karamell": "Cookie Dough Chocolate Caramel",
+	// German renderings of the salted-caramel flavor.
+	salzkaramell: "Salted Caramel",
+	"salziges karamell": "Salted Caramel",
+	// Early slash-separated read of the yogurt-walnut-honey flavor.
+	"joghurt / honig": "Joghurt Walnuss Honig",
 	// Berry stem/noun variants; canonical is whichever form the majority uses.
 	"erdbeere joghurt schoko": "Erdbeer Joghurt Schoko",
 	"joghurt erdbeere": "Joghurt Erdbeer",

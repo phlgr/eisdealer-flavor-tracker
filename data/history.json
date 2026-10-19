@@ -3529,7 +3529,7 @@
     "main": {
       "flavors": [
         {
-          "name": "Joghurt / Honig",
+          "name": "Joghurt Walnuss Honig",
           "tags": [],
           "nameEnglish": "Yogurt / Honey"
         },
@@ -7865,7 +7865,7 @@
           "nameEnglish": "Cookie Strawberry Caramel"
         },
         {
-          "name": "Schoko Cookie Dough Caramel",
+          "name": "Cookie Dough Chocolate Caramel",
           "tags": [],
           "nameEnglish": "Chocolate Cookie Dough Caramel"
         }
@@ -15063,7 +15063,7 @@
           "nameEnglish": "Chocolate Mousse"
         },
         {
-          "name": "Salziges Karamell",
+          "name": "Salted Caramel",
           "tags": [],
           "nameEnglish": "Salted Caramel"
         },
@@ -15211,7 +15211,7 @@
           "nameEnglish": "Vanilla"
         },
         {
-          "name": "Salzkaramell",
+          "name": "Salted Caramel",
           "tags": [],
           "nameEnglish": "Salted Caramel"
         }
@@ -15913,7 +15913,7 @@
           "nameEnglish": "Buttermilk Mango"
         },
         {
-          "name": "Schoko Cookie Dough Caramel",
+          "name": "Cookie Dough Chocolate Caramel",
           "tags": [
             "vegan"
           ],
@@ -18183,14 +18183,9 @@
           "nameEnglish": "Lemon"
         },
         {
-          "name": "Kokos Mango",
+          "name": "Kokos Mango Sticky Rice",
           "tags": [],
-          "nameEnglish": "Coconut-Mango"
-        },
-        {
-          "name": "Sticky Rice",
-          "tags": [],
-          "nameEnglish": "Sticky Rice"
+          "nameEnglish": "Coconut Mango Sticky Rice"
         }
       ]
     }
