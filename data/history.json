@@ -20690,5 +20690,67 @@
       ],
       "openUntil": "18:00"
     }
+  },
+  {
+    "timestamp": "2026-10-19T08:30:53.502Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate mousse"
+        },
+        {
+          "name": "Erdbeere",
+          "tags": [],
+          "nameEnglish": "Strawberry"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Pistazie",
+          "tags": [],
+          "nameEnglish": "Pistachio"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "tags": [],
+          "nameEnglish": "Strawberry Cheesecake"
+        },
+        {
+          "name": "Erdbeer Joghurt Schoko",
+          "tags": [],
+          "nameEnglish": "Yogurt Strawberry Chocolate"
+        },
+        {
+          "name": "Kokos Mango Sticky Rice",
+          "tags": [],
+          "nameEnglish": "Coconut Mango Sticky Rice"
+        },
+        {
+          "name": "Birne Zimt",
+          "tags": [],
+          "nameEnglish": "Pear Cinnamon"
+        },
+        {
+          "name": "Pumpkin Spice",
+          "tags": [],
+          "nameEnglish": "Pumpkin Spice"
+        },
+        {
+          "name": "Chai Latte",
+          "tags": [],
+          "nameEnglish": "Chai Latte"
+        }
+      ]
+    }
   }
 ]

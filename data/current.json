@@ -2,94 +2,62 @@
   "main": {
     "flavors": [
       {
-        "name": "Vanille",
-        "tags": [
-          "milk"
-        ],
-        "nameEnglish": "Vanilla"
-      },
-      {
         "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
+        "tags": [],
+        "nameEnglish": "Chocolate mousse"
       },
       {
         "name": "Erdbeere",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry"
       },
       {
         "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Lemon"
       },
       {
         "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
+        "tags": [],
         "nameEnglish": "Mango"
       },
       {
         "name": "Pistazie",
-        "tags": [
-          "nuss",
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Pistachio"
       },
       {
         "name": "Strawberry Cheesecake",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Strawberry Cheesecake"
       },
       {
         "name": "Erdbeer Joghurt Schoko",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Yogurt Strawberry Chocolate"
       },
       {
+        "name": "Kokos Mango Sticky Rice",
+        "tags": [],
+        "nameEnglish": "Coconut Mango Sticky Rice"
+      },
+      {
         "name": "Birne Zimt",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Pear Cinnamon"
       },
       {
         "name": "Pumpkin Spice",
-        "tags": [
-          "milk"
-        ],
+        "tags": [],
         "nameEnglish": "Pumpkin Spice"
       },
       {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Coconut Mango Sticky Rice"
-      },
-      {
-        "name": "Maple Walnut",
-        "tags": [
-          "nuss",
-          "vegan"
-        ],
-        "nameEnglish": "Maple Walnut"
+        "name": "Chai Latte",
+        "tags": [],
+        "nameEnglish": "Chai Latte"
       }
     ],
-    "lastUpdated": "2026-10-18T12:01:36.865Z",
-    "openUntil": "18:00"
+    "lastUpdated": "2026-10-19T08:30:53.500Z"
   },
   "buga": {
     "flavors": [
