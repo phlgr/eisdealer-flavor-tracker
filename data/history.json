@@ -56,7 +56,7 @@
           "nameEnglish": "Strawberry cheesecake"
         },
         {
-          "name": "Omas Appelkuchen",
+          "name": "Omas Apfelkuchen",
           "tags": [],
           "nameEnglish": "Grandma's apple cake"
         },
@@ -7865,7 +7865,7 @@
           "nameEnglish": "Cookie Strawberry Caramel"
         },
         {
-          "name": "Schoko Cookie Dough Karamell",
+          "name": "Schoko Cookie Dough Caramel",
           "tags": [],
           "nameEnglish": "Chocolate Cookie Dough Caramel"
         }
@@ -9280,7 +9280,7 @@
           "nameEnglish": "Chocolate Mousse"
         },
         {
-          "name": "Joghurt Beere",
+          "name": "Beeren Joghurt",
           "tags": [],
           "nameEnglish": "Yogurt Berry"
         },
@@ -10139,7 +10139,7 @@
           "nameEnglish": "Chocolate Mousse"
         },
         {
-          "name": "Brownie Karamel",
+          "name": "Brownie Caramel",
           "tags": [],
           "nameEnglish": "Brownie-Caramel"
         },
@@ -11988,7 +11988,7 @@
           "nameEnglish": "Vanilla"
         },
         {
-          "name": "White Choc Himbeer",
+          "name": "White Choc Himbeere",
           "tags": [],
           "nameEnglish": "White Chocolate Raspberry"
         },
@@ -12158,7 +12158,7 @@
           "nameEnglish": "Coconut"
         },
         {
-          "name": "White Choc Himbeer",
+          "name": "White Choc Himbeere",
           "tags": [
             "milk"
           ],
@@ -12619,7 +12619,7 @@
           "nameEnglish": "Vanilla"
         },
         {
-          "name": "White Chocolate",
+          "name": "White Choc",
           "tags": [],
           "nameEnglish": "White Chocolate"
         },
@@ -12773,7 +12773,7 @@
           "nameEnglish": "Lemon"
         },
         {
-          "name": "Bananen Split",
+          "name": "Banana Split",
           "tags": [
             "milk"
           ],
@@ -13856,7 +13856,7 @@
           "nameEnglish": "Coconut"
         },
         {
-          "name": "White Choc Himbeer",
+          "name": "White Choc Himbeere",
           "tags": [
             "milk"
           ],
@@ -13908,7 +13908,7 @@
           "nameEnglish": "Pistachio"
         },
         {
-          "name": "White Choc Himbeer",
+          "name": "White Choc Himbeere",
           "tags": [
             "milk"
           ],
@@ -16026,7 +16026,7 @@
           "nameEnglish": "Strawberry"
         },
         {
-          "name": "Erdbeertiramisu",
+          "name": "Erdbeer Tiramisu",
           "tags": [
             "milk"
           ],
@@ -16275,7 +16275,7 @@
           "nameEnglish": "Strawberry"
         },
         {
-          "name": "Coco Mango Sticky Rice",
+          "name": "Kokos Mango Sticky Rice",
           "tags": [
             "vegan"
           ],
@@ -16330,7 +16330,7 @@
           "nameEnglish": "Vanilla"
         },
         {
-          "name": "White Choc Himbeer",
+          "name": "White Choc Himbeere",
           "tags": [],
           "nameEnglish": "White Chocolate Raspberry"
         },
@@ -16602,7 +16602,7 @@
           "nameEnglish": "Vanilla"
         },
         {
-          "name": "Erdbeere Joghurt Schoko",
+          "name": "Erdbeer Joghurt Schoko",
           "tags": [],
           "nameEnglish": "Strawberry - Yogurt - Chocolate"
         },
@@ -17213,7 +17213,7 @@
           "nameEnglish": "Strawberry Cheesecake"
         },
         {
-          "name": "Cookie dough chocolate caramel",
+          "name": "Cookie Dough Chocolate Caramel",
           "tags": [],
           "nameEnglish": "Cookie dough chocolate caramel"
         },
@@ -17508,7 +17508,7 @@
     "buga": {
       "flavors": [
         {
-          "name": "Cookie Dough Choc Caramel",
+          "name": "Cookie Dough Chocolate Caramel",
           "tags": [],
           "nameEnglish": "Cookie Dough - Chocolate - Caramel"
         },
@@ -17532,7 +17532,7 @@
           "nameEnglish": "Vanilla"
         },
         {
-          "name": "White Choc Himbeer",
+          "name": "White Choc Himbeere",
           "tags": [],
           "nameEnglish": "White Chocolate - Raspberry"
         },
@@ -17632,7 +17632,7 @@
           "nameEnglish": "Chocolate"
         },
         {
-          "name": "Amalfi Zitron",
+          "name": "Amalfi Zitrone",
           "tags": [
             "vegan"
           ],
@@ -17669,7 +17669,7 @@
           "nameEnglish": "Mango"
         },
         {
-          "name": "Bananen Split",
+          "name": "Banana Split",
           "tags": [],
           "nameEnglish": "Banana Split"
         },
@@ -17689,7 +17689,7 @@
           "nameEnglish": "Cookie Dough Chocolate Caramel"
         },
         {
-          "name": "Joghurt Honig Walnuss",
+          "name": "Joghurt Walnuss Honig",
           "tags": [],
           "nameEnglish": "Yogurt Honey Walnut"
         },
@@ -17737,7 +17737,7 @@
           "nameEnglish": "Mango"
         },
         {
-          "name": "Bananen Split",
+          "name": "Banana Split",
           "tags": [
             "milk"
           ],
@@ -17763,7 +17763,7 @@
           "nameEnglish": "Cookie Dough Chocolate Caramel"
         },
         {
-          "name": "Joghurt Honig Walnuss",
+          "name": "Joghurt Walnuss Honig",
           "tags": [
             "nuss",
             "milk"
@@ -17843,7 +17843,7 @@
           "nameEnglish": "Chocolate"
         },
         {
-          "name": "Bananen Split",
+          "name": "Banana Split",
           "tags": [],
           "nameEnglish": "Banana Split"
         },
@@ -17927,7 +17927,7 @@
           "nameEnglish": "Chocolate"
         },
         {
-          "name": "Bananen Split",
+          "name": "Banana Split",
           "tags": [
             "milk"
           ],
@@ -18655,7 +18655,7 @@
           "nameEnglish": "Lotus Cheesecake"
         },
         {
-          "name": "Joghurt Erdbeere",
+          "name": "Joghurt Erdbeer",
           "tags": [],
           "nameEnglish": "Yogurt Strawberry"
         },
@@ -18680,7 +18680,7 @@
           "nameEnglish": "Mint"
         },
         {
-          "name": "White Choc Himbeer",
+          "name": "White Choc Himbeere",
           "tags": [],
           "nameEnglish": "White Chocolate Raspberry"
         },
@@ -20191,7 +20191,7 @@
           "nameEnglish": "Hazelnut Crunch"
         },
         {
-          "name": "Banane Split",
+          "name": "Banana Split",
           "tags": [
             "vegan"
           ],
