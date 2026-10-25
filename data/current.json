@@ -2,9 +2,14 @@
   "main": {
     "flavors": [
       {
+        "name": "Vanille",
+        "tags": [],
+        "nameEnglish": "Vanilla"
+      },
+      {
         "name": "Schokomousse",
         "tags": [],
-        "nameEnglish": "Chocolate mousse"
+        "nameEnglish": "Chocolate Mousse"
       },
       {
         "name": "Erdbeere",
@@ -12,52 +17,22 @@
         "nameEnglish": "Strawberry"
       },
       {
+        "name": "Kirsche",
+        "tags": [],
+        "nameEnglish": "Cherry"
+      },
+      {
         "name": "Zitrone",
         "tags": [],
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Mango",
-        "tags": [],
-        "nameEnglish": "Mango"
-      },
-      {
         "name": "Pistazie",
         "tags": [],
         "nameEnglish": "Pistachio"
-      },
-      {
-        "name": "Strawberry Cheesecake",
-        "tags": [],
-        "nameEnglish": "Strawberry Cheesecake"
-      },
-      {
-        "name": "Erdbeer Joghurt Schoko",
-        "tags": [],
-        "nameEnglish": "Yogurt Strawberry Chocolate"
-      },
-      {
-        "name": "Kokos Mango Sticky Rice",
-        "tags": [],
-        "nameEnglish": "Coconut Mango Sticky Rice"
-      },
-      {
-        "name": "Birne Zimt",
-        "tags": [],
-        "nameEnglish": "Pear Cinnamon"
-      },
-      {
-        "name": "Pumpkin Spice",
-        "tags": [],
-        "nameEnglish": "Pumpkin Spice"
-      },
-      {
-        "name": "Chai Latte",
-        "tags": [],
-        "nameEnglish": "Chai Latte"
       }
     ],
-    "lastUpdated": "2026-10-19T08:30:53.500Z"
+    "lastUpdated": "2026-10-25T17:32:04.466Z"
   },
   "buga": {
     "flavors": [
