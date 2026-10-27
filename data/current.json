@@ -2,24 +2,19 @@
   "main": {
     "flavors": [
       {
-        "name": "Vanille",
+        "name": "Choc Cherry Cheesecake",
         "tags": [],
-        "nameEnglish": "Vanilla"
+        "nameEnglish": "Choc Cherry Cheesecake"
       },
       {
-        "name": "Schokomousse",
+        "name": "Mango",
         "tags": [],
-        "nameEnglish": "Chocolate Mousse"
+        "nameEnglish": "Mango"
       },
       {
-        "name": "Erdbeere",
+        "name": "Joghurt Himbeer Lavendel",
         "tags": [],
-        "nameEnglish": "Strawberry"
-      },
-      {
-        "name": "Kirsche",
-        "tags": [],
-        "nameEnglish": "Cherry"
+        "nameEnglish": "Yogurt Raspberry Lavender"
       },
       {
         "name": "Zitrone",
@@ -27,12 +22,17 @@
         "nameEnglish": "Lemon"
       },
       {
-        "name": "Pistazie",
+        "name": "Zimtschnecke",
         "tags": [],
-        "nameEnglish": "Pistachio"
+        "nameEnglish": "Cinnamon Roll"
+      },
+      {
+        "name": "Crunchy Peanutbutter",
+        "tags": [],
+        "nameEnglish": "Crunchy Peanut Butter"
       }
     ],
-    "lastUpdated": "2026-10-25T17:32:04.466Z"
+    "lastUpdated": "2026-10-27T09:00:43.459Z"
   },
   "buga": {
     "flavors": [

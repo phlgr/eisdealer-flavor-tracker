@@ -20784,5 +20784,42 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-10-27T09:00:43.461Z",
+    "main": {
+      "flavors": [
+        {
+          "name": "Choc Cherry Cheesecake",
+          "tags": [],
+          "nameEnglish": "Choc Cherry Cheesecake"
+        },
+        {
+          "name": "Mango",
+          "tags": [],
+          "nameEnglish": "Mango"
+        },
+        {
+          "name": "Joghurt Himbeer Lavendel",
+          "tags": [],
+          "nameEnglish": "Yogurt Raspberry Lavender"
+        },
+        {
+          "name": "Zitrone",
+          "tags": [],
+          "nameEnglish": "Lemon"
+        },
+        {
+          "name": "Zimtschnecke",
+          "tags": [],
+          "nameEnglish": "Cinnamon Roll"
+        },
+        {
+          "name": "Crunchy Peanutbutter",
+          "tags": [],
+          "nameEnglish": "Crunchy Peanut Butter"
+        }
+      ]
+    }
   }
 ]
