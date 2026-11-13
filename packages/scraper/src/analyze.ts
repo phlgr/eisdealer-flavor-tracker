@@ -1,12 +1,9 @@
 import { GoogleGenAI } from "@google/genai";
 import { type } from "arktype";
-import { geminiResponseSchema, StoryAnalysis } from "./types";
+import { StoryAnalysis } from "./types";
 
-const GEMINI_MODELS = [
-	"gemini-3.1-flash-lite-preview",
-	"gemini-2.5-flash",
-	"gemini-2.0-flash",
-] as const;
+const GEMINI_MODELS = ["gemini-3.5-flash-lite", "gemini-3.8-flash"] as const;
+const responseSchema = StoryAnalysis.toJsonSchema();
 const PROMPT = `You are analyzing an Instagram Story image from a German ice cream shop (Eisdiele).
 Your task:
 1. Determine if this image shows a list/menu of today's ice cream flavors. It must match one of these two formats:
@@ -40,28 +37,25 @@ async function tryModel(
 	model: string,
 	base64Image: string,
 ): Promise<StoryAnalysis | null> {
-	const response = await Promise.race([
-		ai.models.generateContent({
-			model,
-			contents: [
-				{
-					role: "user",
-					parts: [
-						{
-							inlineData: {
-								mimeType: "image/jpeg",
-								data: base64Image,
-							},
-						},
-						{ text: PROMPT },
-					],
+	const interaction = await Promise.race([
+		ai.interactions.create(
+			{
+				model,
+				input: [
+					{ type: "image", mime_type: "image/jpeg", data: base64Image },
+					{ type: "text", text: PROMPT },
+				],
+				response_format: {
+					type: "text",
+					mime_type: "application/json",
+					schema: responseSchema,
 				},
-			],
-			config: {
-				responseMimeType: "application/json",
-				responseSchema: geminiResponseSchema,
+				store: false,
 			},
-		}),
+			// SDK retries 5xx/429 up to 4x honoring retry-after (often 30s),
+			// which would eat the whole timeout; fail fast to the next model.
+			{ maxRetries: 0 },
+		),
 		new Promise<never>((_, reject) =>
 			setTimeout(
 				() =>
@@ -70,7 +64,7 @@ async function tryModel(
 			),
 		),
 	]);
-	const text = response.text;
+	const text = interaction.output_text;
 	if (!text) {
 		console.error(`[analyze] Empty response from ${model}`);
 		return null;
