@@ -39,8 +39,6 @@ export const HistoryEntry = type({
 	"buga?": HistoryLocationEntry,
 });
 
-export const geminiResponseSchema = StoryAnalysis.toJsonSchema();
-
 export type FlavorTag = typeof FlavorTag.infer;
 export type IceCreamFlavor = typeof IceCreamFlavor.infer;
 export type StoryAnalysis = typeof StoryAnalysis.infer;
