@@ -92,7 +92,7 @@ export async function analyzeStoryImage(
 	if (!apiKey) {
 		throw new Error("GEMINI_API_KEY environment variable is required");
 	}
-	const ai = new GoogleGenAI({ apiKey });
+	const ai = new GoogleGenAI({ apiKey, apiVersion: "v1beta" });
 	const base64Image = imageBuffer.toString("base64");
 
 	for (const model of GEMINI_MODELS) {
