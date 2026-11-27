@@ -37,54 +37,26 @@
   "buga": {
     "flavors": [
       {
+        "name": "Gebrannte Mandel",
+        "tags": [],
+        "nameEnglish": "Burnt Almond"
+      },
+      {
+        "name": "Schokomousse",
+        "tags": [],
+        "nameEnglish": "Chocolate Mousse"
+      },
+      {
         "name": "Vanille",
         "tags": [],
         "nameEnglish": "Vanilla"
       },
       {
-        "name": "Schokomousse",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Chocolate Mousse"
-      },
-      {
-        "name": "Joghurt Walnuss Honig",
+        "name": "Lotus Cheesecake",
         "tags": [],
-        "nameEnglish": "Yogurt-Walnut-Honey"
-      },
-      {
-        "name": "Waldfrucht",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Forest Fruit"
-      },
-      {
-        "name": "Belgische Waffel",
-        "tags": [],
-        "nameEnglish": "Belgian Waffle"
-      },
-      {
-        "name": "Zitrone",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Lemon"
-      },
-      {
-        "name": "Salted Caramel",
-        "tags": [],
-        "nameEnglish": "Salted Caramel"
-      },
-      {
-        "name": "Mango",
-        "tags": [
-          "vegan"
-        ],
-        "nameEnglish": "Mango"
+        "nameEnglish": "Lotus Cheesecake"
       }
     ],
-    "lastUpdated": "2026-10-04T11:31:04.305Z"
+    "lastUpdated": "2026-11-27T17:31:34.521Z"
   }
 }

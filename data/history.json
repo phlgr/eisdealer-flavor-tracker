@@ -20821,5 +20821,32 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-11-27T17:31:34.523Z",
+    "buga": {
+      "flavors": [
+        {
+          "name": "Gebrannte Mandel",
+          "tags": [],
+          "nameEnglish": "Burnt Almond"
+        },
+        {
+          "name": "Schokomousse",
+          "tags": [],
+          "nameEnglish": "Chocolate Mousse"
+        },
+        {
+          "name": "Vanille",
+          "tags": [],
+          "nameEnglish": "Vanilla"
+        },
+        {
+          "name": "Lotus Cheesecake",
+          "tags": [],
+          "nameEnglish": "Lotus Cheesecake"
+        }
+      ]
+    }
   }
 ]
